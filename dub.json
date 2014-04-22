@@ -6,6 +6,8 @@
 	"license": "MIT",
 	"targetPath": "bin",
 	"dependencies": {
-	   "devol" : "~master"
-	} 
+	   "devol" : "~master",
+	   "gtk-d" : "~master",
+	   "dlogg" : "~master"
+	}
 }
