@@ -19,121 +19,16 @@ import std.c.process;
 
 import dlogg.strict;
 
+import gui.evolution;
+import gui.results;
+import gui.settings;
+
 enum helpMsg = 
 "graph-isomorph [options]
 
 options:  --gui=<path> - path to glade file. Optional, default is 'gui.glade'.
           --log=<path> - path to log file. Optional, default is 'graph-isomorph.log'.
           --help       - display the message.";
-
-shared ILogger logger;
-
-enum AppWindow
-{
-    Settings,
-    Evolution,
-    Results
-}
-
-void onWindowHideShow(AppWindow type, bool isClosed)
-{
-    static bool settingsClosed = false;
-    static bool evolutionClosed = true;
-    static bool resultsClosed = true;
-    
-    final switch(type)
-    {
-        case(AppWindow.Settings): settingsClosed = isClosed; break;
-        case(AppWindow.Evolution): evolutionClosed = isClosed; break;
-        case(AppWindow.Results): resultsClosed  = isClosed; break;
-    } 
-    
-    if(settingsClosed && evolutionClosed && resultsClosed)
-    {
-        Main.quit();
-    }
-}
-
-void setupSettingsWindow(Builder builder
-    , ApplicationWindow settingsWindow
-    , ApplicationWindow evoluitionWindow
-    , ApplicationWindow resultsWindow)
-{
-    settingsWindow.showAll();
-    settingsWindow.addOnHide( (w) => onWindowHideShow(AppWindow.Settings, true) );
-    settingsWindow.addOnShow( (w) => onWindowHideShow(AppWindow.Settings, false) );
-    settingsWindow.addOnDelete( (e, w) { settingsWindow.hide; return true; } );
-    
-    auto showEvolutionWndItem = cast(MenuItem)builder.getObject("ShowEvolutionWndItem1");
-    if(showEvolutionWndItem is null)
-    {
-        logger.logError("SettingsWnd: failed to get show evolution wnd item!");
-        assert(false);
-    }
-    showEvolutionWndItem.addOnActivate( (w) => evoluitionWindow.showAll() );
-    
-    auto showResultsWndItem = cast(MenuItem)builder.getObject("ShowResultsWndItem1");
-    if(showResultsWndItem is null)
-    {
-        logger.logError("SettingsWnd: failed to get show results wnd item!");
-        assert(false);
-    }
-    showResultsWndItem.addOnActivate( (w) => resultsWindow.showAll() );
-}
-
-void setupEvolutionWindow(Builder builder
-    , ApplicationWindow settingsWindow
-    , ApplicationWindow evoluitionWindow
-    , ApplicationWindow resultsWindow)
-{
-    evoluitionWindow.hide();
-    evoluitionWindow.addOnHide( (w) => onWindowHideShow(AppWindow.Evolution, true) );
-    evoluitionWindow.addOnShow( (w) => onWindowHideShow(AppWindow.Evolution, false) );
-    evoluitionWindow.addOnDelete( (e, w) { evoluitionWindow.hide; return true; } );
-    
-    auto showSettingsWndItem = cast(MenuItem)builder.getObject("ShowSettingsWndItem2");
-    if(showSettingsWndItem is null)
-    {
-        logger.logError("EvolutionWnd: failed to get show settings wnd item!");
-        assert(false);
-    }
-    showSettingsWndItem.addOnActivate( (w) => settingsWindow.showAll() );
-    
-    auto showResultsWndItem = cast(MenuItem)builder.getObject("ShowResultsWndItem2");
-    if(showResultsWndItem is null)
-    {
-        logger.logError("EvolutionWnd: failed to get show results wnd item!");
-        assert(false);
-    }
-    showResultsWndItem.addOnActivate( (w) => resultsWindow.showAll() );
-}
-
-void setupResultsWindow(Builder builder
-    , ApplicationWindow settingsWindow
-    , ApplicationWindow evoluitionWindow
-    , ApplicationWindow resultsWindow)
-{
-    resultsWindow.hide();
-    resultsWindow.addOnHide( (w) => onWindowHideShow(AppWindow.Results, true) );
-    resultsWindow.addOnShow( (w) => onWindowHideShow(AppWindow.Results, false) );
-    resultsWindow.addOnDelete( (e, w) { resultsWindow.hide; return true; } );
-    
-    auto showSettingsWndItem = cast(MenuItem)builder.getObject("ShowSettingsWndItem3");
-    if(showSettingsWndItem is null)
-    {
-        logger.logError("ResultsWnd: failed to get show settings wnd item!");
-        assert(false);
-    }
-    showSettingsWndItem.addOnActivate( (w) => settingsWindow.showAll() );
-    
-    auto showEvolutionWndItem = cast(MenuItem)builder.getObject("ShowEvolutionWndItem3");
-    if(showEvolutionWndItem is null)
-    {
-        logger.logError("ResultsWnd: failed to get show evolution wnd item!");
-        assert(false);
-    }
-    showEvolutionWndItem.addOnActivate( (w) => evoluitionWindow.showAll() );
-}
 
 void main(string[] args)
 {
@@ -147,7 +42,7 @@ void main(string[] args)
 	    "help", &help
 	);
 	
-	logger = new shared StrictLogger(logFile);
+	auto logger = new shared StrictLogger(logFile);
 	scope(exit) logger.finalize();
 	
 	if(help)
@@ -187,9 +82,9 @@ void main(string[] args)
         return;
     }
     
-    setupSettingsWindow(builder, settingsWnd, evolutionWnd, resultsWnd);
-    setupEvolutionWindow(builder, settingsWnd, evolutionWnd, resultsWnd);
-    setupResultsWindow(builder, settingsWnd, evolutionWnd, resultsWnd);
+    new SettingsWindow(builder, logger, settingsWnd, evolutionWnd, resultsWnd);
+    new EvolutionWindow(builder, logger, settingsWnd, evolutionWnd, resultsWnd);
+    new ResultsWindow(builder, logger, settingsWnd, evolutionWnd, resultsWnd);
     
 	Main.run();
 }
