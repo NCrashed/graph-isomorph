@@ -12,8 +12,11 @@ import gui.util;
 
 import dlogg.log;
 
+import evol.progtype;
+
 class SettingsWindow
 {
+    ProgramType progt;
     ApplicationWindow window;
     shared ILogger logger;
     
@@ -45,5 +48,12 @@ class SettingsWindow
             assert(false);
         }
         showResultsWndItem.addOnActivate( (w) => resultsWindow.showAll() );
+        
+        progt = new ProgramType();
+    }
+    
+    void initProgtypeEntries()
+    {
+        
     }
 }
