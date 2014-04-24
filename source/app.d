@@ -42,49 +42,66 @@ void main(string[] args)
 	    "help", &help
 	);
 	
-	auto logger = new shared StrictLogger(logFile);
-	scope(exit) logger.finalize();
-	
 	if(help)
 	{
 	    writeln(helpMsg);
 	    return;
 	}
 	
-	logger.logDebug("Initing gtk-d...");
 	Main.initMultiThread(args);
 	
-	Builder builder = new Builder();
-	if( !builder.addFromFile(gladeFile) )
-	{
-	    logger.logError(text("Failed to create gui from glade file '", gladeFile, "'!"));
-	    return;
-	}
-	
-	auto settingsWnd = cast(ApplicationWindow)builder.getObject("SettingsWindow");
-	if(settingsWnd is null)
-	{
-	    logger.logError("Failed to create settings window!");
-	    return;
-	}
-	
-	auto evolutionWnd = cast(ApplicationWindow)builder.getObject("EvolutionWindow");
-    if(evolutionWnd is null)
-    {
-        logger.logError("Failed to create evolution window!");
-        return;
-    }
-    
-    auto resultsWnd = cast(ApplicationWindow)builder.getObject("ResultsWindow");
-    if(resultsWnd is null)
-    {
-        logger.logError("Failed to create results window!");
-        return;
-    }
-    
-    new SettingsWindow(builder, logger, settingsWnd, evolutionWnd, resultsWnd);
-    new EvolutionWindow(builder, logger, settingsWnd, evolutionWnd, resultsWnd);
-    new ResultsWindow(builder, logger, settingsWnd, evolutionWnd, resultsWnd);
+	auto application = new Application(logFile, gladeFile);
+	scope(exit) application.finalize();
     
 	Main.run();
+}
+
+class Application
+{
+    shared ILogger logger;
+    SettingsWindow settingsWindow;
+    EvolutionWindow evolutionWindow;
+    ResultsWindow resultsWindow;
+    
+    this(string logFile, string gladeFile)
+    {
+        logger = new shared StrictLogger(logFile);
+   
+        Builder builder = new Builder();
+        if( !builder.addFromFile(gladeFile) )
+        {
+            logger.logError(text("Failed to create gui from glade file '", gladeFile, "'!"));
+            return;
+        }
+        
+        auto settingsWnd = cast(ApplicationWindow)builder.getObject("SettingsWindow");
+        if(settingsWnd is null)
+        {
+            logger.logError("Failed to create settings window!");
+            return;
+        }
+        
+        auto evolutionWnd = cast(ApplicationWindow)builder.getObject("EvolutionWindow");
+        if(evolutionWnd is null)
+        {
+            logger.logError("Failed to create evolution window!");
+            return;
+        }
+        
+        auto resultsWnd = cast(ApplicationWindow)builder.getObject("ResultsWindow");
+        if(resultsWnd is null)
+        {
+            logger.logError("Failed to create results window!");
+            return;
+        }
+        
+        settingsWindow = new SettingsWindow(builder, logger, settingsWnd, evolutionWnd, resultsWnd);
+        evolutionWindow = new EvolutionWindow(builder, logger, settingsWnd, evolutionWnd, resultsWnd);
+        resultsWindow = new ResultsWindow(builder, logger, settingsWnd, evolutionWnd, resultsWnd);
+    }
+    
+    void finalize()
+    {
+        logger.finalize();
+    }
 }
