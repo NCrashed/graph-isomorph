@@ -725,6 +725,7 @@
                         <property name="can_focus">True</property>
                         <property name="shadow_type">in</property>
                         <property name="min_content_width">300</property>
+                        <property name="min_content_height">150</property>
                         <child>
                           <object class="GtkTextView" id="textview1">
                             <property name="visible">True</property>
@@ -1371,6 +1372,82 @@
                                 </child>
                                 <child>
                                   <object class="GtkEntry" id="CopyingPartEntry">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">True</property>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">False</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">1</property>
+                                  </packing>
+                                </child>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkListBoxRow" id="listboxrow3">
+                            <property name="width_request">100</property>
+                            <property name="height_request">80</property>
+                            <property name="visible">True</property>
+                            <property name="can_focus">True</property>
+                            <child>
+                              <object class="GtkBox" id="box28">
+                                <property name="visible">True</property>
+                                <property name="can_focus">False</property>
+                                <property name="orientation">vertical</property>
+                                <child>
+                                  <object class="GtkLabel" id="label20">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">False</property>
+                                    <property name="label" translatable="yes">Размер генома усиленной мутации</property>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">False</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">0</property>
+                                  </packing>
+                                </child>
+                                <child>
+                                  <object class="GtkEntry" id="DeleteMutationRiseGenomeSizeEntry">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">True</property>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">False</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">1</property>
+                                  </packing>
+                                </child>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkListBoxRow" id="listboxrow19">
+                            <property name="width_request">100</property>
+                            <property name="height_request">80</property>
+                            <property name="visible">True</property>
+                            <property name="can_focus">True</property>
+                            <child>
+                              <object class="GtkBox" id="box29">
+                                <property name="visible">True</property>
+                                <property name="can_focus">False</property>
+                                <property name="orientation">vertical</property>
+                                <child>
+                                  <object class="GtkLabel" id="label24">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">False</property>
+                                    <property name="label" translatable="yes">Максимальный размер генома</property>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">False</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">0</property>
+                                  </packing>
+                                </child>
+                                <child>
+                                  <object class="GtkEntry" id="MaxGenomeSizeEntry">
                                     <property name="visible">True</property>
                                     <property name="can_focus">True</property>
                                   </object>

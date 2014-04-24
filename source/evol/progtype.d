@@ -34,7 +34,7 @@ class ProgramType : ProgTypeAbstract
         return mProgMinSize;
     }
     
-    void progMinSize(uint val)
+    @property void progMinSize(uint val)
     {
         mProgMinSize = val;
     }
@@ -45,7 +45,7 @@ class ProgramType : ProgTypeAbstract
         return mProgMaxSize;
     }
     
-    void progMaxSize(uint val)
+    @property void progMaxSize(uint val)
     {
         mProgMaxSize = val;
     }
@@ -56,7 +56,7 @@ class ProgramType : ProgTypeAbstract
         return mNewOpGenChacne;
     }
     
-    void newOpGenChance(float val)
+    @property void newOpGenChance(float val)
     {
         mNewOpGenChacne = val;
     }
@@ -67,7 +67,7 @@ class ProgramType : ProgTypeAbstract
         return mNewScopeGenChance;
     }
     
-    void newScopeGenChance(float val)
+    @property void newScopeGenChance(float val)
     {
         mNewScopeGenChance = val;
     }
@@ -78,7 +78,7 @@ class ProgramType : ProgTypeAbstract
         return mNewLeafGenChance;
     }
     
-    void newLeafGenChance(float val)
+    @property void newLeafGenChance(float val)
     {
         mNewLeafGenChance = val;
     }
@@ -89,7 +89,7 @@ class ProgramType : ProgTypeAbstract
         return mScopeMinSize;
     }
     
-    void scopeMinSize(uint val)
+    @property void scopeMinSize(uint val)
     {
         mScopeMinSize = val;
     }
@@ -100,7 +100,7 @@ class ProgramType : ProgTypeAbstract
         return mScopeMaxSize;
     }
     
-    void scopeMaxSize(uint val)
+    @property void scopeMaxSize(uint val)
     {
         mScopeMaxSize = val;
     }
@@ -111,7 +111,7 @@ class ProgramType : ProgTypeAbstract
         return mMutationChance;
     }
     
-    void mutationChance(float val)
+    @property void mutationChance(float val)
     {
         mMutationChance = val;
     }
@@ -122,7 +122,7 @@ class ProgramType : ProgTypeAbstract
         return mCrossingoverChance;
     }
     
-    void crossingoverChance(float val)
+    @property void crossingoverChance(float val)
     {
         mCrossingoverChance = val;
     }
@@ -133,7 +133,7 @@ class ProgramType : ProgTypeAbstract
         return mMutationChangeChance;
     }
     
-    void mutationChangeChance(float val)
+    @property void mutationChangeChance(float val)
     {
         mMutationChangeChance = val;
     }
@@ -144,7 +144,7 @@ class ProgramType : ProgTypeAbstract
         return mMutationReplaceChance;
     }
     
-    void mutationReplaceChance(float val)
+    @property void mutationReplaceChance(float val)
     {
         mMutationReplaceChance = val;
     }
@@ -155,7 +155,7 @@ class ProgramType : ProgTypeAbstract
         return mMutationDeleteChance;
     }
     
-    void mutationDeleteChance(float val)
+    @property void mutationDeleteChance(float val)
     {
         mMutationDeleteChance = val;
     }
@@ -166,7 +166,7 @@ class ProgramType : ProgTypeAbstract
         return mMutationAddLineChance;
     }
     
-    void mutationAddLineChance(float val)
+    @property void mutationAddLineChance(float val)
     {
         mMutationAddLineChance = val;
     }
@@ -177,7 +177,7 @@ class ProgramType : ProgTypeAbstract
         return mMutationRemoveLineChance;
     }
     
-    void mutationRemoveLineChance(float val)
+    @property void mutationRemoveLineChance(float val)
     {
         mMutationRemoveLineChance = val;
     }
@@ -188,9 +188,9 @@ class ProgramType : ProgTypeAbstract
         return mMaxMutationChange;
     }
     
-    void maxMutationChange(double val)
+    @property void maxMutationChange(string val)
     {
-        mMaxMutationChange = val.to!string;
+        mMaxMutationChange = val;
     }
     
     private float mCopyingPart = 0.1;
@@ -199,29 +199,29 @@ class ProgramType : ProgTypeAbstract
         return mCopyingPart;
     }
     
-    void copyingPart(float val)
+    @property void copyingPart(float val)
     {
         mCopyingPart = val;
     }
     
     private size_t mDeleteMutationRiseGenomeSize = 200;
-    size_t deleteMutationRiseGenomeSize()
+    @property size_t deleteMutationRiseGenomeSize()
     {
         return mDeleteMutationRiseGenomeSize;
     }
     
-    void deleteMutationRiseGenomeSize(size_t val)
+    @property void deleteMutationRiseGenomeSize(size_t val)
     {
         mDeleteMutationRiseGenomeSize = val;
     }
     
     private size_t mMaxGenomeSize = 300;
-    size_t maxGenomeSize()
+    @property size_t maxGenomeSize()
     {
         return mMaxGenomeSize;
     }
     
-    void maxGenomeSize(size_t val)
+    @property void maxGenomeSize(size_t val)
     {
         mMaxGenomeSize = val;
     }
