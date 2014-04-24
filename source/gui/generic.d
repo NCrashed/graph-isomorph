@@ -7,13 +7,18 @@ module gui.generic;
 
 import gtk.Builder;
 import gtk.ApplicationWindow;
-
+import gtk.ImageMenuItem;
+import gtk.FileChooserDialog;
 import dlogg.log;
 
 import project;
 
+import std.file;
+
 class GenericWindow
 {
+    enum defaultWindowTittle = "Graph-isomorph";
+    
     this(Builder builder, shared ILogger logger, Project project
         ,ApplicationWindow window)
     {
@@ -21,6 +26,13 @@ class GenericWindow
         mLogger = logger;
         mProject = project;
         mWindow = window;
+        
+        updateTittle();
+    }
+    
+    void updateTittle()
+    {
+        window.setTitle(defaultWindowTittle ~ " " ~ project.filename);
     }
     
     Builder builder()
@@ -43,9 +55,51 @@ class GenericWindow
         return mWindow;
     }
     
-    void initProjectSaveLoad()
+    void initProjectSaveLoad(string distinct)
     {
-        
+        auto newItem = cast(ImageMenuItem)builder.getObject("NewProjectMenuItem"~distinct);
+        assert(newItem !is null);
+        newItem.addOnActivate((i)
+        {
+            try
+            {
+                auto dlg = new FileChooserDialog("Выберите файл нового проекта"
+                    , window
+                    , FileChooserAction.SAVE
+                    , ["OK", "Отмена"]
+                    , [ResponseType.OK, ResponseType.CANCEL]
+                );
+                
+                dlg.setDoOverwriteConfirmation(true);
+                dlg.setCurrentFolder(getcwd);
+                dlg.setCurrentName(Project.defaultProjectPath);
+           
+                switch(dlg.run)
+                {
+                    case(ResponseType.OK):
+                    {
+                        string filename = dlg.getFilename;
+                        if(filename !is null)
+                        {
+                            std.stdio.writeln(filename);
+                            project.recreate(filename);
+                            updateTittle();
+                        }
+                        dlg.destroy;
+                        return;
+                    }
+                    default:
+                    {
+                        dlg.destroy;
+                        return;
+                    }
+                } 
+            }
+            catch(Throwable e)
+            {
+                logger.logError(e.toString);
+            }
+        });
     }
     
     private

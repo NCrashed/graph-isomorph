@@ -21,15 +21,18 @@ class ProgramType : ProgTypeAbstract
         auto tmng = TypeMng.getSingleton();
         auto omng = OperatorMng.getSingleton();
         
-        tmng.registerType!TypeBool();
-        tmng.registerType!TypeInt();
+        static bool inited = false;
         
-        omng.registerOperator!If();
-        omng.registerOperator!Plus();
-//        omng.registerOperator!OpSense();
-//        omng.registerOperator!GoForward();
-//        omng.registerOperator!TurnLeft();
-//        omng.registerOperator!TurnRight();
+        if(!inited)
+        {
+            tmng.registerType!TypeBool();
+            tmng.registerType!TypeInt();
+            
+            omng.registerOperator!If();
+            omng.registerOperator!Plus();
+            
+            inited = true;
+        }
     }
     
     private uint mProgMinSize = 4;

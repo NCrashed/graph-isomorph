@@ -47,6 +47,6 @@ class ResultsWindow : GenericWindow
         }
         showEvolutionWndItem.addOnActivate( (w) => evoluitionWindow.showAll() );
         
-        initProjectSaveLoad();
+        initProjectSaveLoad("3");
     }
 }

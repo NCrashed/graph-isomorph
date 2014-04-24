@@ -7,6 +7,7 @@ module project;
 
 import evol.progtype;
 import yaml;
+import std.path;
 
 class Project
 {
@@ -22,6 +23,7 @@ class Project
     {
         programType = new ProgramType();
         filename = defaultProjectPath;
+        name = defaultProjectPath.baseName;
     }
     
     this(Node root)
@@ -109,5 +111,13 @@ class Project
             projectName  : Node(name),
             evolSettings : Node(emap)
             ]);
+    }
+    
+    void recreate(string filename)
+    {
+        programType = new ProgramType();
+        name = filename.baseName;
+        filename = filename;
+        save(filename);
     }
 }

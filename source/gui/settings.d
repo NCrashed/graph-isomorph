@@ -64,7 +64,7 @@ class SettingsWindow : GenericWindow
         
         initProgtypeEntries();
         initOperatorsView();
-        initProjectSaveLoad();
+        initProjectSaveLoad("1");
     }
     
     void initProgtypeEntries()
