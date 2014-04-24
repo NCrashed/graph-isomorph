@@ -12,18 +12,23 @@ import gui.util;
 
 import dlogg.log;
 
+import project;
+
 class EvolutionWindow
 {
     ApplicationWindow window;
     shared ILogger logger;
+    Project project;
     
     this(Builder builder, shared ILogger logger
+        , Project project
         , ApplicationWindow settingsWindow
         , ApplicationWindow evoluitionWindow
         , ApplicationWindow resultsWindow)
     {
         this.window = evoluitionWindow;
         this.logger = logger;
+        this.project = project;
         
         evoluitionWindow.hide();
         evoluitionWindow.addOnHide( (w) => onWindowHideShow(AppWindow.Evolution, true) );

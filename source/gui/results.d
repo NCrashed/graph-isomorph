@@ -12,18 +12,23 @@ import gui.util;
 
 import dlogg.log;
 
+import project;
+
 class ResultsWindow
 {
     ApplicationWindow window;
     shared ILogger logger;
+    Project project;
     
     this(Builder builder, shared ILogger logger
+        , Project project
         , ApplicationWindow settingsWindow
         , ApplicationWindow evoluitionWindow
         , ApplicationWindow resultsWindow)
     {
         this.window = resultsWindow;
         this.logger = logger;
+        this.project = project;
         
         resultsWindow.hide();
         resultsWindow.addOnHide( (w) => onWindowHideShow(AppWindow.Results, true) );

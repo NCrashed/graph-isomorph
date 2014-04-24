@@ -16,6 +16,7 @@ import gobject.Type;
 import std.stdio;
 import std.getopt;
 import std.c.process;
+import std.file;
 
 import dlogg.strict;
 
@@ -23,22 +24,27 @@ import gui.evolution;
 import gui.results;
 import gui.settings;
 
+import project;
+
 enum helpMsg = 
 "graph-isomorph [options]
 
-options:  --gui=<path> - path to glade file. Optional, default is 'gui.glade'.
-          --log=<path> - path to log file. Optional, default is 'graph-isomorph.log'.
-          --help       - display the message.";
+options:  --gui=<path>  - path to glade file. Optional, default is 'gui.glade'.
+          --log=<path>  - path to log file. Optional, default is 'graph-isomorph.log'.
+          --proj=<path> - path to project file. Optional, default is '"~Project.defaultProjectPath~"'. 
+          --help        - display the message.";
 
 void main(string[] args)
 {
 	string gladeFile = "./gui.glade";
 	string logFile = "./graph-isomorph.log";
+	string projFile = Project.defaultProjectPath;
 	
 	bool help = false;
 	getopt(args,
 	    "gui", &gladeFile,
 	    "log", &logFile,
+	    "proj", &projFile,
 	    "help", &help
 	);
 	
@@ -50,7 +56,7 @@ void main(string[] args)
 	
 	Main.initMultiThread(args);
 	
-	auto application = new Application(logFile, gladeFile);
+	auto application = new Application(logFile, gladeFile, projFile);
 	scope(exit) application.finalize();
     
 	Main.run();
@@ -59,14 +65,28 @@ void main(string[] args)
 class Application
 {
     shared ILogger logger;
+    
     SettingsWindow settingsWindow;
     EvolutionWindow evolutionWindow;
     ResultsWindow resultsWindow;
     
-    this(string logFile, string gladeFile)
+    Project project;
+    
+    this(string logFile, string gladeFile, string projFile)
     {
         logger = new shared StrictLogger(logFile);
-   
+        
+        logger.logInfo("Loading project file...");
+        if(projFile.exists)
+        {
+            project = new Project(projFile);
+        } 
+        else
+        {
+            logger.logInfo("Cannot find project file, creating new project");
+            project = new Project();
+        }
+        
         Builder builder = new Builder();
         if( !builder.addFromFile(gladeFile) )
         {
@@ -95,9 +115,9 @@ class Application
             return;
         }
         
-        settingsWindow = new SettingsWindow(builder, logger, settingsWnd, evolutionWnd, resultsWnd);
-        evolutionWindow = new EvolutionWindow(builder, logger, settingsWnd, evolutionWnd, resultsWnd);
-        resultsWindow = new ResultsWindow(builder, logger, settingsWnd, evolutionWnd, resultsWnd);
+        settingsWindow = new SettingsWindow(builder, logger, project, settingsWnd, evolutionWnd, resultsWnd);
+        evolutionWindow = new EvolutionWindow(builder, logger, project, settingsWnd, evolutionWnd, resultsWnd);
+        resultsWindow = new ResultsWindow(builder, logger, project, settingsWnd, evolutionWnd, resultsWnd);
     }
     
     void finalize()

@@ -11,11 +11,25 @@ import yaml;
 class Project
 {
     ProgramType programType;
+    string name;
+    string filename;
+    
+    enum defaultProjectPath = "./project.yaml";
     enum evolSettings = "evolutionSettings";
+    enum projectName = "name";
+    
+    this()
+    {
+        programType = new ProgramType();
+        filename = defaultProjectPath;
+    }
     
     this(Node root)
     {
-        programType = new ProgramType();
+        if(root.containsKey(projectName))
+        {
+            name = root[projectName].as!string;
+        }
         
         if(root.containsKey(evolSettings))
         {
@@ -52,8 +66,10 @@ class Project
     
     this(string filename)
     {
-        Node root = Loader(filename).load();
-        this(root);
+        programType = new ProgramType();
+        this.filename = filename;
+        
+        this(Loader(filename).load);
     }
     
     void save(string filename)
@@ -89,6 +105,9 @@ class Project
         setValue!"deleteMutationRiseGenomeSize";
         setValue!"maxGenomeSize";
         
-        return Node([evolSettings : Node(emap)]);
+        return Node([
+            projectName  : Node(name),
+            evolSettings : Node(emap)
+            ]);
     }
 }

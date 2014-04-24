@@ -8,6 +8,7 @@
 	"dependencies": {
 	   "devol" : "~master",
 	   "gtk-d" : "~master",
-	   "dlogg" : "~master"
+	   "dlogg" : "~master",
+	   "dyaml" : "~master"
 	}
 }

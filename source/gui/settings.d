@@ -28,14 +28,17 @@ import evol.progtype;
 import devol.operator;
 import devol.operatormng;
 
+import project;
+
 class SettingsWindow
 {
     Builder builder;
-    ProgramType progt;
     ApplicationWindow window;
     shared ILogger logger;
+    Project project;
     
     this(Builder builder, shared ILogger logger
+        , Project project
         , ApplicationWindow settingsWindow
         , ApplicationWindow evoluitionWindow
         , ApplicationWindow resultsWindow)
@@ -43,6 +46,7 @@ class SettingsWindow
         this.window = settingsWindow;
         this.logger = logger;
         this.builder = builder;
+        this.project = project;
         
         settingsWindow.showAll();
         settingsWindow.addOnHide( (w) => onWindowHideShow(AppWindow.Settings, true) );
@@ -65,7 +69,6 @@ class SettingsWindow
         }
         showResultsWndItem.addOnActivate( (w) => resultsWindow.showAll() );
         
-        progt = new ProgramType();
         initProgtypeEntries();
         initOperatorsView();
     }
@@ -147,7 +150,7 @@ class SettingsWindow
                     showInvalidValueDialog!T(entry.getText);
                     return false;
                 }
-                mixin("progt."~field~" = entry.getText.to!T;");
+                mixin("project.programType."~field~" = entry.getText.to!T;");
                 return false;
             };
         }
@@ -155,7 +158,7 @@ class SettingsWindow
         template genFocusSignal(tts...)
         {
             enum field = tts[0];
-            mixin(`alias T = typeof(progt.`~field~`);`);
+            mixin(`alias T = typeof(project.programType.`~field~`);`);
             enum genFocusSignal = field~"Entry.addOnFocusOut(tryFillValue!("~T.stringof~`,"`~field~`")(`~field~`Entry));`;
         }
         
@@ -181,7 +184,7 @@ class SettingsWindow
         template genInitialSetupText(tts...)
         {
             enum field = tts[0];
-            enum genInitialSetupText = field~`Entry.setText(progt.`~field~`.to!string);`;
+            enum genInitialSetupText = field~`Entry.setText(project.programType.`~field~`.to!string);`;
         }
         
         mixin(genInitialSetupText!"progMinSize");
