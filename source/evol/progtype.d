@@ -8,6 +8,10 @@ module evol.progtype;
 import devol.programtype;
 import devol.typemng;
 import devol.operatormng;
+
+import devol.std.opif;
+import devol.std.plus;
+import devol.std.typepod;
 import std.conv;
 
 class ProgramType : ProgTypeAbstract
@@ -17,11 +21,11 @@ class ProgramType : ProgTypeAbstract
         auto tmng = TypeMng.getSingleton();
         auto omng = OperatorMng.getSingleton();
         
-//        tmng.registerType!TypeBool();
-//        tmng.registerType!TypeInt();
-//        
-//        omng.registerOperator!If();
-//        omng.registerOperator!Plus();
+        tmng.registerType!TypeBool();
+        tmng.registerType!TypeInt();
+        
+        omng.registerOperator!If();
+        omng.registerOperator!Plus();
 //        omng.registerOperator!OpSense();
 //        omng.registerOperator!GoForward();
 //        omng.registerOperator!TurnLeft();

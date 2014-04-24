@@ -7,6 +7,8 @@ module gui.util;
 
 import gtk.ApplicationWindow;
 import gtk.Main;
+import gtk.TextView;
+import gtk.TextIter;
 
 enum AppWindow
 {

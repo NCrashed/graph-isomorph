@@ -11,12 +11,22 @@ import gtk.ApplicationWindow;
 import gtk.Entry;
 import gtk.MessageDialog;
 import gtk.Widget;
+import gtk.TreeView;
+import gtk.TextView;
+import gtk.TextIter;
+import gtk.ListStore;
+import gtk.TreeIter;
+
 import gdk.Event;
+import gobject.Value;
+
 import gui.util;
 
 import dlogg.log;
 
 import evol.progtype;
+import devol.operator;
+import devol.operatormng;
 
 class SettingsWindow
 {
@@ -57,6 +67,7 @@ class SettingsWindow
         
         progt = new ProgramType();
         initProgtypeEntries();
+        initOperatorsView();
     }
     
     void initProgtypeEntries()
@@ -191,5 +202,46 @@ class SettingsWindow
         mixin(genInitialSetupText!"copyingPart");
         mixin(genInitialSetupText!"deleteMutationRiseGenomeSize");
         mixin(genInitialSetupText!"maxGenomeSize");
+    }
+    
+    void initOperatorsView()
+    {
+        auto operatorsView = cast(TreeView)builder.getObject("OperatorsView");
+        auto operatorNameEntry = cast(Entry)builder.getObject("OperatorNameEntry");
+        auto operatorDescriptionView = cast(TextView)builder.getObject("OperatorDescriptionView");
+        
+        auto model = new ListStore([GType.STRING]);
+        operatorsView.setModel(model);
+        
+        operatorsView.addOnCursorChanged((v)
+        {
+            auto opmng = OperatorMng.getSingleton();
+            auto model = operatorsView.getModel();
+            assert(model !is null);
+            
+            auto iter = operatorsView.getSelectedIter();
+            if(iter is null)
+            {
+                operatorNameEntry.setText("");
+                operatorDescriptionView.getBuffer().setText("");
+            }
+            else
+            {
+                auto value = model.getValue(iter, 0);
+                auto opName = value.getString();
+                auto operator = opmng.getOperator(opName);
+                
+                operatorNameEntry.setText(operator.name);
+                operatorDescriptionView.getBuffer().setText(operator.disrc);
+            }
+        });
+        
+        auto opmng = OperatorMng.getSingleton();
+        foreach(operator; OperatorMng.getSingleton)
+        {
+            auto iter = new TreeIter;
+            model.insert(iter, -1);
+            model.setValue(iter, 0, operator.name);
+        }
     }
 }

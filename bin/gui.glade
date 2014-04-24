@@ -424,9 +424,14 @@
   </object>
   <object class="GtkListStore" id="OperatorsStore">
     <columns>
-      <!-- column-name OperatorObject -->
-      <column type="gpointer"/>
+      <!-- column-name OperatorName -->
+      <column type="gchar"/>
     </columns>
+  </object>
+  <object class="GtkImage" id="image1">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-about</property>
   </object>
   <object class="GtkApplicationWindow" id="SettingsWindow">
     <property name="can_focus">False</property>
@@ -444,7 +449,7 @@
               <object class="GtkMenuItem" id="menuitem1">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="label" translatable="yes">_File</property>
+                <property name="label" translatable="yes">_Файл</property>
                 <property name="use_underline">True</property>
                 <child type="submenu">
                   <object class="GtkMenu" id="menu1">
@@ -506,60 +511,10 @@
               </object>
             </child>
             <child>
-              <object class="GtkMenuItem" id="menuitem2">
-                <property name="visible">True</property>
-                <property name="can_focus">False</property>
-                <property name="label" translatable="yes">_Edit</property>
-                <property name="use_underline">True</property>
-                <child type="submenu">
-                  <object class="GtkMenu" id="menu2">
-                    <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <child>
-                      <object class="GtkImageMenuItem" id="imagemenuitem6">
-                        <property name="label">gtk-cut</property>
-                        <property name="visible">True</property>
-                        <property name="can_focus">False</property>
-                        <property name="use_underline">True</property>
-                        <property name="use_stock">True</property>
-                      </object>
-                    </child>
-                    <child>
-                      <object class="GtkImageMenuItem" id="imagemenuitem7">
-                        <property name="label">gtk-copy</property>
-                        <property name="visible">True</property>
-                        <property name="can_focus">False</property>
-                        <property name="use_underline">True</property>
-                        <property name="use_stock">True</property>
-                      </object>
-                    </child>
-                    <child>
-                      <object class="GtkImageMenuItem" id="imagemenuitem8">
-                        <property name="label">gtk-paste</property>
-                        <property name="visible">True</property>
-                        <property name="can_focus">False</property>
-                        <property name="use_underline">True</property>
-                        <property name="use_stock">True</property>
-                      </object>
-                    </child>
-                    <child>
-                      <object class="GtkImageMenuItem" id="imagemenuitem9">
-                        <property name="label">gtk-delete</property>
-                        <property name="visible">True</property>
-                        <property name="can_focus">False</property>
-                        <property name="use_underline">True</property>
-                        <property name="use_stock">True</property>
-                      </object>
-                    </child>
-                  </object>
-                </child>
-              </object>
-            </child>
-            <child>
               <object class="GtkMenuItem" id="menuitem3">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="label" translatable="yes">_View</property>
+                <property name="label" translatable="yes">_Вид</property>
                 <property name="use_underline">True</property>
                 <child type="submenu">
                   <object class="GtkMenu" id="menu10">
@@ -589,7 +544,7 @@
               <object class="GtkMenuItem" id="menuitem4">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="label" translatable="yes">_Help</property>
+                <property name="label" translatable="yes">_Помощь</property>
                 <property name="use_underline">True</property>
                 <child type="submenu">
                   <object class="GtkMenu" id="menu3">
@@ -597,11 +552,11 @@
                     <property name="can_focus">False</property>
                     <child>
                       <object class="GtkImageMenuItem" id="imagemenuitem10">
-                        <property name="label">gtk-about</property>
+                        <property name="label">О программе</property>
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="use_underline">True</property>
-                        <property name="use_stock">True</property>
+                        <property name="image">image1</property>
+                        <property name="use_stock">False</property>
                       </object>
                     </child>
                   </object>
@@ -637,6 +592,12 @@
                     <child>
                       <object class="GtkTreeViewColumn" id="OperatorsViewColumn1">
                         <property name="title" translatable="yes">Имя оператора</property>
+                        <child>
+                          <object class="GtkCellRendererText" id="cellrenderertext3"/>
+                          <attributes>
+                            <attribute name="text">0</attribute>
+                          </attributes>
+                        </child>
                       </object>
                     </child>
                   </object>
@@ -727,10 +688,11 @@
                         <property name="min_content_width">300</property>
                         <property name="min_content_height">150</property>
                         <child>
-                          <object class="GtkTextView" id="textview1">
+                          <object class="GtkTextView" id="OperatorDescriptionView">
                             <property name="visible">True</property>
                             <property name="can_focus">True</property>
                             <property name="editable">False</property>
+                            <property name="wrap_mode">word</property>
                           </object>
                         </child>
                       </object>
