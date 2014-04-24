@@ -21,6 +21,7 @@ import gdk.Event;
 import gobject.Value;
 
 import gui.util;
+import gui.generic;
 
 import dlogg.log;
 
@@ -30,23 +31,15 @@ import devol.operatormng;
 
 import project;
 
-class SettingsWindow
-{
-    Builder builder;
-    ApplicationWindow window;
-    shared ILogger logger;
-    Project project;
-    
+class SettingsWindow : GenericWindow
+{   
     this(Builder builder, shared ILogger logger
         , Project project
         , ApplicationWindow settingsWindow
         , ApplicationWindow evoluitionWindow
         , ApplicationWindow resultsWindow)
     {
-        this.window = settingsWindow;
-        this.logger = logger;
-        this.builder = builder;
-        this.project = project;
+        super(builder, logger, project, settingsWindow);
         
         settingsWindow.showAll();
         settingsWindow.addOnHide( (w) => onWindowHideShow(AppWindow.Settings, true) );
@@ -71,6 +64,7 @@ class SettingsWindow
         
         initProgtypeEntries();
         initOperatorsView();
+        initProjectSaveLoad();
     }
     
     void initProgtypeEntries()

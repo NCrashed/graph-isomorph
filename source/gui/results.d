@@ -8,27 +8,23 @@ module gui.results;
 import gtk.Builder;
 import gtk.MenuItem;
 import gtk.ApplicationWindow;
+
 import gui.util;
+import gui.generic;
 
 import dlogg.log;
 
 import project;
 
-class ResultsWindow
-{
-    ApplicationWindow window;
-    shared ILogger logger;
-    Project project;
-    
+class ResultsWindow : GenericWindow
+{  
     this(Builder builder, shared ILogger logger
         , Project project
         , ApplicationWindow settingsWindow
         , ApplicationWindow evoluitionWindow
         , ApplicationWindow resultsWindow)
     {
-        this.window = resultsWindow;
-        this.logger = logger;
-        this.project = project;
+        super(builder, logger, project, resultsWindow);
         
         resultsWindow.hide();
         resultsWindow.addOnHide( (w) => onWindowHideShow(AppWindow.Results, true) );
@@ -50,5 +46,7 @@ class ResultsWindow
             assert(false);
         }
         showEvolutionWndItem.addOnActivate( (w) => evoluitionWindow.showAll() );
+        
+        initProjectSaveLoad();
     }
 }
