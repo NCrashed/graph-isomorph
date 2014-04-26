@@ -77,14 +77,14 @@ class Application
         logger = new shared StrictLogger(logFile);
         
         logger.logInfo("Loading project file...");
+        project = new Project();
         if(projFile.exists)
         {
-            project = new Project(projFile);
+            project.open(projFile);
         } 
         else
         {
             logger.logInfo("Cannot find project file, creating new project");
-            project = new Project();
         }
         
         Builder builder = new Builder();

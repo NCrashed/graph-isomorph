@@ -30,6 +30,7 @@ import devol.operator;
 import devol.operatormng;
 
 import project;
+import std.string;
 
 class SettingsWindow : GenericWindow
 {   
@@ -69,59 +70,45 @@ class SettingsWindow : GenericWindow
     
     void initProgtypeEntries()
     {
-        auto progMinSizeEntry = cast(Entry)builder.getObject("ProgMinSizeEntry");
-        assert(progMinSizeEntry !is null);
-        
-        auto progMaxSizeEntry = cast(Entry)builder.getObject("ProgMaxSizeEntry");
-        assert(progMaxSizeEntry !is null);
-        
-        auto scopeMinSizeEntry = cast(Entry)builder.getObject("ScopeMinSizeEntry");
-        assert(scopeMinSizeEntry !is null);
-        
-        auto scopeMaxSizeEntry = cast(Entry)builder.getObject("ScopeMaxSizeEntry");
-        assert(scopeMaxSizeEntry !is null);
-        
-        auto newOpGenChanceEntry = cast(Entry)builder.getObject("NewOpGenChanceEntry");
-        assert(newOpGenChanceEntry !is null);
-        
-        auto newScopeGenChanceEntry = cast(Entry)builder.getObject("NewScopeGenChanceEntry");
-        assert(newScopeGenChanceEntry !is null);
-        
-        auto newLeafGenChanceEntry = cast(Entry)builder.getObject("NewLeafGenChanceEntry");
-        assert(newLeafGenChanceEntry !is null);
-        
-        auto mutationChangeChanceEntry = cast(Entry)builder.getObject("MutationChangeChanceEntry");
-        assert(mutationChangeChanceEntry !is null);
-        
-        auto mutationReplaceChanceEntry = cast(Entry)builder.getObject("MutationReplaceChanceEntry");
-        assert(mutationReplaceChanceEntry !is null);
-        
-        auto mutationDeleteChanceEntry = cast(Entry)builder.getObject("MutationDeleteChanceEntry");
-        assert(mutationDeleteChanceEntry !is null);
-        
-        auto mutationAddLineChanceEntry = cast(Entry)builder.getObject("MutationAddLineChanceEntry");
-        assert(mutationAddLineChanceEntry !is null);
-        
-        auto mutationRemoveLineChanceEntry = cast(Entry)builder.getObject("MutationRemoveLineChanceEntry");
-        assert(mutationRemoveLineChanceEntry !is null);
-        
-        auto maxMutationChangeEntry = cast(Entry)builder.getObject("MaxMutationChangeEntry");
-        assert(maxMutationChangeEntry !is null);
-        
-        auto mutationChanceEntry = cast(Entry)builder.getObject("MutationChanceEntry");
-        assert(mutationChanceEntry !is null);
-        
-        auto crossingoverChanceEntry = cast(Entry)builder.getObject("CrossingoverChanceEntry");
-        assert(crossingoverChanceEntry !is null);
-        
-        auto copyingPartEntry = cast(Entry)builder.getObject("CopyingPartEntry");
-        assert(copyingPartEntry !is null);
-        
-        auto deleteMutationRiseGenomeSizeEntry = cast(Entry)builder.getObject("DeleteMutationRiseGenomeSizeEntry");
-        assert(deleteMutationRiseGenomeSizeEntry !is null);
-        
-        auto maxGenomeSizeEntry = cast(Entry)builder.getObject("MaxGenomeSizeEntry");
-        assert(maxGenomeSizeEntry !is null);
+    	char cupper(char c)
+    	{
+    		immutable source = "qwertyuiopasdfghjklzxcvbnm";
+    		immutable dist   = "QWERTYUIOPASDFGHJKLZXCVBNM";
+    		
+    		foreach(i, sc; source)
+    		{
+    			if(sc == c) return dist[i];
+    		}
+    		
+    		return c;
+    	}
+    	
+    	template genEntryGetter(tt...)
+    	{
+    		enum field = tt[0];
+    		enum genEntryGetter = "auto "~field
+    			~`Entry = cast(Entry)builder.getObject("`
+    			~[cupper(cast(char)field[0])]~field[1..$]~`");`;
+    	}
+    	
+        mixin(genEntryGetter!"progMinSize");
+        mixin(genEntryGetter!"progMaxSize");
+        mixin(genEntryGetter!"scopeMinSize");
+        mixin(genEntryGetter!"scopeMaxSize");
+        mixin(genEntryGetter!"newOpGenChance");
+        mixin(genEntryGetter!"newScopeGenChance");
+        mixin(genEntryGetter!"newLeafGenChance");
+        mixin(genEntryGetter!"mutationChangeChance");
+        mixin(genEntryGetter!"mutationReplaceChance");
+        mixin(genEntryGetter!"mutationDeleteChance");
+        mixin(genEntryGetter!"mutationAddLineChance");
+        mixin(genEntryGetter!"mutationRemoveLineChance");
+        mixin(genEntryGetter!"maxMutationChange");
+        mixin(genEntryGetter!"mutationChance");
+        mixin(genEntryGetter!"crossingoverChance");
+        mixin(genEntryGetter!"copyingPart");
+        mixin(genEntryGetter!"deleteMutationRiseGenomeSize");
+        mixin(genEntryGetter!"maxGenomeSize");
         
         void showInvalidValueDialog(T)(string value)
         {
@@ -175,6 +162,34 @@ class SettingsWindow : GenericWindow
         mixin(genFocusSignal!"deleteMutationRiseGenomeSize");
         mixin(genFocusSignal!"maxGenomeSize");
         
+        template genInitialSetupText(tts...)
+        {
+            enum field = tts[0];
+            enum genInitialSetupText = field~`Entry.setText(project.programType.`~field~`.to!string);`;
+        }
+        
+        mixin(genInitialSetupText!"progMinSize");
+        mixin(genInitialSetupText!"progMaxSize");
+        mixin(genInitialSetupText!"scopeMinSize");
+        mixin(genInitialSetupText!"scopeMaxSize");
+        mixin(genInitialSetupText!"newOpGenChance");
+        mixin(genInitialSetupText!"newScopeGenChance");
+        mixin(genInitialSetupText!"newLeafGenChance");
+        mixin(genInitialSetupText!"mutationChangeChance");
+        mixin(genInitialSetupText!"mutationReplaceChance");
+        mixin(genInitialSetupText!"mutationDeleteChance");
+        mixin(genInitialSetupText!"mutationAddLineChance");
+        mixin(genInitialSetupText!"mutationRemoveLineChance");
+        mixin(genInitialSetupText!"maxMutationChange");
+        mixin(genInitialSetupText!"mutationChance");
+        mixin(genInitialSetupText!"crossingoverChance");
+        mixin(genInitialSetupText!"copyingPart");
+        mixin(genInitialSetupText!"deleteMutationRiseGenomeSize");
+        mixin(genInitialSetupText!"maxGenomeSize");
+    }
+    
+    void reloadSettings()
+    {
         template genInitialSetupText(tts...)
         {
             enum field = tts[0];

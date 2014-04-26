@@ -26,8 +26,10 @@ class Project
         name = defaultProjectPath.baseName;
     }
     
-    this(Node root)
+    void open(Node root)
     {
+    	programType = new ProgramType();
+    	
         if(root.containsKey(projectName))
         {
             name = root[projectName].as!string;
@@ -66,12 +68,10 @@ class Project
         }
     }
     
-    this(string filename)
+    void open(string filename)
     {
-        programType = new ProgramType();
         this.filename = filename;
-        
-        this(Loader(filename).load);
+        open(Loader(filename).load);
     }
     
     void save(string filename)

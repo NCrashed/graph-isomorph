@@ -81,8 +81,48 @@ class GenericWindow
                         string filename = dlg.getFilename;
                         if(filename !is null)
                         {
-                            std.stdio.writeln(filename);
                             project.recreate(filename);
+                            updateTittle();
+                        }
+                        dlg.destroy;
+                        return;
+                    }
+                    default:
+                    {
+                        dlg.destroy;
+                        return;
+                    }
+                } 
+            }
+            catch(Throwable e)
+            {
+                logger.logError(e.toString);
+            }
+        });
+        
+        auto openItem = cast(ImageMenuItem)builder.getObject("OpenProjectMenuItem"~distinct);
+        assert(openItem !is null);
+        openItem.addOnActivate((i)
+        {
+            try
+            {
+                auto dlg = new FileChooserDialog("Выбирете файл проекта"
+                    , window
+                    , FileChooserAction.OPEN
+                    , ["OK", "Отмена"]
+                    , [ResponseType.OK, ResponseType.CANCEL]
+                );
+                
+                dlg.setCurrentFolder(getcwd);
+           
+                switch(dlg.run)
+                {
+                    case(ResponseType.OK):
+                    {
+                        string filename = dlg.getFilename;
+                        if(filename !is null)
+                        {
+                            project.open(filename);
                             updateTittle();
                         }
                         dlg.destroy;
