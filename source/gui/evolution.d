@@ -8,13 +8,22 @@ module gui.evolution;
 import gtk.Builder;
 import gtk.MenuItem;
 import gtk.ApplicationWindow;
+import gtk.Image;
 
 import gui.util;
 import gui.generic;
 import dlogg.log;
 
+import graph.directed;
+
 import project;
 import application;
+
+import std.file;
+import std.stdio;
+import std.process;
+import std.path;
+import std.conv;
 
 class EvolutionWindow : GenericWindow
 {
@@ -48,5 +57,42 @@ class EvolutionWindow : GenericWindow
         showResultsWndItem.addOnActivate( (w) => resultsWindow.showAll() ); 
         
         initProjectSaveLoad("2");
+    }
+    
+    void setInputImages(IDirectedGraph first, IDirectedGraph second)
+    {
+        void setImage(IDirectedGraph graph, string wname)
+        {
+            auto image = cast(Image)builder.getObject(wname);
+            assert(image !is null);
+            
+            try
+            {
+                enum tempImageDir = "./images";
+                if(!tempImageDir.exists)
+                {
+                    mkdirRecurse(tempImageDir);
+                }
+                
+                string dotFilename = buildPath(tempImageDir, wname~".dot");
+                string imageFilename = buildPath(tempImageDir, wname~".png");
+                
+                auto file = File(dotFilename, "w");
+                file.writeln(graph.genDot);
+                file.close();
+                
+                shell(text("dot -Tpng ", dotFilename, " > ", imageFilename));
+                
+                image.setFromFile(imageFilename);
+            }
+            catch(Exception e)
+            {
+                logger.logError("Failed to load image from graph for "~wname);
+                logger.logError(e.msg);
+            }
+        }
+        
+        setImage(first, "InputGraphImage1");
+        setImage(second, "InputGraphImage2");
     }
 }
