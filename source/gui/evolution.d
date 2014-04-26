@@ -11,20 +11,20 @@ import gtk.ApplicationWindow;
 
 import gui.util;
 import gui.generic;
-
 import dlogg.log;
 
 import project;
+import application;
 
 class EvolutionWindow : GenericWindow
 {
-    this(Builder builder, shared ILogger logger
+    this(Application app, Builder builder, shared ILogger logger
         , Project project
         , ApplicationWindow settingsWindow
         , ApplicationWindow evoluitionWindow
         , ApplicationWindow resultsWindow)
     {
-        super(builder, logger, project, evoluitionWindow);
+        super(app, builder, logger, project, evoluitionWindow);
         
         evoluitionWindow.hide();
         evoluitionWindow.addOnHide( (w) => onWindowHideShow(AppWindow.Evolution, true) );
@@ -48,10 +48,5 @@ class EvolutionWindow : GenericWindow
         showResultsWndItem.addOnActivate( (w) => resultsWindow.showAll() ); 
         
         initProjectSaveLoad("2");
-    }
-    
-    override void updateContent()
-    {
-        
     }
 }

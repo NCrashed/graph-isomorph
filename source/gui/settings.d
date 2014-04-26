@@ -30,17 +30,19 @@ import devol.operator;
 import devol.operatormng;
 
 import project;
+import application;
+
 import std.string;
 
 class SettingsWindow : GenericWindow
 {   
-    this(Builder builder, shared ILogger logger
+    this(Application app, Builder builder, shared ILogger logger
         , Project project
         , ApplicationWindow settingsWindow
         , ApplicationWindow evoluitionWindow
         , ApplicationWindow resultsWindow)
     {
-        super(builder, logger, project, settingsWindow);
+        super(app, builder, logger, project, settingsWindow);
         
         settingsWindow.showAll();
         settingsWindow.addOnHide( (w) => onWindowHideShow(AppWindow.Settings, true) );
@@ -66,6 +68,12 @@ class SettingsWindow : GenericWindow
         initProgtypeEntries();
         initOperatorsView();
         initProjectSaveLoad("1");
+    }
+    
+    override void updateContent()
+    {
+        super.updateContent();
+        reloadSettings();
     }
     
     private
@@ -190,11 +198,6 @@ class SettingsWindow : GenericWindow
         mixin(genInitialSetupText!"copyingPart");
         mixin(genInitialSetupText!"deleteMutationRiseGenomeSize");
         mixin(genInitialSetupText!"maxGenomeSize");
-    }
-    
-    override void updateContent()
-    {
-        reloadSettings();
     }
     
     void reloadSettings()

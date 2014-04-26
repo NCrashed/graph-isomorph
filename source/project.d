@@ -76,6 +76,7 @@ class Project
     
     void save(string filename)
     {
+        this.filename = filename;
         Dumper(filename).dump(dump);
     }
     

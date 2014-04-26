@@ -12,6 +12,7 @@ import gtk.FileChooserDialog;
 import dlogg.log;
 
 import project;
+import application;
 
 import std.file;
 
@@ -19,9 +20,10 @@ abstract class GenericWindow
 {
     enum defaultWindowTittle = "Graph-isomorph";
     
-    this(Builder builder, shared ILogger logger, Project project
+    this(Application app, Builder builder, shared ILogger logger, Project project
         ,ApplicationWindow window)
     {
+        this.app = app;
         mBuilder = builder;
         mLogger = logger;
         mProject = project;
@@ -55,7 +57,10 @@ abstract class GenericWindow
         return mWindow;
     }
     
-    void updateContent();
+    void updateContent()
+    {
+        updateTittle();
+    }
     
     void initProjectSaveLoad(string distinct)
     {
@@ -128,8 +133,7 @@ abstract class GenericWindow
                         if(filename !is null)
                         {
                             project.open(filename);
-                            updateTittle();
-                            updateContent();
+                            app.updateAll();
                         }
                         dlg.destroy;
                         return;
@@ -146,6 +150,66 @@ abstract class GenericWindow
                 logger.logError(e.toString);
             }
         });
+        
+        logger.logInfo("Save as project button setup");
+        auto saveAsItem = cast(ImageMenuItem)builder.getObject("SaveAsProjectMenuItem"~distinct);
+        assert(saveAsItem !is null);
+        saveAsItem.addOnActivate((i)
+        {
+            try
+            {
+                auto dlg = new FileChooserDialog("Выбирете файл проекта"
+                    , window
+                    , FileChooserAction.SAVE
+                    , ["OK", "Отмена"]
+                    , [ResponseType.OK, ResponseType.CANCEL]
+                );
+                
+                dlg.setDoOverwriteConfirmation(true);
+                dlg.setCurrentFolder(getcwd);
+                dlg.setCurrentName(Project.defaultProjectPath);
+           
+                switch(dlg.run)
+                {
+                    case(ResponseType.OK):
+                    {
+                        string filename = dlg.getFilename;
+                        if(filename !is null)
+                        {
+                            project.save(filename);
+                            app.updateAll();
+                        }
+                        dlg.destroy;
+                        return;
+                    }
+                    default:
+                    {
+                        dlg.destroy;
+                        return;
+                    }
+                } 
+            }
+            catch(Throwable e)
+            {
+                logger.logError(e.toString);
+            }
+        });
+        
+        logger.logInfo("Save project button setup");
+        auto saveItem = cast(ImageMenuItem)builder.getObject("SaveProjectMenuItem"~distinct);
+        assert(saveItem !is null);
+        saveItem.addOnActivate((i)
+        {
+            try
+            {
+                project.save(project.filename);
+                app.updateAll();
+            }
+            catch(Throwable e)
+            {
+                logger.logError(e.toString);
+            }
+        });
     }
     
     private
@@ -154,5 +218,6 @@ abstract class GenericWindow
         shared ILogger mLogger;
         Project mProject;
         ApplicationWindow mWindow;
+        Application app;
     }
 }

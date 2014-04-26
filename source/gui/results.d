@@ -15,16 +15,17 @@ import gui.generic;
 import dlogg.log;
 
 import project;
+import application;
 
 class ResultsWindow : GenericWindow
 {  
-    this(Builder builder, shared ILogger logger
+    this(Application app, Builder builder, shared ILogger logger
         , Project project
         , ApplicationWindow settingsWindow
         , ApplicationWindow evoluitionWindow
         , ApplicationWindow resultsWindow)
     {
-        super(builder, logger, project, resultsWindow);
+        super(app, builder, logger, project, resultsWindow);
         
         resultsWindow.hide();
         resultsWindow.addOnHide( (w) => onWindowHideShow(AppWindow.Results, true) );
@@ -48,10 +49,5 @@ class ResultsWindow : GenericWindow
         showEvolutionWndItem.addOnActivate( (w) => evoluitionWindow.showAll() );
         
         initProjectSaveLoad("3");
-    }
-    
-    override void updateContent()
-    {
-        
     }
 }
