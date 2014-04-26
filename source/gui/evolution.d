@@ -49,4 +49,9 @@ class EvolutionWindow : GenericWindow
         
         initProjectSaveLoad("2");
     }
+    
+    override void updateContent()
+    {
+        
+    }
 }

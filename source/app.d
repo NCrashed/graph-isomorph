@@ -94,6 +94,7 @@ class Application
             return;
         }
         
+        logger.logInfo("Loading settings window");
         auto settingsWnd = cast(ApplicationWindow)builder.getObject("SettingsWindow");
         if(settingsWnd is null)
         {
@@ -101,6 +102,7 @@ class Application
             return;
         }
         
+        logger.logInfo("Loading evolution window");
         auto evolutionWnd = cast(ApplicationWindow)builder.getObject("EvolutionWindow");
         if(evolutionWnd is null)
         {
@@ -108,6 +110,7 @@ class Application
             return;
         }
         
+        logger.logInfo("Loading results window");
         auto resultsWnd = cast(ApplicationWindow)builder.getObject("ResultsWindow");
         if(resultsWnd is null)
         {

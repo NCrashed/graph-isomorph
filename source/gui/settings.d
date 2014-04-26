@@ -68,29 +68,39 @@ class SettingsWindow : GenericWindow
         initProjectSaveLoad("1");
     }
     
+    private
+    {
+        static char cupper(char c)
+        {
+            immutable source = "qwertyuiopasdfghjklzxcvbnm";
+            immutable dist   = "QWERTYUIOPASDFGHJKLZXCVBNM";
+            
+            foreach(i, sc; source)
+            {
+                if(sc == c) return dist[i];
+            }
+            
+            return c;
+        }
+        
+        template genEntryGetter(tt...)
+        {
+            enum field = tt[0];
+            enum genEntryGetter = "auto "~field
+                ~`Entry = cast(Entry)builder.getObject("`
+                ~[cupper(cast(char)field[0])]~field[1..$]~`Entry");`"\n"
+                ~`assert(`~field~`Entry !is null);`;
+        }
+        
+        template genInitialSetupText(tts...)
+        {
+            enum field = tts[0];
+            enum genInitialSetupText = field~`Entry.setText(project.programType.`~field~`.to!string);`;
+        }
+    }
+    
     void initProgtypeEntries()
     {
-    	char cupper(char c)
-    	{
-    		immutable source = "qwertyuiopasdfghjklzxcvbnm";
-    		immutable dist   = "QWERTYUIOPASDFGHJKLZXCVBNM";
-    		
-    		foreach(i, sc; source)
-    		{
-    			if(sc == c) return dist[i];
-    		}
-    		
-    		return c;
-    	}
-    	
-    	template genEntryGetter(tt...)
-    	{
-    		enum field = tt[0];
-    		enum genEntryGetter = "auto "~field
-    			~`Entry = cast(Entry)builder.getObject("`
-    			~[cupper(cast(char)field[0])]~field[1..$]~`");`;
-    	}
-    	
         mixin(genEntryGetter!"progMinSize");
         mixin(genEntryGetter!"progMaxSize");
         mixin(genEntryGetter!"scopeMinSize");
@@ -162,12 +172,6 @@ class SettingsWindow : GenericWindow
         mixin(genFocusSignal!"deleteMutationRiseGenomeSize");
         mixin(genFocusSignal!"maxGenomeSize");
         
-        template genInitialSetupText(tts...)
-        {
-            enum field = tts[0];
-            enum genInitialSetupText = field~`Entry.setText(project.programType.`~field~`.to!string);`;
-        }
-        
         mixin(genInitialSetupText!"progMinSize");
         mixin(genInitialSetupText!"progMaxSize");
         mixin(genInitialSetupText!"scopeMinSize");
@@ -188,13 +192,31 @@ class SettingsWindow : GenericWindow
         mixin(genInitialSetupText!"maxGenomeSize");
     }
     
+    override void updateContent()
+    {
+        reloadSettings();
+    }
+    
     void reloadSettings()
     {
-        template genInitialSetupText(tts...)
-        {
-            enum field = tts[0];
-            enum genInitialSetupText = field~`Entry.setText(project.programType.`~field~`.to!string);`;
-        }
+        mixin(genEntryGetter!"progMinSize");
+        mixin(genEntryGetter!"progMaxSize");
+        mixin(genEntryGetter!"scopeMinSize");
+        mixin(genEntryGetter!"scopeMaxSize");
+        mixin(genEntryGetter!"newOpGenChance");
+        mixin(genEntryGetter!"newScopeGenChance");
+        mixin(genEntryGetter!"newLeafGenChance");
+        mixin(genEntryGetter!"mutationChangeChance");
+        mixin(genEntryGetter!"mutationReplaceChance");
+        mixin(genEntryGetter!"mutationDeleteChance");
+        mixin(genEntryGetter!"mutationAddLineChance");
+        mixin(genEntryGetter!"mutationRemoveLineChance");
+        mixin(genEntryGetter!"maxMutationChange");
+        mixin(genEntryGetter!"mutationChance");
+        mixin(genEntryGetter!"crossingoverChance");
+        mixin(genEntryGetter!"copyingPart");
+        mixin(genEntryGetter!"deleteMutationRiseGenomeSize");
+        mixin(genEntryGetter!"maxGenomeSize");
         
         mixin(genInitialSetupText!"progMinSize");
         mixin(genInitialSetupText!"progMaxSize");

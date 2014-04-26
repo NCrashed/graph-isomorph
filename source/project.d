@@ -117,7 +117,7 @@ class Project
     {
         programType = new ProgramType();
         name = filename.baseName;
-        filename = filename;
+        this.filename = filename;
         save(filename);
     }
 }

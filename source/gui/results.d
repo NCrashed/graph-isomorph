@@ -49,4 +49,9 @@ class ResultsWindow : GenericWindow
         
         initProjectSaveLoad("3");
     }
+    
+    override void updateContent()
+    {
+        
+    }
 }

@@ -15,7 +15,7 @@ import project;
 
 import std.file;
 
-class GenericWindow
+abstract class GenericWindow
 {
     enum defaultWindowTittle = "Graph-isomorph";
     
@@ -55,8 +55,11 @@ class GenericWindow
         return mWindow;
     }
     
+    void updateContent();
+    
     void initProjectSaveLoad(string distinct)
     {
+        logger.logInfo("New project button setup");
         auto newItem = cast(ImageMenuItem)builder.getObject("NewProjectMenuItem"~distinct);
         assert(newItem !is null);
         newItem.addOnActivate((i)
@@ -83,6 +86,7 @@ class GenericWindow
                         {
                             project.recreate(filename);
                             updateTittle();
+                            updateContent();
                         }
                         dlg.destroy;
                         return;
@@ -100,6 +104,7 @@ class GenericWindow
             }
         });
         
+        logger.logInfo("Open project button setup");
         auto openItem = cast(ImageMenuItem)builder.getObject("OpenProjectMenuItem"~distinct);
         assert(openItem !is null);
         openItem.addOnActivate((i)
@@ -124,6 +129,7 @@ class GenericWindow
                         {
                             project.open(filename);
                             updateTittle();
+                            updateContent();
                         }
                         dlg.destroy;
                         return;
