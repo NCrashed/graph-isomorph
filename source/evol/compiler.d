@@ -14,26 +14,29 @@ import evol.progtype;
 
 alias Population!( getDefChars, GraphIndivid ) GraphPopulation;
 
-bool stopCond(ref int x, IndAbstract ind, WorldAbstract world)
+class GraphCompilation : GameCompilation
 {
-    return false;
-}
-
-void drawStep(IndAbstract ind, WorldAbstract world)
-{
+    bool stopCond(ref int step, IndAbstract ind, WorldAbstract world)
+    {
+        return step >= 1;
+    }
     
-}
-
-void drawFinal(PopAbstract pop, WorldAbstract world)
-{
+    void drawStep(IndAbstract ind, WorldAbstract world)
+    {
+        
+    }
     
+    void drawFinal(PopAbstract pop, WorldAbstract world)
+    {
+        
+    }
+    
+    int roundsPerInd()
+    {
+        return 1;
+    }
 }
 
-alias GraphCompilation = GameCompilation!(
-      stopCond
-    , drawStep
-    , drawFinal
-    , 1);
 
 alias GraphCompiler = Compiler!(
       GraphCompilation

@@ -9,29 +9,51 @@ import devol.programtype;
 import devol.typemng;
 import devol.operatormng;
 
-import devol.std.opif;
-import devol.std.plus;
 import devol.std.typepod;
 import std.conv;
+
+import evol.operators.and;
+import evol.operators.not;
+import evol.operators.opif;
+import evol.operators.or;
+
+import std.algorithm;
+import std.range;
 
 class ProgramType : ProgTypeAbstract
 {
     this()
     {
+        registerTypes();
+    }
+
+    void registerTypes()
+    {
         auto tmng = TypeMng.getSingleton();
         auto omng = OperatorMng.getSingleton();
         
-        static bool inited = false;
-        
-        if(!inited)
+        auto types = tmng.strings;
+        if(types.find("Typebool").empty)
         {
             tmng.registerType!TypeBool();
-            tmng.registerType!TypeInt();
-            
-            omng.registerOperator!If();
-            omng.registerOperator!Plus();
-            
-            inited = true;
+        }
+        
+        auto ops = omng.strings;
+        if(ops.find("if").empty)
+        {
+            omng.registerOperator!IfOperator();
+        }
+        if(ops.find("&&").empty)
+        {
+            omng.registerOperator!AndOperator();
+        }
+        if(ops.find("||").empty)
+        {
+            omng.registerOperator!OrOperator();
+        }
+        if(ops.find("!").empty)
+        {
+            omng.registerOperator!NotOperator();
         }
     }
     
@@ -231,6 +253,17 @@ class ProgramType : ProgTypeAbstract
     @property void maxGenomeSize(size_t val)
     {
         mMaxGenomeSize = val;
+    }
+    
+    private size_t mPopulationSize = 10;
+    @property size_t populationSize()
+    {
+        return mPopulationSize;
+    }
+    
+    @property void populationSize(size_t val)
+    {
+        mPopulationSize = val;
     }
     
     Line[] initValues(WorldAbstract pWorld)

@@ -127,6 +127,7 @@ class SettingsWindow : GenericWindow
         mixin(genEntryGetter!"copyingPart");
         mixin(genEntryGetter!"deleteMutationRiseGenomeSize");
         mixin(genEntryGetter!"maxGenomeSize");
+        mixin(genEntryGetter!"populationSize");
         
         void showInvalidValueDialog(T)(string value)
         {
@@ -179,6 +180,7 @@ class SettingsWindow : GenericWindow
         mixin(genFocusSignal!"copyingPart");
         mixin(genFocusSignal!"deleteMutationRiseGenomeSize");
         mixin(genFocusSignal!"maxGenomeSize");
+        mixin(genFocusSignal!"populationSize");
         
         mixin(genInitialSetupText!"progMinSize");
         mixin(genInitialSetupText!"progMaxSize");
@@ -198,6 +200,7 @@ class SettingsWindow : GenericWindow
         mixin(genInitialSetupText!"copyingPart");
         mixin(genInitialSetupText!"deleteMutationRiseGenomeSize");
         mixin(genInitialSetupText!"maxGenomeSize");
+        mixin(genInitialSetupText!"populationSize");
     }
     
     void reloadSettings()
@@ -220,6 +223,7 @@ class SettingsWindow : GenericWindow
         mixin(genEntryGetter!"copyingPart");
         mixin(genEntryGetter!"deleteMutationRiseGenomeSize");
         mixin(genEntryGetter!"maxGenomeSize");
+        mixin(genEntryGetter!"populationSize");
         
         mixin(genInitialSetupText!"progMinSize");
         mixin(genInitialSetupText!"progMaxSize");
@@ -239,6 +243,7 @@ class SettingsWindow : GenericWindow
         mixin(genInitialSetupText!"copyingPart");
         mixin(genInitialSetupText!"deleteMutationRiseGenomeSize");
         mixin(genInitialSetupText!"maxGenomeSize");
+        mixin(genInitialSetupText!"populationSize");
     }
     
     void initOperatorsView()

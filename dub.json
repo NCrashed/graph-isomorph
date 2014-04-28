@@ -10,5 +10,6 @@
 	   "gtk-d" : "~master",
 	   "dlogg" : "~master",
 	   "dyaml" : "~master"
-	}
+	},
+    "versions": ["Verbose"]
 }

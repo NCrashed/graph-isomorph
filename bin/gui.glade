@@ -364,7 +364,7 @@
                 <property name="spacing">15</property>
                 <property name="layout_style">spread</property>
                 <child>
-                  <object class="GtkToolButton" id="toolbutton1">
+                  <object class="GtkToolButton" id="EvolutionStartButton">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <property name="label" translatable="yes">Начать эволюцию</property>
@@ -378,7 +378,7 @@
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkToolButton" id="toolbutton2">
+                  <object class="GtkToolButton" id="EvolutionPauseButton">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <property name="label" translatable="yes">toolbutton2</property>
@@ -392,7 +392,7 @@
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkToolButton" id="toolbutton3">
+                  <object class="GtkToolButton" id="EvolutionStopButton">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <property name="label" translatable="yes">toolbutton3</property>
@@ -429,7 +429,7 @@
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkProgressBar" id="progressbar1">
+                  <object class="GtkProgressBar" id="EvolutionProgressBar">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <property name="show_text">True</property>
@@ -1459,6 +1459,44 @@
                                 </child>
                                 <child>
                                   <object class="GtkEntry" id="MaxGenomeSizeEntry">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">True</property>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">False</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">1</property>
+                                  </packing>
+                                </child>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkListBoxRow" id="listboxrow20">
+                            <property name="width_request">100</property>
+                            <property name="height_request">80</property>
+                            <property name="visible">True</property>
+                            <property name="can_focus">True</property>
+                            <child>
+                              <object class="GtkBox" id="box32">
+                                <property name="visible">True</property>
+                                <property name="can_focus">False</property>
+                                <property name="orientation">vertical</property>
+                                <child>
+                                  <object class="GtkLabel" id="label25">
+                                    <property name="visible">True</property>
+                                    <property name="can_focus">False</property>
+                                    <property name="label" translatable="yes">Размер популяции</property>
+                                  </object>
+                                  <packing>
+                                    <property name="expand">False</property>
+                                    <property name="fill">True</property>
+                                    <property name="position">0</property>
+                                  </packing>
+                                </child>
+                                <child>
+                                  <object class="GtkEntry" id="PopulationSizeEntry">
                                     <property name="visible">True</property>
                                     <property name="can_focus">True</property>
                                   </object>

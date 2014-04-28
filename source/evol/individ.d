@@ -19,4 +19,18 @@ class GraphIndivid : Individ
         this();
         loadFrom(ind);
     }
+    
+    override @property GraphIndivid dup()
+    {
+        auto ind = new GraphIndivid();
+        foreach(line; mProgram)
+            ind.mProgram ~= line.dup;
+        foreach(line; mMemory)
+            ind.mMemory ~= line.dup;    
+        foreach(line; inVals)
+            ind.inVals ~= line.dup;     
+        foreach(line; outVals)
+            ind.outVals ~= line.dup;    
+        return ind;
+    } 
 }

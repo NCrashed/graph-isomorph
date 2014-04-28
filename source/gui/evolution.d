@@ -9,6 +9,8 @@ import gtk.Builder;
 import gtk.MenuItem;
 import gtk.ApplicationWindow;
 import gtk.Image;
+import gtk.ToolButton;
+import gtk.ProgressBar;
 
 import gui.util;
 import gui.generic;
@@ -24,6 +26,13 @@ import std.stdio;
 import std.process;
 import std.path;
 import std.conv;
+import std.concurrency;
+import std.datetime;
+import std.functional;
+
+import core.thread;
+
+import evol.compiler;
 
 class EvolutionWindow : GenericWindow
 {
@@ -57,6 +66,9 @@ class EvolutionWindow : GenericWindow
         showResultsWndItem.addOnActivate( (w) => resultsWindow.showAll() ); 
         
         initProjectSaveLoad("2");
+        
+        initEvolution();
+        initEvolutionControl();
     }
     
     void setInputImages(IDirectedGraph first, IDirectedGraph second)
@@ -94,5 +106,228 @@ class EvolutionWindow : GenericWindow
         
         setImage(first, "InputGraphImage1");
         setImage(second, "InputGraphImage2");
+    }
+    
+    void initEvolutionControl()
+    {
+        auto startBtn = cast(ToolButton)builder.getObject("EvolutionStartButton");
+        assert(startBtn !is null);
+        
+        startBtn.addOnClicked((b)
+        {
+            try 
+            {
+                startEvolution();
+            } catch(Throwable th)
+            {
+                logger.logError(th.toString);
+            }
+        });
+        
+        auto pauseBtn = cast(ToolButton)builder.getObject("EvolutionPauseButton");
+        assert(pauseBtn !is null);
+        
+        pauseBtn.addOnClicked((b)
+        {
+            try
+            {
+                pauseEvolution();
+            } catch(Throwable th)
+            {
+                logger.logError(th.toString);
+            }
+        });
+        
+        auto stopBtn = cast(ToolButton)builder.getObject("EvolutionStopButton");
+        assert(stopBtn !is null);
+        
+        stopBtn.addOnClicked((b)
+        {
+            try
+            {
+                stopEvolution();
+                
+                auto progressBar = cast(ProgressBar)builder.getObject("EvolutionProgressBar");
+                assert(progressBar !is null);
+                progressBar.setFraction(0);
+                
+            } catch(Throwable th)
+            {
+                logger.logError(th.toString);
+            }
+        });
+    }
+    
+    void initEvolution()
+    {
+        compiler = new GraphCompiler(new GraphCompilation(), project.programType);
+        evolState = EvolutionState.Stoped; 
+    }
+    
+    void startEvolution()
+    {
+        final switch(evolState)
+        {
+            case(EvolutionState.Running):
+            {
+                return;
+            }
+            case(EvolutionState.Paused):
+            {
+                evolutionTid.send(thisTid, EvolutionCommand.Resume);
+                return;
+            }
+            case(EvolutionState.Stoped):
+            {
+                compiler.clean();
+                compiler.addPop(project.programType.populationSize);
+                evolutionTid = spawn(&evolutionThread, cast(shared)this);
+                evolutionTid.send(thisTid);
+                return;
+            }
+        }
+    }
+    
+    void stopEvolution()
+    {
+        final switch(evolState)
+        {
+            case(EvolutionState.Running):
+            {
+                evolutionTid.send(thisTid, EvolutionCommand.Stop);
+                return;
+            }
+            case(EvolutionState.Paused):
+            {
+                evolutionTid.send(thisTid, EvolutionCommand.Stop);
+                return;
+            }
+            case(EvolutionState.Stoped):
+            {
+                return;
+            }
+        }
+    }
+    
+    void pauseEvolution()
+    {
+        final switch(evolState)
+        {
+            case(EvolutionState.Running):
+            {
+                evolutionTid.send(thisTid, EvolutionCommand.Pause);
+                return;
+            }
+            case(EvolutionState.Paused):
+            {
+                evolutionTid.send(thisTid, EvolutionCommand.Pause);
+                return;
+            }
+            case(EvolutionState.Stoped):
+            {
+                return;
+            }
+        }
+    }
+    
+    private
+    {
+        enum EvolutionState
+        {
+            Stoped,
+            Running,
+            Paused
+        }
+        
+        enum EvolutionCommand
+        {
+            Pause,
+            Resume,
+            Stop
+        }
+        
+        __gshared EvolutionState evolState;
+        __gshared GraphCompiler compiler;
+        Tid evolutionTid;
+        
+        static void evolutionThread(shared EvolutionWindow wndShared)
+        {
+            EvolutionWindow wnd = cast()wndShared;
+            try
+            {
+                auto progressBar = cast(ProgressBar)wnd.builder.getObject("EvolutionProgressBar");
+                assert(progressBar !is null);
+            
+                evolState = EvolutionState.Running;
+                scope(exit) evolState = EvolutionState.Stoped;
+                
+                wnd.project.programType.registerTypes();
+                
+                bool exit = false;
+                bool paused = false;
+                Tid parent = receiveOnly!Tid();
+                
+                void listener()
+                {
+                    receiveTimeout(dur!"msecs"(1),
+                        (Tid sender, EvolutionCommand command)
+                        {
+                            final switch(command)
+                            {
+                                case(EvolutionCommand.Resume):
+                                {
+                                    evolState = EvolutionState.Running;
+                                    paused = false;
+                                    break;
+                                }
+                                case(EvolutionCommand.Pause):
+                                {
+                                    evolState = EvolutionState.Paused;
+                                    paused = true;
+                                    break;
+                                }
+                                case(EvolutionCommand.Stop):
+                                {
+                                    exit = true;
+                                    evolState = EvolutionState.Paused;
+                                    break;
+                                }
+                            }
+                        });
+                }
+                
+                void updater(double percent)
+                {
+                    listener();
+                    assert(progressBar !is null);
+                    progressBar.setFraction(percent);
+                }
+                
+                bool whenExit()
+                {
+                    return exit;
+                }
+                
+                bool pauser()
+                {
+                    return paused;
+                }
+                    
+                while(!exit)
+                {
+                    compiler.envolveGeneration(toDelegate(&whenExit), "saves"
+                        , toDelegate(&updater), toDelegate(&pauser));
+                }
+            } catch(OwnerTerminated e)
+            {
+                
+            } catch(Exception e)
+            {
+                wnd.logger.logError(e.toString);
+            } catch(Throwable th)
+            {
+                wnd.logger.logError(th.toString);
+            }
+        }
     }
 }
