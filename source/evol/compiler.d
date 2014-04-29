@@ -16,6 +16,11 @@ alias Population!( getDefChars, GraphIndivid ) GraphPopulation;
 
 class GraphCompilation : GameCompilation
 {
+	this(void delegate(size_t, double, double) updateGenerationInfo)
+	{
+		this.updateGenerationInfo = updateGenerationInfo;
+	}
+	
     bool stopCond(ref int step, IndAbstract ind, WorldAbstract world)
     {
         return step >= 1;
@@ -28,13 +33,26 @@ class GraphCompilation : GameCompilation
     
     void drawFinal(PopAbstract pop, WorldAbstract world)
     {
-        
+    	double maxFit = 0.0;
+    	double avarFit = 0.0;
+        foreach(ind; pop)
+        {
+        	if(ind.fitness > maxFit) maxFit = ind.fitness;
+        	
+        	avarFit += ind.fitness;
+        }
+        if(pop.length > 0)
+        	avarFit /= pop.length;
+        	
+    	updateGenerationInfo(cast(size_t)pop.generation, maxFit, avarFit);
     }
     
     int roundsPerInd()
     {
-        return 1;
+        return 10;
     }
+    
+    private void delegate(size_t, double, double) updateGenerationInfo;
 }
 
 

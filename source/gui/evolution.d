@@ -12,6 +12,7 @@ import gtk.Image;
 import gtk.ToolButton;
 import gtk.ProgressBar;
 import gdk.Threads;
+import gtk.Entry;
 
 import gui.util;
 import gui.generic;
@@ -110,6 +111,30 @@ class EvolutionWindow : GenericWindow
         setImage(second, "InputGraphImage2");
     }
     
+    void setGenerationNumber(size_t i)
+    {
+    	auto entry = cast(Entry)builder.getObject("GenerationNumberEntry");
+    	assert(entry !is null);
+    	
+    	entry.setText(to!string(i+1));
+    }
+    
+    void setMaxFitness(double fitness)
+    {
+    	auto entry = cast(Entry)builder.getObject("MaxFitnessEntry");
+    	assert(entry !is null);
+    	
+    	entry.setText(to!string(fitness));
+    }
+    
+    void setAvarageFitness(double fitness)
+    {
+    	auto entry = cast(Entry)builder.getObject("AvarageFitnessEntry");
+    	assert(entry !is null);
+    	
+    	entry.setText(to!string(fitness));
+    }
+    
     void initEvolutionControl()
     {
         auto startBtn = cast(ToolButton)builder.getObject("EvolutionStartButton");
@@ -162,7 +187,17 @@ class EvolutionWindow : GenericWindow
     
     void initEvolution()
     {
-        compiler = new GraphCompiler(new GraphCompilation(), project.programType, new GraphWorld(
+        compiler = new GraphCompiler(
+        	new GraphCompilation((generation, maxFit, avarFit)
+        		{
+        			threadsEnter();
+        			setGenerationNumber(generation);
+        			setMaxFitness(maxFit);
+        			setAvarageFitness(avarFit);
+        			threadsLeave();
+    			})
+        	, project.programType
+        	, new GraphWorld(
                 project.programType
                 ,(gr1, gr2)
                 {
