@@ -9,6 +9,7 @@ import gtk.Builder;
 import gtk.ApplicationWindow;
 import gtk.ImageMenuItem;
 import gtk.FileChooserDialog;
+import gtk.Main;
 import dlogg.log;
 
 import project;
@@ -209,6 +210,21 @@ abstract class GenericWindow
             {
                 project.save(project.filename);
                 app.updateAll();
+            }
+            catch(Throwable e)
+            {
+                logger.logError(e.toString);
+            }
+        });
+        
+        logger.logInfo("Exit application button setup");
+        auto exitItem = cast(ImageMenuItem)builder.getObject("ExitMenuItem"~distinct);
+        assert(exitItem !is null);
+        exitItem.addOnActivate((i)
+        {
+            try
+            {
+                Main.quit();
             }
             catch(Throwable e)
             {
