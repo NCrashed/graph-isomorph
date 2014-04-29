@@ -128,6 +128,13 @@ class SettingsWindow : GenericWindow
         mixin(genEntryGetter!"deleteMutationRiseGenomeSize");
         mixin(genEntryGetter!"maxGenomeSize");
         mixin(genEntryGetter!"populationSize");
+        mixin(genEntryGetter!"graphPermuteChance");
+        mixin(genEntryGetter!"graphNodesCountMin");
+        mixin(genEntryGetter!"graphNodesCountMax");
+        mixin(genEntryGetter!"graphLinksCountMin");
+        mixin(genEntryGetter!"graphLinksCountMax");
+        mixin(genEntryGetter!"graphPermutesCountMin");
+        mixin(genEntryGetter!"graphPermutesCountMax");
         
         void showInvalidValueDialog(T)(string value)
         {
@@ -181,6 +188,13 @@ class SettingsWindow : GenericWindow
         mixin(genFocusSignal!"deleteMutationRiseGenomeSize");
         mixin(genFocusSignal!"maxGenomeSize");
         mixin(genFocusSignal!"populationSize");
+        mixin(genFocusSignal!"graphPermuteChance");
+        mixin(genFocusSignal!"graphNodesCountMin");
+        mixin(genFocusSignal!"graphNodesCountMax");
+        mixin(genFocusSignal!"graphLinksCountMin");
+        mixin(genFocusSignal!"graphLinksCountMax");
+        mixin(genFocusSignal!"graphPermutesCountMin");
+        mixin(genFocusSignal!"graphPermutesCountMax");
         
         mixin(genInitialSetupText!"progMinSize");
         mixin(genInitialSetupText!"progMaxSize");
@@ -201,6 +215,13 @@ class SettingsWindow : GenericWindow
         mixin(genInitialSetupText!"deleteMutationRiseGenomeSize");
         mixin(genInitialSetupText!"maxGenomeSize");
         mixin(genInitialSetupText!"populationSize");
+        mixin(genInitialSetupText!"graphPermuteChance");
+        mixin(genInitialSetupText!"graphNodesCountMin");
+        mixin(genInitialSetupText!"graphNodesCountMax");
+        mixin(genInitialSetupText!"graphLinksCountMin");
+        mixin(genInitialSetupText!"graphLinksCountMax");
+        mixin(genInitialSetupText!"graphPermutesCountMin");
+        mixin(genInitialSetupText!"graphPermutesCountMax");
     }
     
     void reloadSettings()
@@ -224,6 +245,13 @@ class SettingsWindow : GenericWindow
         mixin(genEntryGetter!"deleteMutationRiseGenomeSize");
         mixin(genEntryGetter!"maxGenomeSize");
         mixin(genEntryGetter!"populationSize");
+        mixin(genEntryGetter!"graphPermuteChance");
+        mixin(genEntryGetter!"graphNodesCountMin");
+        mixin(genEntryGetter!"graphNodesCountMax");
+        mixin(genEntryGetter!"graphLinksCountMin");
+        mixin(genEntryGetter!"graphLinksCountMax");
+        mixin(genEntryGetter!"graphPermutesCountMin");
+        mixin(genEntryGetter!"graphPermutesCountMax");
         
         mixin(genInitialSetupText!"progMinSize");
         mixin(genInitialSetupText!"progMaxSize");
@@ -244,6 +272,13 @@ class SettingsWindow : GenericWindow
         mixin(genInitialSetupText!"deleteMutationRiseGenomeSize");
         mixin(genInitialSetupText!"maxGenomeSize");
         mixin(genInitialSetupText!"populationSize");
+        mixin(genInitialSetupText!"graphPermuteChance");
+        mixin(genInitialSetupText!"graphNodesCountMin");
+        mixin(genInitialSetupText!"graphNodesCountMax");
+        mixin(genInitialSetupText!"graphLinksCountMin");
+        mixin(genInitialSetupText!"graphLinksCountMax");
+        mixin(genInitialSetupText!"graphPermutesCountMin");
+        mixin(genInitialSetupText!"graphPermutesCountMax");
     }
     
     void initOperatorsView()

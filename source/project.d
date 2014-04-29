@@ -65,6 +65,14 @@ class Project
             setValue!"copyingPart";
             setValue!"deleteMutationRiseGenomeSize";
             setValue!"maxGenomeSize";
+            setValue!"populationSize";
+            setValue!"graphPermuteChance";
+            setValue!"graphNodesCountMin";
+            setValue!"graphNodesCountMax";
+            setValue!"graphLinksCountMin";
+            setValue!"graphLinksCountMax";
+            setValue!"graphPermutesCountMin";
+            setValue!"graphPermutesCountMax";
         }
     }
     
@@ -107,7 +115,15 @@ class Project
         setValue!"copyingPart";
         setValue!"deleteMutationRiseGenomeSize";
         setValue!"maxGenomeSize";
-        
+        setValue!"populationSize";
+        setValue!"graphPermuteChance";
+        setValue!"graphNodesCountMin";
+        setValue!"graphNodesCountMax";
+        setValue!"graphLinksCountMin";
+        setValue!"graphLinksCountMax";
+        setValue!"graphPermutesCountMin";
+        setValue!"graphPermutesCountMax";
+            
         return Node([
             projectName  : Node(name),
             evolSettings : Node(emap)

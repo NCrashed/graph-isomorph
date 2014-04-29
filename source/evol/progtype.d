@@ -266,6 +266,119 @@ class ProgramType : ProgTypeAbstract
         mPopulationSize = val;
     }
     
+    private double mGraphPermuteChance = 0.5;
+    @property double graphPermuteChance()
+    {
+        return mGraphPermuteChance;
+    }
+    
+    @property void graphPermuteChance(double val)
+    in
+    {
+        assert(0.0 <= val && val <= 1.1, "Not a chance!"); 
+    }
+    body
+    {
+        mGraphPermuteChance = val;
+    }
+    
+    private size_t mGraphNodesCountMin = 3;
+    @property size_t graphNodesCountMin()
+    {
+        return mGraphNodesCountMin;
+    }
+    
+    @property void graphNodesCountMin(size_t val)
+    in
+    {
+        assert(val <= mGraphNodesCountMax, "Must be <= graphNodesCountMax");
+    }
+    body
+    {
+        mGraphNodesCountMin = val;
+    }
+    
+    private size_t mGraphNodesCountMax = 10;
+    @property size_t graphNodesCountMax()
+    {
+        return mGraphNodesCountMax;
+    }
+    
+    @property void graphNodesCountMax(size_t val)
+    in
+    {
+        assert(val >= mGraphNodesCountMin, "Must be >= graphNodesCountMin");
+    }
+    body
+    {
+        mGraphNodesCountMax = val;
+    }
+    
+    private size_t mGraphLinksCountMin = 3;
+    @property size_t graphLinksCountMin()
+    {
+        return mGraphLinksCountMin;
+    }
+    
+    @property void graphLinksCountMin(size_t val)
+    in
+    {
+        assert(val <= mGraphLinksCountMax, "Must be <= graphLinksCountMax");
+    }
+    body
+    {
+        mGraphNodesCountMin = val;
+    }
+    
+    private size_t mGraphLinksCountMax = 6;
+    @property size_t graphLinksCountMax()
+    {
+        return mGraphLinksCountMax;
+    }
+    
+    @property void graphLinksCountMax(size_t val)
+    in
+    {
+        assert(val >= mGraphLinksCountMin, "Must be >= graphLinksCountMin");
+    }
+    body
+    {
+        mGraphLinksCountMax = val;
+    }
+    
+    
+    private size_t mGraphPermutesCountMin = 2;
+    @property size_t graphPermutesCountMin()
+    {
+        return mGraphPermutesCountMin;
+    }
+    
+    @property void graphPermutesCountMin(size_t val)
+    in
+    {
+        assert(val <= mGraphPermutesCountMax, "Must be <= graphPermutesCountMax");
+    }
+    body
+    {
+        mGraphPermutesCountMin = val;
+    }
+    
+    private size_t mGraphPermutesCountMax = 4;
+    @property size_t graphPermutesCountMax()
+    {
+        return mGraphPermutesCountMax;
+    }
+    
+    @property void graphPermutesCountMax(size_t val)
+    in
+    {
+        assert(val >= mGraphPermutesCountMin, "Must be >= graphPermutesCountMin");
+    }
+    body
+    {
+        mGraphPermutesCountMax = val;
+    }
+    
     Line[] initValues(WorldAbstract pWorld)
     {
         return new Line[0];

@@ -11,6 +11,7 @@ import gtk.ApplicationWindow;
 import gtk.Image;
 import gtk.ToolButton;
 import gtk.ProgressBar;
+import gdk.Threads;
 
 import gui.util;
 import gui.generic;
@@ -33,6 +34,7 @@ import std.functional;
 import core.thread;
 
 import evol.compiler;
+import evol.world;
 
 class EvolutionWindow : GenericWindow
 {
@@ -89,8 +91,8 @@ class EvolutionWindow : GenericWindow
                 string dotFilename = buildPath(tempImageDir, wname~".dot");
                 string imageFilename = buildPath(tempImageDir, wname~".png");
                 
-                auto file = File(dotFilename, "w");
-                file.writeln(graph.genDot);
+                auto file = File(dotFilename, "w"); 
+                file.writeln(graph.genDot());
                 file.close();
                 
                 shell(text("dot -Tpng ", dotFilename, " > ", imageFilename));
@@ -160,7 +162,14 @@ class EvolutionWindow : GenericWindow
     
     void initEvolution()
     {
-        compiler = new GraphCompiler(new GraphCompilation(), project.programType);
+        compiler = new GraphCompiler(new GraphCompilation(), project.programType, new GraphWorld(
+                project.programType
+                ,(gr1, gr2)
+                {
+                    threadsEnter();
+                    setInputImages(gr1, gr2);
+                    threadsLeave();
+                }));
         evolState = EvolutionState.Stoped; 
     }
     
@@ -252,6 +261,8 @@ class EvolutionWindow : GenericWindow
         
         static void evolutionThread(shared EvolutionWindow wndShared)
         {
+            Thread.getThis().isDaemon(true);
+            
             EvolutionWindow wnd = cast()wndShared;
             try
             {
@@ -300,23 +311,29 @@ class EvolutionWindow : GenericWindow
                 {
                     listener();
                     assert(progressBar !is null);
+                    
+                    threadsEnter();
                     progressBar.setFraction(percent);
+                    threadsLeave();
                 }
+                auto updaterDelegate = toDelegate(&updater);
                 
                 bool whenExit()
                 {
                     return exit;
                 }
+                auto whenExitDelegate = toDelegate(&whenExit);
                 
                 bool pauser()
                 {
                     return paused;
                 }
+                auto pauserDelegate = toDelegate(&pauser);
                     
                 while(!exit)
                 {
-                    compiler.envolveGeneration(toDelegate(&whenExit), "saves"
-                        , toDelegate(&updater), toDelegate(&pauser));
+                    compiler.envolveGeneration(whenExitDelegate, "saves"
+                        , updaterDelegate, pauserDelegate);
                 }
             } catch(OwnerTerminated e)
             {

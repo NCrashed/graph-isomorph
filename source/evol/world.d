@@ -11,16 +11,38 @@ import std.algorithm;
 import std.array;
 import std.random;
 import std.range;
+import std.file;
+import std.stdio;
+import std.path;
+import std.process;
 
 import graph.directed;
 import graph.connectivity;
 
+import evol.progtype;
+
 class GraphWorld : WorldAbstract
 {
+    ProgramType programType;
+    
+    this()
+    {
+        assert(false);
+    }
+    
+    this(ProgramType programType, 
+         void delegate(IDirectedGraph, IDirectedGraph) updateDrawDel)
+    {
+        this.programType = programType;
+        this.updateDrawDel = updateDrawDel;
+    }
+    
     void initialize()
     {   
         genUniqName(true);
         initInput();
+        
+        updateDrawDel(mInputGraphFirst, mInputGraphSecond);
     }
     
     IDirectedGraph firstGraph()
@@ -35,26 +57,27 @@ class GraphWorld : WorldAbstract
     
     private
     {
+        void delegate(IDirectedGraph, IDirectedGraph) updateDrawDel;
         IDirectedGraph mInputGraphFirst;
         IDirectedGraph mInputGraphSecond;
-        enum permuteChance = 0.5;
-        enum defaultNodesCount = 5;
-        enum defaultLinksCount = 3;
-        enum defaultPermutesMin = 2;
-        enum defaultPermutesMax = 4;
         
         void initInput()
         {
-            mInputGraphFirst = generateGraph(defaultNodesCount, defaultLinksCount);
-            if(getChance(permuteChance))
+            mInputGraphFirst = generateGraph(
+                  uniform!"[]"(programType.graphNodesCountMin, programType.graphNodesCountMax)
+                , uniform!"[]"(programType.graphLinksCountMin, programType.graphLinksCountMax));
+            if(getChance(programType.graphPermuteChance))
             {
                 mInputGraphSecond 
                     = permuteGraph(mInputGraphFirst
-                        , uniform!"[]"(defaultPermutesMin, defaultPermutesMax));
+                        , uniform!"[]"(programType.graphPermutesCountMin
+                                     , programType.graphPermutesCountMax));
             } else
             {
                 mInputGraphSecond 
-                    = generateGraph(defaultNodesCount, defaultLinksCount);
+                    = generateGraph(
+                  uniform!"[]"(programType.graphNodesCountMin, programType.graphNodesCountMax)
+                , uniform!"[]"(programType.graphLinksCountMin, programType.graphLinksCountMax));
             }
         }
         
@@ -120,50 +143,34 @@ class GraphWorld : WorldAbstract
         
         static IDirectedGraph permuteGraph(IDirectedGraph graph, size_t permuteCount)
         {
-            auto edges = graph.edges.array;
+            auto nodes = graph.nodes.array;
+            IDirectedGraph.Edge[] edges;
             
             foreach(i; 0..permuteCount)
             {
-                size_t a = uniform(0, edges.length);
-                size_t b = uniform(0, edges.length);
+                auto builder = appender!(IDirectedGraph.Edge[]);
+                auto a = nodes[uniform(0, nodes.length)];
+                auto b = nodes[uniform(0, nodes.length)];
                 
-                if(a != b)
+                foreach(edge; graph.edges)
                 {
-                    auto edgeAOld = edges[a];
-                    auto edgeBOld = edges[b];
-                    
-                    if(getChance(0.5))
+                    if(a != b)
                     {
-                        auto edgeANew = IDirectedGraph.Edge(
-                            edgeBOld.source,
-                            edgeAOld.dist,
-                            edgeAOld.weight);
-                        auto edgeBNew = IDirectedGraph.Edge(
-                            edgeAOld.source,
-                            edgeBOld.dist,
-                            edgeBOld.weight);
+                        if(edge.source == a) edge.source = b;
+                        else if(edge.source == b) edge.source = a;
                         
-                        edges[a] = edgeANew;
-                        edges[b] = edgeBNew;
-                    } else
-                    {
-                        auto edgeANew = IDirectedGraph.Edge(
-                            edgeAOld.source,
-                            edgeBOld.dist,
-                            edgeAOld.weight);
-                        auto edgeBNew = IDirectedGraph.Edge(
-                            edgeBOld.source,
-                            edgeAOld.dist,
-                            edgeBOld.weight);
-                        
-                        edges[a] = edgeANew;
-                        edges[b] = edgeBNew;
+                        if(edge.dist == a) edge.dist = b;
+                        else if(edge.dist == b) edge.dist = a;
                     }
+                    
+                    builder.put(edge);
                 }
+                
+                edges = builder.data;
             }
             
             auto newGraph = new ConnListGraph;
-            newGraph.load(edges[].inputRangeObject);
+            newGraph.load(edges.inputRangeObject);
             return newGraph;
         }
     }

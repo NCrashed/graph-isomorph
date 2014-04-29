@@ -23,14 +23,23 @@ class GraphIndivid : Individ
     override @property GraphIndivid dup()
     {
         auto ind = new GraphIndivid();
+        
+        ind.mProgram = [];
         foreach(line; mProgram)
             ind.mProgram ~= line.dup;
+            
+        ind.mMemory = [];
         foreach(line; mMemory)
-            ind.mMemory ~= line.dup;    
+            ind.mMemory ~= line.dup;
+            
+        ind.inVals = [];    
         foreach(line; inVals)
-            ind.inVals ~= line.dup;     
+            ind.inVals ~= line.dup;
+            
+        ind.outVals = [];     
         foreach(line; outVals)
             ind.outVals ~= line.dup;    
+            
         return ind;
     } 
 }

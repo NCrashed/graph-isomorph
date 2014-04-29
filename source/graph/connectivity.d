@@ -66,7 +66,7 @@ class ConnListGraph : IDirectedGraph
     {
         bool[Weight] weights;
         
-        foreach(source, list; lists) ///!!!!!!!!!!!!!!!!!!!!
+        foreach(source, list; lists)
         {
             foreach(dist, weight; list)
             {
@@ -182,7 +182,6 @@ class ConnListGraph : IDirectedGraph
         size_t i = 0;
         foreach(node, list; lists)
         {
-            std.stdio.writeln(nodeMap);
             builder.put(genForList(i, node, list, nodeMap));
         }
         
