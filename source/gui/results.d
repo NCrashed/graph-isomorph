@@ -23,6 +23,12 @@ import project;
 import application;
 
 import std.conv;
+import std.file;
+import std.path;
+import std.stdio;
+import std.process;
+
+import devol.individ;
 
 class ResultsWindow : GenericWindow
 {  
@@ -57,6 +63,34 @@ class ResultsWindow : GenericWindow
         
         initProjectSaveLoad("3");
         initPopulationView();
+    }
+    
+    private void setImage(IndAbstract graph, string wname)
+    {
+        try
+        {
+            enum tempImageDir = "./images";
+            if(!tempImageDir.exists)
+            {
+                mkdirRecurse(tempImageDir);
+            }
+            
+            string dotFilename = buildPath(tempImageDir, wname~".dot");
+            string imageFilename = buildPath(tempImageDir, wname~".png");
+            
+            auto file = File(dotFilename, "w"); 
+            file.writeln(graph.genDot());
+            file.close();
+            
+            shell(text("dot -Tpng ", dotFilename, " > ", imageFilename));
+            
+            programImage.setFromFile(imageFilename);
+        }
+        catch(Exception e)
+        {
+            logger.logError("Failed to load image from graph for "~wname);
+            logger.logError(e.msg);
+        }
     }
     
     private TreeView individsView;
@@ -115,7 +149,7 @@ class ResultsWindow : GenericWindow
                 assert(individ !is null);
                 
                 programView.getBuffer().setText(individ.programString);
-                // generate graph here
+                setImage(individ, individ.name);
             }
         });
     }
