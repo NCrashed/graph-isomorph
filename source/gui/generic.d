@@ -32,6 +32,11 @@ abstract class GenericWindow
         updateTittle();
     }
     
+    Application application()
+    {
+    	return app;
+    }
+    
     void updateTittle()
     {
         window.setTitle(defaultWindowTittle ~ " " ~ project.filename);

@@ -194,6 +194,7 @@ class EvolutionWindow : GenericWindow
         			setGenerationNumber(generation);
         			setMaxFitness(maxFit);
         			setAvarageFitness(avarFit);
+        			application.resultsWindow.updatePopulation();
         			threadsLeave();
     			})
         	, project.programType
@@ -224,7 +225,8 @@ class EvolutionWindow : GenericWindow
             case(EvolutionState.Stoped):
             {
                 compiler.clean();
-                compiler.addPop(project.programType.populationSize);
+                project.population = compiler.addPop(
+                	project.programType.populationSize);
                 evolutionTid = spawn(&evolutionThread, cast(shared)this);
                 evolutionTid.send(thisTid);
                 return;

@@ -8,6 +8,11 @@ module gui.results;
 import gtk.Builder;
 import gtk.MenuItem;
 import gtk.ApplicationWindow;
+import gtk.TreeView;
+import gtk.TreeIter;
+import gtk.TextView;
+import gtk.Image;
+import gtk.ListStore;
 
 import gui.util;
 import gui.generic;
@@ -16,6 +21,8 @@ import dlogg.log;
 
 import project;
 import application;
+
+import std.conv;
 
 class ResultsWindow : GenericWindow
 {  
@@ -49,5 +56,67 @@ class ResultsWindow : GenericWindow
         showEvolutionWndItem.addOnActivate( (w) => evoluitionWindow.showAll() );
         
         initProjectSaveLoad("3");
+        initPopulationView();
+    }
+    
+    private TreeView individsView;
+    private ListStore individsViewModel;
+    private TextView programView;
+    private Image programImage;
+    
+    void updatePopulation()
+    {
+    	individsViewModel.clear();
+    	programView.getBuffer().setText("");
+    	programImage.clear();
+    	
+    	foreach(i, ind; project.population)
+    	{
+    		auto iter = new TreeIter();
+    		individsViewModel.insert(iter, -1);
+    		
+    		individsViewModel.setValue(iter, 0, ind.name);
+    		individsViewModel.setValue(iter, 1, to!string(ind.fitness));
+    		individsViewModel.setValue(iter, 2, i);
+    	}
+    }
+    
+    void initPopulationView()
+    {
+    	individsView = cast(TreeView)builder.getObject("IndividsTreeView");
+    	assert(individsView !is null);
+    	
+    	individsViewModel = new ListStore([GType.STRING, GType.STRING, GType.INT]);
+        individsView.setModel(individsViewModel);
+        
+        programView = cast(TextView)builder.getObject("ProgramTextView");
+        assert(programView !is null);
+        
+        programImage = cast(Image)builder.getObject("ProgramImage");
+        assert(programImage !is null);
+        
+        individsView.addOnCursorChanged((v)
+        {
+            auto model = individsView.getModel();
+            assert(model !is null);
+            
+            auto iter = individsView.getSelectedIter();
+            if(iter is null)
+            {
+                programImage.clear();
+                programView.getBuffer().setText("");
+            }
+            else
+            {
+                auto individId = model.getValueInt(iter, 2);
+                if(individId < 0 || individId >= project.population.length) return;
+                
+                auto individ = project.population[cast(size_t)individId];
+                assert(individ !is null);
+                
+                programView.getBuffer().setText(individ.programString);
+                // generate graph here
+            }
+        });
     }
 }

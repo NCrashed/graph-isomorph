@@ -6,12 +6,15 @@
 module project;
 
 import evol.progtype;
+import evol.compiler;
+
 import yaml;
 import std.path;
 
 class Project
 {
     ProgramType programType;
+    GraphPopulation population;
     string name;
     string filename;
     

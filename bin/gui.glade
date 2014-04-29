@@ -1804,8 +1804,6 @@
   </object>
   <object class="GtkListStore" id="liststore1">
     <columns>
-      <!-- column-name Individ -->
-      <column type="gpointer"/>
       <!-- column-name Name -->
       <column type="gchar"/>
       <!-- column-name Fitness -->
@@ -1973,7 +1971,7 @@
                         <child>
                           <object class="GtkCellRendererText" id="cellrenderertext2"/>
                           <attributes>
-                            <attribute name="text">1</attribute>
+                            <attribute name="text">0</attribute>
                           </attributes>
                         </child>
                       </object>
@@ -1984,7 +1982,7 @@
                         <child>
                           <object class="GtkCellRendererText" id="cellrenderertext1"/>
                           <attributes>
-                            <attribute name="text">2</attribute>
+                            <attribute name="text">1</attribute>
                           </attributes>
                         </child>
                       </object>
@@ -2005,7 +2003,7 @@
                 <property name="shadow_type">in</property>
                 <property name="min_content_width">300</property>
                 <child>
-                  <object class="GtkTextView" id="textview2">
+                  <object class="GtkTextView" id="ProgramTextView">
                     <property name="visible">True</property>
                     <property name="can_focus">True</property>
                   </object>
@@ -2029,7 +2027,7 @@
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <child>
-                      <object class="GtkImage" id="image4">
+                      <object class="GtkImage" id="ProgramImage">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
                         <property name="stock">gtk-missing-image</property>
