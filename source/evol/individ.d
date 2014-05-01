@@ -6,8 +6,12 @@
 module evol.individ;
 
 import devol.individ;
+import devol.argument;
+import devol.std.argvoid;
 
 import dyaml.all;
+
+import std.container;
 
 class GraphIndivid : Individ
 {
@@ -20,6 +24,13 @@ class GraphIndivid : Individ
     {
         this();
         loadFrom(ind);
+    }
+    
+    override void initialize() 
+    {
+        super.initialize;
+        
+        mStack.clear;
     }
     
     override @property GraphIndivid dup()
@@ -61,4 +72,114 @@ class GraphIndivid : Individ
         
         return ant;
     } 
+    
+    void stackPush(Argument arg)
+    {
+        mStack.insertFront = arg;
+    }
+    
+    Argument stackPop()
+    {
+        if(mStack.empty)
+        {
+            return new ArgVoid;
+        } 
+        else
+        {
+            auto arg = mStack.front;
+            mStack.removeFront();
+            return arg;
+        }
+    }
+    
+    void stackSwap()
+    {
+        if(mStack.empty) return;
+        
+        auto a1 = mStack.front;
+        mStack.removeFront;
+        
+        if(mStack.empty)
+        {
+            mStack.insertFront = a1;
+        } else
+        {
+            auto a2 = mStack.front;
+            mStack.removeFront;
+            
+            mStack.insertFront = a1;
+            mStack.insertFront = a2;
+        }
+    }
+    
+    void stackDup()
+    {
+        if(mStack.empty) return;
+        
+        mStack.insertFront = mStack.front;
+    }
+    
+    void stackOver()
+    {
+        if(mStack.empty) return;
+        
+        auto a1 = mStack.front;
+        mStack.removeFront;
+        
+        if(mStack.empty)
+        {
+            mStack.insertFront = a1;
+        } else
+        {
+            auto a2 = mStack.front;
+            mStack.removeFront;
+            
+            mStack.insertFront = a2;
+            mStack.insertFront = a1;
+            mStack.insertFront = a2;
+        }
+    }
+    
+    void stackRot()
+    {
+        if(mStack.empty) return;
+        
+        auto a1 = mStack.front;
+        mStack.removeFront;
+        
+        if(mStack.empty)
+        {
+            mStack.insertFront = a1;
+        } else
+        {
+            auto a2 = mStack.front;
+            mStack.removeFront;
+            
+            if(mStack.empty)
+            {
+                mStack.insertFront = a2;
+                mStack.insertFront = a1;
+            } else
+            {
+                auto a3 = mStack.front;
+                mStack.removeFront;
+                
+                mStack.insertFront = a2;
+                mStack.insertFront = a1;
+                mStack.insertFront = a3;
+            }
+        }
+    }
+    
+    void stackDrop()
+    {
+        if(mStack.empty) return;
+        
+        mStack.removeFront;
+    }
+    
+    private
+    {
+        DList!Argument mStack;
+    }
 }
