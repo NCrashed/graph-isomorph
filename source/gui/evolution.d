@@ -206,7 +206,8 @@ class EvolutionWindow : GenericWindow
                     setInputImages(gr1, gr2);
                     threadsLeave();
                 }));
-        evolState = EvolutionState.Stoped; 
+        
+        evolState = EvolutionState.Stoped;
     }
     
     void startEvolution()
@@ -225,8 +226,14 @@ class EvolutionWindow : GenericWindow
             case(EvolutionState.Stoped):
             {
                 compiler.clean();
-                project.population = compiler.addPop(
-                	project.programType.populationSize);
+                if(project.popLoaded)
+                {
+                    project.population = compiler.addPop(
+                    	project.programType.populationSize);
+                } else
+                {
+                    project.popLoaded = false;
+                }
                 evolutionTid = spawn(&evolutionThread, cast(shared)this);
                 evolutionTid.send(thisTid);
                 return;
@@ -252,6 +259,29 @@ class EvolutionWindow : GenericWindow
             {
                 return;
             }
+        }
+    }
+    
+    override void updateContent()
+    {
+        super.updateContent();
+        
+        if(project.population !is null)
+        {
+            setGenerationNumber(cast(size_t)project.population.generation);
+            
+            double val = 0.0;
+            double maxFitness = 0.0;
+            foreach(ind; project.population)
+            {
+                if(ind.fitness > maxFitness)
+                    ind.fitness = maxFitness;
+                    
+                val += ind.fitness;
+            }
+            
+            setMaxFitness(maxFitness);
+            setAvarageFitness(val / cast(double) project.population.length);
         }
     }
     

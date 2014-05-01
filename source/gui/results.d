@@ -104,15 +104,24 @@ class ResultsWindow : GenericWindow
     	programView.getBuffer().setText("");
     	programImage.clear();
     	
-    	foreach(i, ind; project.population)
+    	if(project.population !is null)
     	{
-    		auto iter = new TreeIter();
-    		individsViewModel.insert(iter, -1);
-    		
-    		individsViewModel.setValue(iter, 0, ind.name);
-    		individsViewModel.setValue(iter, 1, to!string(ind.fitness));
-    		individsViewModel.setValue(iter, 2, i);
+        	foreach(i, ind; project.population)
+        	{
+        		auto iter = new TreeIter();
+        		individsViewModel.insert(iter, -1);
+        		
+        		individsViewModel.setValue(iter, 0, ind.name);
+        		individsViewModel.setValue(iter, 1, to!string(ind.fitness));
+        		individsViewModel.setValue(iter, 2, cast(int)i);
+        	}
     	}
+    }
+    
+    override void updateContent()
+    {
+        super.updateContent();
+        updatePopulation();
     }
     
     void initPopulationView()

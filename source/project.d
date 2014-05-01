@@ -10,6 +10,10 @@ import evol.compiler;
 
 import yaml;
 import std.path;
+import std.file;
+import std.stream;
+
+import dlogg.log;
 
 class Project
 {
@@ -17,13 +21,20 @@ class Project
     GraphPopulation population;
     string name;
     string filename;
+    string populationPath;
+    
+    bool popLoaded = true;
+    
+    private shared ILogger logger;
     
     enum defaultProjectPath = "./project.yaml";
     enum evolSettings = "evolutionSettings";
     enum projectName = "name";
+    enum popPathKeyName = "population";
     
-    this()
+    this(shared ILogger logger)
     {
+        this.logger = logger;
         programType = new ProgramType();
         filename = defaultProjectPath;
         name = defaultProjectPath.baseName;
@@ -77,18 +88,70 @@ class Project
             setValue!"graphPermutesCountMin";
             setValue!"graphPermutesCountMax";
         }
+        
+        if(root.containsKey(popPathKeyName))
+        {
+            populationPath = root[popPathKeyName].as!string;
+        }
     }
     
     void open(string filename)
     {
         this.filename = filename;
         open(Loader(filename).load);
+        
+        loadPopulation();
     }
     
     void save(string filename)
     {
         this.filename = filename;
+        savePopulation();
         Dumper(filename).dump(dump);
+    }
+    
+    private void savePopulation()
+    {
+        if(population is null) return;
+        
+        if(populationPath == "")
+        {
+            populationPath = population.name~".yaml";
+        }
+        
+        try
+        {
+            if(!populationPath.dirName.exists)
+            {
+                mkdirRecurse(populationPath.dirName);
+            }
+            
+            Dumper(populationPath).dump(population.saveYaml);
+        } catch(Exception e)
+        {
+            logger.logError(text("Failed to load population from '", populationPath, "'. Reason: ", e.msg));
+            debug logger.logError(e.toString);
+            
+            population = null;
+            popLoaded = true;
+        }
+    }
+    
+    private void loadPopulation()
+    {
+        try
+        {
+            auto node = Loader(populationPath).load();
+            population = GraphPopulation.loadYaml(node);
+            popLoaded = true;
+        } catch(Exception e)
+        {
+            logger.logError(text("Failed to load population from '", populationPath, "'. Reason: ", e.msg));
+            debug logger.logError(e.toString);
+            
+            population = null;
+            popLoaded = true;
+        }
     }
     
     Node dump()
@@ -128,8 +191,9 @@ class Project
         setValue!"graphPermutesCountMax";
             
         return Node([
-            projectName  : Node(name),
-            evolSettings : Node(emap)
+            projectName    : Node(name),
+            evolSettings   : Node(emap),
+            popPathKeyName : Node(populationPath)
             ]);
     }
     

@@ -32,7 +32,7 @@ class Application
         logger = new shared StrictLogger(logFile);
         
         logger.logInfo("Loading project file...");
-        project = new Project();
+        project = new Project(logger);
         if(projFile.exists)
         {
             project.open(projFile);
@@ -76,6 +76,8 @@ class Application
         settingsWindow = new SettingsWindow(this, builder, logger, project, settingsWnd, evolutionWnd, resultsWnd);
         evolutionWindow = new EvolutionWindow(this, builder, logger, project, settingsWnd, evolutionWnd, resultsWnd);
         resultsWindow = new ResultsWindow(this, builder, logger, project, settingsWnd, evolutionWnd, resultsWnd);
+        
+        updateAll();
     }
     
     void updateAll()

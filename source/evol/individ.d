@@ -7,6 +7,8 @@ module evol.individ;
 
 import devol.individ;
 
+import dyaml.all;
+
 class GraphIndivid : Individ
 {
     this()
@@ -41,5 +43,22 @@ class GraphIndivid : Individ
             ind.outVals ~= line.dup;    
             
         return ind;
+    } 
+    
+    static GraphIndivid loadYaml(Node node)
+    {
+        auto ind = Individ.loadYaml(node);
+        auto ant = new GraphIndivid();
+        
+        foreach(line; ind.program)
+            ant.mProgram ~= line.dup;
+        foreach(line; ind.memory)
+            ant.mMemory ~= line.dup;    
+        foreach(line; ind.invals)
+            ant.inVals ~= line.dup;     
+        foreach(line; ind.outvals)
+            ant.outVals ~= line.dup;    
+        
+        return ant;
     } 
 }
