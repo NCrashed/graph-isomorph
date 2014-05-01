@@ -13,6 +13,9 @@ import dyaml.all;
 
 import std.container;
 
+import evol.types.argedge;
+import devol.std.argpod;
+
 class GraphIndivid : Individ
 {
     this()
@@ -73,113 +76,135 @@ class GraphIndivid : Individ
         return ant;
     } 
     
-    void stackPush(Argument arg)
+    struct Stack(T)
     {
-        mStack.insertFront = arg;
-    }
-    
-    Argument stackPop()
-    {
-        if(mStack.empty)
+        void stackPush(T arg)
         {
-            return new ArgVoid;
-        } 
-        else
-        {
-            auto arg = mStack.front;
-            mStack.removeFront();
-            return arg;
+            mStack.insertFront = arg;
         }
-    }
-    
-    void stackSwap()
-    {
-        if(mStack.empty) return;
         
-        auto a1 = mStack.front;
-        mStack.removeFront;
+        T stackPop()
+        {
+            if(mStack.empty)
+            {
+                return new T;
+            } 
+            else
+            {
+                auto arg = mStack.front;
+                mStack.removeFront();
+                return arg;
+            }
+        }
         
-        if(mStack.empty)
+        void stackSwap()
         {
-            mStack.insertFront = a1;
-        } else
-        {
-            auto a2 = mStack.front;
-            mStack.removeFront;
+            if(mStack.empty) return;
             
-            mStack.insertFront = a1;
-            mStack.insertFront = a2;
-        }
-    }
-    
-    void stackDup()
-    {
-        if(mStack.empty) return;
-        
-        mStack.insertFront = mStack.front;
-    }
-    
-    void stackOver()
-    {
-        if(mStack.empty) return;
-        
-        auto a1 = mStack.front;
-        mStack.removeFront;
-        
-        if(mStack.empty)
-        {
-            mStack.insertFront = a1;
-        } else
-        {
-            auto a2 = mStack.front;
-            mStack.removeFront;
-            
-            mStack.insertFront = a2;
-            mStack.insertFront = a1;
-            mStack.insertFront = a2;
-        }
-    }
-    
-    void stackRot()
-    {
-        if(mStack.empty) return;
-        
-        auto a1 = mStack.front;
-        mStack.removeFront;
-        
-        if(mStack.empty)
-        {
-            mStack.insertFront = a1;
-        } else
-        {
-            auto a2 = mStack.front;
+            auto a1 = mStack.front;
             mStack.removeFront;
             
             if(mStack.empty)
             {
-                mStack.insertFront = a2;
                 mStack.insertFront = a1;
             } else
             {
-                auto a3 = mStack.front;
+                auto a2 = mStack.front;
+                mStack.removeFront;
+                
+                mStack.insertFront = a1;
+                mStack.insertFront = a2;
+            }
+        }
+        
+        void stackDup()
+        {
+            if(mStack.empty) return;
+            
+            mStack.insertFront = mStack.front;
+        }
+        
+        void stackOver()
+        {
+            if(mStack.empty) return;
+            
+            auto a1 = mStack.front;
+            mStack.removeFront;
+            
+            if(mStack.empty)
+            {
+                mStack.insertFront = a1;
+            } else
+            {
+                auto a2 = mStack.front;
                 mStack.removeFront;
                 
                 mStack.insertFront = a2;
                 mStack.insertFront = a1;
-                mStack.insertFront = a3;
+                mStack.insertFront = a2;
             }
         }
+        
+        void stackRot()
+        {
+            if(mStack.empty) return;
+            
+            auto a1 = mStack.front;
+            mStack.removeFront;
+            
+            if(mStack.empty)
+            {
+                mStack.insertFront = a1;
+            } else
+            {
+                auto a2 = mStack.front;
+                mStack.removeFront;
+                
+                if(mStack.empty)
+                {
+                    mStack.insertFront = a2;
+                    mStack.insertFront = a1;
+                } else
+                {
+                    auto a3 = mStack.front;
+                    mStack.removeFront;
+                    
+                    mStack.insertFront = a2;
+                    mStack.insertFront = a1;
+                    mStack.insertFront = a3;
+                }
+            }
+        }
+        
+        void stackDrop()
+        {
+            if(mStack.empty) return;
+            
+            mStack.removeFront;
+        }
+
+        DList!T mStack;
     }
     
-    void stackDrop()
+    ref Stack!(ArgPod!double) genericStack()
     {
-        if(mStack.empty) return;
-        
-        mStack.removeFront;
+        return mStack;
+    }
+    
+    ref Stack!ArgEdge firstGraphStack()
+    {
+        return mFirstGraph;
+    }
+    
+    ref Stack!ArgEdge secondGraphStack()
+    {
+        return mSecondGraph;
     }
     
     private
     {
-        DList!Argument mStack;
+        Stack!(ArgPod!double) mStack;
+        Stack!ArgEdge mFirstGraph;
+        Stack!ArgEdge mSecondGraph;
     }
 }
