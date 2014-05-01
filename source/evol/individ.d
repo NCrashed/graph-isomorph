@@ -14,6 +14,7 @@ import dyaml.all;
 import std.container;
 
 import evol.types.argedge;
+import evol.world;
 import devol.std.argpod;
 
 class GraphIndivid : Individ
@@ -29,11 +30,26 @@ class GraphIndivid : Individ
         loadFrom(ind);
     }
     
-    override void initialize() 
+    override void initialize(WorldAbstract aworld) 
     {
-        super.initialize;
+        super.initialize(aworld);
         
-        mStack.clear;
+        GraphWorld world = cast(GraphWorld)aworld;
+        assert(world);
+         
+        mStack.mStack.clear;
+        
+        mFirstGraph.mStack.clear;
+        foreach(edge; world.firstGraph.edges)
+        {
+            mFirstGraph.stackPush(new ArgEdge(edge));
+        }
+        
+        mSecondGraph.mStack.clear;
+        foreach(edge; world.secondGraph.edges)
+        {
+            mSecondGraph.stackPush(new ArgEdge(edge));
+        }
     }
     
     override @property GraphIndivid dup()
