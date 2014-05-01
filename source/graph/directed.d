@@ -26,6 +26,18 @@ interface IDirectedGraph
         string dist;
         /// Edge weight
         string weight;
+        
+        string toString()
+        {
+            if(weight == "")
+            {
+                return source ~ " -> " ~ dist;
+            } 
+            else
+            {
+                return source ~ "- " ~ weight ~ " -> " ~ dist;
+            }
+        }
     }
     alias string Node;
     alias string Weight;
