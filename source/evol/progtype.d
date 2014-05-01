@@ -16,6 +16,8 @@ import evol.operators.and;
 import evol.operators.not;
 import evol.operators.opif;
 import evol.operators.or;
+import evol.operators.plus;
+import evol.types.typeedge;
 
 import std.algorithm;
 import std.range;
@@ -37,6 +39,34 @@ class ProgramType : ProgTypeAbstract
         {
             tmng.registerType!TypeBool();
         }
+        if(types.find("Typeint").empty)
+        {
+            tmng.registerType!TypeInt();
+        }
+        if(types.find("Typedouble").empty)
+        {
+            tmng.registerType!TypeDouble();
+        }
+        if(types.find("TypeEdge").empty)
+        {
+            tmng.registerType!TypeEdge();
+        }
+        
+        auto tdouble = tmng.getType("Typedouble");
+        auto tint = tmng.getType("Typeint");
+        if(!tdouble.isConvertable(tint))
+        {
+            tint.registerConvertor((arg)
+                {
+                   auto iarg = cast(ArgPod!int)arg;
+                   assert(iarg);
+                   auto darg = new ArgPod!double;
+                   
+                   darg = cast(double)iarg.val;
+                   return darg;
+                }
+                , tdouble);
+        }
         
         auto ops = omng.strings;
         if(ops.find("if").empty)
@@ -54,6 +84,11 @@ class ProgramType : ProgTypeAbstract
         if(ops.find("!").empty)
         {
             omng.registerOperator!NotOperator();
+        }
+        
+        if(ops.find("+").empty)
+        {
+            omng.registerOperator!PlusOperator();
         }
     }
     
