@@ -17,6 +17,7 @@ import evol.operators.not;
 import evol.operators.opif;
 import evol.operators.or;
 import evol.operators.plus;
+import evol.operators.relation;
 import evol.types.typeedge;
 
 import std.algorithm;
@@ -69,27 +70,30 @@ class ProgramType : ProgTypeAbstract
         }
         
         auto ops = omng.strings;
-        if(ops.find("if").empty)
+        void registerOperator(T)(string name)
         {
-            omng.registerOperator!IfOperator();
-        }
-        if(ops.find("&&").empty)
-        {
-            omng.registerOperator!AndOperator();
-        }
-        if(ops.find("||").empty)
-        {
-            omng.registerOperator!OrOperator();
-        }
-        if(ops.find("!").empty)
-        {
-            omng.registerOperator!NotOperator();
+            assert(name != "");
+            if(ops.find(name).empty)
+            {
+                omng.registerOperator!T();
+            }
         }
         
-        if(ops.find("+").empty)
-        {
-            omng.registerOperator!PlusOperator();
-        }
+        registerOperator!IfOperator("if");
+        registerOperator!AndOperator("&&");
+        registerOperator!OrOperator("||");
+        registerOperator!NotOperator("!");
+        registerOperator!PlusOperator("+");
+        
+        registerOperator!IntEqualOperator("== (int)");
+        registerOperator!IntGreaterOperator("> (int)");
+        registerOperator!IntLesserOperator("< (int)");
+        registerOperator!IntGreaterEqualOperator(">= (int)");
+        registerOperator!IntLesserEqualOperator("<= (int)");
+        
+        registerOperator!DoubleEqualOperator("== (double)");
+        registerOperator!DoubleGreaterOperator("> (double)");
+        registerOperator!DoubleLesserOperator("< (double)");
     }
     
     private uint mProgMinSize = 4;

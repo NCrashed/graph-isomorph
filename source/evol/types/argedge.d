@@ -52,6 +52,11 @@ class ArgEdge : Argument, ISerializable
         return mEdge;
     }
     
+    @property IDirectedGraph.Edge val()
+    {
+        return mEdge;
+    }
+    
     override void randomChange()
     {
         string permuteStr(string str)
