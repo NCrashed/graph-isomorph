@@ -20,6 +20,11 @@ import evol.operators.plus;
 import evol.operators.relation;
 import evol.operators.gpop;
 import evol.operators.gpush;
+import evol.operators.gdup;
+import evol.operators.gover;
+import evol.operators.grot;
+import evol.operators.gswap;
+
 import evol.types.typeedge;
 
 import std.algorithm;
@@ -99,6 +104,10 @@ class ProgramType : ProgTypeAbstract
         
         registerOperator!GenericPopOperator("gpop");
         registerOperator!GenericPushOperator("gpush");
+        registerOperator!GenericDupOperator("gdup");
+        registerOperator!GenericOverOperator("gover");
+        registerOperator!GenericRotOperator("grot");
+        registerOperator!GenericSwapOperator("gswap");
     }
     
     private uint mProgMinSize = 4;
