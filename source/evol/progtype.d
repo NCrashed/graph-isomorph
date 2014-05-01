@@ -18,6 +18,8 @@ import evol.operators.opif;
 import evol.operators.or;
 import evol.operators.plus;
 import evol.operators.relation;
+import evol.operators.gpop;
+import evol.operators.gpush;
 import evol.types.typeedge;
 
 import std.algorithm;
@@ -94,6 +96,9 @@ class ProgramType : ProgTypeAbstract
         registerOperator!DoubleEqualOperator("== (double)");
         registerOperator!DoubleGreaterOperator("> (double)");
         registerOperator!DoubleLesserOperator("< (double)");
+        
+        registerOperator!GenericPopOperator("gpop");
+        registerOperator!GenericPushOperator("gpush");
     }
     
     private uint mProgMinSize = 4;
