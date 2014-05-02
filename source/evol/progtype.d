@@ -33,6 +33,8 @@ import evol.operators.iswap;
 import evol.operators.construct;
 import evol.operators.dist;
 import evol.operators.source;
+import evol.operators.idcast;
+import evol.operators.round;
 
 import evol.types.typeedge;
 
@@ -119,6 +121,9 @@ class ProgramType : ProgTypeAbstract
         registerOperator!ConstructOperator("construct");
         registerOperator!GetSourceOperator("getSource");
         registerOperator!GetDistOperator("getDist");
+        
+        registerOperator!IntDoubleCastOperator("cast");
+        registerOperator!RoundOperator("round");
     }
     
     private uint mProgMinSize = 4;
