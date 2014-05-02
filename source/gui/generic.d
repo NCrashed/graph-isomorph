@@ -96,8 +96,7 @@ abstract class GenericWindow
                         if(filename !is null)
                         {
                             project.recreate(filename);
-                            updateTittle();
-                            updateContent();
+                            application.updateAll();
                         }
                         dlg.destroy;
                         return;

@@ -201,6 +201,7 @@ class Project
     {
         programType = new ProgramType();
         name = filename.baseName;
+        this.population = null;
         this.filename = filename;
         save(filename);
     }

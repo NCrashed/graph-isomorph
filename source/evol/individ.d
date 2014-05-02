@@ -55,6 +55,7 @@ class GraphIndivid : Individ
     override @property GraphIndivid dup()
     {
         auto ind = new GraphIndivid();
+        ind.mFitness = mFitness;
         
         ind.mProgram = [];
         foreach(line; mProgram)
@@ -79,6 +80,7 @@ class GraphIndivid : Individ
     {
         auto ind = Individ.loadYaml(node);
         auto ant = new GraphIndivid();
+        ant.mFitness = ind.fitness;
         
         foreach(line; ind.program)
             ant.mProgram ~= line.dup;

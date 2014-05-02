@@ -188,13 +188,10 @@ class EvolutionWindow : GenericWindow
     void initEvolution()
     {
         compiler = new GraphCompiler(
-        	new GraphCompilation((generation, maxFit, avarFit)
+        	new GraphCompilation(project, ()
         		{
         			threadsEnter();
-        			setGenerationNumber(generation);
-        			setMaxFitness(maxFit);
-        			setAvarageFitness(avarFit);
-        			application.resultsWindow.updatePopulation();
+        			application.updateAll();
         			threadsLeave();
     			})
         	, project.programType
@@ -275,13 +272,19 @@ class EvolutionWindow : GenericWindow
             foreach(ind; project.population)
             {
                 if(ind.fitness > maxFitness)
-                    ind.fitness = maxFitness;
+                    maxFitness = ind.fitness;
                     
                 val += ind.fitness;
             }
             
             setMaxFitness(maxFitness);
-            setAvarageFitness(val / cast(double) project.population.length);
+            if(val != 0.0)
+            {
+                setAvarageFitness(val / cast(double) project.population.length);
+            } else
+            {
+                setAvarageFitness(0.0);
+            }
         }
     }
     
