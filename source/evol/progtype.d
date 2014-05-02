@@ -24,6 +24,12 @@ import evol.operators.gdup;
 import evol.operators.gover;
 import evol.operators.grot;
 import evol.operators.gswap;
+import evol.operators.ipop;
+import evol.operators.ipush;
+import evol.operators.idup;
+import evol.operators.iover;
+import evol.operators.irot;
+import evol.operators.iswap;
 
 import evol.types.typeedge;
 
@@ -108,6 +114,20 @@ class ProgramType : ProgTypeAbstract
         registerOperator!GenericOverOperator("gover");
         registerOperator!GenericRotOperator("grot");
         registerOperator!GenericSwapOperator("gswap");
+        
+        registerOperator!InputPopFirstOperator("ipop1");
+        registerOperator!InputPushFirstOperator("ipush1");
+        registerOperator!InputDupFirstOperator("idup1");
+        registerOperator!InputOverFirstOperator("iover1");
+        registerOperator!InputRotFirstOperator("irot1");
+        registerOperator!InputSwapFirstOperator("iswap1");
+        
+        registerOperator!InputPopSecondOperator("ipop2");
+        registerOperator!InputPushSecondOperator("ipush2");
+        registerOperator!InputDupSecondOperator("idup2");
+        registerOperator!InputOverSecondOperator("iover2");
+        registerOperator!InputRotSecondOperator("irot2");
+        registerOperator!InputSwapSecondOperator("iswap2");
     }
     
     private uint mProgMinSize = 4;
