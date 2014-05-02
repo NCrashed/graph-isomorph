@@ -8,6 +8,7 @@
 module graph.directed;
 
 import std.range;
+import std.conv;
 
 /**
 *   Generic interface for directed graph. Nodes are marked with
@@ -39,6 +40,21 @@ interface IDirectedGraph
             }
         }
     }
+    
+    /**
+    *   Operating with indexes is more handy for genetic programs.
+    */
+    struct IndexedEdge
+    {
+        size_t source;
+        size_t dist;
+        
+        string toString()
+        {
+            return text(source, " -> ", dist);
+        }
+    }
+    
     alias string Node;
     alias string Weight;
     
@@ -61,6 +77,11 @@ interface IDirectedGraph
     *   Returns graph edges set
     */
     InputRange!Edge edges();
+    
+    /**
+    *   Returns indexed graph edges set
+    */
+    InputRange!IndexedEdge indexedEdges();
     
     /**
     *   Generates dot description for

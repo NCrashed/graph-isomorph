@@ -46,6 +46,6 @@ class TypeEdge : Type
     
     override Argument loadArgument(Node node)
     {
-        return new ArgEdge(IDirectedGraph.Edge(node["source"].as!string, node["dist"].as!string, ""));
+        return new ArgEdge(IDirectedGraph.IndexedEdge(node["source"].as!size_t, node["dist"].as!size_t));
     }
 }

@@ -40,13 +40,13 @@ class GraphIndivid : Individ
         mStack.mStack.clear;
         
         mFirstGraph.mStack.clear;
-        foreach(edge; world.firstGraph.edges)
+        foreach(edge; world.firstGraph.indexedEdges)
         {
             mFirstGraph.stackPush(new ArgEdge(edge));
         }
         
         mSecondGraph.mStack.clear;
-        foreach(edge; world.secondGraph.edges)
+        foreach(edge; world.secondGraph.indexedEdges)
         {
             mSecondGraph.stackPush(new ArgEdge(edge));
         }

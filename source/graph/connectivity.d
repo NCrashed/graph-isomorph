@@ -8,6 +8,7 @@
 module graph.connectivity;
 
 import graph.directed;
+import std.algorithm;
 import std.range;
 import std.array;
 import std.conv;
@@ -91,6 +92,24 @@ class ConnListGraph : IDirectedGraph
             }
         }
 
+        return builder.data.inputRangeObject;
+    }
+    
+    /**
+    *   Returns indexed graph edges set
+    */
+    InputRange!IndexedEdge indexedEdges()
+    {
+        auto builder = appender!(IndexedEdge[]);
+        auto nodesArr = nodes.array;
+         
+        foreach(edge; edges)
+        {
+            builder.put(IndexedEdge(
+                    nodesArr.countUntil(edge.source),
+                    nodesArr.countUntil(edge.dist) ));
+        }
+        
         return builder.data.inputRangeObject;
     }
     

@@ -21,7 +21,7 @@ class ArgEdge : Argument, ISerializable
         super( TypeMng.getSingleton().getType("TypeEdge") );
     }
     
-    this(IDirectedGraph.Edge edge)
+    this(IDirectedGraph.IndexedEdge edge)
     {
         this();
         opAssign(edge);
@@ -36,7 +36,7 @@ class ArgEdge : Argument, ISerializable
         return this;
     }
     
-    ref ArgEdge opAssign(IDirectedGraph.Edge val)
+    ref ArgEdge opAssign(IDirectedGraph.IndexedEdge val)
     {
         mEdge = val;
         return this;
@@ -47,56 +47,32 @@ class ArgEdge : Argument, ISerializable
         return to!string(mEdge);
     }
     
-    @property IDirectedGraph.Edge edge()
+    @property IDirectedGraph.IndexedEdge edge()
     {
         return mEdge;
     }
     
-    @property IDirectedGraph.Edge val()
+    @property IDirectedGraph.IndexedEdge val()
     {
         return mEdge;
     }
     
     override void randomChange()
     {
-        string permuteStr(string str)
+        size_t permuteIndex(size_t i)
         {
-            enum alphabet = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM";
-            
-            auto chance = uniform!"[]"(0,3);
-            if(chance == 0) // adding char
-            {
-                if(str == "") return [alphabet[uniform(0,alphabet.length)]].idup;
-                
-                size_t point = uniform(0, str.length);
-                
-                return str[0 .. point] ~ alphabet[uniform(0,alphabet.length)] ~ str[point .. $];
-            } 
-            else if(chance == 1) // removing chance
-            {
-                if(str == "") return str;
-                
-                size_t point = uniform(0, str.length);
-                return str[0 .. point] ~ str[point+1 .. $];
-            }
-            else if(chance == 2) // changing chance
-            {
-                if(str == "") return str;
-                
-                size_t point = uniform(0, str.length);
-                return str[0 .. point] ~ alphabet[uniform(0,alphabet.length)] ~ str[point+1 .. $];
-            }
-            
-            return str;
+            int change = uniform!"[]"(-2,2);
+            if(cast(int)i + change < 0) return 0; 
+            return i + change;
         }
         
         auto chance = uniform!"[]"(0,1);
         if(chance == 0)
         {
-            mEdge.source = permuteStr(mEdge.source);
+            mEdge.source = permuteIndex(mEdge.source);
         } else if(chance == 1)
         {
-            mEdge.dist = permuteStr(mEdge.dist);
+            mEdge.dist = permuteIndex(mEdge.dist);
         }
     }
     
@@ -126,5 +102,5 @@ class ArgEdge : Argument, ISerializable
             ]);
     }
     
-    protected IDirectedGraph.Edge mEdge;
+    protected IDirectedGraph.IndexedEdge mEdge;
 }
