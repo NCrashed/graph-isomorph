@@ -30,6 +30,9 @@ import evol.operators.idup;
 import evol.operators.iover;
 import evol.operators.irot;
 import evol.operators.iswap;
+import evol.operators.construct;
+import evol.operators.dist;
+import evol.operators.source;
 
 import evol.types.typeedge;
 
@@ -64,22 +67,6 @@ class ProgramType : ProgTypeAbstract
         if(types.find("TypeEdge").empty)
         {
             tmng.registerType!TypeEdge();
-        }
-        
-        auto tdouble = tmng.getType("Typedouble");
-        auto tint = tmng.getType("Typeint");
-        if(!tdouble.isConvertable(tint))
-        {
-            tint.registerConvertor((arg)
-                {
-                   auto iarg = cast(ArgPod!int)arg;
-                   assert(iarg);
-                   auto darg = new ArgPod!double;
-                   
-                   darg = cast(double)iarg.val;
-                   return darg;
-                }
-                , tdouble);
         }
         
         auto ops = omng.strings;
@@ -128,6 +115,10 @@ class ProgramType : ProgTypeAbstract
         registerOperator!InputOverSecondOperator("iover2");
         registerOperator!InputRotSecondOperator("irot2");
         registerOperator!InputSwapSecondOperator("iswap2");
+        
+        registerOperator!ConstructOperator("construct");
+        registerOperator!GetSourceOperator("getSource");
+        registerOperator!GetDistOperator("getDist");
     }
     
     private uint mProgMinSize = 4;
