@@ -3,7 +3,9 @@
 *   License: Subject to the terms of the MIT license, as written in the included LICENSE file.
 *   Authors:  NCrashed <ncrashed@gmail.com>
 */
-module evol.operators.opif;import devol.typemng;
+module evol.operators.opif;
+
+import devol.typemng;
 
 import devol.individ;
 import devol.world;

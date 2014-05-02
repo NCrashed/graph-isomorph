@@ -217,8 +217,19 @@ class GraphIndivid : Individ
         return mSecondGraph;
     }
     
+    void answer(bool value)
+    {
+        mAnswer = value;
+    }
+    
+    bool answer()
+    {
+        return mAnswer;
+    }
+    
     private
     {
+        bool mAnswer = false;
         Stack!(ArgPod!double) mStack;
         Stack!ArgEdge mFirstGraph;
         Stack!ArgEdge mSecondGraph;

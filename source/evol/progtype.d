@@ -35,8 +35,11 @@ import evol.operators.dist;
 import evol.operators.source;
 import evol.operators.idcast;
 import evol.operators.round;
+import evol.operators.answer;
 
 import evol.types.typeedge;
+import evol.individ;
+import evol.world;
 
 import std.algorithm;
 import std.range;
@@ -124,6 +127,7 @@ class ProgramType : ProgTypeAbstract
         
         registerOperator!IntDoubleCastOperator("cast");
         registerOperator!RoundOperator("round");
+        registerOperator!AnswerOperator("answer");
     }
     
     private uint mProgMinSize = 4;
@@ -455,6 +459,12 @@ class ProgramType : ProgTypeAbstract
         
     double getFitness(IndAbstract pInd, WorldAbstract pWorld, double time)
     {
-        return 0.0; // stab
+        auto ind = cast(GraphIndivid)pInd;
+        auto world = cast(GraphWorld)pWorld;
+        assert(ind); 
+        assert(world);
+        
+        /// TODO: time check
+        return ind.answer == world.correctAnswer ? 1.0 : 0.0; 
     }
 }

@@ -55,11 +55,17 @@ class GraphWorld : WorldAbstract
         return mInputGraphSecond;
     }
     
+    bool correctAnswer()
+    {
+        return mAnswer;
+    }
+    
     private
     {
         void delegate(IDirectedGraph, IDirectedGraph) updateDrawDel;
         IDirectedGraph mInputGraphFirst;
         IDirectedGraph mInputGraphSecond;
+        bool mAnswer;
         
         void initInput()
         {
@@ -72,12 +78,15 @@ class GraphWorld : WorldAbstract
                     = permuteGraph(mInputGraphFirst
                         , uniform!"[]"(programType.graphPermutesCountMin
                                      , programType.graphPermutesCountMax));
+                mAnswer = true;
             } else
             {
                 mInputGraphSecond 
                     = generateGraph(
                   uniform!"[]"(programType.graphNodesCountMin, programType.graphNodesCountMax)
                 , uniform!"[]"(programType.graphLinksCountMin, programType.graphLinksCountMax));
+                
+                mAnswer = false;
             }
         }
         
