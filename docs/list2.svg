@@ -1,0 +1,2122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2979.9211"
+   height="2104.7244"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="list2.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path16806"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path16809"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       markerWidth="311.5625"
+       markerHeight="272.40625"
+       orient="auto"
+       id="marker5422">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5420"
+         d="M -154.91245,135.44748 1.48885,-135.44749 154.91245,130.28999 z"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </marker>
+    <marker
+       markerWidth="25.21875"
+       markerHeight="33.96875"
+       orient="auto"
+       id="marker10150">
+      <rect
+         y="-14.875864"
+         x="-10.50061"
+         height="29.751728"
+         width="21.001221"
+         id="rect10148"
+         style="opacity:0.36947793;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:4.22599983;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.40403754"
+     inkscape:cx="921.57898"
+     inkscape:cy="1357.7678"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="2560"
+     inkscape:window-height="1025"
+     inkscape:window-x="-3"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-grids="false"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-nodes="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-center="true"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       orientation="0,1"
+       position="1512.8778,1691.4711"
+       id="guide7340" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="1548.84,1342.328"
+       id="guide7342" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,1052.3624)">
+    <text
+       xml:space="preserve"
+       style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="1507.594"
+       y="-905.16937"
+       id="text3004"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="1507.594"
+         y="-905.16937"
+         id="tspan3008">Структура модулей АИС</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3010"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Carlito;font-style:normal;font-weight:normal;font-size:32px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Carlito;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion3012"><rect
+           id="rect3014"
+           width="1371.1597"
+           height="960.30682"
+           x="76.725548"
+           y="342.51187"
+           style="font-size:32px" /></flowRegion><flowPara
+         id="flowPara3016" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="66.825478"
+       y="340.03687"
+       id="text3018"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan3020"
+         x="66.825478"
+         y="340.03687" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:0;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="353.92752"
+       y="458.83768"
+       id="text3022"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan3024"
+         x="353.92752"
+         y="458.83768" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="158.40112"
+       y="359.83698"
+       id="text3026"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan3028"
+         x="158.40112"
+         y="359.83698" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="497.47852"
+       y="357.36197"
+       id="text3038"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan3040"
+         x="497.47852"
+         y="357.36197" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="1754.7874"
+       y="1025.6167"
+       id="text3074"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan3076"
+         x="1754.7874"
+         y="1025.6167" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="74.250526"
+       y="1401.8195"
+       id="text3110"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan3112"
+         x="74.250526"
+         y="1401.8195" /></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:none;marker-mid:none;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1513.838,559.38457 924.05373,157.50916"
+       id="path5425"
+       inkscape:connector-curvature="0"
+       transform="translate(0,-1052.3624)" />
+    <polygon
+       style="fill:#ffffff;stroke:#ffffff"
+       points="-4,-904 1071,-904 1071,4 -4,4 -4,4 "
+       id="polygon19914"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)" />
+    <g
+       id="node1"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title19917">main</title>
+      <polygon
+         style="fill:none;stroke:#000000"
+         points="578,-900 578,-864 632,-864 632,-900 632,-900 "
+         id="polygon19919" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="605"
+         y="-878.29999"
+         font-size="14.00"
+         id="text19921">main</text>
+    </g>
+    <g
+       id="node2"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title19924">application</title>
+      <polygon
+         style="fill:none;stroke:#000000"
+         points="641.75,-828 641.75,-792 718.25,-792 718.25,-828 718.25,-828 "
+         id="polygon19926" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="680"
+         y="-806.29999"
+         font-size="14.00"
+         id="text19928">application</text>
+    </g>
+    <g
+       id="edge5"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title19931">main-&gt;application</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 614,-863.965 c 0,19.541 0,47.965 0,47.965 0,0 17.608,0 17.608,0"
+         id="path19933" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="631.607,-812.5 631.608,-819.5 631.608,-819.5 641.608,-816 "
+         id="polygon19935" />
+    </g>
+    <g
+       id="node3"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title19938">project</title>
+      <polygon
+         style="fill:none;stroke:#000000"
+         points="465,-612 465,-576 519,-576 519,-612 519,-612 "
+         id="polygon19940" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="492"
+         y="-590.29999"
+         font-size="14.00"
+         id="text19942">project</text>
+    </g>
+    <g
+       id="edge4"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title19945">main-&gt;project</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 577.992,-876 c -8.646,0 -16.024,0 -16.024,0 0,0 0,270 0,270 0,0 -32.716,0 -32.716,0"
+         id="path19947" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="529.252,-609.5 529.252,-602.5 529.252,-602.5 519.252,-606 "
+         id="polygon19949" />
+    </g>
+    <g
+       id="node4"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title19952">gui.evolution</title>
+      <polygon
+         style="fill:none;stroke:#000000"
+         points="461.75,-756 461.75,-720 550.25,-720 550.25,-756 550.25,-756 "
+         id="polygon19954" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="506"
+         y="-734.29999"
+         font-size="14.00"
+         id="text19956">gui.evolution</text>
+    </g>
+    <g
+       id="edge1"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title19959">main-&gt;gui.evolution</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 577.754,-888 c -33.652,0 -86.504,0 -86.504,0 0,0 0,121.906 0,121.906"
+         id="path19961" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="487.75,-766.094 494.75,-766.093 494.75,-766.093 491.25,-756.094 "
+         id="polygon19963" />
+    </g>
+    <g
+       id="node6"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title19966">gui.results</title>
+      <polygon
+         style="fill:none;stroke:#000000"
+         points="568.75,-756 568.75,-720 641.25,-720 641.25,-756 641.25,-756 "
+         id="polygon19968" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="605"
+         y="-734.29999"
+         font-size="14.00"
+         id="text19970">gui.results</text>
+    </g>
+    <g
+       id="edge2"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title19973">main-&gt;gui.results</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 596,-863.762 c 0,0 0,97.672 0,97.672"
+         id="path19975" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="592.5,-766.09 599.5,-766.09 599.5,-766.09 596,-756.09 "
+         id="polygon19977" />
+    </g>
+    <g
+       id="node7"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title19980">gui.settings</title>
+      <polygon
+         style="fill:none;stroke:#000000"
+         points="783.75,-756 783.75,-720 862.25,-720 862.25,-756 862.25,-756 "
+         id="polygon19982" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="823"
+         y="-734.29999"
+         font-size="14.00"
+         id="text19984">gui.settings</text>
+    </g>
+    <g
+       id="edge3"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title19987">main-&gt;gui.settings</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 632.169,-882 c 58.439,0 190.831,0 190.831,0 0,0 0,115.762 0,115.762"
+         id="path19989" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="819.5,-766.238 826.5,-766.238 826.5,-766.238 823,-756.238 "
+         id="polygon19991" />
+    </g>
+    <g
+       id="edge9"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title19994">application-&gt;project</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 645.75,-791.955 c 0,51.913 0,197.955 0,197.955 0,0 -116.617,0 -116.617,0"
+         id="path19996" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="529.133,-597.5 529.134,-590.5 529.134,-590.5 519.133,-594 "
+         id="polygon19998" />
+    </g>
+    <g
+       id="edge7"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20001">application-&gt;gui.evolution</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 641.45,-804 c -47.13,0 -120.7,0 -120.7,0 0,0 0,37.965 0,37.965"
+         id="path20003" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="517.25,-766.035 524.25,-766.035 524.25,-766.035 520.75,-756.035 "
+         id="polygon20005" />
+    </g>
+    <g
+       id="edge8"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20008">application-&gt;gui.results</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 658.65288,-792 c 0,20.443 -0.29806,51 -0.29806,51 l -6.68832,-10e-4"
+         id="path20010"
+         sodipodi:nodetypes="ccc" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="651.666,-744.501 651.667,-737.501 651.667,-737.501 641.667,-741 "
+         id="polygon20012" />
+    </g>
+    <g
+       id="edge6"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20015">application-&gt;gui.settings</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 701.125,-791.733 c 0,18.288 0,43.733 0,43.733 0,0 72.306,0 72.306,0"
+         id="path20017" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="773.431,-744.5 773.431,-751.5 773.431,-751.5 783.431,-748 "
+         id="polygon20019" />
+    </g>
+    <g
+       id="node11"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20022">evol.compiler</title>
+      <polygon
+         style="fill:none;stroke:#000000"
+         points="388,-540 388,-504 480,-504 480,-540 480,-540 "
+         id="polygon20024" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="434"
+         y="-518.29999"
+         font-size="14.00"
+         id="text20026">evol.compiler</text>
+    </g>
+    <g
+       id="edge11"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20029">project-&gt;evol.compiler</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 470,-575.831 c 0,0 0,25.418 0,25.418"
+         id="path20031" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="466.5,-550.413 473.5,-550.413 473.5,-550.413 470,-540.413 "
+         id="polygon20033" />
+    </g>
+    <g
+       id="node13"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20036">evol.progtype</title>
+      <polygon
+         style="fill:none;stroke:#000000"
+         points="694,-324 694,-288 786,-288 786,-324 786,-324 "
+         id="polygon20038" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="740"
+         y="-302.29999"
+         font-size="14.00"
+         id="text20040">evol.progtype</text>
+    </g>
+    <g
+       id="edge10"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20043">project-&gt;evol.progtype</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 509.5,-575.694 c 0,62.07 0,260.694 0,260.694 0,0 174.409,0 174.409,0"
+         id="path20045" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="683.909,-311.5 683.909,-318.5 683.909,-318.5 693.909,-315 "
+         id="polygon20047" />
+    </g>
+    <g
+       id="edge15"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20050">gui.evolution-&gt;project</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 492,-719.762 c 0,0 0,97.672 0,97.672"
+         id="path20052" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="488.5,-622.09 495.5,-622.09 495.5,-622.09 492,-612.09 "
+         id="polygon20054" />
+    </g>
+    <g
+       id="node5"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20057">gui.generic</title>
+      <polygon
+         style="fill:none;stroke:#000000"
+         points="649.75,-684 649.75,-648 726.25,-648 726.25,-684 726.25,-684 "
+         id="polygon20059" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="688"
+         y="-662.29999"
+         font-size="14.00"
+         id="text20061">gui.generic</text>
+    </g>
+    <g
+       id="edge13"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20064">gui.evolution-&gt;gui.generic</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 538.15,-719.578 c 0,8.857 0,17.578 0,17.578 0,0 128.725,0 128.725,0 0,0 0,7.578 0,7.578"
+         id="path20066" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="663.375,-694.422 670.375,-694.422 670.375,-694.422 666.875,-684.422 "
+         id="polygon20068" />
+    </g>
+    <g
+       id="node8"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20071">gui.util</title>
+      <polygon
+         style="fill:none;stroke:#000000"
+         points="575,-684 575,-648 631,-648 631,-684 631,-684 "
+         id="polygon20073" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="603"
+         y="-662.29999"
+         font-size="14.00"
+         id="text20075">gui.util</text>
+    </g>
+    <g
+       id="edge12"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20078">gui.evolution-&gt;gui.util</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 544.2,-719.831 c 0,21.329 0,53.831 0,53.831 0,0 20.778,0 20.778,0"
+         id="path20080" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="564.978,-662.5 564.978,-669.5 564.978,-669.5 574.978,-666 "
+         id="polygon20082" />
+    </g>
+    <g
+       id="node10"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20085">graph.directed</title>
+      <polygon
+         style="fill:none;stroke:#000000"
+         points="44.75,-36 44.75,0 139.25,0 139.25,-36 139.25,-36 "
+         id="polygon20087" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="92"
+         y="-14.3"
+         font-size="14.00"
+         id="text20089">graph.directed</text>
+    </g>
+    <g
+       id="edge14"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20092">gui.evolution-&gt;graph.directed</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 532.1,-719.997 c 0,86.581 0,455.997 0,455.997 0,0 -432.4125,0 -432.4125,0 0,0 0,217.911 0,217.911"
+         id="path20094" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="96.1876,-46.089 103.188,-46.0889 103.188,-46.0889 99.6875,-36.089 "
+         id="polygon20096" />
+    </g>
+    <g
+       id="edge16"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20099">gui.evolution-&gt;evol.compiler</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 461.64,-732 c -18.94,0 -36.765,0 -36.765,0 0,0 0,181.731 0,181.731"
+         id="path20101" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="421.375,-550.269 428.375,-550.269 428.375,-550.269 424.875,-540.269 "
+         id="polygon20103" />
+    </g>
+    <g
+       id="node14"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20106">evol.world</title>
+      <polygon
+         style="fill:none;stroke:#000000"
+         points="146.75,-396 146.75,-360 221.25,-360 221.25,-396 221.25,-396 "
+         id="polygon20108" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="184"
+         y="-374.29999"
+         font-size="14.00"
+         id="text20110">evol.world</text>
+    </g>
+    <g
+       id="edge17"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20113">gui.evolution-&gt;evol.world</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 461.453,-744 c -83.009,0 -253.011,0 -253.011,0 0,0 0,337.85 0,337.85"
+         id="path20115" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="204.942,-406.15 211.942,-406.15 211.942,-406.15 208.442,-396.15 "
+         id="polygon20117" />
+    </g>
+    <g
+       id="edge19"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20120">gui.generic-&gt;application</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 684,-684.238 c 0,0 0,-97.672 0,-97.672"
+         id="path20122" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="687.5,-781.91 680.5,-781.91 680.5,-781.91 684,-791.91 "
+         id="polygon20124" />
+    </g>
+    <g
+       id="edge18"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20127">gui.generic-&gt;project</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 661.586,-647.909 c 0,23.042 0,59.909 0,59.909 0,0 -132.339,0 -132.339,0"
+         id="path20129" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="529.247,-591.5 529.247,-584.5 529.247,-584.5 519.247,-588 "
+         id="polygon20131" />
+    </g>
+    <g
+       id="edge22"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20134">gui.results-&gt;project</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 633.562,-719.959 c 0,37.407 0,119.959 0,119.959 0,0 -104.267,0 -104.267,0"
+         id="path20136" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="529.295,-603.5 529.295,-596.5 529.295,-596.5 519.295,-600 "
+         id="polygon20138" />
+    </g>
+    <g
+       id="edge21"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20141">gui.results-&gt;gui.generic</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 638.688,-719.909 c 0,23.042 0,59.909 0,59.909 0,0 1.094,0 1.094,0"
+         id="path20143" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="639.632,-656.5 639.632,-663.5 639.632,-663.5 649.632,-660 "
+         id="polygon20145" />
+    </g>
+    <g
+       id="edge20"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20148">gui.results-&gt;gui.util</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 603,-719.831 c 0,0 0,25.418 0,25.418"
+         id="path20150" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="599.5,-694.413 606.5,-694.413 606.5,-694.413 603,-684.413 "
+         id="polygon20152" />
+    </g>
+    <g
+       id="node18"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20155">devol.individ</title>
+      <ellipse
+         d="m 673.2688,-378 c 0,9.94113 -25.64012,18 -57.2688,18 -31.62868,0 -57.2688,-8.05887 -57.2688,-18 0,-9.94113 25.64012,-18 57.2688,-18 31.62868,0 57.2688,8.05887 57.2688,18 z"
+         style="fill:none;stroke:#000000"
+         sodipodi:ry="18"
+         sodipodi:rx="57.268799"
+         sodipodi:cy="-378"
+         sodipodi:cx="616"
+         cx="616"
+         cy="-378"
+         rx="57.268799"
+         ry="18"
+         id="ellipse20157" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="616"
+         y="-374.29999"
+         font-size="14.00"
+         id="text20159">devol.individ</text>
+    </g>
+    <g
+       id="edge23"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20162">gui.results-&gt;devol.individ</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 636.125,-719.653 c 0,0 0,314.611 0,314.611"
+         id="path20164" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="632.625,-405.042 639.625,-405.042 639.625,-405.042 636.125,-395.042 "
+         id="polygon20166" />
+    </g>
+    <g
+       id="edge29"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20169">gui.settings-&gt;project</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 794.678,-719.8 c 0,41.152 0,137.8 0,137.8 0,0 -265.551,0 -265.551,0"
+         id="path20171" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="529.127,-585.5 529.127,-578.5 529.127,-578.5 519.127,-582 "
+         id="polygon20173" />
+    </g>
+    <g
+       id="edge25"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20176">gui.settings-&gt;gui.generic</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 783.47,-727 c -28.226,0 -61.22,0 -61.22,0 0,0 0,32.698 0,32.698"
+         id="path20178" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="718.75,-694.302 725.75,-694.302 725.75,-694.302 722.25,-684.302 "
+         id="polygon20180" />
+    </g>
+    <g
+       id="edge24"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20183">gui.settings-&gt;gui.util</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 783.67,-734 c -51.669,0 -135.92,0 -135.92,0 0,0 0,62 0,62 0,0 -6.663,0 -6.663,0"
+         id="path20185" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="641.087,-675.5 641.087,-668.5 641.087,-668.5 631.087,-672 "
+         id="polygon20187" />
+    </g>
+    <g
+       id="edge26"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20190">gui.settings-&gt;evol.progtype</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 801.859,-719.867 c 0,80.773 0,403.867 0,403.867 0,0 -5.61,0 -5.61,0"
+         id="path20192" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="796.249,-319.5 796.25,-312.5 796.25,-312.5 786.249,-316 "
+         id="polygon20194" />
+    </g>
+    <g
+       id="node19"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20197">devol.operator</title>
+      <ellipse
+         d="m 1066.6163,-162 c 0,9.94113 -27.5866,18 -61.6163,18 -34.02974,0 -61.6163,-8.05887 -61.6163,-18 0,-9.94113 27.58656,-18 61.6163,-18 34.0297,0 61.6163,8.05887 61.6163,18 z"
+         style="fill:none;stroke:#000000"
+         sodipodi:ry="18"
+         sodipodi:rx="61.616299"
+         sodipodi:cy="-162"
+         sodipodi:cx="1005"
+         cx="1005"
+         cy="-162"
+         rx="61.616299"
+         ry="18"
+         id="ellipse20199" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="1005"
+         y="-158.3"
+         font-size="14.00"
+         id="text20201">devol.operator</text>
+    </g>
+    <g
+       id="edge27"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20204">gui.settings-&gt;devol.operator</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 839.236,-719.81 c 0,97.909 0,557.81 0,557.81 0,0 94.04,0 94.04,0"
+         id="path20206" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="933.276,-158.5 933.276,-165.5 933.276,-165.5 943.276,-162 "
+         id="polygon20208" />
+    </g>
+    <g
+       id="node20"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20211">devol.operatormng</title>
+      <ellipse
+         d="m 1037.4897,-234 c 0,9.94113 -34.6933,18 -77.4897,18 -42.79638,0 -77.4897,-8.05887 -77.4897,-18 0,-9.94113 34.69332,-18 77.4897,-18 42.7964,0 77.4897,8.05887 77.4897,18 z"
+         style="fill:none;stroke:#000000"
+         sodipodi:ry="18"
+         sodipodi:rx="77.4897"
+         sodipodi:cy="-234"
+         sodipodi:cx="960"
+         cx="960"
+         cy="-234"
+         rx="77.4897"
+         ry="18"
+         id="ellipse20213" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="960"
+         y="-230.3"
+         font-size="14.00"
+         id="text20215">devol.operatormng</text>
+    </g>
+    <g
+       id="edge28"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20218">gui.settings-&gt;devol.operatormng</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 850.743,-719.765 c 0,90.357 0,485.765 0,485.765 0,0 21.602,0 21.602,0"
+         id="path20220" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="872.345,-230.5 872.345,-237.5 872.345,-237.5 882.345,-234 "
+         id="polygon20222" />
+    </g>
+    <g
+       id="node9"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20225">graph.connectivity</title>
+      <polygon
+         style="fill:none;stroke:#000000"
+         points="0,-324 0,-288 118,-288 118,-324 118,-324 "
+         id="polygon20227" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="59"
+         y="-302.29999"
+         font-size="14.00"
+         id="text20229">graph.connectivity</text>
+    </g>
+    <g
+       id="edge30"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20232">graph.connectivity-&gt;graph.directed</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 63.0625,-287.984 c 0,0 0,241.9751 0,241.9751"
+         id="path20234" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="59.5626,-46.0089 66.5626,-46.0088 66.5626,-46.0088 63.0625,-36.0089 "
+         id="polygon20236" />
+    </g>
+    <g
+       id="edge36"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20239">evol.compiler-&gt;project</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 475,-540.169 c 0,0 0,-25.418 0,-25.418"
+         id="path20241" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="478.5,-565.587 471.5,-565.587 471.5,-565.587 475,-575.587 "
+         id="polygon20243" />
+    </g>
+    <g
+       id="node12"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20246">evol.individ</title>
+      <polygon
+         style="fill:none;stroke:#000000"
+         points="418,-468 418,-432 500,-432 500,-468 500,-468 "
+         id="polygon20248" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="459"
+         y="-446.29999"
+         font-size="14.00"
+         id="text20250">evol.individ</text>
+    </g>
+    <g
+       id="edge33"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20253">evol.compiler-&gt;evol.individ</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 449,-503.831 c 0,0 0,25.418 0,25.418"
+         id="path20255" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="445.5,-478.413 452.5,-478.413 452.5,-478.413 449,-468.413 "
+         id="polygon20257" />
+    </g>
+    <g
+       id="edge35"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20260">evol.compiler-&gt;evol.progtype</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 480.217,-522 c 78.606,0 229.908,0 229.908,0 0,0 0,187.955 0,187.955"
+         id="path20262" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="706.625,-334.045 713.625,-334.044 713.625,-334.044 710.125,-324.045 "
+         id="polygon20264" />
+    </g>
+    <g
+       id="edge34"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20267">evol.compiler-&gt;evol.world</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 387.88,-516 c -64.853,0 -175.169,0 -175.169,0 0,0 0,109.959 0,109.959"
+         id="path20269" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="209.211,-406.041 216.211,-406.041 216.211,-406.041 212.711,-396.041 "
+         id="polygon20271" />
+    </g>
+    <g
+       id="node21"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20274">devol.compiler</title>
+      <ellipse
+         d="m 204.0172,-450 c 0,9.94113 -28.66148,18 -64.0172,18 -35.35572,0 -64.017197,-8.05887 -64.017197,-18 0,-9.94113 28.661477,-18 64.017197,-18 35.35572,0 64.0172,8.05887 64.0172,18 z"
+         style="fill:none;stroke:#000000"
+         sodipodi:ry="18"
+         sodipodi:rx="64.017197"
+         sodipodi:cy="-450"
+         sodipodi:cx="140"
+         cx="140"
+         cy="-450"
+         rx="64.017197"
+         ry="18"
+         id="ellipse20276" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="140"
+         y="-446.29999"
+         font-size="14.00"
+         id="text20278">devol.compiler</text>
+    </g>
+    <g
+       id="edge31"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20281">evol.compiler-&gt;devol.compiler</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 387.739,-528 c -82.794,0 -247.739,0 -247.739,0 0,0 0,49.909 0,49.909"
+         id="path20283" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="136.5,-478.091 143.5,-478.091 143.5,-478.091 140,-468.091 "
+         id="polygon20285" />
+    </g>
+    <g
+       id="node22"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20288">devol.population</title>
+      <ellipse
+         d="m 400.2909,-450 c 0,9.94113 -31.47031,18 -70.2909,18 -38.82059,0 -70.2909,-8.05887 -70.2909,-18 0,-9.94113 31.47031,-18 70.2909,-18 38.82059,0 70.2909,8.05887 70.2909,18 z"
+         style="fill:none;stroke:#000000"
+         sodipodi:ry="18"
+         sodipodi:rx="70.290901"
+         sodipodi:cy="-450"
+         sodipodi:cx="330"
+         cx="330"
+         cy="-450"
+         rx="70.290901"
+         ry="18"
+         id="ellipse20290" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="330"
+         y="-446.29999"
+         font-size="14.00"
+         id="text20292">devol.population</text>
+    </g>
+    <g
+       id="edge32"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20295">evol.compiler-&gt;devol.population</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 394.048,-503.831 c 0,0 0,36.38 0,36.38"
+         id="path20297" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="390.549,-467.451 397.549,-467.451 397.549,-467.451 394.048,-457.451 "
+         id="polygon20299" />
+    </g>
+    <g
+       id="edge41"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20302">evol.individ-&gt;evol.world</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 429.518,-431.857 c 0,6.318 0,11.857 0,11.857 0,0 -212.537,0 -212.537,0 0,0 0,13.944 0,13.944"
+         id="path20304" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="213.481,-406.056 220.481,-406.055 220.481,-406.055 216.981,-396.056 "
+         id="polygon20306" />
+    </g>
+    <g
+       id="node16"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20309">evol.types.argedge</title>
+      <polygon
+         style="fill:none;stroke:#000000"
+         points="533.75,-108 533.75,-72 652.25,-72 652.25,-108 652.25,-108 "
+         id="polygon20311" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="593"
+         y="-86.300003"
+         font-size="14.00"
+         id="text20313">evol.types.argedge</text>
+    </g>
+    <g
+       id="edge40"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20316">evol.individ-&gt;evol.types.argedge</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 488.024,-431.858 c 0,58.726 0,239.858 0,239.858 0,0 86.176,0 86.176,0 0,0 0,73.764 0,73.764"
+         id="path20318" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="570.7,-118.236 577.7,-118.236 577.7,-118.236 574.2,-108.236 "
+         id="polygon20320" />
+    </g>
+    <g
+       id="edge37"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20323">evol.individ-&gt;devol.individ</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 500.121,-456 c 29.93,0 97.27919,0 97.27919,0 l 0.29806,51.6055"
+         id="path20325"
+         sodipodi:nodetypes="ccc" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="568.859,-396.645 568.859,-396.645 565.359,-386.645 561.859,-396.645 "
+         id="polygon20327"
+         transform="translate(32.33925,-7.7495)" />
+    </g>
+    <g
+       id="node23"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20330">devol.argument</title>
+      <ellipse
+         d="m 339.9423,-90 c 0,9.941125 -29.52337,18 -65.9423,18 -36.41893,0 -65.9423,-8.058875 -65.9423,-18 0,-9.941125 29.52337,-18 65.9423,-18 36.41893,0 65.9423,8.058875 65.9423,18 z"
+         style="fill:none;stroke:#000000"
+         sodipodi:ry="18"
+         sodipodi:rx="65.942299"
+         sodipodi:cy="-90"
+         sodipodi:cx="274"
+         cx="274"
+         cy="-90"
+         rx="65.942299"
+         ry="18"
+         id="ellipse20332" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="274"
+         y="-86.300003"
+         font-size="14.00"
+         id="text20334">devol.argument</text>
+    </g>
+    <g
+       id="edge38"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20337">evol.individ-&gt;devol.argument</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 441.036,-431.944 c 0,11.383 0,23.944 0,23.944 0,0 -169.72,0 -169.72,0 0,0 0,289.992 0,289.992"
+         id="path20339" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="267.816,-118.008 274.816,-118.008 274.816,-118.008 271.316,-108.008 "
+         id="polygon20341" />
+    </g>
+    <g
+       id="node24"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20344">devol.std.argvoid</title>
+      <ellipse
+         d="m 464.2155,-378 c 0,9.94113 -32.33198,18 -72.2155,18 -39.88352,0 -72.2155,-8.05887 -72.2155,-18 0,-9.94113 32.33198,-18 72.2155,-18 39.88352,0 72.2155,8.05887 72.2155,18 z"
+         style="fill:none;stroke:#000000"
+         sodipodi:ry="18"
+         sodipodi:rx="72.2155"
+         sodipodi:cy="-378"
+         sodipodi:cx="392"
+         cx="392"
+         cy="-378"
+         rx="72.2155"
+         ry="18"
+         id="ellipse20346" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="392"
+         y="-374.29999"
+         font-size="14.00"
+         id="text20348">devol.std.argvoid</text>
+    </g>
+    <g
+       id="edge39"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20351">evol.individ-&gt;devol.std.argvoid</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 452.554,-431.831 c 0,0 0,33.677 0,33.677"
+         id="path20353" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="449.054,-398.154 456.054,-398.154 456.054,-398.154 452.554,-388.154 "
+         id="polygon20355" />
+    </g>
+    <g
+       id="node25"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20358">devol.std.argpod</title>
+      <ellipse
+         d="m 421.3156,-162 c 0,9.94113 -31.03365,18 -69.3156,18 -38.28195,0 -69.3156,-8.05887 -69.3156,-18 0,-9.94113 31.03365,-18 69.3156,-18 38.28195,0 69.3156,8.05887 69.3156,18 z"
+         style="fill:none;stroke:#000000"
+         sodipodi:ry="18"
+         sodipodi:rx="69.315598"
+         sodipodi:cy="-162"
+         sodipodi:cx="352"
+         cx="352"
+         cy="-162"
+         rx="69.315598"
+         ry="18"
+         id="ellipse20360" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="352"
+         y="-158.3"
+         font-size="14.00"
+         id="text20362">devol.std.argpod</text>
+    </g>
+    <g
+       id="edge42"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20365">evol.individ-&gt;devol.std.argpod</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 476.048,-431.679 c 0,30.813 0,89.679 0,89.679 0,0 -122.339,0 -122.339,0 0,0 0,151.75 0,151.75"
+         id="path20367" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="350.21,-190.25 357.21,-190.25 357.21,-190.25 353.709,-180.25 "
+         id="polygon20369" />
+    </g>
+    <g
+       id="node15"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20372">evol.operators</title>
+      <polygon
+         style="fill:none;stroke:#000000"
+         points="520,-252 520,-216 614,-216 614,-252 614,-252 "
+         id="polygon20374" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="567"
+         y="-230.3"
+         font-size="14.00"
+         id="text20376">evol.operators</text>
+    </g>
+    <g
+       id="edge47"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20379">evol.progtype-&gt;evol.operators</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 693.882,-297 c -45.277,0 -107.593,0 -107.593,0 0,0 0,34.778 0,34.778"
+         id="path20381" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="582.789,-262.222 589.789,-262.222 589.789,-262.222 586.289,-252.222 "
+         id="polygon20383" />
+    </g>
+    <g
+       id="edge45"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20386">evol.progtype-&gt;devol.operatormng</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 786.119,-309 c 64.511,0 173.881,0 173.881,0 0,0 0,46.845 0,46.845"
+         id="path20388" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="956.5,-262.155 963.5,-262.155 963.5,-262.155 960,-252.155 "
+         id="polygon20390" />
+    </g>
+    <g
+       id="node26"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20393">devol.programtype</title>
+      <ellipse
+         d="m 787.4897,-234 c 0,9.94113 -34.69332,18 -77.4897,18 -42.79638,0 -77.4897,-8.05887 -77.4897,-18 0,-9.94113 34.69332,-18 77.4897,-18 42.79638,0 77.4897,8.05887 77.4897,18 z"
+         style="fill:none;stroke:#000000"
+         sodipodi:ry="18"
+         sodipodi:rx="77.4897"
+         sodipodi:cy="-234"
+         sodipodi:cx="710"
+         cx="710"
+         cy="-234"
+         rx="77.4897"
+         ry="18"
+         id="ellipse20395" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="710"
+         y="-230.3"
+         font-size="14.00"
+         id="text20397">devol.programtype</text>
+    </g>
+    <g
+       id="edge43"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20400">evol.progtype-&gt;devol.programtype</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 740,-287.831 c 0,0 0,26.905 0,26.905"
+         id="path20402" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="736.5,-260.926 743.5,-260.926 743.5,-260.926 740,-250.926 "
+         id="polygon20404" />
+    </g>
+    <g
+       id="node27"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20407">devol.typemng</title>
+      <ellipse
+         d="m 863.5411,-18 c 0,9.9411255 -28.44832,18 -63.5411,18 -35.09278,0 -63.5411,-8.0588745 -63.5411,-18 0,-9.941125 28.44832,-18 63.5411,-18 35.09278,0 63.5411,8.058875 63.5411,18 z"
+         style="fill:none;stroke:#000000"
+         sodipodi:ry="18"
+         sodipodi:rx="63.5411"
+         sodipodi:cy="-18"
+         sodipodi:cx="800"
+         cx="800"
+         cy="-18"
+         rx="63.5411"
+         ry="18"
+         id="ellipse20409" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="800"
+         y="-14.3"
+         font-size="14.00"
+         id="text20411">devol.typemng</text>
+    </g>
+    <g
+       id="edge44"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20414">evol.progtype-&gt;devol.typemng</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 786.177,-302 c 21.135,0 41.552,0 41.552,0 0,0 0,257.5034 0,257.5034"
+         id="path20416" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="824.229,-44.4966 831.229,-44.4966 831.229,-44.4966 827.729,-34.4966 "
+         id="polygon20418" />
+    </g>
+    <g
+       id="node28"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20421">devol.std.typepod</title>
+      <ellipse
+         d="m 816.1654,-162 c 0,9.94113 -32.75727,18 -73.1654,18 -40.40813,0 -73.1654,-8.05887 -73.1654,-18 0,-9.94113 32.75727,-18 73.1654,-18 40.40813,0 73.1654,8.05887 73.1654,18 z"
+         style="fill:none;stroke:#000000"
+         sodipodi:ry="18"
+         sodipodi:rx="73.165398"
+         sodipodi:cy="-162"
+         sodipodi:cx="743"
+         cx="743"
+         cy="-162"
+         rx="73.165398"
+         ry="18"
+         id="ellipse20423" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="743"
+         y="-158.3"
+         font-size="14.00"
+         id="text20425">devol.std.typepod</text>
+    </g>
+    <g
+       id="edge46"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20428">evol.progtype-&gt;devol.std.typepod</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 786.051,-295 c 12.664,0 22.989,0 22.989,0 0,0 0,115.079 0,115.079"
+         id="path20430" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="805.541,-179.921 812.541,-179.921 812.541,-179.921 809.04,-169.921 "
+         id="polygon20432" />
+    </g>
+    <g
+       id="edge50"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20435">evol.world-&gt;graph.connectivity</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 146.562,-378 c -23.603,0 -49.6481,0 -49.6481,0 0,0 0,43.831 0,43.831"
+         id="path20437" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="93.414,-334.169 100.414,-334.169 100.414,-334.169 96.9139,-324.169 "
+         id="polygon20439" />
+    </g>
+    <g
+       id="edge49"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20442">evol.world-&gt;graph.directed</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 161.65,-359.764 c 0,29.338 0,83.764 0,83.764 0,0 -80.275,0 -80.275,0 0,0 0,229.8579 0,229.8579"
+         id="path20444" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="77.8751,-46.1421 84.8751,-46.142 84.8751,-46.142 81.375,-36.1421 "
+         id="polygon20446" />
+    </g>
+    <g
+       id="edge51"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20449">evol.world-&gt;evol.progtype</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 191.45,-359.831 c 0,21.329 0,53.831 0,53.831 0,0 492.254,0 492.254,0"
+         id="path20451" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="683.704,-302.5 683.704,-309.5 683.704,-309.5 693.704,-306 "
+         id="polygon20453" />
+    </g>
+    <g
+       id="node29"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20456">devol.world</title>
+      <ellipse
+         d="m 225.9443,-162 c 0,9.94113 -23.70397,18 -52.9443,18 -29.24033,0 -52.9443,-8.05887 -52.9443,-18 0,-9.94113 23.70397,-18 52.9443,-18 29.24033,0 52.9443,8.05887 52.9443,18 z"
+         style="fill:none;stroke:#000000"
+         sodipodi:ry="18"
+         sodipodi:rx="52.944302"
+         sodipodi:cy="-162"
+         sodipodi:cx="173"
+         cx="173"
+         cy="-162"
+         rx="52.944302"
+         ry="18"
+         id="ellipse20458" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="173"
+         y="-158.3"
+         font-size="14.00"
+         id="text20460">devol.world</text>
+    </g>
+    <g
+       id="edge48"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20463">evol.world-&gt;devol.world</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 176.55,-359.955 c 0,0 0,169.81 0,169.81"
+         id="path20465" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="173.05,-190.145 180.05,-190.145 180.05,-190.145 176.55,-180.145 "
+         id="polygon20467" />
+    </g>
+    <g
+       id="edge57"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20470">evol.operators-&gt;evol.individ</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 526.05,-252.269 c 0,-51.091 0,-191.731 0,-191.731 0,0 -15.732,0 -15.732,0"
+         id="path20472" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="510.318,-447.5 510.319,-440.5 510.319,-440.5 500.318,-444 "
+         id="polygon20474" />
+    </g>
+    <g
+       id="edge53"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20477">evol.operators-&gt;evol.types.argedge</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 594.1,-215.762 c 0,0 0,97.672 0,97.672"
+         id="path20479" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="590.6,-118.09 597.6,-118.09 597.6,-118.09 594.1,-108.09 "
+         id="polygon20481" />
+    </g>
+    <g
+       id="node17"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20484">evol.types.typeedge</title>
+      <polygon
+         style="fill:none;stroke:#000000"
+         points="439.75,-180 439.75,-144 564.25,-144 564.25,-180 564.25,-180 "
+         id="polygon20486" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="502"
+         y="-158.3"
+         font-size="14.00"
+         id="text20488">evol.types.typeedge</text>
+    </g>
+    <g
+       id="edge52"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20491">evol.operators-&gt;evol.types.typeedge</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 542.125,-215.831 c 0,0 0,25.418 0,25.418"
+         id="path20493" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="538.625,-190.413 545.625,-190.413 545.625,-190.413 542.125,-180.413 "
+         id="polygon20495" />
+    </g>
+    <g
+       id="edge56"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20498">evol.operators-&gt;devol.operator</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 584.15,-215.857 c 0,6.318 0,11.857 0,11.857 0,0 406.412,0 406.412,0 0,0 0,14.432 0,14.432"
+         id="path20500" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="987.062,-189.568 994.062,-189.568 994.062,-189.568 990.562,-179.568 "
+         id="polygon20502" />
+    </g>
+    <g
+       id="edge54"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20505">evol.operators-&gt;devol.std.argpod</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 519.836,-228 c -53.185,0 -132.345,0 -132.345,0 0,0 0,40.359 0,40.359"
+         id="path20507" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="383.991,-187.641 390.991,-187.641 390.991,-187.641 387.491,-177.641 "
+         id="polygon20509" />
+    </g>
+    <g
+       id="edge55"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20512">evol.operators-&gt;devol.std.typepod</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 604.05,-215.831 c 0,21.329 0,53.831 0,53.831 0,0 55.406,0 55.406,0"
+         id="path20514" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="659.456,-158.5 659.456,-165.5 659.456,-165.5 669.456,-162 "
+         id="polygon20516" />
+    </g>
+    <g
+       id="edge58"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20519">evol.operators-&gt;devol.world</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 519.851,-240 c -97.758,0 -313.501,0 -313.501,0 0,0 0,53.694 0,53.694"
+         id="path20521" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="202.85,-186.306 209.85,-186.306 209.85,-186.306 206.35,-176.306 "
+         id="polygon20523" />
+    </g>
+    <g
+       id="edge65"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20526">evol.types.argedge-&gt;graph.directed</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 533.386,-90 c -15.679,0 -28.301,0 -28.301,0 0,0 0,78 0,78 0,0 -355.699,0 -355.699,0"
+         id="path20528" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="149.386,-15.5001 149.386,-8.5001 149.386,-8.5001 139.386,-12 "
+         id="polygon20530" />
+    </g>
+    <g
+       id="edge64"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20533">evol.types.argedge-&gt;devol.typemng</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 652.304,-90 c 53.593,0 124.133,0 124.133,0 0,0 0,44.937 0,44.937"
+         id="path20535" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="772.937,-45.063 779.937,-45.063 779.937,-45.063 776.437,-35.063 "
+         id="polygon20537" />
+    </g>
+    <g
+       id="node31"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20540">devol.serializable</title>
+      <ellipse
+         d="m 665.192,-18 c 0,9.9411255 -32.32146,18 -72.192,18 -39.87054,0 -72.192,-8.0588745 -72.192,-18 0,-9.941125 32.32146,-18 72.192,-18 39.87054,0 72.192,8.058875 72.192,18 z"
+         style="fill:none;stroke:#000000"
+         sodipodi:ry="18"
+         sodipodi:rx="72.192001"
+         sodipodi:cy="-18"
+         sodipodi:cx="593"
+         cx="593"
+         cy="-18"
+         rx="72.192001"
+         ry="18"
+         id="ellipse20542" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="593"
+         y="-14.3"
+         font-size="14.00"
+         id="text20544">devol.serializable</text>
+    </g>
+    <g
+       id="edge63"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20547">evol.types.argedge-&gt;devol.serializable</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 593,-71.8314 c 0,0 0,25.4181 0,25.4181"
+         id="path20549" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="589.5,-46.4133 596.5,-46.4132 596.5,-46.4132 593,-36.4133 "
+         id="polygon20551" />
+    </g>
+    <g
+       id="edge62"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20554">evol.types.typeedge-&gt;graph.directed</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 489.566,-143.959 c 0,37.407 0,119.959 0,119.959 0,0 -340.005,0 -340.005,0"
+         id="path20556" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="149.561,-27.5001 149.561,-20.5001 149.561,-20.5001 139.561,-24 "
+         id="polygon20558" />
+    </g>
+    <g
+       id="edge61"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20561">evol.types.typeedge-&gt;evol.types.argedge</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 549,-143.831 c 0,0 0,25.418 0,25.418"
+         id="path20563" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="545.5,-118.413 552.5,-118.413 552.5,-118.413 549,-108.413 "
+         id="polygon20565" />
+    </g>
+    <g
+       id="edge59"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20568">evol.types.typeedge-&gt;devol.argument</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 451.183,-143.578 c 0,8.857 0,17.578 0,17.578 0,0 -139.745,0 -139.745,0 0,0 0,10.941 0,10.941"
+         id="path20570" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="307.938,-115.059 314.938,-115.059 314.938,-115.059 311.438,-105.059 "
+         id="polygon20572" />
+    </g>
+    <g
+       id="node30"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20575">devol.type</title>
+      <ellipse
+         d="m 474.1437,-90 c 0,9.941125 -21.55467,18 -48.1437,18 -26.58903,0 -48.1437,-8.058875 -48.1437,-18 0,-9.941125 21.55467,-18 48.1437,-18 26.58903,0 48.1437,8.058875 48.1437,18 z"
+         style="fill:none;stroke:#000000"
+         sodipodi:ry="18"
+         sodipodi:rx="48.1437"
+         sodipodi:cy="-90"
+         sodipodi:cx="426"
+         cx="426"
+         cy="-90"
+         rx="48.1437"
+         ry="18"
+         id="ellipse20577" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="426"
+         y="-86.300003"
+         font-size="14.00"
+         id="text20579">devol.type</text>
+    </g>
+    <g
+       id="edge60"
+       class="edge"
+       transform="matrix(2.0759556,0,0,2.0759556,68.38431,1007.9677)">
+      <title
+         id="title20582">evol.types.typeedge-&gt;devol.type</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         d="m 462.615,-143.831 c 0,0 0,31.992 0,31.992"
+         id="path20584" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         points="459.115,-111.839 466.115,-111.839 466.115,-111.839 462.615,-101.839 "
+         id="polygon20586" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="1944.363"
+       y="540.13342"
+       id="text20981"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan20983"
+         x="1944.363"
+         y="540.13342" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="1940.4138"
+       y="-812.56378"
+       id="text21370"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan21372"
+         x="1940.4138"
+         y="-812.56378"
+         style="letter-spacing:-0.17678697"><tspan
+   style="font-weight:bold"
+   id="tspan21374">Легенда</tspan>:</tspan></text>
+    <g
+       id="g21463"
+       transform="translate(1.96e-5,-9.6255593)">
+      <g
+         transform="matrix(2.0759556,0,0,2.0759556,820.01424,787.40697)"
+         class="node"
+         id="node7-4">
+        <title
+           id="title19980-5">gui.settings</title>
+        <polygon
+           id="polygon19982-7"
+           points="862.25,-756 783.75,-756 783.75,-720 862.25,-720 862.25,-756 "
+           style="fill:none;stroke:#000000" />
+        <text
+           id="text19984-9"
+           font-size="14.00"
+           y="-734.29999"
+           x="823"
+           style="font-size:14px;text-anchor:middle;font-family:'Times,serif'">gui.settings</text>
+      </g>
+      <g
+         transform="matrix(2.0759556,0,0,2.0759556,1035.7796,1086.4921)"
+         class="node"
+         id="node1-2">
+        <title
+           id="title19917-6">main</title>
+        <polygon
+           id="polygon19919-7"
+           points="632,-864 632,-900 632,-900 578,-900 578,-864 "
+           style="fill:none;stroke:#000000" />
+        <text
+           id="text19921-0"
+           font-size="14.00"
+           y="-878.29999"
+           x="605"
+           style="font-size:14px;text-anchor:middle;font-family:'Times,serif'">main</text>
+      </g>
+      <g
+         transform="matrix(0,-1,1,0,2790.3917,1938.4273)"
+         id="g21457">
+        <g
+           id="edge3-5"
+           class="edge"
+           transform="matrix(2.0759556,0,0,2.0759556,974.5641,1224.4933)">
+          <title
+             id="title19987-2">main-&gt;gui.settings</title>
+          <path
+             style="fill:none;stroke:#000000"
+             inkscape:connector-curvature="0"
+             d="m 822.92893,-803.05258 0.14341,36.81458"
+             id="path19989-2"
+             sodipodi:nodetypes="cc" />
+          <polygon
+             style="fill:#000000;stroke:#000000"
+             points="819.5,-766.238 826.5,-766.238 826.5,-766.238 823,-756.238 "
+             id="polygon19991-9" />
+        </g>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="1924.2369"
+       y="-664.48779"
+       id="text21478"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan21480"
+         x="1924.2369"
+         y="-664.48779">Модуль &quot;main&quot; зависит от модуля &quot;gui.settings&quot;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="1988.1156"
+       y="-599.73401"
+       id="text21482"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan21484"
+         x="1988.1156"
+         y="-599.73401">В модуле &quot;main&quot; есть &quot;import gui.settings&quot;</tspan></text>
+    <g
+       id="node20-9"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,659.06392,13.524763)">
+      <title
+         id="title20211-6">devol.operatormng</title>
+      <ellipse
+         d="m 1037.4897,-234 c 0,9.94113 -34.6933,18 -77.4897,18 -42.79638,0 -77.4897,-8.05887 -77.4897,-18 0,-9.94113 34.69332,-18 77.4897,-18 42.7964,0 77.4897,8.05887 77.4897,18 z"
+         style="fill:none;stroke:#000000"
+         sodipodi:ry="18"
+         sodipodi:rx="77.4897"
+         sodipodi:cy="-234"
+         sodipodi:cx="960"
+         cx="960"
+         cy="-234"
+         rx="77.4897"
+         ry="18"
+         id="ellipse20213-2" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="960"
+         y="-230.3"
+         font-size="14.00"
+         id="text20215-7">devol.operatormng</text>
+    </g>
+    <g
+       id="node7-0"
+       class="node"
+       transform="matrix(2.0759556,0,0,2.0759556,501.74004,1053.6188)">
+      <title
+         id="title19980-8">gui.settings</title>
+      <polygon
+         style="fill:none;stroke:#000000"
+         points="783.75,-720 862.25,-720 862.25,-756 862.25,-756 783.75,-756 "
+         id="polygon19982-1" />
+      <text
+         style="font-size:14px;text-anchor:middle;font-family:'Times,serif'"
+         x="823"
+         y="-734.29999"
+         font-size="14.00"
+         id="text19984-7">gui.settings</text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="2201.321"
+       y="-385.6232"
+       id="text21540"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan21542"
+         x="2201.321"
+         y="-385.6232">Внутренний</tspan><tspan
+         sodipodi:role="line"
+         x="2201.321"
+         y="-325.6232"
+         id="tspan21544">модуль АИС</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="2648.2991"
+       y="-389.74109"
+       id="text21540-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan21542-2"
+         x="2648.2991"
+         y="-389.74109">Внешний</tspan><tspan
+         sodipodi:role="line"
+         x="2648.2991"
+         y="-329.74109"
+         id="tspan21544-6">модуль АИС</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="1903.2885"
+       y="849.89044"
+       id="text21570"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan21572"
+         x="1903.2885"
+         y="849.89044" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot21574"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       transform="translate(0,-1052.3624)"><flowRegion
+         id="flowRegion21576"><rect
+           id="rect21578"
+           width="1056.8324"
+           height="282.15195"
+           x="1890.9135"
+           y="785.54004"
+           style="text-align:justify;text-anchor:start" /></flowRegion><flowPara
+         id="flowPara21580">Внешние модули являются модулями инструментальной библиотеки Devol, которая используется как основа для реализации проблемно-ориентированного языка.</flowPara></flowRoot>  </g>
+</svg>
