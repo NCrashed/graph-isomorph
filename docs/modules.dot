@@ -1,0 +1,449 @@
+ 
+digraph Modules {
+  splines=ortho;
+  node [shape=box]; 
+  main; 
+  application; 
+  project; 
+  "gui.evolution"; 
+  "gui.generic"; 
+  "gui.results"; 
+  "gui.settings"; 
+  "gui.util";
+  "graph.connectivity"; 
+  "graph.directed"; 
+  "evol.compiler"; 
+  "evol.individ"; 
+  "evol.progtype"; 
+  "evol.world";
+  "evol.operators";
+  #"evol.operators.and"; 
+  #"evol.operators.answer"; 
+  #"evol.operators.construct";
+  #"evol.operators.dist"; 
+  #"evol.operators.gdup"; 
+  #"evol.operators.gover"; 
+  #"evol.operators.gpop";
+  #"evol.operators.gpush";
+  #"evol.operators.grot";
+  #"evol.operators.gswap";
+  #"evol.operators.idcast";
+  #"evol.operators.idup";
+  #"evol.operators.iover";
+  #"evol.operators.ipop";
+  #"evol.operators.ipush";
+  #"evol.operators.irot";
+  #"evol.operators.iswap";
+  #"evol.operators.not";
+  #"evol.operators.opif";
+  #"evol.operators.opwhile";
+  #"evol.operators.or";
+  #"evol.operators.plus";
+  #"evol.operators.mult";
+  #"evol.operators.div";
+  #"evol.operators.relation";
+  #"evol.operators.round";
+  #"evol.operators.source";
+  "evol.types.argedge";
+  "evol.types.typeedge";
+  
+  node [shape=ellipse];
+  #"devol.argument"
+  #"devol.compiler"
+  #"devol.evolutor"
+  #"devol.individ"
+  #"devol.operator"
+  #"devol.operatormng"
+  #"devol.population"
+  #"devol.programtype"
+  #"devol.serializable"
+  #"devol.singleton"
+  #"devol.type"
+  #"devol.typemng"
+  #"devol.world"
+  #"devol.std.argpod"
+  #"devol.std.argscope"
+  #"devol.std.argvoid"
+  #"devol.std.container"
+  #"devol.std.line"
+  #"devol.std.typeline"
+  #"devol.std.typepod"
+  #"devol.std.typescope"
+  #"devol.std.typevoid"
+  
+  
+  # main
+  main -> "gui.evolution";
+  main -> "gui.results";
+  main -> "gui.settings";
+  main -> project;
+  main -> application;
+  #main -> dlogg;
+  #main -> gtk;
+  
+  # application
+  application -> "gui.settings";
+  application -> "gui.evolution";
+  application -> "gui.results";
+  application -> project;
+  #application -> gtk;
+  #application -> dlogg;
+  
+  # project
+  project -> "evol.progtype";
+  project -> "evol.compiler";
+  #project -> dlogg;
+  #project -> dyaml;
+  
+  # gui.evolution
+  "gui.evolution" -> "gui.util";
+  "gui.evolution" -> "gui.generic";
+  "gui.evolution" -> "graph.directed";
+  "gui.evolution" -> project;
+  #"gui.evolution" -> application;
+  "gui.evolution" -> "evol.compiler";
+  "gui.evolution" -> "evol.world";
+  #"gui.evolution" -> gtk;
+  #"gui.evolution" -> dlogg;
+  
+  # gui.generic
+  "gui.generic" -> project;
+  "gui.generic" -> application;
+  #"gui.generic" -> dlogg;
+  #"gui.generic" -> gtk;
+  
+  # gui.results
+  "gui.results" -> "gui.util";
+  "gui.results" -> "gui.generic";
+  "gui.results" -> "project";
+  #"gui.results" -> application;
+  "gui.results" -> "devol.individ";
+  #"gui.results" -> gtk;
+  #"gui.results" -> dlogg;
+  
+  # gui.settings
+  "gui.settings" -> "gui.util";
+  "gui.settings" -> "gui.generic";
+  "gui.settings" -> "evol.progtype";
+  "gui.settings" -> "devol.operator";
+  "gui.settings" -> "devol.operatormng";
+  "gui.settings" -> project;
+  #"gui.settings" -> application;
+  #"gui.settings" -> dlogg;
+  #"gui.settings" -> gtk;
+  
+  # gui.util
+  #"gui.settings" -> gtk;
+  
+  # graph.connectivity
+  "graph.connectivity" -> "graph.directed";
+  
+  ## graph.directed
+  
+  # evol.compiler
+  "evol.compiler" -> "devol.compiler";
+  "evol.compiler" -> "devol.population";
+  "evol.compiler" -> "evol.individ";
+  "evol.compiler" -> "evol.world";
+  "evol.compiler" -> "evol.progtype";
+  "evol.compiler" -> project;
+  
+  # evol.individ
+  "evol.individ" -> "devol.individ";
+  "evol.individ" -> "devol.argument";
+  "evol.individ" -> "devol.std.argvoid";
+  #"evol.individ" -> dyaml;
+  "evol.individ" -> "evol.types.argedge";
+  "evol.individ" -> "evol.world";
+  "evol.individ" -> "devol.std.argpod";
+  
+  # evol.progtype
+  "evol.progtype" -> "devol.programtype";
+  "evol.progtype" -> "devol.typemng";
+  "evol.progtype" -> "devol.operatormng";
+  "evol.progtype" -> "devol.std.typepod";
+  #"evol.progtype" -> "evol.operators.and";
+  #"evol.progtype" -> "evol.operators.not";
+  #"evol.progtype" -> "evol.operators.opif";
+  #"evol.progtype" -> "evol.operators.opwhile";
+  #"evol.progtype" -> "evol.operators.or";
+  #"evol.progtype" -> "evol.operators.plus";
+  #"evol.progtype" -> "evol.operators.mult";
+  #"evol.progtype" -> "evol.operators.div";
+  #"evol.progtype" -> "evol.operators.relation";
+  #"evol.progtype" -> "evol.operators.gpop";
+  #"evol.progtype" -> "evol.operators.gpush";
+  #"evol.progtype" -> "evol.operators.gdup";
+  #"evol.progtype" -> "evol.operators.gover";
+  #"evol.progtype" -> "evol.operators.grot";
+  #"evol.progtype" -> "evol.operators.gswap";
+  #"evol.progtype" -> "evol.operators.ipop";
+  #"evol.progtype" -> "evol.operators.ipush";
+  #"evol.progtype" -> "evol.operators.idup";
+  #"evol.progtype" -> "evol.operators.iover";
+  #"evol.progtype" -> "evol.operators.irot";
+  #"evol.progtype" -> "evol.operators.iswap";
+  #"evol.progtype" -> "evol.operators.construct";
+  #"evol.progtype" -> "evol.operators.dist";
+  #"evol.progtype" -> "evol.operators.source";
+  #"evol.progtype" -> "evol.operators.idcast";
+  #"evol.progtype" -> "evol.operators.round";
+  #"evol.progtype" -> "evol.operators.answer";
+  #"evol.progtype" -> "evol.types.typeedge";
+  #"evol.progtype" -> "evol.individ";
+  #"evol.progtype" -> "evol.world";
+  "evol.progtype" -> "evol.operators"
+  
+  # evol.world
+  "evol.world" -> "devol.world";
+  "evol.world" -> "graph.directed";
+  "evol.world" -> "graph.connectivity";
+  "evol.world" -> "evol.progtype";
+  
+  # evol.operators
+  "evol.operators" -> "evol.types.typeedge";
+  "evol.operators" -> "evol.types.argedge";
+  "evol.operators" -> "devol.std.argpod";
+  "evol.operators" -> "devol.std.typepod";
+  "evol.operators" -> "devol.operator";
+  "evol.operators" -> "evol.individ"
+  "evol.operators" -> "devol.world";
+  
+  # evol.types.typeedge
+  "evol.types.typeedge" -> "devol.argument";
+  "evol.types.typeedge" -> "devol.type";
+  "evol.types.typeedge" -> "evol.types.argedge";
+  "evol.types.typeedge" -> "graph.directed";
+  
+  # evol.types.argedge
+  "evol.types.argedge" -> "devol.serializable";
+  "evol.types.argedge" -> "devol.typemng";
+  "evol.types.argedge" -> "graph.directed";
+  
+  # ================================================
+  # evol.operators.and
+  ## "evol.operators.and" -> "devol.world";
+  ## "evol.operators.and" -> "devol.std.line";
+  ## "evol.operators.and" -> "devol.individ";
+  ## "evol.operators.and" -> "devol.operator";
+  ## "evol.operators.and" -> "devol.type";
+  ## "evol.operators.and" -> "devol.typemng";
+  ## "evol.operators.and" -> "devol.std.argpod";
+  ## "evol.operators.and" -> "devol.std.typepod";
+  ## "evol.operators.and" -> "devol.argument";
+  
+  # evol.operators.answer
+  ## "evol.operators.answer" -> "devol.typemng";
+  ## "evol.operators.answer" -> "devol.individ";
+  ## "evol.operators.answer" -> "devol.world";
+  ## "evol.operators.answer" -> "devol.operator";
+  ## "evol.operators.answer" -> "devol.std.typepod";
+  #"evol.operators.answer" -> "evol.individ";
+  
+  # evol.operators.construct
+  ## "evol.operators.construct" -> "devol.typemng";
+  ## "evol.operators.construct" -> "devol.individ";
+  ## "evol.operators.construct" -> "devol.world";
+  ## "evol.operators.construct" -> "devol.operator";
+  ## "evol.operators.construct" -> "devol.std.typevoid";
+  ## "evol.operators.construct" -> "devol.std.argvoid";
+  ## "evol.operators.construct" -> "devol.std.typepod";
+  #"evol.operators.construct" -> "evol.types.typeedge";
+  #"evol.operators.construct" -> "evol.types.argedge";
+  #"evol.operators.construct" -> "evol.individ";
+  #"evol.operators.construct" -> "graph.directed";
+  
+  # evol.operators.dist
+  ## "evol.operators.dist" -> "devol.typemng";
+  ## "evol.operators.dist" -> "devol.individ";
+  ## "evol.operators.dist" -> "devol.world";
+  ## "evol.operators.dist" -> "devol.operator";
+  ## "evol.operators.dist" -> "devol.std.typevoid";
+  ## "evol.operators.dist" -> "devol.std.argvoid";
+  ## "evol.operators.dist" -> "devol.std.typepod";
+  #"evol.operators.dist" -> "evol.types.typeedge";
+  #"evol.operators.dist" -> "evol.types.argedge";
+  #"evol.operators.dist" -> "evol.individ";
+  
+  # evol.operators.gdup
+  ## "evol.operators.gdup" -> "devol.typemng";
+  ## "evol.operators.gdup" -> "devol.individ";
+  ## "evol.operators.gdup" -> "devol.world";
+  ## "evol.operators.gdup" -> "devol.operator";
+  ## "evol.operators.gdup" -> "devol.std.typevoid";
+  ## "evol.operators.gdup" -> "devol.std.argvoid";
+  #"evol.operators.gdup" -> "evol.individ";
+  
+  # evol.operators.gover
+  ## "evol.operators.gover" -> "devol.typemng";
+  ## "evol.operators.gover" -> "devol.individ";
+  ## "evol.operators.gover" -> "devol.world";
+  ## "evol.operators.gover" -> "devol.operator";
+  ## "evol.operators.gover" -> "devol.std.typevoid";
+  ## "evol.operators.gover" -> "devol.std.argvoid";
+  #"evol.operators.gover" -> "evol.individ";
+  
+  # evol.operators.gpop
+  ## "evol.operators.gpop" -> "devol.typemng";
+  ## "evol.operators.gpop" -> "devol.individ";
+  ## "evol.operators.gpop" -> "devol.world";
+  ## "evol.operators.gpop" -> "devol.operator";
+  ## "evol.operators.gpop" -> "devol.std.typepod";
+  #"evol.operators.gpop" -> "evol.individ";
+  
+  # evol.operators.gpush
+  ## "evol.operators.gpush" -> "devol.typemng";
+  ## "evol.operators.gpush" -> "devol.individ";
+  ## "evol.operators.gpush" -> "devol.world";
+  ## "evol.operators.gpush" -> "devol.operator";
+  ## "evol.operators.gpush" -> "devol.std.typepod";
+  ## "evol.operators.gpush" -> "devol.std.typevoid";
+  ## "evol.operators.gpush" -> "devol.std.argvoid";
+  #"evol.operators.gpush" -> "evol.individ";
+  
+  # evol.operators.grot
+  ## "evol.operators.grot" -> "devol.typemng";
+  ## "evol.operators.grot" -> "devol.individ";
+  ## "evol.operators.grot" -> "devol.world";
+  ## "evol.operators.grot" -> "devol.operator";
+  ## "evol.operators.grot" -> "devol.std.typevoid";
+  ## "evol.operators.grot" -> "devol.std.argvoid";
+  #"evol.operators.grot" -> "evol.individ";
+  
+  # evol.operators.gswap
+  ## "evol.operators.gswap" -> "devol.typemng";
+  ## "evol.operators.gswap" -> "devol.individ";
+  ## "evol.operators.gswap" -> "devol.world";
+  ## "evol.operators.gswap" -> "devol.operator";
+  ## "evol.operators.gswap" -> "devol.std.typevoid";
+  ## "evol.operators.gswap" -> "devol.std.argvoid";
+  #"evol.operators.gswap" -> "evol.individ";
+  
+  # evol.operators.idcast
+  ## "evol.operators.idcast" -> "devol.individ";
+  ## "evol.operators.idcast" -> "devol.world";
+  ## "evol.operators.idcast" -> "devol.operator";
+  ## "evol.operators.idcast" -> "devol.std.typepod";
+  
+  # evol.operators.idup
+  ## "evol.operators.idup" -> "devol.typemng";
+  ## "evol.operators.idup" -> "devol.individ";
+  ## "evol.operators.idup" -> "devol.world";
+  ## "evol.operators.idup" -> "devol.operator";
+  ## "evol.operators.idup" -> "devol.std.typevoid";
+  ## "evol.operators.idup" -> "devol.std.argvoid";
+  #"evol.operators.idup" -> "evol.individ";
+  
+  # evol.operators.iover
+  ## "evol.operators.iover" -> "devol.typemng";
+  ## "evol.operators.iover" -> "devol.individ";
+  ## "evol.operators.iover" -> "devol.world";
+  ## "evol.operators.iover" -> "devol.operator";
+  ## "evol.operators.iover" -> "devol.std.typevoid";
+  ## "evol.operators.iover" -> "devol.std.argvoid";
+  #"evol.operators.iover" -> "evol.individ";
+  
+  # evol.operators.ipop
+  ## "evol.operators.ipop" -> "devol.typemng";
+  ## "evol.operators.ipop" -> "devol.individ";
+  ## "evol.operators.ipop" -> "devol.world";
+  ## "evol.operators.ipop" -> "devol.operator";
+  #"evol.operators.ipop" -> "evol.types.typeedge";
+  #"evol.operators.ipop" -> "evol.types.argedge";
+  #"evol.operators.ipop" -> "evol.individ";
+  
+  # evol.operators.ipush
+  ## "evol.operators.ipush" -> "devol.typemng";
+  ## "evol.operators.ipush" -> "devol.individ";
+  ## "evol.operators.ipush" -> "devol.world";
+  ## "evol.operators.ipush" -> "devol.operator";
+  ## "evol.operators.ipush" -> "devol.std.typevoid";
+  ## "evol.operators.ipush" -> "devol.std.argvoid";
+  #"evol.operators.ipush" -> "evol.types.typeedge";
+  #"evol.operators.ipush" -> "evol.types.argedge";
+  #"evol.operators.ipush" -> "evol.individ";
+  
+  # evol.operators.irot
+  ## "evol.operators.irot" -> "devol.typemng";
+  ## "evol.operators.irot" -> "devol.individ";
+  ## "evol.operators.irot" -> "devol.world";
+  ## "evol.operators.irot" -> "devol.operator";
+  ## "evol.operators.irot" -> "devol.std.typevoid";
+  ## "evol.operators.irot" -> "devol.std.argvoid";
+  #"evol.operators.irot" -> "evol.individ";
+  
+  # evol.operators.iswap
+  ## "evol.operators.iswap" -> "devol.typemng";
+  ## "evol.operators.iswap" -> "devol.individ";
+  ## "evol.operators.iswap" -> "devol.world";
+  ## "evol.operators.iswap" -> "devol.operator";
+  ## "evol.operators.iswap" -> "devol.std.typevoid";
+  ## "evol.operators.iswap" -> "devol.std.argvoid";
+  #"evol.operators.iswap" -> "evol.individ";
+  
+  # evol.operators.not
+  ## "evol.operators.not" -> "devol.world";
+  ## "evol.operators.not" -> "devol.std.line";
+  ## "evol.operators.not" -> "devol.individ";
+  ## "evol.operators.not" -> "devol.operator";
+  ## "evol.operators.not" -> "devol.type";
+  ## "evol.operators.not" -> "devol.typemng";
+  ## "evol.operators.not" -> "devol.std.argpod";
+  ## "evol.operators.not" -> "devol.std.typepod";
+  ## "evol.operators.not" -> "devol.argument";
+  
+  # evol.operators.opif
+  ## "evol.operators.opif" -> "devol.world";
+  ## "evol.operators.opif" -> "devol.individ";
+  ## "evol.operators.opif" -> "devol.operator";
+  ## "evol.operators.opif" -> "devol.std.typepod";
+  
+  # evol.operators.opwhile
+  ## "evol.operators.opwhile" -> "devol.world";
+  ## "evol.operators.opwhile" -> "devol.individ";
+  ## "evol.operators.opwhile" -> "devol.operator";
+  ## "evol.operators.opwhile" -> "devol.std.typepod";
+  
+  # evol.operators.plus
+  ## "evol.operators.plus" -> "devol.world";
+  ## "evol.operators.plus" -> "devol.individ";
+  ## "evol.operators.plus" -> "devol.operator";
+  ## "evol.operators.plus" -> "devol.std.typepod";
+  
+  # evol.operators.mult
+  ## "evol.operators.mult" -> "devol.world";
+  ## "evol.operators.mult" -> "devol.individ";
+  ## "evol.operators.mult" -> "devol.operator";
+  ## "evol.operators.mult" -> "devol.std.typepod";
+  
+  # evol.operators.div
+  ## "evol.operators.div" -> "devol.world";
+  ## "evol.operators.div" -> "devol.individ";
+  ## "evol.operators.div" -> "devol.operator";
+  ## "evol.operators.div" -> "devol.std.typepod";
+  
+  # evol.operators.relation
+  ## "evol.operators.relation" -> "devol.world";
+  ## "evol.operators.relation" -> "devol.individ";
+  ## "evol.operators.relation" -> "devol.operator";
+  ## "evol.operators.relation" -> "devol.std.typepod";
+  
+  # evol.operators.round
+  ## "evol.operators.round" -> "devol.typemng";
+  ## "evol.operators.round" -> "devol.world";
+  ## "evol.operators.round" -> "devol.individ";
+  ## "evol.operators.round" -> "devol.operator";
+  ## "evol.operators.round" -> "devol.std.typepod";
+  
+  # evol.operators.source
+  ## "evol.operators.source" -> "devol.typemng";
+  ## "evol.operators.source" -> "devol.world";
+  ## "evol.operators.source" -> "devol.individ";
+  ## "evol.operators.source" -> "devol.operator";
+  ## "evol.operators.source" -> "devol.std.typevoid";
+  ## "evol.operators.source" -> "devol.std.argvoid";
+  ## "evol.operators.source" -> "devol.std.typepod";
+  #"evol.operators.source" -> "evol.types.typeedge";
+  #"evol.operators.source" -> "evol.types.argedge";
+
+}
