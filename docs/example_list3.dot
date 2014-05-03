@@ -1,0 +1,48 @@
+digraph "" {
+
+
+subgraph cluster1 {
+label = "Константы";
+"100"; "true"; "4 -> 5";
+}
+subgraph cluster2 {
+label = "Линия";
+larg1 [label="аргумент 1"];
+larg2 [label="аргумент 2"];
+dots0 [label = "..."];
+largn [label="аргумент n"];
+
+"оператор" -> larg1;
+"оператор" -> larg2;
+"оператор" -> dots0;
+"оператор" -> largn;
+}
+subgraph cluster3 {
+label = "Область";
+
+op1[label="оператор 1"];
+opdots[label="..."];
+opm[label="оператор m"];
+
+scope -> op1;
+scope -> opdots;
+scope -> opm;
+
+arg11 [label="аргумент 1"];
+arg1dots [label="..."];
+arg1n [label="аргумент n"];
+
+op1 -> arg11;
+op1 -> arg1dots;
+op1 -> arg1n;
+
+arg21 [label="аргумент 1"];
+arg2dots [label="..."];
+arg2n [label="аргумент k"];
+
+opm -> arg21;
+opm -> arg2dots;
+opm -> arg2n;
+}
+
+}
