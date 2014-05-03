@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="48cm" height="83cm" viewBox="698 58 942 1642" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <path style="fill: #ffffff" d="M 1053.74 60 L 1108.69,60 C 1116.27,60 1122.43,68.9543 1122.43,80 C 1122.43,91.0457 1116.27,100 1108.69,100 L 1053.74,100 C 1046.15,100 1040,91.0457 1040,80 C 1040,68.9543 1046.15,60 1053.74,60z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1053.74 60 L 1108.69,60 C 1116.27,60 1122.43,68.9543 1122.43,80 C 1122.43,91.0457 1116.27,100 1108.69,100 L 1053.74,100 C 1046.15,100 1040,91.0457 1040,80 C 1040,68.9543 1046.15,60 1053.74,60"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1081.21" y="84">
+      <tspan x="1081.21" y="84">Начало</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="988.533,180 1188.41,180 1173.85,220 973.974,220 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="988.533,180 1188.41,180 1173.85,220 973.974,220 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1081.19" y="203.9">
+      <tspan x="1081.19" y="203.9">pop - текущая популяция</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1081.21" y1="100.991" x2="1081.19" y2="179.009"/>
+  <g>
+    <rect style="fill: #ffffff" x="900" y="240" width="360" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="900" y="240" width="360" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1080" y="262.9">
+      <tspan x="1080" y="262.9">averFitness = средняя приспособленность</tspan>
+      <tspan x="1080" y="278.9">популяции pop</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1080.82" y1="220.97" x2="1080.5" y2="239.127"/>
+  <g>
+    <rect style="fill: #ffffff" x="944.95" y="320" width="270.1" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="944.95" y="320" width="270.1" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1080" y="342.9">
+      <tspan x="1080" y="342.9">newPop = создать новую популяцию</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1080" y1="295.002" x2="1080" y2="319.014"/>
+  <g>
+    <rect style="fill: #ffffff" x="880" y="380" width="400" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="880" y="380" width="400" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1080" y="402.9">
+      <tspan x="1080" y="402.9">sortedInds = сортированные по приспособленности</tspan>
+      <tspan x="1080" y="418.9">индивиды из newPop</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="960" y="460" width="240" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="960" y="460" width="240" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1080" y="482.9">
+      <tspan x="1080" y="482.9">k = copyingPart * длина pop</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1080" y1="435.002" x2="1080" y2="459.014"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1080" y1="358.997" x2="1080" y2="379.001"/>
+  <g>
+    <rect style="fill: #ffffff" x="940" y="520" width="280" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="940" y="520" width="280" height="54"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1080" y="542.9">
+      <tspan x="1080" y="542.9">Добавить k индивидов из sortedInds в</tspan>
+      <tspan x="1080" y="558.9">newPop</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1080" y1="498.997" x2="1080" y2="519.001"/>
+  <g>
+    <rect style="fill: #ffffff" x="880" y="600" width="400" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="880" y="600" width="400" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1080" y="622.9">
+      <tspan x="1080" y="622.9">opChances = [mutationChance, crossingoverChance]</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="914.559,120 1269.63,120 1255.07,160 900,160 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="914.559,120 1269.63,120 1255.07,160 900,160 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1084.82" y="143.9">
+      <tspan x="1084.82" y="143.9">copyingPart, mutationChance, crossingoverChance</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1080" y1="575.002" x2="1080" y2="599.014"/>
+  <g>
+    <polygon style="fill: #ffffff" points="1080,660 1180,705.194 1080,750.387 980,705.194 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1080,660 1180,705.194 1080,750.387 980,705.194 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1080" y="709.094">
+      <tspan x="1080" y="709.094">averFitness = 0</tspan>
+    </text>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1200" y="680">
+    <tspan x="1200" y="680">да</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="940" y="680">
+    <tspan x="940" y="680">нет</tspan>
+  </text>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1080" y1="639.002" x2="1080" y2="659"/>
+  <g>
+    <rect style="fill: #ffffff" x="860" y="780" width="80" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="860" y="780" width="80" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="900" y="802.9">
+      <tspan x="900" y="802.9">i = 0</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="900.214,840 955.702,867.744 900.214,895.488 844.726,867.744 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="900.214,840 955.702,867.744 900.214,895.488 844.726,867.744 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="900.214" y="871.644">
+      <tspan x="900.214" y="871.644">i = 0</tspan>
+    </text>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="960" y="860">
+    <tspan x="960" y="860">да</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="920" y="900">
+    <tspan x="920" y="900">нет</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="837.374" y="720" width="125.25" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="837.374" y="720" width="125.25" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="899.999" y="742.9">
+      <tspan x="899.999" y="742.9">indChances = []</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="740" y="920" width="320" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="740" y="920" width="320" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="900" y="942.9">
+      <tspan x="900" y="942.9">indChances ~= pop[i].fitness / averFitness</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="872.4" y="980" width="55.2" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="872.4" y="980" width="55.2" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="900" y="1002.9">
+      <tspan x="900" y="1002.9">i+=1</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="900.128" y1="896.431" x2="900.06" y2="919.011"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="900" y1="958.995" x2="900" y2="979.005"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="900.062" y1="818.938" x2="900.125" y2="839.036"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="899.999" y1="758.995" x2="900" y2="779.005"/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="900,1018 900,1039 720,1039 720,828.988 900.094,828.988 "/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="980,705.194 980,700 900,700 900,720 "/>
+  <g>
+    <rect style="fill: #ffffff" x="1180" y="720" width="277.15" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1180" y="720" width="277.15" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1318.57" y="742.9">
+      <tspan x="1318.57" y="742.9">indChances = равновероятные шансы</tspan>
+    </text>
+  </g>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1180,705.194 1180,700 1318.57,700 1318.57,720 "/>
+  <g>
+    <polygon style="fill: #ffffff" points="1260,918.493 1400,985.707 1260,1052.92 1120,985.707 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1260,918.493 1400,985.707 1260,1052.92 1120,985.707 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1260" y="989.607">
+      <tspan x="1260" y="989.607">newPop.length &lt; pop.length</tspan>
+    </text>
+  </g>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="955.702,867.744 955.702,880 1260,880 1260,918.493 "/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1318.57,758 1318.57,880 1260,880 1260,918.493 "/>
+  <g>
+    <rect style="fill: #ffffff" x="1108.62" y="1080" width="302.75" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1108.62" y="1080" width="302.75" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1260" y="1102.9">
+      <tspan x="1260" y="1102.9">k =  выбрать по вероятностям opChances</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1260" y1="1053.92" x2="1260" y2="1079"/>
+  <g>
+    <polygon style="fill: #ffffff" points="1260.21,1151.4 1317.63,1180.11 1260.21,1208.81 1202.8,1180.11 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1260.21,1151.4 1317.63,1180.11 1260.21,1208.81 1202.8,1180.11 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1260.21" y="1184.01">
+      <tspan x="1260.21" y="1184.01">k = 0</tspan>
+    </text>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1280" y="1220">
+    <tspan x="1280" y="1220">да</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1180" y="1160">
+    <tspan x="1180" y="1160">нет</tspan>
+  </text>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1260.05" y1="1119.01" x2="1260.14" y2="1150.43"/>
+  <g>
+    <rect style="fill: #ffffff" x="1100" y="1240" width="320" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1100" y="1240" width="320" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1260" y="1262.9">
+      <tspan x="1260" y="1262.9">s = выбрать по вероятностям indChances</tspan>
+    </text>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1260" y="1259">
+    <tspan x="1260" y="1259"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="1078.19" y="1300" width="363.625" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1078.19" y="1300" width="363.625" height="40"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1114.55" y1="1300" x2="1114.55" y2="1340"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1405.45" y1="1300" x2="1405.45" y2="1340"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1260" y="1316">
+      <tspan x="1260" y="1316">mind = Выполнить оператор мутации над</tspan>
+      <tspan x="1260" y="1332">pop[s]</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1166.5" y="1360" width="187" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1166.5" y="1360" width="187" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1260" y="1382.9">
+      <tspan x="1260" y="1382.9">добавить mind в newPop</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1260.13" y1="1209.78" x2="1260.05" y2="1239"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1260" y1="1278.54" x2="1260" y2="1298.99"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1260" y1="1340.99" x2="1260" y2="1359"/>
+  <g>
+    <rect style="fill: #ffffff" x="720" y="1240" width="320" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="720" y="1240" width="320" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="880" y="1262.9">
+      <tspan x="880" y="1262.9">s2 = выбрать по вероятностям indChances</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="720" y="1300" width="320" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="720" y="1300" width="320" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="880" y="1322.9">
+      <tspan x="880" y="1322.9">s1 = выбрать по вероятностям indChances</tspan>
+    </text>
+  </g>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1202.8,1180.11 1202.8,1180 880,1180 880,1239.01 "/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="880" y1="1279" x2="880" y2="1299"/>
+  <g>
+    <rect style="fill: #ffffff" x="720" y="1360" width="320" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="720" y="1360" width="320" height="40"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="752" y1="1360" x2="752" y2="1400"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1008" y1="1360" x2="1008" y2="1400"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="880" y="1376">
+      <tspan x="880" y="1376">Выполнить оператор кроссинговера</tspan>
+      <tspan x="880" y="1392">над pop[s1] и pop[s2]</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="880" y1="1338.54" x2="880" y2="1358.99"/>
+  <g>
+    <rect style="fill: #ffffff" x="760" y="1420" width="240" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="760" y="1420" width="240" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="880" y="1442.9">
+      <tspan x="880" y="1442.9">Добавить pop[s1] в newPop</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="880" y1="1400.99" x2="880" y2="1419"/>
+  <g>
+    <polygon style="fill: #ffffff" points="880,1479.05 1020,1545.71 880,1612.36 740,1545.71 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="880,1479.05 1020,1545.71 880,1612.36 740,1545.71 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="880" y="1549.61">
+      <tspan x="880" y="1549.61">newPop.length &lt; pop.length</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="880" y1="1455.67" x2="880" y2="1478.05"/>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="900" y="1620">
+    <tspan x="900" y="1620">да</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1020" y="1540">
+    <tspan x="1020" y="1540"></tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="1520">
+    <tspan x="720" y="1520">нет</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="760" y="1640" width="240" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="760" y="1640" width="240" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="880" y="1662.9">
+      <tspan x="880" y="1662.9">Добавить pop[s2] в newPop</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="880" y1="1613.36" x2="880" y2="1639"/>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1280" y="1060">
+    <tspan x="1280" y="1060">да</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1420" y="980">
+    <tspan x="1420" y="980">нет</tspan>
+  </text>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="740,1545.71 740,1540 700,1540 700,1100 1080,1100 1080,900 1260,900 "/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="880,1678 880,1699 700,1699 700,1540 "/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1260,1398 1260,1700 880,1700 880,1700 "/>
+  <g>
+    <polygon style="fill: #ffffff" points="1454.56,1580 1640,1580 1625.44,1620 1440,1620 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1454.56,1580 1640,1580 1625.44,1620 1440,1620 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1540" y="1603.9">
+      <tspan x="1540" y="1603.9">Результат: newPop</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 1500 1660 L 1580,1660 C 1591.05,1660 1600,1668.95 1600,1680 C 1600,1691.05 1591.05,1700 1580,1700 L 1500,1700 C 1488.95,1700 1480,1691.05 1480,1680 C 1480,1668.95 1488.95,1660 1500,1660z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1500 1660 L 1580,1660 C 1591.05,1660 1600,1668.95 1600,1680 C 1600,1691.05 1591.05,1700 1580,1700 L 1500,1700 C 1488.95,1700 1480,1691.05 1480,1680 C 1480,1668.95 1488.95,1660 1500,1660"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1540" y="1684">
+      <tspan x="1540" y="1684">Выход</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1540" y1="1620.98" x2="1540" y2="1659.02"/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1400,985.707 1400,1000 1540,1000 1540,1579.01 "/>
+</svg>
