@@ -1,0 +1,2799 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2979.9211"
+   height="2104.7244"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="list4.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path16806"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path16809"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       markerWidth="311.5625"
+       markerHeight="272.40625"
+       orient="auto"
+       id="marker5422">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5420"
+         d="M -154.91245,135.44748 1.48885,-135.44749 154.91245,130.28999 z"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </marker>
+    <marker
+       markerWidth="25.21875"
+       markerHeight="33.96875"
+       orient="auto"
+       id="marker10150">
+      <rect
+         y="-14.875864"
+         x="-10.50061"
+         height="29.751728"
+         width="21.001221"
+         id="rect10148"
+         style="opacity:0.36947793;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:4.22599983;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.40403754"
+     inkscape:cx="1548.9231"
+     inkscape:cy="922.74488"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="2560"
+     inkscape:window-height="1025"
+     inkscape:window-x="-3"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-grids="false"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-nodes="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-center="true"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       orientation="0,1"
+       position="602.17627,1855.8132"
+       id="guide25812" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,1052.3624)">
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="2266.7402"
+       y="-863.75592"
+       id="text22823-7-9"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan22825-2-9"
+         x="2272.1777"
+         y="-863.75592">Генерация нетипизированной </tspan><tspan
+         sodipodi:role="line"
+         x="2266.7402"
+         y="-803.75592"
+         id="tspan26379">линии</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="1507.594"
+       y="-905.16937"
+       id="text3004"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="1507.594"
+         y="-905.16937"
+         id="tspan3008">Основные алгоритмы АИС</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3010"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Carlito;font-style:normal;font-weight:normal;font-size:32px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Carlito;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion3012"><rect
+           id="rect3014"
+           width="1371.1597"
+           height="960.30682"
+           x="76.725548"
+           y="342.51187"
+           style="font-size:32px" /></flowRegion><flowPara
+         id="flowPara3016" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="66.825478"
+       y="340.03687"
+       id="text3018"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan3020"
+         x="66.825478"
+         y="340.03687" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:0;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="353.92752"
+       y="458.83768"
+       id="text3022"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan3024"
+         x="353.92752"
+         y="458.83768" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="158.40112"
+       y="359.83698"
+       id="text3026"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan3028"
+         x="158.40112"
+         y="359.83698" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="497.47852"
+       y="357.36197"
+       id="text3038"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan3040"
+         x="497.47852"
+         y="357.36197" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="1754.7874"
+       y="1025.6167"
+       id="text3074"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan3076"
+         x="1754.7874"
+         y="1025.6167" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="74.250526"
+       y="1401.8195"
+       id="text3110"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan3112"
+         x="74.250526"
+         y="1401.8195" /></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:none;marker-mid:none;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1513.838,559.38457 924.05373,157.50916"
+       id="path5425"
+       inkscape:connector-curvature="0"
+       transform="translate(0,-1052.3624)" />
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="1944.363"
+       y="540.13342"
+       id="text20981"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan20983"
+         x="1944.363"
+         y="540.13342" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="1903.2885"
+       y="849.89044"
+       id="text21570"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan21572"
+         x="1903.2885"
+         y="849.89044" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="306.98483"
+       y="-811.32623"
+       id="text22823"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan22825"
+         x="306.98483"
+         y="-811.32623">Мутация</tspan></text>
+    <text
+       font-size="12.7998"
+       style="font-size:15.23232651px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+       x="401.64526"
+       y="-144.54242"
+       id="text24123">
+      <tspan
+         x="401.64526"
+         y="-144.54242"
+         id="tspan24125" />
+    </text>
+    <g
+       id="g25344">
+      <g
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="g23983">
+        <path
+           id="path23985"
+           d="m 640,-400 80,0 c 11.046,0 20,8.954 20,20 0,11.046 -8.954,20 -20,20 l -80,0 c -11.046,0 -20,-8.954 -20,-20 0,-11.046 8.954,-20 20,-20 z"
+           style="fill:#ffffff"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path23987"
+           d="m 640,-400 80,0 c 11.046,0 20,8.954 20,20 0,11.046 -8.954,20 -20,20 l -80,0 c -11.046,0 -20,-8.954 -20,-20 0,-11.046 8.954,-20 20,-20"
+           style="fill:none;stroke:#000000;stroke-width:2"
+           inkscape:connector-curvature="0" />
+        <text
+           id="text23989"
+           y="-376"
+           x="680"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan23991"
+             y="-376"
+             x="680">Начало</tspan>
+        </text>
+      </g>
+      <g
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="g23993">
+        <rect
+           id="rect23995"
+           height="38"
+           width="283.54999"
+           y="-220"
+           x="538.22498"
+           style="fill:#ffffff" />
+        <rect
+           id="rect23997"
+           height="38"
+           width="283.54999"
+           y="-220"
+           x="538.22498"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text23999"
+           y="-197.10001"
+           x="680"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan24001"
+             y="-197.10001"
+             x="680">k = случайно от 0 до длины прогаммы</tspan>
+        </text>
+      </g>
+      <polyline
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="polyline24003"
+         points="680,-360 680,-240 680,-240 680,-220 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <g
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="g24005">
+        <rect
+           id="rect24007"
+           height="38"
+           width="240"
+           y="-160"
+           x="560"
+           style="fill:#ffffff" />
+        <rect
+           id="rect24009"
+           height="38"
+           width="240"
+           y="-160"
+           x="560"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text24011"
+           y="-137.10001"
+           x="680"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan24013"
+             y="-137.10001"
+             x="680">line = k линия программы</tspan>
+        </text>
+      </g>
+      <line
+         id="line24015"
+         y2="-501.55563"
+         x2="401.64526"
+         y1="-527.73663"
+         x1="401.64526"
+         style="fill:none;stroke:#000000;stroke-width:2.38008809" />
+      <g
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="g24017">
+        <polygon
+           id="polygon24019"
+           points="620,-10.2309 679.538,-40 739.076,-10.2309 679.538,19.5382 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon24021"
+           points="620,-10.2309 679.538,-40 739.076,-10.2309 679.538,19.5382 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text24023"
+           y="-6.3309002"
+           x="679.53802"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan24025"
+             y="-6.3309002"
+             x="679.53802">i = 0</tspan>
+        </text>
+      </g>
+      <g
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="g24027">
+        <rect
+           id="rect24029"
+           height="38"
+           width="584.70001"
+           y="-100"
+           x="387.64999"
+           style="fill:#ffffff" />
+        <rect
+           id="rect24031"
+           height="38"
+           width="584.70001"
+           y="-100"
+           x="387.64999"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text24033"
+           y="-77.099998"
+           x="680"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan24035"
+             y="-77.099998"
+             x="680">i = выбрать с шансами: addChance, removeChance, 1-addChance-removeChance</tspan>
+        </text>
+      </g>
+      <line
+         id="line24037"
+         y2="-430.15302"
+         x2="401.64526"
+         y1="-456.33398"
+         x1="401.64526"
+         style="fill:none;stroke:#000000;stroke-width:2.38008809" />
+      <line
+         id="line24039"
+         y2="-358.75037"
+         x2="401.09549"
+         y1="-384.93134"
+         x1="401.64526"
+         style="fill:none;stroke:#000000;stroke-width:2.38008809" />
+      <g
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="g24041">
+        <rect
+           id="rect24043"
+           height="38"
+           width="200"
+           y="60"
+           x="580"
+           style="fill:#ffffff" />
+        <rect
+           id="rect24045"
+           height="38"
+           width="200"
+           y="60"
+           x="580"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text24047"
+           y="82.900002"
+           x="680"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan24049"
+             y="82.900002"
+             x="680">Добавление новой линии</tspan>
+        </text>
+      </g>
+      <line
+         id="line24051"
+         y2="-240.92409"
+         x2="401.46078"
+         y1="-287.89728"
+         x1="401.09549"
+         style="fill:none;stroke:#000000;stroke-width:2.38008809" />
+      <g
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="g24053">
+        <polygon
+           id="polygon24055"
+           points="840,69.7691 899.538,40 959.076,69.7691 899.538,99.5382 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon24057"
+           points="840,69.7691 899.538,40 959.076,69.7691 899.538,99.5382 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text24059"
+           y="73.669098"
+           x="899.53802"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan24061"
+             y="73.669098"
+             x="899.53802">i = 1</tspan>
+        </text>
+      </g>
+      <g
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="g24063">
+        <rect
+           id="rect24065"
+           height="38"
+           width="200"
+           y="120"
+           x="800"
+           style="fill:#ffffff" />
+        <rect
+           id="rect24067"
+           height="38"
+           width="200"
+           y="120"
+           x="800"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text24069"
+           y="142.89999"
+           x="900"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan24071"
+             y="142.89999"
+             x="900">Удаление k линии</tspan>
+        </text>
+      </g>
+      <polyline
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="polyline24073"
+         points="739.076,-10.2309 739.076,0 899.538,0 899.538,40 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line24075"
+         y2="-168.34329"
+         x2="663.45496"
+         y1="-192.69374"
+         x1="662.90521"
+         style="fill:none;stroke:#000000;stroke-width:2.38008809" />
+      <text
+         id="text24077"
+         y="-334.94946"
+         x="520.64966"
+         style="font-size:15.23232651px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+         font-size="12.7998">
+        <tspan
+           id="tspan24079"
+           y="-334.94946"
+           x="520.64966">Нет</tspan>
+      </text>
+      <text
+         id="text24081"
+         y="-263.54681"
+         x="354.04352"
+         style="font-size:15.23232651px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+         font-size="12.7998">
+        <tspan
+           id="tspan24083"
+           y="-263.54681"
+           x="354.04352">Да</tspan>
+      </text>
+      <text
+         id="text24085"
+         y="-192.14418"
+         x="592.05231"
+         style="font-size:15.23232651px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+         font-size="12.7998">
+        <tspan
+           id="tspan24087"
+           y="-192.14418"
+           x="592.05231">Да</tspan>
+      </text>
+      <text
+         id="text24089"
+         y="-239.74594"
+         x="758.65851"
+         style="font-size:15.23232651px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+         font-size="12.7998">
+        <tspan
+           id="tspan24091"
+           y="-239.74594"
+           x="758.65851">Нет</tspan>
+      </text>
+      <g
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="g24093">
+        <polygon
+           id="polygon24095"
+           points="600,-300 614.559,-340 760,-340 745.441,-300 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon24097"
+           points="600,-300 614.559,-340 760,-340 745.441,-300 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text24099"
+           y="-316.10001"
+           x="680"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan24101"
+             y="-316.10001"
+             x="680">ind = Индивид</tspan>
+        </text>
+      </g>
+      <g
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="g24103">
+        <polygon
+           id="polygon24105"
+           points="476.509,-240 491.068,-280 883.491,-280 868.932,-240 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon24107"
+           points="476.509,-240 491.068,-280 883.491,-280 868.932,-240 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text24109"
+           y="-256.10001"
+           x="680"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan24111"
+             y="-256.10001"
+             x="680">program = программа ind, addChance, removeChance</tspan>
+        </text>
+      </g>
+      <g
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="g24113">
+        <ellipse
+           id="ellipse24115"
+           ry="20"
+           rx="20"
+           cy="140"
+           cx="680"
+           style="fill:#ffffff"
+           sodipodi:cx="680"
+           sodipodi:cy="140"
+           sodipodi:rx="20"
+           sodipodi:ry="20"
+           d="m 700,140 c 0,11.04569 -8.95431,20 -20,20 -11.04569,0 -20,-8.95431 -20,-20 0,-11.04569 8.95431,-20 20,-20 11.04569,0 20,8.95431 20,20 z" />
+        <ellipse
+           id="ellipse24117"
+           ry="20"
+           rx="20"
+           cy="140"
+           cx="680"
+           style="fill:none;stroke:#000000;stroke-width:2"
+           sodipodi:cx="680"
+           sodipodi:cy="140"
+           sodipodi:rx="20"
+           sodipodi:ry="20"
+           d="m 700,140 c 0,11.04569 -8.95431,20 -20,20 -11.04569,0 -20,-8.95431 -20,-20 0,-11.04569 8.95431,-20 20,-20 11.04569,0 20,8.95431 20,20 z" />
+        <text
+           id="text24119"
+           y="143.89999"
+           x="680"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan24121"
+             y="143.89999"
+             x="680">1</tspan>
+        </text>
+      </g>
+      <g
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="g24127">
+        <ellipse
+           id="ellipse24129"
+           ry="20"
+           rx="20"
+           cy="200"
+           cx="900"
+           style="fill:#ffffff"
+           sodipodi:cx="900"
+           sodipodi:cy="200"
+           sodipodi:rx="20"
+           sodipodi:ry="20"
+           d="m 920,200 c 0,11.04569 -8.95431,20 -20,20 -11.04569,0 -20,-8.95431 -20,-20 0,-11.04569 8.95431,-20 20,-20 11.04569,0 20,8.95431 20,20 z" />
+        <ellipse
+           id="ellipse24131"
+           ry="20"
+           rx="20"
+           cy="200"
+           cx="900"
+           style="fill:none;stroke:#000000;stroke-width:2"
+           sodipodi:cx="900"
+           sodipodi:cy="200"
+           sodipodi:rx="20"
+           sodipodi:ry="20"
+           d="m 920,200 c 0,11.04569 -8.95431,20 -20,20 -11.04569,0 -20,-8.95431 -20,-20 0,-11.04569 8.95431,-20 20,-20 11.04569,0 20,8.95431 20,20 z" />
+        <text
+           id="text24133"
+           y="203.89999"
+           x="900"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan24135"
+             y="203.89999"
+             x="900">1</tspan>
+        </text>
+      </g>
+      <line
+         id="line24137"
+         y2="-168.34329"
+         x2="401.64526"
+         y1="-194.52426"
+         x1="401.64526"
+         style="fill:none;stroke:#000000;stroke-width:2.38008809" />
+      <g
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="g24147">
+        <rect
+           id="rect24149"
+           height="38"
+           width="520"
+           y="260"
+           x="420"
+           style="fill:#ffffff" />
+        <rect
+           id="rect24151"
+           height="38"
+           width="520"
+           y="260"
+           x="420"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text24153"
+           y="282.89999"
+           x="680"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan24155"
+             y="282.89999"
+             x="680">i = выбрать с шансами: changeChance, replaceChance, deleteChance</tspan>
+        </text>
+      </g>
+      <polyline
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="polyline24157"
+         points="959.076,69.7691 1020,69.7691 1020,240 680,240 680,260 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <g
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="g24159">
+        <polygon
+           id="polygon24161"
+           points="620,349.769 679.538,320 739.076,349.769 679.538,379.538 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon24163"
+           points="620,349.769 679.538,320 739.076,349.769 679.538,379.538 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text24165"
+           y="353.66901"
+           x="679.53802"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan24167"
+             y="353.66901"
+             x="679.53802">i = 0</tspan>
+        </text>
+      </g>
+      <line
+         id="line24169"
+         y2="187.49181"
+         x2="401.46078"
+         y1="140.51836"
+         x1="401.09549"
+         style="fill:none;stroke:#000000;stroke-width:2.38008809" />
+      <g
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="g24171">
+        <polygon
+           id="polygon24173"
+           points="940,409.769 999.538,380 1059.08,409.769 999.538,439.538 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon24175"
+           points="940,409.769 999.538,380 1059.08,409.769 999.538,439.538 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text24177"
+           y="413.66901"
+           x="999.53802"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan24179"
+             y="413.66901"
+             x="999.53802">i = 1</tspan>
+        </text>
+      </g>
+      <polyline
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="polyline24181"
+         points="739.076,349.769 739.076,360 999.538,360 999.538,380 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line24183"
+         y2="258.99915"
+         x2="782.26898"
+         y1="211.92101"
+         x1="781.90961"
+         style="fill:none;stroke:#000000;stroke-width:2.38008809" />
+      <text
+         id="text24185"
+         y="93.466408"
+         x="520.64966"
+         style="font-size:15.23232651px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+         font-size="12.7998">
+        <tspan
+           id="tspan24187"
+           y="93.466408"
+           x="520.64966">Нет</tspan>
+      </text>
+      <text
+         id="text24189"
+         y="164.86905"
+         x="354.04352"
+         style="font-size:15.23232651px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+         font-size="12.7998">
+        <tspan
+           id="tspan24191"
+           y="164.86905"
+           x="354.04352">Да</tspan>
+      </text>
+      <text
+         id="text24193"
+         y="212.47081"
+         x="711.05676"
+         style="font-size:15.23232651px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+         font-size="12.7998">
+        <tspan
+           id="tspan24195"
+           y="212.47081"
+           x="711.05676">Да</tspan>
+      </text>
+      <text
+         id="text24197"
+         y="164.86905"
+         x="877.6629"
+         style="font-size:15.23232651px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+         font-size="12.7998">
+        <tspan
+           id="tspan24199"
+           y="164.86905"
+           x="877.6629">Нет</tspan>
+      </text>
+      <line
+         id="line24201"
+         y2="69.66552"
+         x2="401.09549"
+         y1="43.48455"
+         x1="401.64526"
+         style="fill:none;stroke:#000000;stroke-width:2.38008809" />
+      <g
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="g24203">
+        <rect
+           id="rect24205"
+           height="38"
+           width="240"
+           y="480"
+           x="560"
+           style="fill:#ffffff" />
+        <rect
+           id="rect24207"
+           height="38"
+           width="240"
+           y="480"
+           x="560"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text24209"
+           y="502.89999"
+           x="680"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan24211"
+             y="502.89999"
+             x="680">изменить значение leaf</tspan>
+        </text>
+      </g>
+      <line
+         id="line24213"
+         y2="260.07257"
+         x2="401.64526"
+         y1="233.8916"
+         x1="401.64526"
+         style="fill:none;stroke:#000000;stroke-width:2.38008809" />
+      <g
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="g24215">
+        <rect
+           id="rect24217"
+           height="40"
+           width="320"
+           y="480"
+           x="840"
+           style="fill:#ffffff" />
+        <rect
+           id="rect24219"
+           height="40"
+           width="320"
+           y="480"
+           x="840"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <line
+           id="line24221"
+           y2="520"
+           x2="872"
+           y1="480"
+           x1="872"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <line
+           id="line24223"
+           y2="520"
+           x2="1128"
+           y1="480"
+           x1="1128"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text24225"
+           y="504"
+           x="1000"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan24227"
+             y="504"
+             x="1000">Заменить случайный лист дерева</tspan>
+        </text>
+      </g>
+      <g
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="g24229">
+        <rect
+           id="rect24231"
+           height="40"
+           width="280"
+           y="420"
+           x="540"
+           style="fill:#ffffff" />
+        <rect
+           id="rect24233"
+           height="40"
+           width="280"
+           y="420"
+           x="540"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <line
+           id="line24235"
+           y2="460"
+           x2="568"
+           y1="420"
+           x1="568"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <line
+           id="line24237"
+           y2="460"
+           x2="792"
+           y1="420"
+           x1="792"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text24239"
+           y="444"
+           x="680"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan24241"
+             y="444"
+             x="680">leaf = случайный лист дерева</tspan>
+        </text>
+      </g>
+      <polyline
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="polyline24243"
+         points="1059.08,409.769 1059.08,420 1280,420 1280,540 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <g
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="g24245">
+        <rect
+           id="rect24247"
+           height="40"
+           width="280"
+           y="540"
+           x="1140"
+           style="fill:#ffffff" />
+        <rect
+           id="rect24249"
+           height="40"
+           width="280"
+           y="540"
+           x="1140"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <line
+           id="line24251"
+           y2="580"
+           x2="1168"
+           y1="540"
+           x1="1168"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <line
+           id="line24253"
+           y2="580"
+           x2="1392"
+           y1="540"
+           x1="1392"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text24255"
+           y="564"
+           x="1280"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan24257"
+             y="564"
+             x="1280">node = случайный узел дерева</tspan>
+        </text>
+      </g>
+      <g
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="g24259">
+        <polygon
+           id="polygon24261"
+           points="1139.94,660 1280,620 1420.06,660 1280,700 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon24263"
+           points="1139.94,660 1280,620 1420.06,660 1280,700 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text24265"
+           y="663.90002"
+           x="1280"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan24267"
+             y="663.90002"
+             x="1280">node имеет тип void?</tspan>
+        </text>
+      </g>
+      <line
+         id="line24269"
+         y2="426.67874"
+         x2="1115.6718"
+         y1="379.077"
+         x1="1115.6718"
+         style="fill:none;stroke:#000000;stroke-width:2.38008809" />
+      <g
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="g24271">
+        <rect
+           id="rect24273"
+           height="38"
+           width="240"
+           y="740"
+           x="860"
+           style="fill:#ffffff" />
+        <rect
+           id="rect24275"
+           height="38"
+           width="240"
+           y="740"
+           x="860"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text24277"
+           y="762.90002"
+           x="980"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan24279"
+             y="762.90002"
+             x="980">изменить значение leaf</tspan>
+        </text>
+      </g>
+      <g
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="g24281">
+        <rect
+           id="rect24283"
+           height="38"
+           width="240"
+           y="680"
+           x="860"
+           style="fill:#ffffff" />
+        <rect
+           id="rect24285"
+           height="38"
+           width="240"
+           y="680"
+           x="860"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text24287"
+           y="702.90002"
+           x="980"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan24289"
+             y="702.90002"
+             x="980">leaf = новый лист</tspan>
+        </text>
+      </g>
+      <polyline
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="polyline24291"
+         points="1139.94,660 1139.94,660 980,660 980,680 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <text
+         id="text24293"
+         y="450.47964"
+         x="877.6629"
+         style="font-size:15.23232651px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+         font-size="12.7998">
+        <tspan
+           id="tspan24295"
+           y="450.47964"
+           x="877.6629">Нет</tspan>
+      </text>
+      <line
+         id="line24297"
+         y2="569.48407"
+         x2="758.65851"
+         y1="543.3031"
+         x1="758.65851"
+         style="fill:none;stroke:#000000;stroke-width:2.38008809" />
+      <g
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="g24299">
+        <rect
+           id="rect24301"
+           height="38"
+           width="240"
+           y="720"
+           x="1160"
+           style="fill:#ffffff" />
+        <rect
+           id="rect24303"
+           height="38"
+           width="240"
+           y="720"
+           x="1160"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text24305"
+           y="742.90002"
+           x="1280"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan24307"
+             y="742.90002"
+             x="1280">node = сгенерировать линию</tspan>
+        </text>
+      </g>
+      <line
+         id="line24309"
+         y2="545.68317"
+         x2="1115.6718"
+         y1="521.88226"
+         x1="1115.6718"
+         style="fill:none;stroke:#000000;stroke-width:2.38008809" />
+      <g
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="g24311">
+        <path
+           id="path24313"
+           d="m 991.975,900 47.905,0 c 6.61,0 11.97,8.954 11.97,20 0,11.046 -5.36,20 -11.97,20 l -47.905,0 C 985.361,940 980,931.046 980,920 c 0,-11.046 5.361,-20 11.975,-20 z"
+           style="fill:#ffffff"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path24315"
+           d="m 991.975,900 47.905,0 c 6.61,0 11.97,8.954 11.97,20 0,11.046 -5.36,20 -11.97,20 l -47.905,0 C 985.361,940 980,931.046 980,920 c 0,-11.046 5.361,-20 11.975,-20"
+           style="fill:none;stroke:#000000;stroke-width:2"
+           inkscape:connector-curvature="0" />
+        <text
+           id="text24317"
+           y="924"
+           x="1015.92"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan24319"
+             y="924"
+             x="1015.92">Конец</tspan>
+        </text>
+      </g>
+      <g
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="g24321">
+        <ellipse
+           id="ellipse24323"
+           ry="20"
+           rx="20"
+           cy="840"
+           cx="920"
+           style="fill:#ffffff"
+           sodipodi:cx="920"
+           sodipodi:cy="840"
+           sodipodi:rx="20"
+           sodipodi:ry="20"
+           d="m 940,840 c 0,11.04569 -8.95431,20 -20,20 -11.04569,0 -20,-8.95431 -20,-20 0,-11.04569 8.95431,-20 20,-20 11.04569,0 20,8.95431 20,20 z" />
+        <ellipse
+           id="ellipse24325"
+           ry="20"
+           rx="20"
+           cy="840"
+           cx="920"
+           style="fill:none;stroke:#000000;stroke-width:2"
+           sodipodi:cx="920"
+           sodipodi:cy="840"
+           sodipodi:rx="20"
+           sodipodi:ry="20"
+           d="m 940,840 c 0,11.04569 -8.95431,20 -20,20 -11.04569,0 -20,-8.95431 -20,-20 0,-11.04569 8.95431,-20 20,-20 11.04569,0 20,8.95431 20,20 z" />
+        <text
+           id="text24327"
+           y="843.90002"
+           x="920"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan24329"
+             y="843.90002"
+             x="920">1</tspan>
+        </text>
+      </g>
+      <polyline
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="polyline24331"
+         points="980,778 980,840 1015.92,840 1015.92,900 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <polyline
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="polyline24333"
+         points="1280,758 1280,840 1015.92,840 1015.92,900 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <polyline
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="polyline24335"
+         points="940,840 1015.92,840 1015.92,900 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <g
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="g24337">
+        <ellipse
+           id="ellipse24339"
+           ry="20"
+           rx="20"
+           cy="560"
+           cx="680"
+           style="fill:#ffffff"
+           sodipodi:cx="680"
+           sodipodi:cy="560"
+           sodipodi:rx="20"
+           sodipodi:ry="20"
+           d="m 700,560 c 0,11.04569 -8.95431,20 -20,20 -11.04569,0 -20,-8.95431 -20,-20 0,-11.04569 8.95431,-20 20,-20 11.04569,0 20,8.95431 20,20 z" />
+        <ellipse
+           id="ellipse24341"
+           ry="20"
+           rx="20"
+           cy="560"
+           cx="680"
+           style="fill:none;stroke:#000000;stroke-width:2"
+           sodipodi:cx="680"
+           sodipodi:cy="560"
+           sodipodi:rx="20"
+           sodipodi:ry="20"
+           d="m 700,560 c 0,11.04569 -8.95431,20 -20,20 -11.04569,0 -20,-8.95431 -20,-20 0,-11.04569 8.95431,-20 20,-20 11.04569,0 20,8.95431 20,20 z" />
+        <text
+           id="text24343"
+           y="563.90002"
+           x="680"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan24345"
+             y="563.90002"
+             x="680">1</tspan>
+        </text>
+      </g>
+      <line
+         id="line24347"
+         y2="331.47522"
+         x2="401.64526"
+         y1="305.29425"
+         x1="401.64526"
+         style="fill:none;stroke:#000000;stroke-width:2.38008809" />
+      <g
+         transform="matrix(1.1900441,0,0,1.1900441,-407.58472,-311.14859)"
+         id="g24349">
+        <ellipse
+           id="ellipse24351"
+           ry="20"
+           rx="20"
+           cy="560"
+           cx="1000"
+           style="fill:#ffffff"
+           sodipodi:cx="1000"
+           sodipodi:cy="560"
+           sodipodi:rx="20"
+           sodipodi:ry="20"
+           d="m 1020,560 c 0,11.04569 -8.9543,20 -20,20 -11.04569,0 -20,-8.95431 -20,-20 0,-11.04569 8.95431,-20 20,-20 11.0457,0 20,8.95431 20,20 z" />
+        <ellipse
+           id="ellipse24353"
+           ry="20"
+           rx="20"
+           cy="560"
+           cx="1000"
+           style="fill:none;stroke:#000000;stroke-width:2"
+           sodipodi:cx="1000"
+           sodipodi:cy="560"
+           sodipodi:rx="20"
+           sodipodi:ry="20"
+           d="m 1020,560 c 0,11.04569 -8.9543,20 -20,20 -11.04569,0 -20,-8.95431 -20,-20 0,-11.04569 8.95431,-20 20,-20 11.0457,0 20,8.95431 20,20 z" />
+        <text
+           id="text24355"
+           y="563.90002"
+           x="1000"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan24357"
+             y="563.90002"
+             x="1000">1</tspan>
+        </text>
+      </g>
+      <line
+         id="line24359"
+         y2="331.47522"
+         x2="782.45935"
+         y1="307.67435"
+         x1="782.45935"
+         style="fill:none;stroke:#000000;stroke-width:2.38008809" />
+      <line
+         id="line24137-5"
+         y2="-96.94059"
+         x2="663.45496"
+         y1="-123.12162"
+         x1="663.45496"
+         style="fill:none;stroke:#000000;stroke-width:2.38008809" />
+      <text
+         id="text24193-5"
+         y="536.06519"
+         x="1167.5173"
+         style="font-size:15.23232651px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+         font-size="12.7998">
+        <tspan
+           id="tspan24195-6"
+           y="536.06519"
+           x="1167.5173">Да</tspan>
+      </text>
+    </g>
+    <g
+       id="g25720"
+       transform="matrix(1.0474953,0,0,1.0474953,176.61436,-936.67799)">
+      <g
+         id="g25534">
+        <path
+           id="path25536"
+           d="m 1060,140 80,0 c 11.05,0 20,8.954 20,20 0,11.046 -8.95,20 -20,20 l -80,0 c -11.05,0 -20,-8.954 -20,-20 0,-11.046 8.95,-20 20,-20 z"
+           style="fill:#ffffff"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path25538"
+           d="m 1060,140 80,0 c 11.05,0 20,8.954 20,20 0,11.046 -8.95,20 -20,20 l -80,0 c -11.05,0 -20,-8.954 -20,-20 0,-11.046 8.95,-20 20,-20"
+           style="fill:none;stroke:#000000;stroke-width:2"
+           inkscape:connector-curvature="0" />
+        <text
+           id="text25540"
+           y="164"
+           x="1100"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25542"
+             y="164"
+             x="1100">Начало</tspan>
+        </text>
+      </g>
+      <g
+         id="g25544">
+        <polygon
+           id="polygon25546"
+           points="980.159,200 1236.78,200 1222.22,240 965.6,240 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon25548"
+           points="980.159,200 1236.78,200 1222.22,240 965.6,240 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25550"
+           y="223.89999"
+           x="1101.1899"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25552"
+             y="223.89999"
+             x="1101.1899">inda, indb = индивиды - родители</tspan>
+        </text>
+      </g>
+      <g
+         id="g25554">
+        <rect
+           id="rect25556"
+           height="38"
+           width="301.60001"
+           y="260"
+           x="949.20001"
+           style="fill:#ffffff" />
+        <rect
+           id="rect25558"
+           height="38"
+           width="301.60001"
+           y="260"
+           x="949.20001"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25560"
+           y="282.89999"
+           x="1100"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25562"
+             y="282.89999"
+             x="1100">length = max длина программ inda и indb</tspan>
+        </text>
+      </g>
+      <g
+         id="g25564">
+        <rect
+           id="rect25566"
+           height="38"
+           width="52.549999"
+           y="320"
+           x="1073.72"
+           style="fill:#ffffff" />
+        <rect
+           id="rect25568"
+           height="38"
+           width="52.549999"
+           y="320"
+           x="1073.72"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25570"
+           y="342.89999"
+           x="1100"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25572"
+             y="342.89999"
+             x="1100">i = 0</tspan>
+        </text>
+      </g>
+      <g
+         id="g25574">
+        <polygon
+           id="polygon25576"
+           points="1100.21,380 1187.7,423.744 1100.21,467.488 1012.72,423.744 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon25578"
+           points="1100.21,380 1187.7,423.744 1100.21,467.488 1012.72,423.744 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25580"
+           y="427.64401"
+           x="1100.21"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25582"
+             y="427.64401"
+             x="1100.21">i = length/2+1</tspan>
+        </text>
+      </g>
+      <text
+         id="text25584"
+         y="480"
+         x="1120"
+         style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+         font-size="12.7998">
+        <tspan
+           id="tspan25586"
+           y="480"
+           x="1120">нет</tspan>
+      </text>
+      <text
+         id="text25588"
+         y="400"
+         x="1200"
+         style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+         font-size="12.7998">
+        <tspan
+           id="tspan25590"
+           y="400"
+           x="1200">да</tspan>
+      </text>
+      <g
+         id="g25592">
+        <rect
+           id="rect25594"
+           height="38"
+           width="240"
+           y="500"
+           x="980"
+           style="fill:#ffffff" />
+        <rect
+           id="rect25596"
+           height="38"
+           width="240"
+           y="500"
+           x="980"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25598"
+           y="522.90002"
+           x="1100"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25600"
+             y="522.90002"
+             x="1100">linea = случайная линия inda</tspan>
+        </text>
+      </g>
+      <g
+         id="g25602">
+        <rect
+           id="rect25604"
+           height="38"
+           width="240"
+           y="560"
+           x="980"
+           style="fill:#ffffff" />
+        <rect
+           id="rect25606"
+           height="38"
+           width="240"
+           y="560"
+           x="980"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25608"
+           y="582.90002"
+           x="1100"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25610"
+             y="582.90002"
+             x="1100">lineb = случайная линия indb</tspan>
+        </text>
+      </g>
+      <g
+         id="g25612">
+        <rect
+           id="rect25614"
+           height="38"
+           width="301.20001"
+           y="620"
+           x="949.40002"
+           style="fill:#ffffff" />
+        <rect
+           id="rect25616"
+           height="38"
+           width="301.20001"
+           y="620"
+           x="949.40002"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25618"
+           y="642.90002"
+           x="1100"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25620"
+             y="642.90002"
+             x="1100">chance = 1/(linea.children + lineb.children)</tspan>
+        </text>
+      </g>
+      <g
+         id="g25622">
+        <polygon
+           id="polygon25624"
+           points="1100.21,683.787 1212.85,740.107 1100.21,796.426 987.575,740.107 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon25626"
+           points="1100.21,683.787 1212.85,740.107 1100.21,796.426 987.575,740.107 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25628"
+           y="744.00702"
+           x="1100.21"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25630"
+             y="744.00702"
+             x="1100.21">uniform(0,1) &lt; chance</tspan>
+        </text>
+      </g>
+      <text
+         id="text25632"
+         y="720"
+         x="940"
+         style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+         font-size="12.7998">
+        <tspan
+           id="tspan25634"
+           y="720"
+           x="940">нет</tspan>
+      </text>
+      <text
+         id="text25636"
+         y="720"
+         x="1240"
+         style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+         font-size="12.7998">
+        <tspan
+           id="tspan25638"
+           y="720"
+           x="1240">да</tspan>
+      </text>
+      <g
+         id="g25640">
+        <rect
+           id="rect25642"
+           height="38"
+           width="240"
+           y="780"
+           x="1220"
+           style="fill:#ffffff" />
+        <rect
+           id="rect25644"
+           height="38"
+           width="240"
+           y="780"
+           x="1220"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25646"
+           y="802.90002"
+           x="1340"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25648"
+             y="802.90002"
+             x="1340">Поменять местами linea и lineb</tspan>
+        </text>
+      </g>
+      <g
+         id="g25650">
+        <rect
+           id="rect25652"
+           height="40"
+           width="320"
+           y="780"
+           x="700"
+           style="fill:#ffffff" />
+        <rect
+           id="rect25654"
+           height="40"
+           width="320"
+           y="780"
+           x="700"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <line
+           id="line25656"
+           y2="820"
+           x2="732"
+           y1="780"
+           x1="732"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <line
+           id="line25658"
+           y2="820"
+           x2="988"
+           y1="780"
+           x1="988"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25660"
+           y="796"
+           x="860"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25662"
+             y="796"
+             x="860">Поменять случайные поддеревья</tspan>
+          <tspan
+             id="tspan25664"
+             y="812"
+             x="860">linea и lineb</tspan>
+        </text>
+      </g>
+      <polyline
+         id="polyline25666"
+         points="987.575,740.107 987.575,759.738 860,759.738 860,780 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <polyline
+         id="polyline25668"
+         points="1212.85,740.107 1212.85,759.143 1340,759.143 1340,780 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <g
+         id="g25670">
+        <rect
+           id="rect25672"
+           height="38"
+           width="63.299999"
+           y="880"
+           x="1068.35"
+           style="fill:#ffffff" />
+        <rect
+           id="rect25674"
+           height="38"
+           width="63.299999"
+           y="880"
+           x="1068.35"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25676"
+           y="902.90002"
+           x="1100"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25678"
+             y="902.90002"
+             x="1100">i += 1</tspan>
+        </text>
+      </g>
+      <polyline
+         id="polyline25680"
+         points="1340,818 1340,840 1100,840 1100,880 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <polyline
+         id="polyline25682"
+         points="860,820 860,840 1100,840 1100,880 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <polyline
+         id="polyline25684"
+         points="1100,658 1100,670.894 1100.21,670.894 1100.21,683.787 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line25686"
+         y2="620"
+         x2="1100"
+         y1="598"
+         x1="1100"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line25688"
+         y2="560"
+         x2="1100"
+         y1="538"
+         x1="1100"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line25690"
+         y2="500"
+         x2="1100"
+         y1="467.48801"
+         x1="1100.21"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line25692"
+         y2="199.02299"
+         x2="1100.5699"
+         y1="180"
+         x1="1100"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line25694"
+         y2="260"
+         x2="1100"
+         y1="240.97701"
+         x1="1100.5699"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line25696"
+         y2="320"
+         x2="1100"
+         y1="298"
+         x1="1100"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line25698"
+         y2="380"
+         x2="1100.21"
+         y1="358"
+         x1="1100"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <polyline
+         id="polyline25700"
+         points="1100,918 1100,941 680,941 680,369 1100.11,369 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <g
+         id="g25702">
+        <path
+           id="path25704"
+           d="m 1060,1000 80,0 c 11.05,0 20,8.95 20,20 0,11.05 -8.95,20 -20,20 l -80,0 c -11.05,0 -20,-8.95 -20,-20 0,-11.05 8.95,-20 20,-20 z"
+           style="fill:#ffffff"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path25706"
+           d="m 1060,1000 80,0 c 11.05,0 20,8.95 20,20 0,11.05 -8.95,20 -20,20 l -80,0 c -11.05,0 -20,-8.95 -20,-20 0,-11.05 8.95,-20 20,-20"
+           style="fill:none;stroke:#000000;stroke-width:2"
+           inkscape:connector-curvature="0" />
+        <text
+           id="text25708"
+           y="1024"
+           x="1100"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25710"
+             y="1024"
+             x="1100">Выход</tspan>
+        </text>
+      </g>
+      <polyline
+         id="polyline25712"
+         points="1187.7,423.744 1187.7,420 1480,420 1480,980 1100,980 1100,1000 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="1188.4989"
+       y="-811.18561"
+       id="text22823-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan22825-2"
+         x="1188.4989"
+         y="-811.18561">Кроссинговер</tspan></text>
+    <g
+       id="g26185"
+       transform="matrix(1.0384905,0,0,1.0384905,1162.567,-833.45176)">
+      <g
+         id="g25837">
+        <path
+           id="path25839"
+           d="m 1033.74,40 54.95,0 c 7.58,0 13.74,8.9543 13.74,20 0,11.0457 -6.16,20 -13.74,20 l -54.95,0 c -7.59,0 -13.74,-8.9543 -13.74,-20 0,-11.0457 6.15,-20 13.74,-20 z"
+           style="fill:#ffffff"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path25841"
+           d="m 1033.74,40 54.95,0 c 7.58,0 13.74,8.9543 13.74,20 0,11.0457 -6.16,20 -13.74,20 l -54.95,0 c -7.59,0 -13.74,-8.9543 -13.74,-20 0,-11.0457 6.15,-20 13.74,-20"
+           style="fill:none;stroke:#000000;stroke-width:2"
+           inkscape:connector-curvature="0" />
+        <text
+           id="text25843"
+           y="64"
+           x="1061.21"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25845"
+             y="64"
+             x="1061.21">Начало</tspan>
+        </text>
+      </g>
+      <g
+         id="g25847">
+        <polygon
+           id="polygon25849"
+           points="860,220 874.559,180 1260,180 1245.44,220 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon25851"
+           points="860,220 874.559,180 1260,180 1245.44,220 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25853"
+           y="203.89999"
+           x="1060"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25855"
+             y="203.89999"
+             x="1060">ind = индивид, opmng = менеджер операторов</tspan>
+        </text>
+      </g>
+      <g
+         id="g25857">
+        <rect
+           id="rect25859"
+           height="38"
+           width="332.75"
+           y="240"
+           x="893.625"
+           style="fill:#ffffff" />
+        <rect
+           id="rect25861"
+           height="38"
+           width="332.75"
+           y="240"
+           x="893.625"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25863"
+           y="262.89999"
+           x="1060"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25865"
+             y="262.89999"
+             x="1060">op = получить случайный оператор из opmng</tspan>
+        </text>
+      </g>
+      <g
+         id="g25867">
+        <rect
+           id="rect25869"
+           height="38"
+           width="228.75"
+           y="300"
+           x="945.625"
+           style="fill:#ffffff" />
+        <rect
+           id="rect25871"
+           height="38"
+           width="228.75"
+           y="300"
+           x="945.625"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25873"
+           y="322.89999"
+           x="1060"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25875"
+             y="322.89999"
+             x="1060">length = кол-во аргументов op</tspan>
+        </text>
+      </g>
+      <g
+         id="g25877">
+        <polygon
+           id="polygon25879"
+           points="988.4,454.894 1060.21,418.988 1132.03,454.894 1060.21,490.801 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon25881"
+           points="988.4,454.894 1060.21,418.988 1132.03,454.894 1060.21,490.801 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25883"
+           y="458.79401"
+           x="1060.21"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25885"
+             y="458.79401"
+             x="1060.21">i = length</tspan>
+        </text>
+      </g>
+      <g
+         id="g25887">
+        <rect
+           id="rect25889"
+           height="40"
+           width="52.549999"
+           y="360"
+           x="1033.72"
+           style="fill:#ffffff" />
+        <rect
+           id="rect25891"
+           height="40"
+           width="52.549999"
+           y="360"
+           x="1033.72"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25893"
+           y="383.89999"
+           x="1060"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25895"
+             y="383.89999"
+             x="1060">i = 0</tspan>
+        </text>
+      </g>
+      <text
+         id="text25897"
+         y="520"
+         x="1080"
+         style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+         font-size="12.7998">
+        <tspan
+           id="tspan25899"
+           y="520"
+           x="1080">нет</tspan>
+      </text>
+      <text
+         id="text25901"
+         y="440"
+         x="1140"
+         style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+         font-size="12.7998">
+        <tspan
+           id="tspan25903"
+           y="440"
+           x="1140">да</tspan>
+      </text>
+      <g
+         id="g25905">
+        <rect
+           id="rect25907"
+           height="38"
+           width="548.29999"
+           y="540"
+           x="785.84998"
+           style="fill:#ffffff" />
+        <rect
+           id="rect25909"
+           height="38"
+           width="548.29999"
+           y="540"
+           x="785.84998"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25911"
+           y="562.90002"
+           x="1060"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25913"
+             y="562.90002"
+             x="1060">genScope = тип аргумента void &amp;&amp; случ. число попало в newScopeGenChance</tspan>
+        </text>
+      </g>
+      <g
+         id="g25915">
+        <polygon
+           id="polygon25917"
+           points="880,154 899.654,100 1240,100 1220.35,154 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon25919"
+           points="880,154 899.654,100 1240,100 1220.35,154 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25921"
+           y="122.9"
+           x="1060"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25923"
+             y="122.9"
+             x="1060">newScopeGenChance, newOpGenChance,</tspan>
+          <tspan
+             id="tspan25925"
+             y="138.89999"
+             x="1060">scopeMinSize, scopeMaxSize</tspan>
+        </text>
+      </g>
+      <g
+         id="g25927">
+        <polygon
+           id="polygon25929"
+           points="980,634.894 1060,600 1140,634.894 1060,669.788 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon25931"
+           points="980,634.894 1060,600 1140,634.894 1060,669.788 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25933"
+           y="638.79401"
+           x="1060"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25935"
+             y="638.79401"
+             x="1060">genScope</tspan>
+        </text>
+      </g>
+      <text
+         id="text25937"
+         y="620"
+         x="940"
+         style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+         font-size="12.7998">
+        <tspan
+           id="tspan25939"
+           y="620"
+           x="940">да</tspan>
+      </text>
+      <text
+         id="text25941"
+         y="620"
+         x="1160"
+         style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+         font-size="12.7998">
+        <tspan
+           id="tspan25943"
+           y="620"
+           x="1160">нет</tspan>
+      </text>
+      <g
+         id="g25945">
+        <rect
+           id="rect25947"
+           height="38"
+           width="220"
+           y="680"
+           x="720"
+           style="fill:#ffffff" />
+        <rect
+           id="rect25949"
+           height="38"
+           width="220"
+           y="680"
+           x="720"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25951"
+           y="702.90002"
+           x="830"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25953"
+             y="702.90002"
+             x="830">ascope = новая область</tspan>
+        </text>
+      </g>
+      <g
+         id="g25955">
+        <rect
+           id="rect25957"
+           height="38"
+           width="380"
+           y="740"
+           x="640"
+           style="fill:#ffffff" />
+        <rect
+           id="rect25959"
+           height="38"
+           width="380"
+           y="740"
+           x="640"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25961"
+           y="762.90002"
+           x="830"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25963"
+             y="762.90002"
+             x="830">размер ascope от scopeMinSize до scopeMaxSize</tspan>
+        </text>
+      </g>
+      <text
+         id="text25965"
+         y="759"
+         x="830"
+         style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+         font-size="12.7998">
+        <tspan
+           id="tspan25967"
+           y="759"
+           x="830" />
+      </text>
+      <g
+         id="g25969">
+        <polygon
+           id="polygon25971"
+           points="720,910.207 830,859.562 940,910.207 830,960.851 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon25973"
+           points="720,910.207 830,859.562 940,910.207 830,960.851 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25975"
+           y="914.10699"
+           x="830"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25977"
+             y="914.10699"
+             x="830">j = размер ascope</tspan>
+        </text>
+      </g>
+      <g
+         id="g25979">
+        <rect
+           id="rect25981"
+           height="38"
+           width="60"
+           y="800"
+           x="800"
+           style="fill:#ffffff" />
+        <rect
+           id="rect25983"
+           height="38"
+           width="60"
+           y="800"
+           x="800"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25985"
+           y="822.90002"
+           x="830"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25987"
+             y="822.90002"
+             x="830">j = 0</tspan>
+        </text>
+      </g>
+      <text
+         id="text25989"
+         y="900"
+         x="951.79999"
+         style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+         font-size="12.7998">
+        <tspan
+           id="tspan25991"
+           y="900"
+           x="951.79999">да</tspan>
+      </text>
+      <text
+         id="text25993"
+         y="980"
+         x="851.79999"
+         style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+         font-size="12.7998">
+        <tspan
+           id="tspan25995"
+           y="980"
+           x="851.79999">нет</tspan>
+      </text>
+      <g
+         id="g25997">
+        <rect
+           id="rect25999"
+           height="40"
+           width="420"
+           y="1020"
+           x="620"
+           style="fill:#ffffff" />
+        <rect
+           id="rect26001"
+           height="40"
+           width="420"
+           y="1020"
+           x="620"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <line
+           id="line26003"
+           y2="1060"
+           x2="662"
+           y1="1020"
+           x1="662"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <line
+           id="line26005"
+           y2="1060"
+           x2="998"
+           y1="1020"
+           x1="998"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text26007"
+           y="1044"
+           x="830"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan26009"
+             y="1044"
+             x="830">line = генерировать типизированную линию</tspan>
+        </text>
+      </g>
+      <g
+         id="g26011">
+        <rect
+           id="rect26013"
+           height="38"
+           width="180"
+           y="1080"
+           x="740"
+           style="fill:#ffffff" />
+        <rect
+           id="rect26015"
+           height="38"
+           width="180"
+           y="1080"
+           x="740"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text26017"
+           y="1102.9"
+           x="830"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan26019"
+             y="1102.9"
+             x="830">добавить line в ascope</tspan>
+        </text>
+      </g>
+      <g
+         id="g26021">
+        <rect
+           id="rect26023"
+           height="38"
+           width="100"
+           y="1140"
+           x="780"
+           style="fill:#ffffff" />
+        <rect
+           id="rect26025"
+           height="38"
+           width="100"
+           y="1140"
+           x="780"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text26027"
+           y="1162.9"
+           x="830"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan26029"
+             y="1162.9"
+             x="830">j += 1</tspan>
+        </text>
+      </g>
+      <g
+         id="g26031">
+        <rect
+           id="rect26033"
+           height="38"
+           width="520"
+           y="680"
+           x="1140"
+           style="fill:#ffffff" />
+        <rect
+           id="rect26035"
+           height="38"
+           width="520"
+           y="680"
+           x="1140"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text26037"
+           y="702.90002"
+           x="1400"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan26039"
+             y="702.90002"
+             x="1400">genLine = тип аргумента void || случ. число попало в newOpGenChance</tspan>
+        </text>
+      </g>
+      <g
+         id="g26041">
+        <rect
+           id="rect26043"
+           height="38"
+           width="55.200001"
+           y="1300"
+           x="1032.4"
+           style="fill:#ffffff" />
+        <rect
+           id="rect26045"
+           height="38"
+           width="55.200001"
+           y="1300"
+           x="1032.4"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text26047"
+           y="1322.9"
+           x="1060"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan26049"
+             y="1322.9"
+             x="1060">i+=1</tspan>
+        </text>
+      </g>
+      <g
+         id="g26051">
+        <polygon
+           id="polygon26053"
+           points="873.65,1420 888.209,1380 1248.73,1380 1234.17,1420 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon26055"
+           points="873.65,1420 888.209,1380 1248.73,1380 1234.17,1420 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text26057"
+           y="1403.9"
+           x="1061.1899"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan26059"
+             y="1403.9"
+             x="1061.1899">Новая линия со сгенерированными аргументами</tspan>
+        </text>
+      </g>
+      <g
+         id="g26061">
+        <path
+           id="path26063"
+           d="m 1036.72,1440 46.56,0 c 6.42,0 11.63,8.95 11.63,20 0,11.05 -5.21,20 -11.63,20 l -46.56,0 c -6.42,0 -11.63,-8.95 -11.63,-20 0,-11.05 5.21,-20 11.63,-20 z"
+           style="fill:#ffffff"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path26065"
+           d="m 1036.72,1440 46.56,0 c 6.42,0 11.63,8.95 11.63,20 0,11.05 -5.21,20 -11.63,20 l -46.56,0 c -6.42,0 -11.63,-8.95 -11.63,-20 0,-11.05 5.21,-20 11.63,-20"
+           style="fill:none;stroke:#000000;stroke-width:2"
+           inkscape:connector-curvature="0" />
+        <text
+           id="text26067"
+           y="1464"
+           x="1060"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan26069"
+             y="1464"
+             x="1060">конец</tspan>
+        </text>
+      </g>
+      <g
+         id="g26071">
+        <polygon
+           id="polygon26073"
+           points="1320,794.894 1400,760 1480,794.894 1400,829.788 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon26075"
+           points="1320,794.894 1400,760 1480,794.894 1400,829.788 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text26077"
+           y="798.79401"
+           x="1400"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan26079"
+             y="798.79401"
+             x="1400">genLine</tspan>
+        </text>
+      </g>
+      <text
+         id="text26081"
+         y="860"
+         x="1360"
+         style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+         font-size="12.7998">
+        <tspan
+           id="tspan26083"
+           y="860"
+           x="1360">да</tspan>
+      </text>
+      <text
+         id="text26085"
+         y="780"
+         x="1500"
+         style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+         font-size="12.7998">
+        <tspan
+           id="tspan26087"
+           y="780"
+           x="1500">нет</tspan>
+      </text>
+      <g
+         id="g26089">
+        <rect
+           id="rect26091"
+           height="38"
+           width="190.14999"
+           y="1220"
+           x="736.72498"
+           style="fill:#ffffff" />
+        <rect
+           id="rect26093"
+           height="38"
+           width="190.14999"
+           y="1220"
+           x="736.72498"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text26095"
+           y="1242.9"
+           x="831.79999"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan26097"
+             y="1242.9"
+             x="831.79999">аргумент[i] = ascope</tspan>
+        </text>
+      </g>
+      <polyline
+         id="polyline26099"
+         points="830,1178 830,1199 600,1199 600,848.785 830,848.785 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <g
+         id="g26101">
+        <rect
+           id="rect26103"
+           height="38"
+           width="200"
+           y="960"
+           x="1300"
+           style="fill:#ffffff" />
+        <rect
+           id="rect26105"
+           height="38"
+           width="200"
+           y="960"
+           x="1300"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text26107"
+           y="982.90002"
+           x="1400"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan26109"
+             y="982.90002"
+             x="1400">аргумент[i] = aline</tspan>
+        </text>
+      </g>
+      <g
+         id="g26111">
+        <rect
+           id="rect26113"
+           height="40"
+           width="394.75"
+           y="880"
+           x="1202.62"
+           style="fill:#ffffff" />
+        <rect
+           id="rect26115"
+           height="40"
+           width="394.75"
+           y="880"
+           x="1202.62"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <line
+           id="line26117"
+           y2="920"
+           x2="1242.1"
+           y1="880"
+           x1="1242.1"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <line
+           id="line26119"
+           y2="920"
+           x2="1557.9"
+           y1="880"
+           x1="1557.9"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text26121"
+           y="896"
+           x="1400"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan26123"
+             y="896"
+             x="1400">aline = генерировать типизированную линию</tspan>
+          <tspan
+             id="tspan26125"
+             y="912"
+             x="1400">c типом оператор.аргументы[i].тип</tspan>
+        </text>
+      </g>
+      <line
+         id="line26127"
+         y2="99.126999"
+         x2="1060.5"
+         y1="80.9702"
+         x1="1060.83"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line26129"
+         y2="178.996"
+         x2="1060"
+         y1="154.981"
+         x1="1060"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line26131"
+         y2="240"
+         x2="1060"
+         y1="220.97701"
+         x1="1060"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line26133"
+         y2="299.005"
+         x2="1060"
+         y1="278.995"
+         x1="1060"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line26135"
+         y2="358.99399"
+         x2="1060"
+         y1="338.539"
+         x1="1060"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line26137"
+         y2="418.32501"
+         x2="1060.11"
+         y1="401"
+         x1="1060.0601"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line26139"
+         y2="539.01001"
+         x2="1060.04"
+         y1="491.76099"
+         x1="1060.14"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <polyline
+         id="polyline26141"
+         points="1132.03,454.894 1132.03,460 1680,460 1680,1360 1061.19,1360 1061.19,1379.02 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <polyline
+         id="polyline26143"
+         points="1032.4,1319 580,1319 580,409.662 1060.08,409.662 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line26145"
+         y2="858.56201"
+         x2="830"
+         y1="839.00702"
+         x1="830"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line26147"
+         y2="1019.01"
+         x2="830"
+         y1="960.85101"
+         x1="830"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line26149"
+         y2="1079"
+         x2="830"
+         y1="1060.99"
+         x1="830"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line26151"
+         y2="1139"
+         x2="830"
+         y1="1119"
+         x1="830"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <polyline
+         id="polyline26153"
+         points="941,910.207 1060,910.207 1060,1239 926.875,1239 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <polyline
+         id="polyline26155"
+         points="831.8,1258 831.8,1280 1060,1280 1060,1300 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <polyline
+         id="polyline26157"
+         points="1400,998 1400,1280 1060,1280 1060,1299 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <polyline
+         id="polyline26159"
+         points="1480,794.894 1480,800 1640,800 1640,1280 1400,1280 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line26161"
+         y2="878.99701"
+         x2="1400"
+         y1="830.78802"
+         x1="1400"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line26163"
+         y2="959.00897"
+         x2="1400"
+         y1="920.99402"
+         x1="1400"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line26165"
+         y2="759"
+         x2="1400"
+         y1="719.005"
+         x1="1400"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line26167"
+         y2="799.005"
+         x2="830"
+         y1="778.995"
+         x1="830"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line26169"
+         y2="739.005"
+         x2="830"
+         y1="718.995"
+         x1="830"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <polyline
+         id="polyline26171"
+         points="980,634.894 980,640 830,640 830,679 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <polyline
+         id="polyline26173"
+         points="1140,634.894 1140,640 1400,640 1400,679 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line26175"
+         y2="599"
+         x2="1060"
+         y1="578.93701"
+         x1="1060"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line26177"
+         y2="1439.01"
+         x2="1060.42"
+         y1="1420.99"
+         x1="1060.77"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+    </g>
+  </g>
+</svg>

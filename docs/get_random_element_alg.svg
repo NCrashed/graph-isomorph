@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="33cm" height="61cm" viewBox="918 -1 642 1202" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <path style="fill: #ffffff" d="M 1073.74 0 L 1128.69,0 C 1136.27,0 1142.43,8.9543 1142.43,20 C 1142.43,31.0457 1136.27,40 1128.69,40 L 1073.74,40 C 1066.15,40 1060,31.0457 1060,20 C 1060,8.9543 1066.15,0 1073.74,0z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1073.74 0 L 1128.69,0 C 1136.27,0 1142.43,8.9543 1142.43,20 C 1142.43,31.0457 1136.27,40 1128.69,40 L 1073.74,40 C 1066.15,40 1060,31.0457 1060,20 C 1060,8.9543 1066.15,0 1073.74,0"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1101.21" y="24">
+      <tspan x="1101.21" y="24">Начало</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="967.283,60 1249.66,60 1235.1,100 952.724,100 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="967.283,60 1249.66,60 1235.1,100 952.724,100 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1101.19" y="83.9">
+      <tspan x="1101.19" y="83.9">cont - контейнер (линия или область)</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1101.2" y1="40.9912" x2="1101.2" y2="59.0088"/>
+  <g>
+    <rect style="fill: #ffffff" x="1059" y="120" width="82" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1059" y="120" width="82" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1100" y="142.9">
+      <tspan x="1100" y="142.9">ret = null</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1100.77" y1="100.987" x2="1100.4" y2="119"/>
+  <g>
+    <rect style="fill: #ffffff" x="1000.88" y="200" width="198.25" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1000.88" y="200" width="198.25" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1100" y="222.9">
+      <tspan x="1100" y="222.9">childs = кол-во детей cont</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1013.32" y="260" width="173.35" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1013.32" y="260" width="173.35" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1100" y="282.9">
+      <tspan x="1100" y="282.9">chances = [1.0 / childs]</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1073.73" y="320" width="52.55" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1073.73" y="320" width="52.55" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1100" y="342.9">
+      <tspan x="1100" y="342.9">i = 0</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="1100,380 1187.84,423.919 1100,467.838 1012.16,423.919 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1100,380 1187.84,423.919 1100,467.838 1012.16,423.919 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1100" y="427.819">
+      <tspan x="1100" y="427.819">i = cont.length</tspan>
+    </text>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1200" y="420">
+    <tspan x="1200" y="420">да</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1120" y="480">
+    <tspan x="1120" y="480">нет</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="956.176" y="500" width="287.65" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="956.176" y="500" width="287.65" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1100" y="522.9">
+      <tspan x="1100" y="522.9">chances ~= кол-во детей cont[i] / childs</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1060" y="560" width="80" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1060" y="560" width="80" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1100" y="582.9">
+      <tspan x="1100" y="582.9">i+=1</tspan>
+    </text>
+  </g>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1100,598 1100,619 940,619 940,368.998 1100,368.998 "/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1100" y1="358.996" x2="1100" y2="379.001"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1100" y1="468.838" x2="1100" y2="499.014"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1100" y1="538.995" x2="1100" y2="559.005"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1100" y1="159.01" x2="1100" y2="198.99"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1100" y1="238.995" x2="1100" y2="259.005"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1100" y1="298.995" x2="1100" y2="319.005"/>
+  <g>
+    <rect style="fill: #ffffff" x="1280" y="500" width="280" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1280" y="500" width="280" height="54"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1420" y="522.9">
+      <tspan x="1420" y="522.9">k = выбрать число по вероятностям</tspan>
+      <tspan x="1420" y="538.9">chances</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="1420,600 1480,626.682 1420,653.363 1360,626.682 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1420,600 1480,626.682 1420,653.363 1360,626.682 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1420" y="630.582">
+      <tspan x="1420" y="630.582">k=0</tspan>
+    </text>
+  </g>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1187.84,423.919 1187.84,440 1420,440 1420,500 "/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1420" y1="554.999" x2="1420" y2="599"/>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1440" y="680">
+    <tspan x="1440" y="680">да</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1320" y="620">
+    <tspan x="1320" y="620">нет</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="1360" y="860" width="120" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1360" y="860" width="120" height="38"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1420" y="882.9">
+      <tspan x="1420" y="882.9">ret = cont</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1420" y1="654.363" x2="1420" y2="859.003"/>
+  <g>
+    <polygon style="fill: #ffffff" points="1240,720 1369.82,774.907 1240,829.813 1110.18,774.907 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1240,720 1369.82,774.907 1240,829.813 1110.18,774.907 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1240" y="778.807">
+      <tspan x="1240" y="778.807">arg.type != Container </tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1180" y="660" width="120.05" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1180" y="660" width="120.05" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1240.03" y="682.9">
+      <tspan x="1240.03" y="682.9">arg = cont[k-1]</tspan>
+    </text>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1260" y="840">
+    <tspan x="1260" y="840">да</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1080" y="760">
+    <tspan x="1080" y="760">нет</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="1180" y="860" width="120" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1180" y="860" width="120" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1240" y="882.9">
+      <tspan x="1240" y="882.9">ret = arg</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1000" y="860" width="120" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1000" y="860" width="120" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1060" y="882.9">
+      <tspan x="1060" y="882.9">cont = arg</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="1160,979.873 1240,1015.11 1160,1050.34 1080,1015.11 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1160,979.873 1240,1015.11 1160,1050.34 1080,1015.11 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1160" y="1019.01">
+      <tspan x="1160" y="1019.01">ret = null</tspan>
+    </text>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1060" y="1000">
+    <tspan x="1060" y="1000">да</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1180" y="1080">
+    <tspan x="1180" y="1080">нет</tspan>
+  </text>
+  <g>
+    <polygon style="fill: #ffffff" points="1094.56,1100 1240,1100 1225.44,1140 1080,1140 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1094.56,1100 1240,1100 1225.44,1140 1080,1140 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1160" y="1123.9">
+      <tspan x="1160" y="1123.9">Результат: ret</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 1135.42 1160 L 1184.58,1160 C 1191.36,1160 1196.86,1168.95 1196.86,1180 C 1196.86,1191.05 1191.36,1200 1184.58,1200 L 1135.42,1200 C 1128.64,1200 1123.14,1191.05 1123.14,1180 C 1123.14,1168.95 1128.64,1160 1135.42,1160z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1135.42 1160 L 1184.58,1160 C 1191.36,1160 1196.86,1168.95 1196.86,1180 C 1196.86,1191.05 1191.36,1200 1184.58,1200 L 1135.42,1200 C 1128.64,1200 1123.14,1191.05 1123.14,1180 C 1123.14,1168.95 1128.64,1160 1135.42,1160"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1160" y="1184">
+      <tspan x="1160" y="1184">Выход</tspan>
+    </text>
+  </g>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1080,1015.11 1080,1020 920,1020 920,179 1100,179 "/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1160" y1="1050.34" x2="1160" y2="1099"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1160" y1="1140.99" x2="1160" y2="1159.01"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1240" y1="830.813" x2="1240" y2="859.012"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1240.03" y1="698" x2="1240.02" y2="719.006"/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1360,626.682 1360,640 1240.03,640 1240.03,660 "/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1110.18,774.907 1110.18,780 1060,780 1060,860 "/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1060,898 1060,940 1160,940 1160,979.873 "/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1240,898 1240,940 1160,940 1160,979.873 "/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1420,898 1420,940 1160,940 1160,979.873 "/>
+</svg>

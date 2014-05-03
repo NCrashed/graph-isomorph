@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="52cm" height="68cm" viewBox="386 -401 1035 1343" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <path style="fill: #ffffff" d="M 640 -400 L 720,-400 C 731.046,-400 740,-391.046 740,-380 C 740,-368.954 731.046,-360 720,-360 L 640,-360 C 628.954,-360 620,-368.954 620,-380 C 620,-391.046 628.954,-400 640,-400z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 640 -400 L 720,-400 C 731.046,-400 740,-391.046 740,-380 C 740,-368.954 731.046,-360 720,-360 L 640,-360 C 628.954,-360 620,-368.954 620,-380 C 620,-391.046 628.954,-400 640,-400"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="680" y="-376">
+      <tspan x="680" y="-376">Начало</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="538.225" y="-220" width="283.55" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="538.225" y="-220" width="283.55" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="680" y="-197.1">
+      <tspan x="680" y="-197.1">k = случайно от 0 до длины прогаммы</tspan>
+    </text>
+  </g>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="680,-360 680,-240 680,-240 680,-220 "/>
+  <g>
+    <rect style="fill: #ffffff" x="560" y="-160" width="240" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="560" y="-160" width="240" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="680" y="-137.1">
+      <tspan x="680" y="-137.1">line = k линия программы</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="680" y1="-182" x2="680" y2="-160"/>
+  <g>
+    <polygon style="fill: #ffffff" points="679.538,-40 739.076,-10.2309 679.538,19.5382 620,-10.2309 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="679.538,-40 739.076,-10.2309 679.538,19.5382 620,-10.2309 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="679.538" y="-6.3309">
+      <tspan x="679.538" y="-6.3309">i = 0</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="387.65" y="-100" width="584.7" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="387.65" y="-100" width="584.7" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="680" y="-77.1">
+      <tspan x="680" y="-77.1">i = выбрать с шансами: addChance, removeChance, 1-addChance-removeChance</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="680" y1="-122" x2="680" y2="-100"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="680" y1="-62" x2="679.538" y2="-40"/>
+  <g>
+    <rect style="fill: #ffffff" x="580" y="60" width="200" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="580" y="60" width="200" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="680" y="82.9">
+      <tspan x="680" y="82.9">Добавление новой линии</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="679.538" y1="19.5382" x2="679.845" y2="59.01"/>
+  <g>
+    <polygon style="fill: #ffffff" points="899.538,40 959.076,69.7691 899.538,99.5382 840,69.7691 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="899.538,40 959.076,69.7691 899.538,99.5382 840,69.7691 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="899.538" y="73.6691">
+      <tspan x="899.538" y="73.6691">i = 1</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="800" y="120" width="200" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="800" y="120" width="200" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="900" y="142.9">
+      <tspan x="900" y="142.9">Удаление k линии</tspan>
+    </text>
+  </g>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="739.076,-10.2309 739.076,0 899.538,0 899.538,40 "/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="899.538" y1="99.5382" x2="900" y2="120"/>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="780" y="-20">
+    <tspan x="780" y="-20">Нет</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="640" y="40">
+    <tspan x="640" y="40">Да</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="840" y="100">
+    <tspan x="840" y="100">Да</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="980" y="60">
+    <tspan x="980" y="60">Нет</tspan>
+  </text>
+  <g>
+    <polygon style="fill: #ffffff" points="614.559,-340 760,-340 745.441,-300 600,-300 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="614.559,-340 760,-340 745.441,-300 600,-300 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="680" y="-316.1">
+      <tspan x="680" y="-316.1">ind = Индивид</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="491.068,-280 883.491,-280 868.932,-240 476.509,-240 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="491.068,-280 883.491,-280 868.932,-240 476.509,-240 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="680" y="-256.1">
+      <tspan x="680" y="-256.1">program = программа ind, addChance, removeChance</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="680" cy="140" rx="20" ry="20"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="680" cy="140" rx="20" ry="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="680" y="143.9">
+      <tspan x="680" y="143.9">1</tspan>
+    </text>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="680" y="140">
+    <tspan x="680" y="140"></tspan>
+  </text>
+  <g>
+    <ellipse style="fill: #ffffff" cx="900" cy="200" rx="20" ry="20"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="900" cy="200" rx="20" ry="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="900" y="203.9">
+      <tspan x="900" y="203.9">1</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="680" y1="98" x2="680" y2="120"/>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="900" y1="158" x2="900" y2="170.264"/>
+    <polygon style="fill: #000000" points="900,177.764 895,167.764 900,170.264 905,167.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="900,177.764 895,167.764 900,170.264 905,167.764 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="420" y="260" width="520" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="420" y="260" width="520" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="680" y="282.9">
+      <tspan x="680" y="282.9">i = выбрать с шансами: changeChance, replaceChance, deleteChance</tspan>
+    </text>
+  </g>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="959.076,69.7691 1020,69.7691 1020,240 680,240 680,260 "/>
+  <g>
+    <polygon style="fill: #ffffff" points="679.538,320 739.076,349.769 679.538,379.538 620,349.769 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="679.538,320 739.076,349.769 679.538,379.538 620,349.769 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="679.538" y="353.669">
+      <tspan x="679.538" y="353.669">i = 0</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="679.538" y1="379.538" x2="679.845" y2="419.01"/>
+  <g>
+    <polygon style="fill: #ffffff" points="999.538,380 1059.08,409.769 999.538,439.538 940,409.769 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="999.538,380 1059.08,409.769 999.538,439.538 940,409.769 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="999.538" y="413.669">
+      <tspan x="999.538" y="413.669">i = 1</tspan>
+    </text>
+  </g>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="739.076,349.769 739.076,360 999.538,360 999.538,380 "/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="999.538" y1="439.538" x2="999.84" y2="479.098"/>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="780" y="340">
+    <tspan x="780" y="340">Нет</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="640" y="400">
+    <tspan x="640" y="400">Да</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="940" y="440">
+    <tspan x="940" y="440">Да</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1080" y="400">
+    <tspan x="1080" y="400">Нет</tspan>
+  </text>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="680" y1="298" x2="679.538" y2="320"/>
+  <g>
+    <rect style="fill: #ffffff" x="560" y="480" width="240" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="560" y="480" width="240" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="680" y="502.9">
+      <tspan x="680" y="502.9">изменить значение leaf</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="680" y1="458" x2="680" y2="480"/>
+  <g>
+    <rect style="fill: #ffffff" x="840" y="480" width="320" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="840" y="480" width="320" height="40"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="872" y1="480" x2="872" y2="520"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1128" y1="480" x2="1128" y2="520"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1000" y="504">
+      <tspan x="1000" y="504">Заменить случайный лист дерева</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="540" y="420" width="280" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="540" y="420" width="280" height="40"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="568" y1="420" x2="568" y2="460"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="792" y1="420" x2="792" y2="460"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="680" y="444">
+      <tspan x="680" y="444">leaf = случайный лист дерева</tspan>
+    </text>
+  </g>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1059.08,409.769 1059.08,420 1280,420 1280,540 "/>
+  <g>
+    <rect style="fill: #ffffff" x="1140" y="540" width="280" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1140" y="540" width="280" height="40"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1168" y1="540" x2="1168" y2="580"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1392" y1="540" x2="1392" y2="580"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1280" y="564">
+      <tspan x="1280" y="564">node = случайный узел дерева</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="1280,620 1420.06,660 1280,700 1139.94,660 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1280,620 1420.06,660 1280,700 1139.94,660 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1280" y="663.9">
+      <tspan x="1280" y="663.9">node имеет тип void?</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1280" y1="580" x2="1280" y2="620"/>
+  <g>
+    <rect style="fill: #ffffff" x="860" y="740" width="240" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="860" y="740" width="240" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="980" y="762.9">
+      <tspan x="980" y="762.9">изменить значение leaf</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="860" y="680" width="240" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="860" y="680" width="240" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="980" y="702.9">
+      <tspan x="980" y="702.9">leaf = новый лист</tspan>
+    </text>
+  </g>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1139.94,660 1139.94,660 980,660 980,680 "/>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1080" y="640">
+    <tspan x="1080" y="640">Нет</tspan>
+  </text>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="980" y1="718" x2="980" y2="740"/>
+  <g>
+    <rect style="fill: #ffffff" x="1160" y="720" width="240" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1160" y="720" width="240" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1280" y="742.9">
+      <tspan x="1280" y="742.9">node = сгенерировать линию</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1280" y1="700" x2="1280" y2="720"/>
+  <g>
+    <path style="fill: #ffffff" d="M 991.975 900 L 1039.88,900 C 1046.49,900 1051.85,908.954 1051.85,920 C 1051.85,931.046 1046.49,940 1039.88,940 L 991.975,940 C 985.361,940 980,931.046 980,920 C 980,908.954 985.361,900 991.975,900z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 991.975 900 L 1039.88,900 C 1046.49,900 1051.85,908.954 1051.85,920 C 1051.85,931.046 1046.49,940 1039.88,940 L 991.975,940 C 985.361,940 980,931.046 980,920 C 980,908.954 985.361,900 991.975,900"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1015.92" y="924">
+      <tspan x="1015.92" y="924">Конец</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="920" cy="840" rx="20" ry="20"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="920" cy="840" rx="20" ry="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="920" y="843.9">
+      <tspan x="920" y="843.9">1</tspan>
+    </text>
+  </g>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="980,778 980,840 1015.92,840 1015.92,900 "/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1280,758 1280,840 1015.92,840 1015.92,900 "/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="940,840 1015.92,840 1015.92,900 "/>
+  <g>
+    <ellipse style="fill: #ffffff" cx="680" cy="560" rx="20" ry="20"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="680" cy="560" rx="20" ry="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="680" y="563.9">
+      <tspan x="680" y="563.9">1</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="680" y1="518" x2="680" y2="540"/>
+  <g>
+    <ellipse style="fill: #ffffff" cx="1000" cy="560" rx="20" ry="20"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="1000" cy="560" rx="20" ry="20"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1000" y="563.9">
+      <tspan x="1000" y="563.9">1</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1000" y1="520" x2="1000" y2="540"/>
+</svg>
