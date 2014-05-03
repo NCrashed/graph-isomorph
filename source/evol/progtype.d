@@ -18,6 +18,8 @@ import evol.operators.opif;
 import evol.operators.opwhile;
 import evol.operators.or;
 import evol.operators.plus;
+import evol.operators.mult;
+import evol.operators.div;
 import evol.operators.relation;
 import evol.operators.gpop;
 import evol.operators.gpush;
@@ -90,7 +92,10 @@ class ProgramType : ProgTypeAbstract
         registerOperator!AndOperator("&&");
         registerOperator!OrOperator("||");
         registerOperator!NotOperator("!");
+        
         registerOperator!PlusOperator("+");
+        registerOperator!MultOperator("*");
+        registerOperator!DivOperator("/");
         
         registerOperator!IntEqualOperator("== (int)");
         registerOperator!IntGreaterOperator("> (int)");

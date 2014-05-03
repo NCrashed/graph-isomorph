@@ -8,7 +8,7 @@ module project;
 import evol.progtype;
 import evol.compiler;
 
-import yaml;
+import dyaml.all;
 import std.path;
 import std.file;
 import std.stream;
