@@ -15,6 +15,7 @@ import std.conv;
 import evol.operators.and;
 import evol.operators.not;
 import evol.operators.opif;
+import evol.operators.opwhile;
 import evol.operators.or;
 import evol.operators.plus;
 import evol.operators.relation;
@@ -85,6 +86,7 @@ class ProgramType : ProgTypeAbstract
         }
         
         registerOperator!IfOperator("if");
+        registerOperator!WhileOperator("while");
         registerOperator!AndOperator("&&");
         registerOperator!OrOperator("||");
         registerOperator!NotOperator("!");
