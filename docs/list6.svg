@@ -1,0 +1,4413 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2979.9211"
+   height="2104.7244"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="list6.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path16806"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path16809"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       markerWidth="311.5625"
+       markerHeight="272.40625"
+       orient="auto"
+       id="marker5422">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5420"
+         d="M -154.91245,135.44748 1.48885,-135.44749 154.91245,130.28999 z"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </marker>
+    <marker
+       markerWidth="25.21875"
+       markerHeight="33.96875"
+       orient="auto"
+       id="marker10150">
+      <rect
+         y="-14.875864"
+         x="-10.50061"
+         height="29.751728"
+         width="21.001221"
+         id="rect10148"
+         style="opacity:0.36947793;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:4.22599983;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.57139537"
+     inkscape:cx="1467.4288"
+     inkscape:cy="611.90919"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="2560"
+     inkscape:window-height="1025"
+     inkscape:window-x="-3"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-grids="false"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-nodes="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-center="true"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,1052.3624)">
+    <text
+       xml:space="preserve"
+       style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="1514.5944"
+       y="-948.92194"
+       id="text3004"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="1514.5944"
+         y="-948.92194"
+         id="tspan3008">Диаграмма основных классов</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3010"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Carlito;font-style:normal;font-weight:normal;font-size:32px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Carlito;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion3012"><rect
+           id="rect3014"
+           width="1371.1597"
+           height="960.30682"
+           x="76.725548"
+           y="342.51187"
+           style="font-size:32px" /></flowRegion><flowPara
+         id="flowPara3016" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="66.825478"
+       y="340.03687"
+       id="text3018"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan3020"
+         x="66.825478"
+         y="340.03687" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:0;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="353.92752"
+       y="458.83768"
+       id="text3022"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan3024"
+         x="353.92752"
+         y="458.83768" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="158.40112"
+       y="359.83698"
+       id="text3026"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan3028"
+         x="158.40112"
+         y="359.83698" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="497.47852"
+       y="357.36197"
+       id="text3038"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan3040"
+         x="497.47852"
+         y="357.36197" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="1754.7874"
+       y="1025.6167"
+       id="text3074"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan3076"
+         x="1754.7874"
+         y="1025.6167" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="74.250526"
+       y="1401.8195"
+       id="text3110"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan3112"
+         x="74.250526"
+         y="1401.8195" /></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:none;marker-mid:none;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1513.838,559.38457 924.05373,157.50916"
+       id="path5425"
+       inkscape:connector-curvature="0"
+       transform="translate(0,-1052.3624)" />
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="1944.363"
+       y="540.13342"
+       id="text20981"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan20983"
+         x="1944.363"
+         y="540.13342" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="1903.2885"
+       y="849.89044"
+       id="text21570"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan21572"
+         x="1903.2885"
+         y="849.89044" /></text>
+    <text
+       font-size="12.7998"
+       style="font-size:15.23232651px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+       x="401.64526"
+       y="-144.54242"
+       id="text24123">
+      <tspan
+         x="401.64526"
+         y="-144.54242"
+         id="tspan24125" />
+    </text>
+    <g
+       id="g29668"
+       transform="matrix(0.84586507,0,0,0.84586507,625.79342,-0.77262721)">
+      <g
+         id="g28228">
+        <rect
+           id="rect28230"
+           height="28"
+           width="271.79999"
+           y="-40"
+           x="800"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28232"
+           height="28"
+           width="271.79999"
+           y="-40"
+           x="800"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text28234"
+           y="-21"
+           x="935.90002"
+           style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="16">Project</text>
+        <rect
+           id="rect28236"
+           height="116"
+           width="271.79999"
+           y="-12"
+           x="800"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28238"
+           height="116"
+           width="271.79999"
+           y="-12"
+           x="800"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text28240"
+           y="2"
+           x="803"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+programType: ProgramType</text>
+        <text
+           id="text28242"
+           y="18"
+           x="803"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+population: GraphPopulation</text>
+        <text
+           id="text28244"
+           y="34"
+           x="803"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+name: string</text>
+        <text
+           id="text28246"
+           y="50"
+           x="803"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+filename: string</text>
+        <text
+           id="text28248"
+           y="66"
+           x="803"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+populationPath: string</text>
+        <text
+           id="text28250"
+           y="82"
+           x="803"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-logger: ILogger</text>
+        <text
+           id="text28252"
+           y="98"
+           x="803"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+popLoaded: bool = true</text>
+        <rect
+           id="rect28254"
+           height="132"
+           width="271.79999"
+           y="104"
+           x="800"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28256"
+           height="132"
+           width="271.79999"
+           y="104"
+           x="800"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text28258"
+           y="118"
+           x="803"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+this(in logger:ILogger)</text>
+        <text
+           id="text28260"
+           y="134"
+           x="803"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+open(filename:string): void</text>
+        <text
+           id="text28262"
+           y="150"
+           x="803"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+save(filename:string): void</text>
+        <text
+           id="text28264"
+           y="166"
+           x="803"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-open(root:Node): void</text>
+        <text
+           id="text28266"
+           y="182"
+           x="803"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-savePopulation(): void</text>
+        <text
+           id="text28268"
+           y="198"
+           x="803"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-loadPopulation(): void</text>
+        <text
+           id="text28270"
+           y="214"
+           x="803"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-dump(): Node</text>
+        <text
+           id="text28272"
+           y="230"
+           x="803"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+recreate(filename:string): string</text>
+      </g>
+      <g
+         id="g28274">
+        <rect
+           id="rect28276"
+           height="28"
+           width="395"
+           y="-660"
+           x="-300"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28278"
+           height="28"
+           width="395"
+           y="-660"
+           x="-300"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text28280"
+           y="-641"
+           x="-102.5"
+           style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="16">ProgramType</text>
+        <rect
+           id="rect28282"
+           height="436"
+           width="395"
+           y="-632"
+           x="-300"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28284"
+           height="436"
+           width="395"
+           y="-632"
+           x="-300"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text28286"
+           y="-618"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mProgMinSize: uint = 4</text>
+        <text
+           id="text28288"
+           y="-602"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mProgMaxSize: uint = 8</text>
+        <text
+           id="text28290"
+           y="-586"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mNewOpGenChance: float = 0.3</text>
+        <text
+           id="text28292"
+           y="-570"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mNewScopeGenChance: float = 0.1</text>
+        <text
+           id="text28294"
+           y="-554"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mNewLeafGenChance: float = 0.6</text>
+        <text
+           id="text28296"
+           y="-538"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mScopeMinSize: uint = 2</text>
+        <text
+           id="text28298"
+           y="-522"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mScopeMaxSize: uint = 5</text>
+        <text
+           id="text28300"
+           y="-506"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mMutationChance: float = 0.3</text>
+        <text
+           id="text28302"
+           y="-490"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mCrossingoverChance: float = 0.7</text>
+        <text
+           id="text28304"
+           y="-474"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mMutationChangeChance: float = 0.5</text>
+        <text
+           id="text28306"
+           y="-458"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mMutationReplaceChance: float = 0.3</text>
+        <text
+           id="text28308"
+           y="-442"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mMutationDeleteChance: float = 0.2</text>
+        <text
+           id="text28310"
+           y="-426"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mMutationAddLineChance: float = 0.1</text>
+        <text
+           id="text28312"
+           y="-410"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mMutationRemoveLineChance: float = 0.05</text>
+        <text
+           id="text28314"
+           y="-394"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mMaxMutationChange: string = &quot;100&quot;</text>
+        <text
+           id="text28316"
+           y="-378"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mCopyingPart: float = 0.1</text>
+        <text
+           id="text28318"
+           y="-362"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mDeleteMutationRiseGenomeSize: size_t = 200</text>
+        <text
+           id="text28320"
+           y="-346"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mMaxGenomeSize: size_t = 300</text>
+        <text
+           id="text28322"
+           y="-330"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mPopulationSize: size_t = 10</text>
+        <text
+           id="text28324"
+           y="-314"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mGraphPermuteChance: double = 0.5</text>
+        <text
+           id="text28326"
+           y="-298"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mGraphNodesCountMin: size_t = 3</text>
+        <text
+           id="text28328"
+           y="-282"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mGraphNodesCountMax: size_t = 10</text>
+        <text
+           id="text28330"
+           y="-266"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mGraphLinksCountMin: size_t = 3</text>
+        <text
+           id="text28332"
+           y="-250"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mGraphLinksCountMax: size_t = 6</text>
+        <text
+           id="text28334"
+           y="-234"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mGraphPermutesCountMin: size_t = 2</text>
+        <text
+           id="text28336"
+           y="-218"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mGraphPermutesCountMax: size_t = 4</text>
+        <text
+           id="text28338"
+           y="-202"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+</text>
+        <rect
+           id="rect28340"
+           height="916"
+           width="395"
+           y="-196"
+           x="-300"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28342"
+           height="916"
+           width="395"
+           y="-196"
+           x="-300"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text28344"
+           y="-182"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+this()</text>
+        <text
+           id="text28346"
+           y="-166"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+registerTypes()</text>
+        <text
+           id="text28348"
+           y="-150"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+progMinSize(): uint</text>
+        <text
+           id="text28350"
+           y="-134"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+progMinSize(val:uint): void</text>
+        <text
+           id="text28352"
+           y="-118"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+progMaxSize(): uint</text>
+        <text
+           id="text28354"
+           y="-102"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+progMaxSize(val:uint): void</text>
+        <text
+           id="text28356"
+           y="-86"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+newOpGenChance(): float</text>
+        <text
+           id="text28358"
+           y="-70"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+newOpGenChance(val:float): void</text>
+        <text
+           id="text28360"
+           y="-54"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+newScopeGenChance(): float</text>
+        <text
+           id="text28362"
+           y="-38"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+newScopeGenChance(val:float): void</text>
+        <text
+           id="text28364"
+           y="-22"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+newLeafGenChance(): float</text>
+        <text
+           id="text28366"
+           y="-6"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+newLeafGenChance(val:float): void</text>
+        <text
+           id="text28368"
+           y="10"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+scopeMinSize(): uint</text>
+        <text
+           id="text28370"
+           y="26"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+scopeMinSize(val:uint): void</text>
+        <text
+           id="text28372"
+           y="42"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+scopeMaxSize(): uint</text>
+        <text
+           id="text28374"
+           y="58"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+scopeMaxSize(val:uint): void</text>
+        <text
+           id="text28376"
+           y="74"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+mutationChance(): float</text>
+        <text
+           id="text28378"
+           y="90"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+mutationChance(val:float): void</text>
+        <text
+           id="text28380"
+           y="106"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+crossingoverChance(): float</text>
+        <text
+           id="text28382"
+           y="122"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+crossingoverChance(val:float): void</text>
+        <text
+           id="text28384"
+           y="138"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+mutationChangeChance(): float</text>
+        <text
+           id="text28386"
+           y="154"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+mutationChangeChance(val:float): void</text>
+        <text
+           id="text28388"
+           y="170"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+mutationReplaceChance(): float</text>
+        <text
+           id="text28390"
+           y="186"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+mutationReplaceChance(val:float): void</text>
+        <text
+           id="text28392"
+           y="202"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+mutationDeleteChance(): float</text>
+        <text
+           id="text28394"
+           y="218"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+mutationDeleteChance(val:float): void</text>
+        <text
+           id="text28396"
+           y="234"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+mutationAddLineChance(): float</text>
+        <text
+           id="text28398"
+           y="250"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+mutationAddLineChance(val:float): void</text>
+        <text
+           id="text28400"
+           y="266"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+mutationRemoveLineChance(): float</text>
+        <text
+           id="text28402"
+           y="282"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+mutationRemoveLineChance(val:float): void</text>
+        <text
+           id="text28404"
+           y="298"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+maxMutationChange(): string</text>
+        <text
+           id="text28406"
+           y="314"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+maxMutationChange(val:string): void</text>
+        <text
+           id="text28408"
+           y="330"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+copyingPart(): float</text>
+        <text
+           id="text28410"
+           y="346"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+copyingPart(val:float): void</text>
+        <text
+           id="text28412"
+           y="362"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+deleteMutationRiseGenomeSize(): size_t</text>
+        <text
+           id="text28414"
+           y="378"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+deleteMutationRiseGenomeSize(val:size_t): void</text>
+        <text
+           id="text28416"
+           y="394"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+maxGenomeSize(): size_t</text>
+        <text
+           id="text28418"
+           y="410"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+maxGenomeSize(val:size_t): void</text>
+        <text
+           id="text28420"
+           y="426"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+populationSize(): size_t</text>
+        <text
+           id="text28422"
+           y="442"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+populationSize(val:size_t): void</text>
+        <text
+           id="text28424"
+           y="458"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+graphPermuteChance(): double</text>
+        <text
+           id="text28426"
+           y="474"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+graphPermuteChance(val:double): void</text>
+        <text
+           id="text28428"
+           y="490"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+graphNodesCountMin(): size_t</text>
+        <text
+           id="text28430"
+           y="506"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+graphNodesCountMin(val:size_t): void</text>
+        <text
+           id="text28432"
+           y="522"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+graphNodesCountMax(): size_t</text>
+        <text
+           id="text28434"
+           y="538"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+graphNodesCountMax(val:size_t): void</text>
+        <text
+           id="text28436"
+           y="554"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+graphLinksCountMin(): size_t</text>
+        <text
+           id="text28438"
+           y="570"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+graphLinksCountMin(val:size_t): void</text>
+        <text
+           id="text28440"
+           y="586"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+graphLinksCountMax(): size_t</text>
+        <text
+           id="text28442"
+           y="602"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+graphLinksCountMax(val:size_t): void</text>
+        <text
+           id="text28444"
+           y="618"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+graphPermutesCountMin(): size_t</text>
+        <text
+           id="text28446"
+           y="634"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+graphPermutesCountMin(val:size_t): void</text>
+        <text
+           id="text28448"
+           y="650"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+graphPermutesCountMax(): size_t</text>
+        <text
+           id="text28450"
+           y="666"
+           x="-297"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+graphPermutesCountMax(val:size_t): void</text>
+        <text
+           id="text28452"
+           y="682"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+initValues(pWorld:WorldAbstract): Line[]</text>
+        <text
+           id="text28454"
+           y="698"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+getFitness(pInd:IndAbstract,pWorld:WorldAbstract,</text>
+        <text
+           id="text28456"
+           y="714"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">time:double): double</text>
+      </g>
+      <g
+         id="g28458">
+        <rect
+           id="rect28460"
+           height="28"
+           width="162.14999"
+           y="120"
+           x="140"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28462"
+           height="28"
+           width="162.14999"
+           y="120"
+           x="140"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text28464"
+           y="139"
+           x="221.075"
+           style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="16">GraphPopulation</text>
+        <rect
+           id="rect28466"
+           height="8"
+           width="162.14999"
+           y="148"
+           x="140"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28468"
+           height="8"
+           width="162.14999"
+           y="148"
+           x="140"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <rect
+           id="rect28470"
+           height="8"
+           width="162.14999"
+           y="156"
+           x="140"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28472"
+           height="8"
+           width="162.14999"
+           y="156"
+           x="140"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <rect
+           id="rect28474"
+           height="36"
+           width="185.10001"
+           y="90"
+           x="256.14999"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28476"
+           height="36"
+           width="185.10001"
+           y="90"
+           x="256.14999"
+           style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:6" />
+        <text
+           id="text28478"
+           y="104"
+           x="262.14999"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">nameChecker:getDefChars</text>
+        <text
+           id="text28480"
+           y="120"
+           x="262.14999"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">IndType:GraphIndivid</text>
+      </g>
+      <g
+         id="g28482">
+        <rect
+           id="rect28484"
+           height="28"
+           width="472"
+           y="-300"
+           x="980"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28486"
+           height="28"
+           width="472"
+           y="-300"
+           x="980"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text28488"
+           y="-281"
+           x="1216"
+           style="font-size:16px;font-style:italic;font-weight:700;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="16">ILogger</text>
+        <rect
+           id="rect28490"
+           height="8"
+           width="472"
+           y="-272"
+           x="980"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28492"
+           height="8"
+           width="472"
+           y="-272"
+           x="980"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <rect
+           id="rect28494"
+           height="180"
+           width="472"
+           y="-264"
+           x="980"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28496"
+           height="180"
+           width="472"
+           y="-264"
+           x="980"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text28498"
+           y="-250"
+           x="983"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+name(): string</text>
+        <text
+           id="text28500"
+           y="-234"
+           x="983"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+log(message:lazy string,level:StyleEnum): void</text>
+        <text
+           id="text28502"
+           y="-218"
+           x="983"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+&lt;&lt;const&gt;&gt; minOutputLevel(): StyleEnum</text>
+        <text
+           id="text28504"
+           y="-202"
+           x="983"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+minOutputLevel(level:StyleEnum): void</text>
+        <text
+           id="text28506"
+           y="-186"
+           x="983"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+minLoggingLevel(): StyleEnum</text>
+        <text
+           id="text28508"
+           y="-170"
+           x="983"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+minLoggingLevel(level:StyleEnum): void</text>
+        <text
+           id="text28510"
+           y="-154"
+           x="983"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+finalize(): void</text>
+        <text
+           id="text28512"
+           y="-138"
+           x="983"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+rawInput(message:string)</text>
+        <text
+           id="text28514"
+           y="-122"
+           x="983"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+formatConsoleOutput(message:string,level:StyleEnum): string</text>
+        <text
+           id="text28516"
+           y="-106"
+           x="983"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+formatFileOutput(message:string,level:StyleEnum): string</text>
+        <text
+           id="text28518"
+           y="-90"
+           x="983"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+reload(): void</text>
+        <rect
+           id="rect28520"
+           height="20"
+           width="177.39999"
+           y="-314"
+           x="1406"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28522"
+           height="20"
+           width="177.39999"
+           y="-314"
+           x="1406"
+           style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:6" />
+        <text
+           id="text28524"
+           y="-300"
+           x="1412"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">StyleEnum:LoggingLevel</text>
+      </g>
+      <g
+         id="g28526">
+        <polyline
+           id="polyline28528"
+           points="1096.97,78 1216,78 1216,-82.9933 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <polygon
+           id="polygon28530"
+           points="1071.8,78 1085.8,73.2 1099.8,78 1085.8,82.8 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon28532"
+           points="1071.8,78 1085.8,73.2 1099.8,78 1085.8,82.8 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+      </g>
+      <g
+         id="g28534">
+        <polyline
+           id="polyline28536"
+           points="774.828,-2 441.003,-2 441.003,30 96.0061,30 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <polygon
+           id="polygon28538"
+           points="800,-2 786,2.8 772,-2 786,-6.8 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon28540"
+           points="800,-2 786,2.8 772,-2 786,-6.8 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+      </g>
+      <g
+         id="g28542">
+        <polyline
+           id="polyline28544"
+           points="774.828,14 614.128,14 614.128,142 442.257,142 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <polygon
+           id="polygon28546"
+           points="800,14 786,18.8 772,14 786,9.2 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon28548"
+           points="800,14 786,18.8 772,14 786,9.2 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+      </g>
+      <g
+         id="g28550">
+        <rect
+           id="rect28552"
+           height="28"
+           width="395"
+           y="-1100"
+           x="-300"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28554"
+           height="28"
+           width="395"
+           y="-1100"
+           x="-300"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text28556"
+           y="-1081"
+           x="-102.5"
+           style="font-size:16px;font-style:italic;font-weight:700;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="16">ProgTypeAbstract</text>
+        <rect
+           id="rect28558"
+           height="8"
+           width="395"
+           y="-1072"
+           x="-300"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28560"
+           height="8"
+           width="395"
+           y="-1072"
+           x="-300"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <rect
+           id="rect28562"
+           height="340"
+           width="395"
+           y="-1064"
+           x="-300"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28564"
+           height="340"
+           width="395"
+           y="-1064"
+           x="-300"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text28566"
+           y="-1050"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+progMinSize(): uint</text>
+        <text
+           id="text28568"
+           y="-1034"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+progMaxSize(): uint</text>
+        <text
+           id="text28570"
+           y="-1018"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+scopeMinSize(): uint</text>
+        <text
+           id="text28572"
+           y="-1002"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+scopeMaxSize(): uint</text>
+        <text
+           id="text28574"
+           y="-986"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+newOpGenChance(): float</text>
+        <text
+           id="text28576"
+           y="-970"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+newScopeGenChance(): float</text>
+        <text
+           id="text28578"
+           y="-954"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+newLeafGenChance(): float</text>
+        <text
+           id="text28580"
+           y="-938"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+mutationChangeChance(): float</text>
+        <text
+           id="text28582"
+           y="-922"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+mutationReplaceChance(): float</text>
+        <text
+           id="text28584"
+           y="-906"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+mutationDeleteChance(): float</text>
+        <text
+           id="text28586"
+           y="-890"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+mutationAddLineChance(): float</text>
+        <text
+           id="text28588"
+           y="-874"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+mutationRemoveLineChance(): float</text>
+        <text
+           id="text28590"
+           y="-858"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+maxMutationChange(): string</text>
+        <text
+           id="text28592"
+           y="-842"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+mutationChance(): float</text>
+        <text
+           id="text28594"
+           y="-826"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+crossingoverChance(): float</text>
+        <text
+           id="text28596"
+           y="-810"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+copyingPart(): float</text>
+        <text
+           id="text28598"
+           y="-794"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+deleteMutationRiseGenomeSize(): size_t</text>
+        <text
+           id="text28600"
+           y="-778"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+maxGenomeSize(): size_t</text>
+        <text
+           id="text28602"
+           y="-762"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+getFitness(pInd:IndAbstract,pWorld:WorldAbstract,</text>
+        <text
+           id="text28604"
+           y="-746"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">time:double): double</text>
+        <text
+           id="text28606"
+           y="-730"
+           x="-297"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+initValues(pWorld:WorldAbstract): Line[]</text>
+      </g>
+      <g
+         id="g28608">
+        <polyline
+           id="polyline28610"
+           points="-102.5,-704.758 -102.5,-705.994 -102.5,-662.005 -102.5,-661.005 "
+           style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:8" />
+        <polygon
+           id="polygon28612"
+           points="-110.5,-704.758 -94.5,-704.758 -102.5,-720.758 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon28614"
+           points="-110.5,-704.758 -94.5,-704.758 -102.5,-720.758 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+      </g>
+      <g
+         id="g28616">
+        <rect
+           id="rect28618"
+           height="28"
+           width="433.5"
+           y="380"
+           x="720"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28620"
+           height="28"
+           width="433.5"
+           y="380"
+           x="720"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text28622"
+           y="399"
+           x="936.75"
+           style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="16">Population</text>
+        <rect
+           id="rect28624"
+           height="84"
+           width="433.5"
+           y="408"
+           x="720"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28626"
+           height="84"
+           width="433.5"
+           y="408"
+           x="720"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text28628"
+           y="422"
+           x="723"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+DefNameLength: enum = 10</text>
+        <text
+           id="text28630"
+           y="438"
+           x="723"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+DefNameChars: enum = getDefChars()</text>
+        <text
+           id="text28632"
+           y="454"
+           x="723"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">#iGeneration: size_t</text>
+        <text
+           id="text28634"
+           y="470"
+           x="723"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">#inds: IndType[]</text>
+        <text
+           id="text28636"
+           y="486"
+           x="723"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">#mName: string = &quot;&quot;</text>
+        <rect
+           id="rect28638"
+           height="356"
+           width="433.5"
+           y="492"
+           x="720"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28640"
+           height="356"
+           width="433.5"
+           y="492"
+           x="720"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text28642"
+           y="506"
+           x="723"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+this()</text>
+        <text
+           id="text28644"
+           y="522"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+generation(): size_t</text>
+        <text
+           id="text28646"
+           y="538"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+generation(val:size_t): void</text>
+        <text
+           id="text28648"
+           y="554"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+genName(size:size_t=DefNameLength): void</text>
+        <text
+           id="text28650"
+           y="570"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+name(): string</text>
+        <text
+           id="text28652"
+           y="586"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+name(val:string): void</text>
+        <text
+           id="text28654"
+           y="602"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+length(): size_t</text>
+        <text
+           id="text28656"
+           y="618"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+opIndex(i:size_t): IndType</text>
+        <text
+           id="text28658"
+           y="634"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+opSlice(a:size_t,b:size_t): IndAbstract[]</text>
+        <text
+           id="text28660"
+           y="650"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+opDollar(): size_t</text>
+        <text
+           id="text28662"
+           y="666"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+opApply(dg:int delegate(IndAbstract)): int</text>
+        <text
+           id="text28664"
+           y="682"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+opApply(dg:in delegate(size_t, IndAbstract)): int</text>
+        <text
+           id="text28666"
+           y="698"
+           x="723"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+&lt;&lt;string m&gt;&gt; opBinary(val:IndType): auto if (m == &quot;~&quot;)</text>
+        <text
+           id="text28668"
+           y="714"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+addIndivid(val:IndType): void</text>
+        <text
+           id="text28670"
+           y="730"
+           x="723"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+saveBests(filename:string): void</text>
+        <text
+           id="text28672"
+           y="746"
+           x="723"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+saveAll(filename:string): void</text>
+        <text
+           id="text28674"
+           y="762"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+dup(): auto</text>
+        <text
+           id="text28676"
+           y="778"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+clear(): void</text>
+        <text
+           id="text28678"
+           y="794"
+           x="723"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+saveBinary(stream:OutputStream): void</text>
+        <text
+           id="text28680"
+           y="810"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+saveYaml(): Node</text>
+        <text
+           id="text28682"
+           y="826"
+           x="723"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+static loadBinary(stream:InputStream): auto</text>
+        <text
+           id="text28684"
+           y="842"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+static loadYaml(node:Node): auto</text>
+        <rect
+           id="rect28686"
+           height="36"
+           width="100.4"
+           y="350"
+           x="1107.5"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28688"
+           height="36"
+           width="100.4"
+           y="350"
+           x="1107.5"
+           style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:6" />
+        <text
+           id="text28690"
+           y="364"
+           x="1113.5"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">nameChecker:</text>
+        <text
+           id="text28692"
+           y="380"
+           x="1113.5"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">IndType:</text>
+      </g>
+      <g
+         id="g28694">
+        <rect
+           id="rect28696"
+           height="28"
+           width="402.70001"
+           y="420"
+           x="200"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28698"
+           height="28"
+           width="402.70001"
+           y="420"
+           x="200"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text28700"
+           y="439"
+           x="401.35001"
+           style="font-size:16px;font-style:italic;font-weight:700;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="16">PopAbstract</text>
+        <rect
+           id="rect28702"
+           height="8"
+           width="402.70001"
+           y="448"
+           x="200"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28704"
+           height="8"
+           width="402.70001"
+           y="448"
+           x="200"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <rect
+           id="rect28706"
+           height="196"
+           width="402.70001"
+           y="456"
+           x="200"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28708"
+           height="196"
+           width="402.70001"
+           y="456"
+           x="200"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text28710"
+           y="470"
+           x="203"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+genName(size_t:size): void</text>
+        <text
+           id="text28712"
+           y="486"
+           x="203"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+name(): string</text>
+        <text
+           id="text28714"
+           y="502"
+           x="203"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+name(val:string): void</text>
+        <text
+           id="text28716"
+           y="518"
+           x="203"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+generation(): size_t</text>
+        <text
+           id="text28718"
+           y="534"
+           x="203"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+generation(val:size_t): void</text>
+        <text
+           id="text28720"
+           y="550"
+           x="203"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+length(): size_t</text>
+        <text
+           id="text28722"
+           y="566"
+           x="203"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+opIndex(i:size_t): IndAbstract</text>
+        <text
+           id="text28724"
+           y="582"
+           x="203"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+opSlice(a:size_t,b:size_t): IndAbstract[]</text>
+        <text
+           id="text28726"
+           y="598"
+           x="203"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+opDollar(): size_t</text>
+        <text
+           id="text28728"
+           y="614"
+           x="203"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+opApply(dg:int delegate(IndAbstract)): int</text>
+        <text
+           id="text28730"
+           y="630"
+           x="203"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+opApply(dg:int delegate(size_t, IndAbstract)): int</text>
+        <text
+           id="text28732"
+           y="646"
+           x="203"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+saveYaml(): Node</text>
+      </g>
+      <g
+         id="g28734">
+        <polyline
+           id="polyline28736"
+           points="621.942,536 669.35,536 669.35,614 718.993,614 "
+           style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:8" />
+        <polygon
+           id="polygon28738"
+           points="621.942,544 621.942,528 605.942,536 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon28740"
+           points="621.942,544 621.942,528 605.942,536 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+      </g>
+      <g
+         id="g28742">
+        <polyline
+           id="polyline28744"
+           points="936.75,361.764 936.75,300 221.075,300 221.075,165 "
+           style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:8" />
+        <polygon
+           id="polygon28746"
+           points="944.75,361.764 928.75,361.764 936.75,377.764 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon28748"
+           points="944.75,361.764 928.75,361.764 936.75,377.764 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+      </g>
+      <g
+         id="g28750">
+        <rect
+           id="rect28752"
+           height="28"
+           width="302.60001"
+           y="180"
+           x="420"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28754"
+           height="28"
+           width="302.60001"
+           y="180"
+           x="420"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text28756"
+           y="199"
+           x="571.29999"
+           style="font-size:16px;font-style:italic;font-weight:700;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="16">ISerializable</text>
+        <rect
+           id="rect28758"
+           height="8"
+           width="302.60001"
+           y="208"
+           x="420"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28760"
+           height="8"
+           width="302.60001"
+           y="208"
+           x="420"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <rect
+           id="rect28762"
+           height="20"
+           width="302.60001"
+           y="216"
+           x="420"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28764"
+           height="20"
+           width="302.60001"
+           y="216"
+           x="420"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text28766"
+           y="230"
+           x="423"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+saveBinary(OutputStream:stream): void</text>
+      </g>
+      <g
+         id="g28768">
+        <rect
+           id="rect28770"
+           height="28"
+           width="333.39999"
+           y="-380"
+           x="220"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28772"
+           height="28"
+           width="333.39999"
+           y="-380"
+           x="220"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text28774"
+           y="-361"
+           x="386.70001"
+           style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="16">GraphIndivid</text>
+        <rect
+           id="rect28776"
+           height="68"
+           width="333.39999"
+           y="-352"
+           x="220"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28778"
+           height="68"
+           width="333.39999"
+           y="-352"
+           x="220"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text28780"
+           y="-338"
+           x="223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mAnswer: bool</text>
+        <text
+           id="text28782"
+           y="-322"
+           x="223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mStack: Stack!(ArgPod!double)</text>
+        <text
+           id="text28784"
+           y="-306"
+           x="223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mFirstGraph: Stack!ArgEdge</text>
+        <text
+           id="text28786"
+           y="-290"
+           x="223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mSecondGraph: Stack!ArgEdge</text>
+        <rect
+           id="rect28788"
+           height="164"
+           width="333.39999"
+           y="-284"
+           x="220"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28790"
+           height="164"
+           width="333.39999"
+           y="-284"
+           x="220"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text28792"
+           y="-270"
+           x="223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+thist()</text>
+        <text
+           id="text28794"
+           y="-254"
+           x="223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+this(Individ:ind)</text>
+        <text
+           id="text28796"
+           y="-238"
+           x="223"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+initialize(aworld:WorldAbstract): void</text>
+        <text
+           id="text28798"
+           y="-222"
+           x="223"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+dup(): GraphIndivid</text>
+        <text
+           id="text28800"
+           y="-206"
+           x="223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+static loadYaml(node:Node): GraphIndivid</text>
+        <text
+           id="text28802"
+           y="-190"
+           x="223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+genericStack(): ref Stack!(ArgPod!double)</text>
+        <text
+           id="text28804"
+           y="-174"
+           x="223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+firstGraphStack(): ref Stack!ArgEdge</text>
+        <text
+           id="text28806"
+           y="-158"
+           x="223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+secondGraphStack(): ref Stack!ArgEdge</text>
+        <text
+           id="text28808"
+           y="-142"
+           x="223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+answer(val:bool): void</text>
+        <text
+           id="text28810"
+           y="-126"
+           x="223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+answer(): bool</text>
+      </g>
+      <g
+         id="g28812">
+        <polyline
+           id="polyline28814"
+           points="221.075,63.822 221.075,-21.9992 386.7,-21.9992 386.7,-118.992 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <polygon
+           id="polygon28816"
+           points="221.075,88.9935 216.275,74.9935 221.075,60.9935 225.875,74.9935 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon28818"
+           points="221.075,88.9935 216.275,74.9935 221.075,60.9935 225.875,74.9935 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+      </g>
+      <g
+         id="g28820">
+        <rect
+           id="rect28822"
+           height="28"
+           width="187.10001"
+           y="-340"
+           x="640"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28824"
+           height="28"
+           width="187.10001"
+           y="-340"
+           x="640"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text28826"
+           y="-321"
+           x="733.54999"
+           style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="16">Stack</text>
+        <rect
+           id="rect28828"
+           height="20"
+           width="187.10001"
+           y="-312"
+           x="640"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28830"
+           height="20"
+           width="187.10001"
+           y="-312"
+           x="640"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text28832"
+           y="-298"
+           x="643"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+mStack: DList!T</text>
+        <rect
+           id="rect28834"
+           height="116"
+           width="187.10001"
+           y="-292"
+           x="640"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28836"
+           height="116"
+           width="187.10001"
+           y="-292"
+           x="640"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text28838"
+           y="-278"
+           x="643"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+stackPush(arg:T): void</text>
+        <text
+           id="text28840"
+           y="-262"
+           x="643"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+stackPop(): T</text>
+        <text
+           id="text28842"
+           y="-246"
+           x="643"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+stackSwap(): void</text>
+        <text
+           id="text28844"
+           y="-230"
+           x="643"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+stackDup(): void</text>
+        <text
+           id="text28846"
+           y="-214"
+           x="643"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+stackOver(): void</text>
+        <text
+           id="text28848"
+           y="-198"
+           x="643"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+stackRot(): void</text>
+        <text
+           id="text28850"
+           y="-182"
+           x="643"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+stackDrop(): void</text>
+        <rect
+           id="rect28852"
+           height="20"
+           width="54"
+           y="-354"
+           x="781.09998"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28854"
+           height="20"
+           width="54"
+           y="-354"
+           x="781.09998"
+           style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:6" />
+        <text
+           id="text28856"
+           y="-340"
+           x="787.09998"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">T:</text>
+      </g>
+      <g
+         id="g28858">
+        <polyline
+           id="polyline28860"
+           points="579.577,-250 603.7,-250 603.7,-258 638.994,-258 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <polygon
+           id="polygon28862"
+           points="554.405,-250 568.405,-254.8 582.405,-250 568.405,-245.2 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon28864"
+           points="554.405,-250 568.405,-254.8 582.405,-250 568.405,-245.2 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+      </g>
+      <g
+         id="g28866">
+        <rect
+           id="rect28868"
+           height="28"
+           width="371.89999"
+           y="-980"
+           x="200"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28870"
+           height="28"
+           width="371.89999"
+           y="-980"
+           x="200"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text28872"
+           y="-961"
+           x="385.95001"
+           style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="16">Individ</text>
+        <rect
+           id="rect28874"
+           height="100"
+           width="371.89999"
+           y="-952"
+           x="200"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28876"
+           height="100"
+           width="371.89999"
+           y="-952"
+           x="200"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text28878"
+           y="-938"
+           x="203"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">#mProgram: Line[]</text>
+        <text
+           id="text28880"
+           y="-922"
+           x="203"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">#mMemory: Line[]</text>
+        <text
+           id="text28882"
+           y="-906"
+           x="203"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">#inVals: Line[]</text>
+        <text
+           id="text28884"
+           y="-890"
+           x="203"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">#outVals: Line[]</text>
+        <text
+           id="text28886"
+           y="-874"
+           x="203"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">#mFitness: double</text>
+        <text
+           id="text28888"
+           y="-858"
+           x="203"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">#mName: string</text>
+        <rect
+           id="rect28890"
+           height="388"
+           width="371.89999"
+           y="-852"
+           x="200"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28892"
+           height="388"
+           width="371.89999"
+           y="-852"
+           x="200"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text28894"
+           y="-838"
+           x="203"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+this()</text>
+        <text
+           id="text28896"
+           y="-822"
+           x="203"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-autogenName(): string</text>
+        <text
+           id="text28898"
+           y="-806"
+           x="203"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+name(): string</text>
+        <text
+           id="text28900"
+           y="-790"
+           x="203"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+name(val:string): void</text>
+        <text
+           id="text28902"
+           y="-774"
+           x="203"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+this(Individ:ind)</text>
+        <text
+           id="text28904"
+           y="-758"
+           x="203"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+loadFrom(ind:Individ): void</text>
+        <text
+           id="text28906"
+           y="-742"
+           x="203"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+program(): Line[]</text>
+        <text
+           id="text28908"
+           y="-726"
+           x="203"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+program(val:Line[]): void</text>
+        <text
+           id="text28910"
+           y="-710"
+           x="203"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+getGenomveSize(): size_t</text>
+        <text
+           id="text28912"
+           y="-694"
+           x="203"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+programString(): string</text>
+        <text
+           id="text28914"
+           y="-678"
+           x="203"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+memoryString(): string</text>
+        <text
+           id="text28916"
+           y="-662"
+           x="203"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+fitness(): double</text>
+        <text
+           id="text28918"
+           y="-646"
+           x="203"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+fitness(val:double): void</text>
+        <text
+           id="text28920"
+           y="-630"
+           x="203"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+invals(): Line[]</text>
+        <text
+           id="text28922"
+           y="-614"
+           x="203"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+invals(val:Line[]): void</text>
+        <text
+           id="text28924"
+           y="-598"
+           x="203"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+outvals(): Line[]</text>
+        <text
+           id="text28926"
+           y="-582"
+           x="203"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+outvals(val:Line[]): void</text>
+        <text
+           id="text28928"
+           y="-566"
+           x="203"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+dup(): Invivid</text>
+        <text
+           id="text28930"
+           y="-550"
+           x="203"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+initialize(world:WorldAbstact): void</text>
+        <text
+           id="text28932"
+           y="-534"
+           x="203"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+saveBinary(stream:OutputStream): void</text>
+        <text
+           id="text28934"
+           y="-518"
+           x="203"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+saveYaml(): Node</text>
+        <text
+           id="text28936"
+           y="-502"
+           x="203"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+static loadBinary(InputStream:stream): Individ</text>
+        <text
+           id="text28938"
+           y="-486"
+           x="203"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+static loadYaml(node:Node): Individ</text>
+        <text
+           id="text28940"
+           y="-470"
+           x="203"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+genDot(): string</text>
+      </g>
+      <g
+         id="g28942">
+        <polyline
+           id="polyline28944"
+           points="385.95,-444.756 385.95,-414 386.7,-414 386.7,-381.008 "
+           style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:8" />
+        <polygon
+           id="polygon28946"
+           points="377.95,-444.756 393.95,-444.756 385.95,-460.756 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon28948"
+           points="377.95,-444.756 393.95,-444.756 385.95,-460.756 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+      </g>
+      <g
+         id="g28950">
+        <rect
+           id="rect28952"
+           height="28"
+           width="302.60001"
+           y="-980"
+           x="720"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28954"
+           height="28"
+           width="302.60001"
+           y="-980"
+           x="720"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text28956"
+           y="-961"
+           x="871.29999"
+           style="font-size:16px;font-style:italic;font-weight:700;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="16">IndAbstract</text>
+        <rect
+           id="rect28958"
+           height="8"
+           width="302.60001"
+           y="-952"
+           x="720"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28960"
+           height="8"
+           width="302.60001"
+           y="-952"
+           x="720"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <rect
+           id="rect28962"
+           height="292"
+           width="302.60001"
+           y="-944"
+           x="720"
+           style="fill:#ffffff" />
+        <rect
+           id="rect28964"
+           height="292"
+           width="302.60001"
+           y="-944"
+           x="720"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text28966"
+           y="-930"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+initialize(world:WorldAbstract): void</text>
+        <text
+           id="text28968"
+           y="-914"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+name(): string</text>
+        <text
+           id="text28970"
+           y="-898"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+name(val:string): void</text>
+        <text
+           id="text28972"
+           y="-882"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+program(): Line[]</text>
+        <text
+           id="text28974"
+           y="-866"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+program(val:Line[]): void</text>
+        <text
+           id="text28976"
+           y="-850"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+getGenomeSize(): size_t</text>
+        <text
+           id="text28978"
+           y="-834"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+memory(): Line[]</text>
+        <text
+           id="text28980"
+           y="-818"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+fitness(): double</text>
+        <text
+           id="text28982"
+           y="-802"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+fitness(val:double): void</text>
+        <text
+           id="text28984"
+           y="-786"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+invals(): Line[]</text>
+        <text
+           id="text28986"
+           y="-770"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+invals(val:Line[]): void</text>
+        <text
+           id="text28988"
+           y="-754"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+outvals(): Line[]</text>
+        <text
+           id="text28990"
+           y="-738"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+outvals(val:Line[]): void</text>
+        <text
+           id="text28992"
+           y="-722"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+dup(): IndAbstract</text>
+        <text
+           id="text28994"
+           y="-706"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+programString(): string</text>
+        <text
+           id="text28996"
+           y="-690"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+memoryString(): string</text>
+        <text
+           id="text28998"
+           y="-674"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+saveYaml(): Node</text>
+        <text
+           id="text29000"
+           y="-658"
+           x="723"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+genDot(): string</text>
+      </g>
+      <g
+         id="g29002">
+        <polyline
+           id="polyline29004"
+           points="571.3,255.176 571.3,340 401.35,340 401.35,418.997 "
+           style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:8" />
+        <polygon
+           id="polygon29006"
+           points="563.3,255.176 579.3,255.176 571.3,239.176 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon29008"
+           points="563.3,255.176 579.3,255.176 571.3,239.176 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+      </g>
+      <g
+         id="g29010">
+        <polyline
+           id="polyline29012"
+           points="580,161.764 580,-40 620,-40 620,-602 571.9,-602 "
+           style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:8" />
+        <polygon
+           id="polygon29014"
+           points="588,161.764 572,161.764 580,177.764 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon29016"
+           points="588,161.764 572,161.764 580,177.764 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+      </g>
+      <g
+         id="g29018">
+        <polyline
+           id="polyline29020"
+           points="700.755,-816 637.948,-816 637.948,-722 572.906,-722 "
+           style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:8" />
+        <polygon
+           id="polygon29022"
+           points="700.755,-824 700.755,-808 716.755,-816 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon29024"
+           points="700.755,-824 700.755,-808 716.755,-816 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+      </g>
+      <g
+         id="g29026">
+        <rect
+           id="rect29028"
+           height="28"
+           width="156.3"
+           y="-940"
+           x="1280"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29030"
+           height="28"
+           width="156.3"
+           y="-940"
+           x="1280"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29032"
+           y="-921"
+           x="1358.15"
+           style="font-size:16px;font-style:italic;font-weight:700;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="16">WorldAbstract</text>
+        <rect
+           id="rect29034"
+           height="8"
+           width="156.3"
+           y="-912"
+           x="1280"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29036"
+           height="8"
+           width="156.3"
+           y="-912"
+           x="1280"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <rect
+           id="rect29038"
+           height="20"
+           width="156.3"
+           y="-904"
+           x="1280"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29040"
+           height="20"
+           width="156.3"
+           y="-904"
+           x="1280"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29042"
+           y="-890"
+           x="1283"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+initialize(): void</text>
+      </g>
+      <g
+         id="g29044">
+        <rect
+           id="rect29046"
+           height="28"
+           width="572.09998"
+           y="-780"
+           x="1080"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29048"
+           height="28"
+           width="572.09998"
+           y="-780"
+           x="1080"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29050"
+           y="-761"
+           x="1366.05"
+           style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="16">GraphWorld</text>
+        <rect
+           id="rect29052"
+           height="84"
+           width="572.09998"
+           y="-752"
+           x="1080"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29054"
+           height="84"
+           width="572.09998"
+           y="-752"
+           x="1080"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29056"
+           y="-738"
+           x="1083"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+programType: ProgramType</text>
+        <text
+           id="text29058"
+           y="-722"
+           x="1083"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-updateDrawDel: void delegate(IDirectedGraph, IDirectedGraph)</text>
+        <text
+           id="text29060"
+           y="-706"
+           x="1083"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mInputGraphFirst: IDirectedGraph</text>
+        <text
+           id="text29062"
+           y="-690"
+           x="1083"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mInputGraphSecond: IDirectedGraph</text>
+        <text
+           id="text29064"
+           y="-674"
+           x="1083"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-mAnswer: bool</text>
+        <rect
+           id="rect29066"
+           height="228"
+           width="572.09998"
+           y="-668"
+           x="1080"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29068"
+           height="228"
+           width="572.09998"
+           y="-668"
+           x="1080"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29070"
+           y="-654"
+           x="1083"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+this()</text>
+        <text
+           id="text29072"
+           y="-638"
+           x="1083"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+this(programType:ProgramType,updateDrawDel:void delegate(IDirectedGraph,</text>
+        <text
+           id="text29074"
+           y="-622"
+           x="1083"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">IDirectedGraph))</text>
+        <text
+           id="text29076"
+           y="-606"
+           x="1083"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+initialize(): void</text>
+        <text
+           id="text29078"
+           y="-590"
+           x="1083"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+firstGraph(): IDirectedGraph</text>
+        <text
+           id="text29080"
+           y="-574"
+           x="1083"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+secondGraph(): IDirectedGraph</text>
+        <text
+           id="text29082"
+           y="-558"
+           x="1083"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+correctAnswer(): bool</text>
+        <text
+           id="text29084"
+           y="-542"
+           x="1083"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-initInput(): void</text>
+        <text
+           id="text29086"
+           y="-526"
+           x="1083"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-static getChance(val:float): bool</text>
+        <text
+           id="text29088"
+           y="-510"
+           x="1083"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+static genUniqName(clearMemory:bool=false): string</text>
+        <text
+           id="text29090"
+           y="-494"
+           x="1083"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-static generateGraph(nodesCount:size_t,</text>
+        <text
+           id="text29092"
+           y="-478"
+           x="1083"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">linksCount:size_t): IDirectedGraph</text>
+        <text
+           id="text29094"
+           y="-462"
+           x="1083"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-static permuteGraph(graph:IDirectedGraph,</text>
+        <text
+           id="text29096"
+           y="-446"
+           x="1083"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">permuteCount:size_t): IDirectedGraph</text>
+      </g>
+      <g
+         id="g29098">
+        <polyline
+           id="polyline29100"
+           points="1358.15,-864.757 1358.15,-823.999 1366.05,-823.999 1366.05,-781.005 "
+           style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:8" />
+        <polygon
+           id="polygon29102"
+           points="1350.15,-864.757 1366.15,-864.757 1358.15,-880.757 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon29104"
+           points="1350.15,-864.757 1366.15,-864.757 1358.15,-880.757 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+      </g>
+      <g
+         id="g29106">
+        <rect
+           id="rect29108"
+           height="28"
+           width="510.5"
+           y="-200"
+           x="1540"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29110"
+           height="28"
+           width="510.5"
+           y="-200"
+           x="1540"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29112"
+           y="-181"
+           x="1795.25"
+           style="font-size:16px;font-style:italic;font-weight:700;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="16">GameCompilation</text>
+        <rect
+           id="rect29114"
+           height="8"
+           width="510.5"
+           y="-172"
+           x="1540"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29116"
+           height="8"
+           width="510.5"
+           y="-172"
+           x="1540"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <rect
+           id="rect29118"
+           height="196"
+           width="510.5"
+           y="-164"
+           x="1540"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29120"
+           height="196"
+           width="510.5"
+           y="-164"
+           x="1540"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29122"
+           y="-150"
+           x="1543"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+stopCond(step:ref int,ind:IndAbstract,world:WorldAbstract): bool</text>
+        <text
+           id="text29124"
+           y="-134"
+           x="1543"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+drawStep(ind:IndAbstract,world:WorldAbstract): void</text>
+        <text
+           id="text29126"
+           y="-118"
+           x="1543"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+drawFinal(pop:PopAbstract,world:WorldAbstract): void</text>
+        <text
+           id="text29128"
+           y="-102"
+           x="1543"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+roundsPerInd(): int</text>
+        <text
+           id="text29130"
+           y="-86"
+           x="1543"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+initPop(pop:PopAbstract,world:WorldAbstract,</text>
+        <text
+           id="text29132"
+           y="-70"
+           x="1543"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">progType:ProgTypeAbstract): void</text>
+        <text
+           id="text29134"
+           y="-54"
+           x="1543"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+compilePop(pop:PopAbstract,world:WorldAbstract,</text>
+        <text
+           id="text29136"
+           y="-38"
+           x="1543"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">progType:ProgTypeAbstract,whenExit:bool delegate(),</text>
+        <text
+           id="text29138"
+           y="-22"
+           x="1543"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">updater:void delegate(double),</text>
+        <text
+           id="text29140"
+           y="-6"
+           x="1543"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">pauser:bool delegate()): void</text>
+        <text
+           id="text29142"
+           y="10"
+           x="1543"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+calcPopFitness(pop:PopAbstract,world:WorldAbstract,</text>
+        <text
+           id="text29144"
+           y="26"
+           x="1543"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">progType:ProgTypeAbstract): void</text>
+      </g>
+      <g
+         id="g29146">
+        <rect
+           id="rect29148"
+           height="28"
+           width="510.5"
+           y="140"
+           x="1760"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29150"
+           height="28"
+           width="510.5"
+           y="140"
+           x="1760"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29152"
+           y="159"
+           x="2015.25"
+           style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="16">GraphCompilation</text>
+        <rect
+           id="rect29154"
+           height="36"
+           width="510.5"
+           y="168"
+           x="1760"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29156"
+           height="36"
+           width="510.5"
+           y="168"
+           x="1760"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29158"
+           y="182"
+           x="1763"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+project: Project</text>
+        <text
+           id="text29160"
+           y="198"
+           x="1763"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-updateGenerationInfo: void delegate()</text>
+        <rect
+           id="rect29162"
+           height="84"
+           width="510.5"
+           y="204"
+           x="1760"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29164"
+           height="84"
+           width="510.5"
+           y="204"
+           x="1760"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29166"
+           y="218"
+           x="1763"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+this(project:Project,updateGenerationInfo:void delegate())</text>
+        <text
+           id="text29168"
+           y="234"
+           x="1763"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+stopCond(step:ref int,ind:IndAbstract,world:WorldAbstract): bool</text>
+        <text
+           id="text29170"
+           y="250"
+           x="1763"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+drawStep(ind:IndAbstract,world:WorldAbstract): void</text>
+        <text
+           id="text29172"
+           y="266"
+           x="1763"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+drawFinal(pop:PopAbstract,world:WorldAbstract): void</text>
+        <text
+           id="text29174"
+           y="282"
+           x="1763"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+rondsPerInd(): int</text>
+      </g>
+      <g
+         id="g29176">
+        <polyline
+           id="polyline29178"
+           points="1795.25,51.2432 1795.25,93.999 2015.25,93.999 2015.25,138.991 "
+           style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:8" />
+        <polygon
+           id="polygon29180"
+           points="1787.25,51.2432 1803.25,51.2432 1795.25,35.2432 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon29182"
+           points="1787.25,51.2432 1803.25,51.2432 1795.25,35.2432 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+      </g>
+      <g
+         id="g29184">
+        <rect
+           id="rect29186"
+           height="28"
+           width="525.90002"
+           y="380"
+           x="1340"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29188"
+           height="28"
+           width="525.90002"
+           y="380"
+           x="1340"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29190"
+           y="399"
+           x="1602.95"
+           style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="16">Compiler</text>
+        <rect
+           id="rect29192"
+           height="68"
+           width="525.90002"
+           y="408"
+           x="1340"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29194"
+           height="68"
+           width="525.90002"
+           y="408"
+           x="1340"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29196"
+           y="422"
+           x="1343"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">#compStg: CompStg</text>
+        <text
+           id="text29198"
+           y="438"
+           x="1343"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">#pops: PopType[]</text>
+        <text
+           id="text29200"
+           y="454"
+           x="1343"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">#world: WorldAbstract</text>
+        <text
+           id="text29202"
+           y="470"
+           x="1343"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">#progtype: ProgTypeAbstract</text>
+        <rect
+           id="rect29204"
+           height="244"
+           width="525.90002"
+           y="476"
+           x="1340"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29206"
+           height="244"
+           width="525.90002"
+           y="476"
+           x="1340"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29208"
+           y="490"
+           x="1343"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+this(compStrategy:ComStg)</text>
+        <text
+           id="text29210"
+           y="506"
+           x="1343"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+this(compStg:CompStg,progtype:ProgType)</text>
+        <text
+           id="text29212"
+           y="522"
+           x="1343"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+this(compStrategy:CompStg,progtype:ProgType,</text>
+        <text
+           id="text29214"
+           y="538"
+           x="1343"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">world:WorldType)</text>
+        <text
+           id="text29216"
+           y="554"
+           x="1343"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+this(compStrategy:CompStg,progtype:ProgType,</text>
+        <text
+           id="text29218"
+           y="570"
+           x="1343"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">world:WorldType,EvolutorStg:evolutor)</text>
+        <text
+           id="text29220"
+           y="586"
+           x="1343"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+addPop(pop:PopType): PopType</text>
+        <text
+           id="text29222"
+           y="602"
+           x="1343"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+clean(): void</text>
+        <text
+           id="text29224"
+           y="618"
+           x="1343"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+getPop(i:size_t): PopType</text>
+        <text
+           id="text29226"
+           y="634"
+           x="1343"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+addPop(size:size_t,name:string): PopType</text>
+        <text
+           id="text29228"
+           y="650"
+           x="1343"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+envolveGeneration(whenExit:bool delegate(),</text>
+        <text
+           id="text29230"
+           y="666"
+           x="1343"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">saveFolder:string,updater:void delegate(double),</text>
+        <text
+           id="text29232"
+           y="682"
+           x="1343"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">pauser:bool delegate()): void</text>
+        <text
+           id="text29234"
+           y="698"
+           x="1343"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+loadPopulation(filename:string): PopType</text>
+        <text
+           id="text29236"
+           y="714"
+           x="1343"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-checkPop(pop:PopAbstract): bool</text>
+        <rect
+           id="rect29238"
+           height="84"
+           width="100.4"
+           y="302"
+           x="1819.9"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29240"
+           height="84"
+           width="100.4"
+           y="302"
+           x="1819.9"
+           style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:6" />
+        <text
+           id="text29242"
+           y="316"
+           x="1825.9"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">CompStg:</text>
+        <text
+           id="text29244"
+           y="332"
+           x="1825.9"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">EvolutorStg:</text>
+        <text
+           id="text29246"
+           y="348"
+           x="1825.9"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">ProgType:</text>
+        <text
+           id="text29248"
+           y="364"
+           x="1825.9"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">PopType:</text>
+        <text
+           id="text29250"
+           y="380"
+           x="1825.9"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">WorldType:</text>
+      </g>
+      <g
+         id="g29252">
+        <rect
+           id="rect29254"
+           height="28"
+           width="264.10001"
+           y="420"
+           x="1980"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29256"
+           height="28"
+           width="264.10001"
+           y="420"
+           x="1980"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29258"
+           y="439"
+           x="2112.05"
+           style="font-size:16px;font-style:italic;font-weight:700;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="16">Singleton</text>
+        <rect
+           id="rect29260"
+           height="20"
+           width="264.10001"
+           y="448"
+           x="1980"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29262"
+           height="20"
+           width="264.10001"
+           y="448"
+           x="1980"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29264"
+           y="462"
+           x="1983"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-static msSingleton: Class = null</text>
+        <rect
+           id="rect29266"
+           height="36"
+           width="264.10001"
+           y="468"
+           x="1980"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29268"
+           height="36"
+           width="264.10001"
+           y="468"
+           x="1980"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29270"
+           y="482"
+           x="1983"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+this()</text>
+        <text
+           id="text29272"
+           y="498"
+           x="1983"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+static getSingleton(): Class</text>
+        <rect
+           id="rect29274"
+           height="20"
+           width="54.200001"
+           y="406"
+           x="2198.1001"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29276"
+           height="20"
+           width="54.200001"
+           y="406"
+           x="2198.1001"
+           style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:6" />
+        <text
+           id="text29278"
+           y="420"
+           x="2204.1001"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">Class:</text>
+      </g>
+      <g
+         id="g29280">
+        <polyline
+           id="polyline29282"
+           points="1960.76,462 1942.15,462 1942.15,550 1921.31,550 "
+           style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:8" />
+        <polygon
+           id="polygon29284"
+           points="1960.76,454 1960.76,470 1976.76,462 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon29286"
+           points="1960.76,454 1960.76,470 1976.76,462 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+      </g>
+      <g
+         id="g29288">
+        <rect
+           id="rect29290"
+           height="28"
+           width="145.3"
+           y="240"
+           x="1240"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29292"
+           height="28"
+           width="145.3"
+           y="240"
+           x="1240"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29294"
+           y="259"
+           x="1312.65"
+           style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="16">GraphCompiler</text>
+        <rect
+           id="rect29296"
+           height="8"
+           width="145.3"
+           y="268"
+           x="1240"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29298"
+           height="8"
+           width="145.3"
+           y="268"
+           x="1240"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <rect
+           id="rect29300"
+           height="8"
+           width="145.3"
+           y="276"
+           x="1240"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29302"
+           height="8"
+           width="145.3"
+           y="276"
+           x="1240"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <rect
+           id="rect29304"
+           height="84"
+           width="192.8"
+           y="162"
+           x="1339.3"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29306"
+           height="84"
+           width="192.8"
+           y="162"
+           x="1339.3"
+           style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:6" />
+        <text
+           id="text29308"
+           y="176"
+           x="1345.3"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">CompStg:GraphCompilation</text>
+        <text
+           id="text29310"
+           y="192"
+           x="1345.3"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">EvolutorStg:Evolutor</text>
+        <text
+           id="text29312"
+           y="208"
+           x="1345.3"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">ProgType:ProgramType</text>
+        <text
+           id="text29314"
+           y="224"
+           x="1345.3"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">PopType:GraphPopulation</text>
+        <text
+           id="text29316"
+           y="240"
+           x="1345.3"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">WorldType:GraphWorld</text>
+      </g>
+      <g
+         id="g29318">
+        <polyline
+           id="polyline29320"
+           points="1602.95,361.764 1602.95,324.503 1312.65,324.503 1312.65,285.006 "
+           style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:8" />
+        <polygon
+           id="polygon29322"
+           points="1610.95,361.764 1594.95,361.764 1602.95,377.764 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon29324"
+           points="1610.95,361.764 1594.95,361.764 1602.95,377.764 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+      </g>
+      <g
+         id="g29326">
+        <polyline
+           id="polyline29328"
+           points="1558.28,262 1653.05,262 1653.05,214 1758.99,214 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <polygon
+           id="polygon29330"
+           points="1533.11,262 1547.11,257.2 1561.11,262 1547.11,266.8 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon29332"
+           points="1533.11,262 1547.11,257.2 1561.11,262 1547.11,266.8 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+      </g>
+      <g
+         id="g29334">
+        <polyline
+           id="polyline29336"
+           points="1312.65,135.82 1312.65,-20 1480,-20 1480,-380 1366.05,-380 1366.05,-440 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <polygon
+           id="polygon29338"
+           points="1312.65,160.992 1307.85,146.992 1312.65,132.992 1317.45,146.992 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon29340"
+           points="1312.65,160.992 1307.85,146.992 1312.65,132.992 1317.45,146.992 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+      </g>
+      <g
+         id="g29342">
+        <polyline
+           id="polyline29344"
+           points="1213.96,262 120,262 120,30 96.0036,30 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <polygon
+           id="polygon29346"
+           points="1239.13,262 1225.13,266.8 1211.13,262 1225.13,257.2 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon29348"
+           points="1239.13,262 1225.13,266.8 1211.13,262 1225.13,257.2 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+      </g>
+      <g
+         id="g29350">
+        <polyline
+           id="polyline29352"
+           points="1214.83,254 760,254 760,142 442.184,142 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <polygon
+           id="polygon29354"
+           points="1240,254 1226,258.8 1212,254 1226,249.2 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon29356"
+           points="1240,254 1226,258.8 1212,254 1226,249.2 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+      </g>
+      <g
+         id="g29358">
+        <rect
+           id="rect29360"
+           height="28"
+           width="518.20001"
+           y="780"
+           x="1220"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29362"
+           height="28"
+           width="518.20001"
+           y="780"
+           x="1220"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29364"
+           y="799"
+           x="1479.1"
+           style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="16">Evolutor</text>
+        <rect
+           id="rect29366"
+           height="20"
+           width="518.20001"
+           y="808"
+           x="1220"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29368"
+           height="20"
+           width="518.20001"
+           y="808"
+           x="1220"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29370"
+           y="822"
+           x="1223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+static MaxProgramDepth: int = 30</text>
+        <rect
+           id="rect29372"
+           height="308"
+           width="518.20001"
+           y="828"
+           x="1220"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29374"
+           height="308"
+           width="518.20001"
+           y="828"
+           x="1220"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29376"
+           y="842"
+           x="1223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+static getChance(val:float): bool</text>
+        <text
+           id="text29378"
+           y="858"
+           x="1223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+generateLine(IndAbstract:pInd,ptype:ProgTypeAbstract): Line</text>
+        <text
+           id="text29380"
+           y="874"
+           x="1223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+generateLine(pInd:IndAbstract,ptype:ProgTypeAbstract,</text>
+        <text
+           id="text29382"
+           y="890"
+           x="1223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">rtype:Type,depth:uint=0): Line</text>
+        <text
+           id="text29384"
+           y="906"
+           x="1223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+getRandomElementStd(cont:Container): Argument</text>
+        <text
+           id="text29386"
+           y="922"
+           x="1223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+replaceRandomElementStd(cont:Contianer,</text>
+        <text
+           id="text29388"
+           y="938"
+           x="1223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">generator:Argument delegate(Type)): void</text>
+        <text
+           id="text29390"
+           y="954"
+           x="1223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+getRandomLeafStd(cont:Container): Argument</text>
+        <text
+           id="text29392"
+           y="970"
+           x="1223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+swapRandomElements(cont1:Container,cont2:Container,</text>
+        <text
+           id="text29394"
+           y="986"
+           x="1223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">ptype:ProgTypeAbstract): bool</text>
+        <text
+           id="text29396"
+           y="1002"
+           x="1223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+mutationStd(pInd:IndAbstract,ptype:ProgTypeAbstract): void</text>
+        <text
+           id="text29398"
+           y="1018"
+           x="1223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+crossingoverStd(pIndA:IndAbstract,pIndB:IndAbstract,</text>
+        <text
+           id="text29400"
+           y="1034"
+           x="1223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">ptype:ProgTypeAbstract): bool</text>
+        <text
+           id="text29402"
+           y="1050"
+           x="1223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+&lt;&lt;PopType&gt;&gt; formNextPopulation(pop:PopType,</text>
+        <text
+           id="text29404"
+           y="1066"
+           x="1223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">ptype:ProgTypeAbstract): PopType</text>
+        <text
+           id="text29406"
+           y="1082"
+           x="1223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+performGenomeTruncation(pInd:IndAbstract,</text>
+        <text
+           id="text29408"
+           y="1098"
+           x="1223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">ptype:ProgTypeAbstract): void</text>
+        <text
+           id="text29410"
+           y="1114"
+           x="1223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+&lt;&lt;PopType&gt;&gt; performGenomeTruncation(pop:PopType,</text>
+        <text
+           id="text29412"
+           y="1130"
+           x="1223"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">ptype:ProgTypeAbstract): void</text>
+      </g>
+      <g
+         id="g29414">
+        <polyline
+           id="polyline29416"
+           points="1312.65,310.176 1312.65,740 1479.1,740 1479.1,778.999 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <polygon
+           id="polygon29418"
+           points="1312.65,285.004 1317.45,299.004 1312.65,313.004 1307.85,299.004 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon29420"
+           points="1312.65,285.004 1317.45,299.004 1312.65,313.004 1307.85,299.004 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+      </g>
+      <g
+         id="g29422">
+        <rect
+           id="rect29424"
+           height="28"
+           width="310.29999"
+           y="-680"
+           x="1960"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29426"
+           height="28"
+           width="310.29999"
+           y="-680"
+           x="1960"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29428"
+           y="-661"
+           x="2115.1499"
+           style="font-size:16px;font-style:italic;font-weight:700;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="16">IDirectedGraph</text>
+        <rect
+           id="rect29430"
+           height="36"
+           width="310.29999"
+           y="-652"
+           x="1960"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29432"
+           height="36"
+           width="310.29999"
+           y="-652"
+           x="1960"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29434"
+           y="-638"
+           x="1963"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+alias Node: string</text>
+        <text
+           id="text29436"
+           y="-622"
+           x="1963"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+alias Weight: string</text>
+        <rect
+           id="rect29438"
+           height="100"
+           width="310.29999"
+           y="-616"
+           x="1960"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29440"
+           height="100"
+           width="310.29999"
+           y="-616"
+           x="1960"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29442"
+           y="-602"
+           x="1963"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+load(input:InputRange!Edge): void</text>
+        <text
+           id="text29444"
+           y="-586"
+           x="1963"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+nodes(): InputRange!Node</text>
+        <text
+           id="text29446"
+           y="-570"
+           x="1963"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+weights(): InputRange!Weight</text>
+        <text
+           id="text29448"
+           y="-554"
+           x="1963"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+edges(): InputRange!Edge</text>
+        <text
+           id="text29450"
+           y="-538"
+           x="1963"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+indexedEdges(): InputRange!IndexedEdge</text>
+        <text
+           id="text29452"
+           y="-522"
+           x="1963"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+genDot(): string</text>
+      </g>
+      <g
+         id="g29454">
+        <rect
+           id="rect29456"
+           height="28"
+           width="156.3"
+           y="-700"
+           x="1720"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29458"
+           height="28"
+           width="156.3"
+           y="-700"
+           x="1720"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29460"
+           y="-681"
+           x="1798.15"
+           style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="16">Edge</text>
+        <rect
+           id="rect29462"
+           height="52"
+           width="156.3"
+           y="-672"
+           x="1720"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29464"
+           height="52"
+           width="156.3"
+           y="-672"
+           x="1720"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29466"
+           y="-658"
+           x="1723"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+source: string</text>
+        <text
+           id="text29468"
+           y="-642"
+           x="1723"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+dist: string</text>
+        <text
+           id="text29470"
+           y="-626"
+           x="1723"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+weight: string</text>
+        <rect
+           id="rect29472"
+           height="20"
+           width="156.3"
+           y="-620"
+           x="1720"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29474"
+           height="20"
+           width="156.3"
+           y="-620"
+           x="1720"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29476"
+           y="-606"
+           x="1723"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+toString(): string</text>
+      </g>
+      <g
+         id="g29478">
+        <rect
+           id="rect29480"
+           height="28"
+           width="156.3"
+           y="-580"
+           x="1720"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29482"
+           height="28"
+           width="156.3"
+           y="-580"
+           x="1720"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29484"
+           y="-561"
+           x="1798.15"
+           style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="16">IndexedEdge</text>
+        <rect
+           id="rect29486"
+           height="36"
+           width="156.3"
+           y="-552"
+           x="1720"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29488"
+           height="36"
+           width="156.3"
+           y="-552"
+           x="1720"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29490"
+           y="-538"
+           x="1723"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+source: size_t</text>
+        <text
+           id="text29492"
+           y="-522"
+           x="1723"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+dist: size_t</text>
+        <rect
+           id="rect29494"
+           height="20"
+           width="156.3"
+           y="-516"
+           x="1720"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29496"
+           height="20"
+           width="156.3"
+           y="-516"
+           x="1720"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29498"
+           y="-502"
+           x="1723"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+toString(): string</text>
+      </g>
+      <g
+         id="g29500">
+        <polyline
+           id="polyline29502"
+           points="1933.82,-598 1911.15,-598 1911.15,-538 1877.31,-538 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <polygon
+           id="polygon29504"
+           points="1958.99,-598 1944.99,-593.2 1930.99,-598 1944.99,-602.8 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon29506"
+           points="1958.99,-598 1944.99,-593.2 1930.99,-598 1944.99,-602.8 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+      </g>
+      <g
+         id="g29508">
+        <polyline
+           id="polyline29510"
+           points="1934.83,-606 1911.65,-606 1911.65,-650 1877.31,-650 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <polygon
+           id="polygon29512"
+           points="1960,-606 1946,-601.2 1932,-606 1946,-610.8 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon29514"
+           points="1960,-606 1946,-601.2 1932,-606 1946,-610.8 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+      </g>
+      <g
+         id="g29516">
+        <rect
+           id="rect29518"
+           height="28"
+           width="310.29999"
+           y="-460"
+           x="1960"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29520"
+           height="28"
+           width="310.29999"
+           y="-460"
+           x="1960"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29522"
+           y="-441"
+           x="2115.1499"
+           style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="16">ConnListGraph</text>
+        <rect
+           id="rect29524"
+           height="20"
+           width="310.29999"
+           y="-432"
+           x="1960"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29526"
+           height="20"
+           width="310.29999"
+           y="-432"
+           x="1960"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29528"
+           y="-418"
+           x="1963"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">-lists: Weight[Node][Node]</text>
+        <rect
+           id="rect29530"
+           height="100"
+           width="310.29999"
+           y="-412"
+           x="1960"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29532"
+           height="100"
+           width="310.29999"
+           y="-412"
+           x="1960"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29534"
+           y="-398"
+           x="1963"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+load(input:InputRange!Edge): void</text>
+        <text
+           id="text29536"
+           y="-382"
+           x="1963"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+nodes(): InputRange!string</text>
+        <text
+           id="text29538"
+           y="-366"
+           x="1963"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+weights(): InputRange!string</text>
+        <text
+           id="text29540"
+           y="-350"
+           x="1963"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+edges(): InputRange!Edge</text>
+        <text
+           id="text29542"
+           y="-334"
+           x="1963"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+indexedEdges(): InputRange!IndexedEdge</text>
+        <text
+           id="text29544"
+           y="-318"
+           x="1963"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+genDot(): string</text>
+      </g>
+      <g
+         id="g29546">
+        <polyline
+           id="polyline29548"
+           points="2115.15,-496.759 2115.15,-497.995 2115.15,-462.009 2115.15,-461.009 "
+           style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:8" />
+        <polygon
+           id="polygon29550"
+           points="2107.15,-496.759 2123.15,-496.759 2115.15,-512.759 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon29552"
+           points="2107.15,-496.759 2123.15,-496.759 2115.15,-512.759 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+      </g>
+      <g
+         id="g29554">
+        <polyline
+           id="polyline29556"
+           points="1678.25,-610 1700,-610 1700,-780 2115.15,-780 2115.15,-680 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <polygon
+           id="polygon29558"
+           points="1653.08,-610 1667.08,-614.8 1681.08,-610 1667.08,-605.2 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon29560"
+           points="1653.08,-610 1667.08,-614.8 1681.08,-610 1667.08,-605.2 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+      </g>
+      <g
+         id="g29562">
+        <rect
+           id="rect29564"
+           height="28"
+           width="495.10001"
+           y="800"
+           x="80"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29566"
+           height="28"
+           width="495.10001"
+           y="800"
+           x="80"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29568"
+           y="819"
+           x="327.54999"
+           style="font-size:16px;font-style:italic;font-weight:700;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="16">Operator</text>
+        <rect
+           id="rect29570"
+           height="84"
+           width="495.10001"
+           y="828"
+           x="80"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29572"
+           height="84"
+           width="495.10001"
+           y="828"
+           x="80"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29574"
+           y="842"
+           x="83"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">#args: ArgInfo[]</text>
+        <text
+           id="text29576"
+           y="858"
+           x="83"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">#mStyle: ArgsStyle</text>
+        <text
+           id="text29578"
+           y="874"
+           x="83"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">#sName: string</text>
+        <text
+           id="text29580"
+           y="890"
+           x="83"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">#sDiscr: string</text>
+        <text
+           id="text29582"
+           y="906"
+           x="83"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">#mRetType: Type</text>
+        <rect
+           id="rect29584"
+           height="260"
+           width="495.10001"
+           y="912"
+           x="80"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29586"
+           height="260"
+           width="495.10001"
+           y="912"
+           x="80"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29588"
+           y="926"
+           x="83"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+this(name:string,discr:string,style:ArgsStyle)</text>
+        <text
+           id="text29590"
+           y="942"
+           x="83"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+argsNumber(): int</text>
+        <text
+           id="text29592"
+           y="958"
+           x="83"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+style(): ArgsStyle</text>
+        <text
+           id="text29594"
+           y="974"
+           x="83"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+name(): string</text>
+        <text
+           id="text29596"
+           y="990"
+           x="83"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+discr(): string</text>
+        <text
+           id="text29598"
+           y="1006"
+           x="83"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+rtype(): Type</text>
+        <text
+           id="text29600"
+           y="1022"
+           x="83"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+opIndex(i:size_t): ArgInfo</text>
+        <text
+           id="text29602"
+           y="1038"
+           x="83"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+opSlice(s:size_t,b:size_t): ArgInfo[]</text>
+        <text
+           id="text29604"
+           y="1054"
+           x="83"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+opDollar(): size_t</text>
+        <text
+           id="text29606"
+           y="1070"
+           x="83"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+generateArg(i:size_t): Argument</text>
+        <text
+           id="text29608"
+           y="1086"
+           x="83"
+           style="font-size:12.80000019px;font-style:italic;font-weight:700;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+apply(ind:IndAbstract,line:Line,world:WorldAbstract): Argument</text>
+        <text
+           id="text29610"
+           y="1102"
+           x="83"
+           style="font-size:12.80000019px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+saveBinary(OutputStream:stream): void</text>
+        <text
+           id="text29612"
+           y="1118"
+           x="83"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+saveYaml(): Node</text>
+        <text
+           id="text29614"
+           y="1134"
+           x="83"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+static loadBinary(stream:InputStream): Operator</text>
+        <text
+           id="text29616"
+           y="1150"
+           x="83"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+static loadYaml(node:Node): Operator</text>
+        <text
+           id="text29618"
+           y="1166"
+           x="83"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+genDot(nameIndex:ref size_t,out nodeName:string): string</text>
+      </g>
+      <g
+         id="g29620">
+        <polyline
+           id="polyline29622"
+           points="571.3,254.236 571.3,340 680,340 680,720 327.55,720 327.55,798.993 "
+           style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:8" />
+        <polygon
+           id="polygon29624"
+           points="563.3,254.236 579.3,254.236 571.3,238.236 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon29626"
+           points="563.3,254.236 579.3,254.236 571.3,238.236 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+      </g>
+      <g
+         id="g29628">
+        <rect
+           id="rect29630"
+           height="28"
+           width="148.60001"
+           y="920"
+           x="680"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29632"
+           height="28"
+           width="148.60001"
+           y="920"
+           x="680"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29634"
+           y="939"
+           x="754.29999"
+           style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="16">ArgInfo</text>
+        <rect
+           id="rect29636"
+           height="84"
+           width="148.60001"
+           y="948"
+           x="680"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29638"
+           height="84"
+           width="148.60001"
+           y="948"
+           x="680"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text29640"
+           y="962"
+           x="683"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+type: Type</text>
+        <text
+           id="text29642"
+           y="978"
+           x="683"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+exVals: string[]</text>
+        <text
+           id="text29644"
+           y="994"
+           x="683"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+min: string</text>
+        <text
+           id="text29646"
+           y="1010"
+           x="683"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+max: string</text>
+        <text
+           id="text29648"
+           y="1026"
+           x="683"
+           style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace"
+           font-size="12.8">+eval: bool = true</text>
+        <rect
+           id="rect29650"
+           height="8"
+           width="148.60001"
+           y="1032"
+           x="680"
+           style="fill:#ffffff" />
+        <rect
+           id="rect29652"
+           height="8"
+           width="148.60001"
+           y="1032"
+           x="680"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+      </g>
+      <g
+         id="g29654">
+        <polyline
+           id="polyline29656"
+           points="601.279,986 634.549,986 634.549,980 678.991,980 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <polygon
+           id="polygon29658"
+           points="576.108,986 590.108,981.2 604.108,986 590.108,990.8 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon29660"
+           points="576.108,986 590.108,981.2 604.108,986 590.108,990.8 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+      </g>
+    </g>
+  </g>
+</svg>

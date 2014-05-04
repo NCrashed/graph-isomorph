@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="129cm" height="114cm" viewBox="-301 -1101 2573 2274" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="800" y="-40" width="271.8" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="800" y="-40" width="271.8" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="935.9" y="-21">Project</text>
+    <rect style="fill: #ffffff" x="800" y="-12" width="271.8" height="116"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="800" y="-12" width="271.8" height="116"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="2">+programType: ProgramType</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="18">+population: GraphPopulation</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="34">+name: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="50">+filename: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="66">+populationPath: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="82">-logger: ILogger</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="98">+popLoaded: bool = true</text>
+    <rect style="fill: #ffffff" x="800" y="104" width="271.8" height="132"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="800" y="104" width="271.8" height="132"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="118">+this(in logger:ILogger)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="134">+open(filename:string): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="150">+save(filename:string): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="166">-open(root:Node): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="182">-savePopulation(): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="198">-loadPopulation(): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="214">-dump(): Node</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="803" y="230">+recreate(filename:string): string</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-300" y="-660" width="395" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-300" y="-660" width="395" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-102.5" y="-641">ProgramType</text>
+    <rect style="fill: #ffffff" x="-300" y="-632" width="395" height="436"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-300" y="-632" width="395" height="436"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-618">-mProgMinSize: uint = 4</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-602">-mProgMaxSize: uint = 8</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-586">-mNewOpGenChance: float = 0.3</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-570">-mNewScopeGenChance: float = 0.1</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-554">-mNewLeafGenChance: float = 0.6</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-538">-mScopeMinSize: uint = 2</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-522">-mScopeMaxSize: uint = 5</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-506">-mMutationChance: float = 0.3</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-490">-mCrossingoverChance: float = 0.7</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-474">-mMutationChangeChance: float = 0.5</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-458">-mMutationReplaceChance: float = 0.3</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-442">-mMutationDeleteChance: float = 0.2</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-426">-mMutationAddLineChance: float = 0.1</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-410">-mMutationRemoveLineChance: float = 0.05</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-394">-mMaxMutationChange: string = "100"</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-378">-mCopyingPart: float = 0.1</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-362">-mDeleteMutationRiseGenomeSize: size_t = 200</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-346">-mMaxGenomeSize: size_t = 300</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-330">-mPopulationSize: size_t = 10</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-314">-mGraphPermuteChance: double = 0.5</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-298">-mGraphNodesCountMin: size_t = 3</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-282">-mGraphNodesCountMax: size_t = 10</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-266">-mGraphLinksCountMin: size_t = 3</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-250">-mGraphLinksCountMax: size_t = 6</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-234">-mGraphPermutesCountMin: size_t = 2</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-218">-mGraphPermutesCountMax: size_t = 4</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-202">+</text>
+    <rect style="fill: #ffffff" x="-300" y="-196" width="395" height="916"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-300" y="-196" width="395" height="916"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-182">+this()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-166">+registerTypes()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="-297" y="-150">+progMinSize(): uint</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-134">+progMinSize(val:uint): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="-297" y="-118">+progMaxSize(): uint</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-102">+progMaxSize(val:uint): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="-297" y="-86">+newOpGenChance(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-70">+newOpGenChance(val:float): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="-297" y="-54">+newScopeGenChance(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-38">+newScopeGenChance(val:float): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="-297" y="-22">+newLeafGenChance(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="-6">+newLeafGenChance(val:float): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="-297" y="10">+scopeMinSize(): uint</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="26">+scopeMinSize(val:uint): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="-297" y="42">+scopeMaxSize(): uint</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="58">+scopeMaxSize(val:uint): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="-297" y="74">+mutationChance(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="90">+mutationChance(val:float): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="-297" y="106">+crossingoverChance(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="122">+crossingoverChance(val:float): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="-297" y="138">+mutationChangeChance(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="154">+mutationChangeChance(val:float): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="-297" y="170">+mutationReplaceChance(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="186">+mutationReplaceChance(val:float): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="-297" y="202">+mutationDeleteChance(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="218">+mutationDeleteChance(val:float): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="-297" y="234">+mutationAddLineChance(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="250">+mutationAddLineChance(val:float): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="-297" y="266">+mutationRemoveLineChance(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="282">+mutationRemoveLineChance(val:float): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="-297" y="298">+maxMutationChange(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="314">+maxMutationChange(val:string): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="-297" y="330">+copyingPart(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="346">+copyingPart(val:float): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="-297" y="362">+deleteMutationRiseGenomeSize(): size_t</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="378">+deleteMutationRiseGenomeSize(val:size_t): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="-297" y="394">+maxGenomeSize(): size_t</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="410">+maxGenomeSize(val:size_t): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="426">+populationSize(): size_t</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="442">+populationSize(val:size_t): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="458">+graphPermuteChance(): double</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="474">+graphPermuteChance(val:double): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="490">+graphNodesCountMin(): size_t</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="506">+graphNodesCountMin(val:size_t): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="522">+graphNodesCountMax(): size_t</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="538">+graphNodesCountMax(val:size_t): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="554">+graphLinksCountMin(): size_t</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="570">+graphLinksCountMin(val:size_t): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="586">+graphLinksCountMax(): size_t</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="602">+graphLinksCountMax(val:size_t): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="618">+graphPermutesCountMin(): size_t</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="634">+graphPermutesCountMin(val:size_t): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="650">+graphPermutesCountMax(): size_t</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-297" y="666">+graphPermutesCountMax(val:size_t): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="-297" y="682">+initValues(pWorld:WorldAbstract): Line[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="-297" y="698">+getFitness(pInd:IndAbstract,pWorld:WorldAbstract,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="-297" y="714">            time:double): double</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="140" y="120" width="162.15" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="140" y="120" width="162.15" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="221.075" y="139">GraphPopulation</text>
+    <rect style="fill: #ffffff" x="140" y="148" width="162.15" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="140" y="148" width="162.15" height="8"/>
+    <rect style="fill: #ffffff" x="140" y="156" width="162.15" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="140" y="156" width="162.15" height="8"/>
+    <rect style="fill: #ffffff" x="256.15" y="90" width="185.1" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" x="256.15" y="90" width="185.1" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="262.15" y="104">nameChecker:getDefChars</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="262.15" y="120">IndType:GraphIndivid</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="980" y="-300" width="472" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="980" y="-300" width="472" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="1216" y="-281">ILogger</text>
+    <rect style="fill: #ffffff" x="980" y="-272" width="472" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="980" y="-272" width="472" height="8"/>
+    <rect style="fill: #ffffff" x="980" y="-264" width="472" height="180"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="980" y="-264" width="472" height="180"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="983" y="-250">+name(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="983" y="-234">+log(message:lazy string,level:StyleEnum): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="983" y="-218">+&lt;&lt;const&gt;&gt; minOutputLevel(): StyleEnum</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="983" y="-202">+minOutputLevel(level:StyleEnum): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="983" y="-186">+minLoggingLevel(): StyleEnum</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="983" y="-170">+minLoggingLevel(level:StyleEnum): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="983" y="-154">+finalize(): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="983" y="-138">+rawInput(message:string)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="983" y="-122">+formatConsoleOutput(message:string,level:StyleEnum): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="983" y="-106">+formatFileOutput(message:string,level:StyleEnum): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="983" y="-90">+reload(): void</text>
+    <rect style="fill: #ffffff" x="1406" y="-314" width="177.4" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" x="1406" y="-314" width="177.4" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1412" y="-300">StyleEnum:LoggingLevel</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1096.97,78 1216,78 1216,-82.9933 "/>
+    <polygon style="fill: #ffffff" points="1071.8,78 1085.8,73.2 1099.8,78 1085.8,82.8 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1071.8,78 1085.8,73.2 1099.8,78 1085.8,82.8 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="774.828,-2 441.003,-2 441.003,30 96.0061,30 "/>
+    <polygon style="fill: #ffffff" points="800,-2 786,2.8 772,-2 786,-6.8 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="800,-2 786,2.8 772,-2 786,-6.8 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="774.828,14 614.128,14 614.128,142 442.257,142 "/>
+    <polygon style="fill: #ffffff" points="800,14 786,18.8 772,14 786,9.2 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="800,14 786,18.8 772,14 786,9.2 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-300" y="-1100" width="395" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-300" y="-1100" width="395" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="-102.5" y="-1081">ProgTypeAbstract</text>
+    <rect style="fill: #ffffff" x="-300" y="-1072" width="395" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-300" y="-1072" width="395" height="8"/>
+    <rect style="fill: #ffffff" x="-300" y="-1064" width="395" height="340"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-300" y="-1064" width="395" height="340"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="-297" y="-1050">+progMinSize(): uint</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="-297" y="-1034">+progMaxSize(): uint</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="-297" y="-1018">+scopeMinSize(): uint</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="-297" y="-1002">+scopeMaxSize(): uint</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="-297" y="-986">+newOpGenChance(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="-297" y="-970">+newScopeGenChance(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="-297" y="-954">+newLeafGenChance(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="-297" y="-938">+mutationChangeChance(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="-297" y="-922">+mutationReplaceChance(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="-297" y="-906">+mutationDeleteChance(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="-297" y="-890">+mutationAddLineChance(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="-297" y="-874">+mutationRemoveLineChance(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="-297" y="-858">+maxMutationChange(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="-297" y="-842">+mutationChance(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="-297" y="-826">+crossingoverChance(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="-297" y="-810">+copyingPart(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="-297" y="-794">+deleteMutationRiseGenomeSize(): size_t</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="-297" y="-778">+maxGenomeSize(): size_t</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="-297" y="-762">+getFitness(pInd:IndAbstract,pWorld:WorldAbstract,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="-297" y="-746">            time:double): double</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="-297" y="-730">+initValues(pWorld:WorldAbstract): Line[]</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="-102.5,-704.758 -102.5,-705.994 -102.5,-662.005 -102.5,-661.005 "/>
+    <polygon style="fill: #ffffff" points="-94.5,-704.758 -102.5,-720.758 -110.5,-704.758 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-94.5,-704.758 -102.5,-720.758 -110.5,-704.758 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="720" y="380" width="433.5" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="720" y="380" width="433.5" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="936.75" y="399">Population</text>
+    <rect style="fill: #ffffff" x="720" y="408" width="433.5" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="720" y="408" width="433.5" height="84"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="723" y="422">+DefNameLength: enum = 10</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="723" y="438">+DefNameChars: enum = getDefChars()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="723" y="454">#iGeneration: size_t</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="723" y="470">#inds: IndType[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="723" y="486">#mName: string = ""</text>
+    <rect style="fill: #ffffff" x="720" y="492" width="433.5" height="356"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="720" y="492" width="433.5" height="356"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="723" y="506">+this()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="723" y="522">+generation(): size_t</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="723" y="538">+generation(val:size_t): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="723" y="554">+genName(size:size_t=DefNameLength): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="723" y="570">+name(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="723" y="586">+name(val:string): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="723" y="602">+length(): size_t</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="723" y="618">+opIndex(i:size_t): IndType</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="723" y="634">+opSlice(a:size_t,b:size_t): IndAbstract[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="723" y="650">+opDollar(): size_t</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="723" y="666">+opApply(dg:int delegate(IndAbstract)): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="723" y="682">+opApply(dg:in delegate(size_t, IndAbstract)): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="723" y="698">+&lt;&lt;string m&gt;&gt; opBinary(val:IndType): auto if (m == "~")</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="723" y="714">+addIndivid(val:IndType): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="723" y="730">+saveBests(filename:string): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="723" y="746">+saveAll(filename:string): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="723" y="762">+dup(): auto</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="723" y="778">+clear(): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="723" y="794">+saveBinary(stream:OutputStream): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="723" y="810">+saveYaml(): Node</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="723" y="826">+static loadBinary(stream:InputStream): auto</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="723" y="842">+static loadYaml(node:Node): auto</text>
+    <rect style="fill: #ffffff" x="1107.5" y="350" width="100.4" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" x="1107.5" y="350" width="100.4" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1113.5" y="364">nameChecker:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1113.5" y="380">IndType:</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="200" y="420" width="402.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="200" y="420" width="402.7" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="401.35" y="439">PopAbstract</text>
+    <rect style="fill: #ffffff" x="200" y="448" width="402.7" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="200" y="448" width="402.7" height="8"/>
+    <rect style="fill: #ffffff" x="200" y="456" width="402.7" height="196"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="200" y="456" width="402.7" height="196"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="203" y="470">+genName(size_t:size): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="203" y="486">+name(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="203" y="502">+name(val:string): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="203" y="518">+generation(): size_t</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="203" y="534">+generation(val:size_t): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="203" y="550">+length(): size_t</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="203" y="566">+opIndex(i:size_t): IndAbstract</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="203" y="582">+opSlice(a:size_t,b:size_t): IndAbstract[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="203" y="598">+opDollar(): size_t</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="203" y="614">+opApply(dg:int delegate(IndAbstract)): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="203" y="630">+opApply(dg:int delegate(size_t, IndAbstract)): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="203" y="646">+saveYaml(): Node</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="621.942,536 669.35,536 669.35,614 718.993,614 "/>
+    <polygon style="fill: #ffffff" points="621.942,528 605.942,536 621.942,544 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="621.942,528 605.942,536 621.942,544 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="936.75,361.764 936.75,300 221.075,300 221.075,165 "/>
+    <polygon style="fill: #ffffff" points="928.75,361.764 936.75,377.764 944.75,361.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="928.75,361.764 936.75,377.764 944.75,361.764 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="420" y="180" width="302.6" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="420" y="180" width="302.6" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="571.3" y="199">ISerializable</text>
+    <rect style="fill: #ffffff" x="420" y="208" width="302.6" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="420" y="208" width="302.6" height="8"/>
+    <rect style="fill: #ffffff" x="420" y="216" width="302.6" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="420" y="216" width="302.6" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="423" y="230">+saveBinary(OutputStream:stream): void</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="220" y="-380" width="333.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="220" y="-380" width="333.4" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="386.7" y="-361">GraphIndivid</text>
+    <rect style="fill: #ffffff" x="220" y="-352" width="333.4" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="220" y="-352" width="333.4" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="223" y="-338">-mAnswer: bool</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="223" y="-322">-mStack: Stack!(ArgPod!double)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="223" y="-306">-mFirstGraph: Stack!ArgEdge</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="223" y="-290">-mSecondGraph: Stack!ArgEdge</text>
+    <rect style="fill: #ffffff" x="220" y="-284" width="333.4" height="164"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="220" y="-284" width="333.4" height="164"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="223" y="-270">+thist()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="223" y="-254">+this(Individ:ind)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="223" y="-238">+initialize(aworld:WorldAbstract): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="223" y="-222">+dup(): GraphIndivid</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="223" y="-206">+static loadYaml(node:Node): GraphIndivid</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="223" y="-190">+genericStack(): ref Stack!(ArgPod!double)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="223" y="-174">+firstGraphStack(): ref Stack!ArgEdge</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="223" y="-158">+secondGraphStack(): ref Stack!ArgEdge</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="223" y="-142">+answer(val:bool): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="223" y="-126">+answer(): bool</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="221.075,63.822 221.075,-21.9992 386.7,-21.9992 386.7,-118.992 "/>
+    <polygon style="fill: #ffffff" points="221.075,88.9935 216.275,74.9935 221.075,60.9935 225.875,74.9935 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="221.075,88.9935 216.275,74.9935 221.075,60.9935 225.875,74.9935 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="640" y="-340" width="187.1" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="640" y="-340" width="187.1" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="733.55" y="-321">Stack</text>
+    <rect style="fill: #ffffff" x="640" y="-312" width="187.1" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="640" y="-312" width="187.1" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="643" y="-298">+mStack: DList!T</text>
+    <rect style="fill: #ffffff" x="640" y="-292" width="187.1" height="116"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="640" y="-292" width="187.1" height="116"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="643" y="-278">+stackPush(arg:T): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="643" y="-262">+stackPop(): T</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="643" y="-246">+stackSwap(): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="643" y="-230">+stackDup(): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="643" y="-214">+stackOver(): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="643" y="-198">+stackRot(): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="643" y="-182">+stackDrop(): void</text>
+    <rect style="fill: #ffffff" x="781.1" y="-354" width="54" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" x="781.1" y="-354" width="54" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="787.1" y="-340">T:</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="579.577,-250 603.7,-250 603.7,-258 638.994,-258 "/>
+    <polygon style="fill: #ffffff" points="554.405,-250 568.405,-254.8 582.405,-250 568.405,-245.2 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="554.405,-250 568.405,-254.8 582.405,-250 568.405,-245.2 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="200" y="-980" width="371.9" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="200" y="-980" width="371.9" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="385.95" y="-961">Individ</text>
+    <rect style="fill: #ffffff" x="200" y="-952" width="371.9" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="200" y="-952" width="371.9" height="100"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="203" y="-938">#mProgram: Line[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="203" y="-922">#mMemory: Line[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="203" y="-906">#inVals: Line[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="203" y="-890">#outVals: Line[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="203" y="-874">#mFitness: double</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="203" y="-858">#mName: string</text>
+    <rect style="fill: #ffffff" x="200" y="-852" width="371.9" height="388"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="200" y="-852" width="371.9" height="388"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="203" y="-838">+this()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="203" y="-822">-autogenName(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="203" y="-806">+name(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="203" y="-790">+name(val:string): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="203" y="-774">+this(Individ:ind)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="203" y="-758">+loadFrom(ind:Individ): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="203" y="-742">+program(): Line[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="203" y="-726">+program(val:Line[]): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="203" y="-710">+getGenomveSize(): size_t</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="203" y="-694">+programString(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="203" y="-678">+memoryString(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="203" y="-662">+fitness(): double</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="203" y="-646">+fitness(val:double): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="203" y="-630">+invals(): Line[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="203" y="-614">+invals(val:Line[]): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="203" y="-598">+outvals(): Line[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="203" y="-582">+outvals(val:Line[]): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="203" y="-566">+dup(): Invivid</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="203" y="-550">+initialize(world:WorldAbstact): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="203" y="-534">+saveBinary(stream:OutputStream): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="203" y="-518">+saveYaml(): Node</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="203" y="-502">+static loadBinary(InputStream:stream): Individ</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="203" y="-486">+static loadYaml(node:Node): Individ</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="203" y="-470">+genDot(): string</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="385.95,-444.756 385.95,-414 386.7,-414 386.7,-381.008 "/>
+    <polygon style="fill: #ffffff" points="393.95,-444.756 385.95,-460.756 377.95,-444.756 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="393.95,-444.756 385.95,-460.756 377.95,-444.756 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="720" y="-980" width="302.6" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="720" y="-980" width="302.6" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="871.3" y="-961">IndAbstract</text>
+    <rect style="fill: #ffffff" x="720" y="-952" width="302.6" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="720" y="-952" width="302.6" height="8"/>
+    <rect style="fill: #ffffff" x="720" y="-944" width="302.6" height="292"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="720" y="-944" width="302.6" height="292"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="723" y="-930">+initialize(world:WorldAbstract): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="723" y="-914">+name(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="723" y="-898">+name(val:string): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="723" y="-882">+program(): Line[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="723" y="-866">+program(val:Line[]): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="723" y="-850">+getGenomeSize(): size_t</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="723" y="-834">+memory(): Line[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="723" y="-818">+fitness(): double</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="723" y="-802">+fitness(val:double): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="723" y="-786">+invals(): Line[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="723" y="-770">+invals(val:Line[]): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="723" y="-754">+outvals(): Line[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="723" y="-738">+outvals(val:Line[]): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="723" y="-722">+dup(): IndAbstract</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="723" y="-706">+programString(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="723" y="-690">+memoryString(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="723" y="-674">+saveYaml(): Node</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="723" y="-658">+genDot(): string</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="571.3,255.176 571.3,340 401.35,340 401.35,418.997 "/>
+    <polygon style="fill: #ffffff" points="579.3,255.176 571.3,239.176 563.3,255.176 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="579.3,255.176 571.3,239.176 563.3,255.176 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="580,161.764 580,-40 620,-40 620,-602 571.9,-602 "/>
+    <polygon style="fill: #ffffff" points="572,161.764 580,177.764 588,161.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="572,161.764 580,177.764 588,161.764 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="700.755,-816 637.948,-816 637.948,-722 572.906,-722 "/>
+    <polygon style="fill: #ffffff" points="700.755,-808 716.755,-816 700.755,-824 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="700.755,-808 716.755,-816 700.755,-824 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1280" y="-940" width="156.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1280" y="-940" width="156.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="1358.15" y="-921">WorldAbstract</text>
+    <rect style="fill: #ffffff" x="1280" y="-912" width="156.3" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1280" y="-912" width="156.3" height="8"/>
+    <rect style="fill: #ffffff" x="1280" y="-904" width="156.3" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1280" y="-904" width="156.3" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="1283" y="-890">+initialize(): void</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1080" y="-780" width="572.1" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1080" y="-780" width="572.1" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1366.05" y="-761">GraphWorld</text>
+    <rect style="fill: #ffffff" x="1080" y="-752" width="572.1" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1080" y="-752" width="572.1" height="84"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1083" y="-738">+programType: ProgramType</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1083" y="-722">-updateDrawDel: void delegate(IDirectedGraph, IDirectedGraph)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1083" y="-706">-mInputGraphFirst: IDirectedGraph</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1083" y="-690">-mInputGraphSecond: IDirectedGraph</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1083" y="-674">-mAnswer: bool</text>
+    <rect style="fill: #ffffff" x="1080" y="-668" width="572.1" height="228"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1080" y="-668" width="572.1" height="228"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1083" y="-654">+this()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1083" y="-638">+this(programType:ProgramType,updateDrawDel:void delegate(IDirectedGraph,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1083" y="-622">       IDirectedGraph))</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="1083" y="-606">+initialize(): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1083" y="-590">+firstGraph(): IDirectedGraph</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1083" y="-574">+secondGraph(): IDirectedGraph</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1083" y="-558">+correctAnswer(): bool</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1083" y="-542">-initInput(): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1083" y="-526">-static getChance(val:float): bool</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1083" y="-510">+static genUniqName(clearMemory:bool=false): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1083" y="-494">-static generateGraph(nodesCount:size_t,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1083" y="-478">                      linksCount:size_t): IDirectedGraph</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1083" y="-462">-static permuteGraph(graph:IDirectedGraph,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1083" y="-446">                     permuteCount:size_t): IDirectedGraph</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="1358.15,-864.757 1358.15,-823.999 1366.05,-823.999 1366.05,-781.005 "/>
+    <polygon style="fill: #ffffff" points="1366.15,-864.757 1358.15,-880.757 1350.15,-864.757 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1366.15,-864.757 1358.15,-880.757 1350.15,-864.757 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1540" y="-200" width="510.5" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1540" y="-200" width="510.5" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="1795.25" y="-181">GameCompilation</text>
+    <rect style="fill: #ffffff" x="1540" y="-172" width="510.5" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1540" y="-172" width="510.5" height="8"/>
+    <rect style="fill: #ffffff" x="1540" y="-164" width="510.5" height="196"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1540" y="-164" width="510.5" height="196"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="1543" y="-150">+stopCond(step:ref int,ind:IndAbstract,world:WorldAbstract): bool</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="1543" y="-134">+drawStep(ind:IndAbstract,world:WorldAbstract): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="1543" y="-118">+drawFinal(pop:PopAbstract,world:WorldAbstract): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="1543" y="-102">+roundsPerInd(): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1543" y="-86">+initPop(pop:PopAbstract,world:WorldAbstract,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1543" y="-70">         progType:ProgTypeAbstract): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1543" y="-54">+compilePop(pop:PopAbstract,world:WorldAbstract,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1543" y="-38">            progType:ProgTypeAbstract,whenExit:bool delegate(),</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1543" y="-22">            updater:void delegate(double),</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1543" y="-6">            pauser:bool delegate()): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1543" y="10">+calcPopFitness(pop:PopAbstract,world:WorldAbstract,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1543" y="26">                progType:ProgTypeAbstract): void</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1760" y="140" width="510.5" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1760" y="140" width="510.5" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2015.25" y="159">GraphCompilation</text>
+    <rect style="fill: #ffffff" x="1760" y="168" width="510.5" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1760" y="168" width="510.5" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1763" y="182">+project: Project</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1763" y="198">-updateGenerationInfo: void delegate()</text>
+    <rect style="fill: #ffffff" x="1760" y="204" width="510.5" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1760" y="204" width="510.5" height="84"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1763" y="218">+this(project:Project,updateGenerationInfo:void delegate())</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="1763" y="234">+stopCond(step:ref int,ind:IndAbstract,world:WorldAbstract): bool</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="1763" y="250">+drawStep(ind:IndAbstract,world:WorldAbstract): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="1763" y="266">+drawFinal(pop:PopAbstract,world:WorldAbstract): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="1763" y="282">+rondsPerInd(): int</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="1795.25,51.2432 1795.25,93.999 2015.25,93.999 2015.25,138.991 "/>
+    <polygon style="fill: #ffffff" points="1803.25,51.2432 1795.25,35.2432 1787.25,51.2432 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1803.25,51.2432 1795.25,35.2432 1787.25,51.2432 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1340" y="380" width="525.9" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1340" y="380" width="525.9" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1602.95" y="399">Compiler</text>
+    <rect style="fill: #ffffff" x="1340" y="408" width="525.9" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1340" y="408" width="525.9" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="422">#compStg: CompStg</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="438">#pops: PopType[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="454">#world: WorldAbstract</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="470">#progtype: ProgTypeAbstract</text>
+    <rect style="fill: #ffffff" x="1340" y="476" width="525.9" height="244"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1340" y="476" width="525.9" height="244"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="490">+this(compStrategy:ComStg)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="506">+this(compStg:CompStg,progtype:ProgType)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="522">+this(compStrategy:CompStg,progtype:ProgType,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="538">      world:WorldType)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="554">+this(compStrategy:CompStg,progtype:ProgType,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="570">      world:WorldType,EvolutorStg:evolutor)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="586">+addPop(pop:PopType): PopType</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="602">+clean(): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="618">+getPop(i:size_t): PopType</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="634">+addPop(size:size_t,name:string): PopType</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="650">+envolveGeneration(whenExit:bool delegate(),</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="666">                   saveFolder:string,updater:void delegate(double),</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="682">                   pauser:bool delegate()): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="698">+loadPopulation(filename:string): PopType</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="714">-checkPop(pop:PopAbstract): bool</text>
+    <rect style="fill: #ffffff" x="1819.9" y="302" width="100.4" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" x="1819.9" y="302" width="100.4" height="84"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1825.9" y="316">CompStg:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1825.9" y="332">EvolutorStg:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1825.9" y="348">ProgType:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1825.9" y="364">PopType:</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1825.9" y="380">WorldType:</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1980" y="420" width="264.1" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1980" y="420" width="264.1" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="2112.05" y="439">Singleton</text>
+    <rect style="fill: #ffffff" x="1980" y="448" width="264.1" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1980" y="448" width="264.1" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1983" y="462">-static msSingleton: Class = null</text>
+    <rect style="fill: #ffffff" x="1980" y="468" width="264.1" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1980" y="468" width="264.1" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1983" y="482">+this()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1983" y="498">+static getSingleton(): Class</text>
+    <rect style="fill: #ffffff" x="2198.1" y="406" width="54.2" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" x="2198.1" y="406" width="54.2" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="2204.1" y="420">Class:</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="1960.76,462 1942.15,462 1942.15,550 1921.31,550 "/>
+    <polygon style="fill: #ffffff" points="1960.76,470 1976.76,462 1960.76,454 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1960.76,470 1976.76,462 1960.76,454 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1240" y="240" width="145.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1240" y="240" width="145.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1312.65" y="259">GraphCompiler</text>
+    <rect style="fill: #ffffff" x="1240" y="268" width="145.3" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1240" y="268" width="145.3" height="8"/>
+    <rect style="fill: #ffffff" x="1240" y="276" width="145.3" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1240" y="276" width="145.3" height="8"/>
+    <rect style="fill: #ffffff" x="1339.3" y="162" width="192.8" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" x="1339.3" y="162" width="192.8" height="84"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.3" y="176">CompStg:GraphCompilation</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.3" y="192">EvolutorStg:Evolutor</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.3" y="208">ProgType:ProgramType</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.3" y="224">PopType:GraphPopulation</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1345.3" y="240">WorldType:GraphWorld</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="1602.95,361.764 1602.95,324.503 1312.65,324.503 1312.65,285.006 "/>
+    <polygon style="fill: #ffffff" points="1594.95,361.764 1602.95,377.764 1610.95,361.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1594.95,361.764 1602.95,377.764 1610.95,361.764 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1558.28,262 1653.05,262 1653.05,214 1758.99,214 "/>
+    <polygon style="fill: #ffffff" points="1533.11,262 1547.11,257.2 1561.11,262 1547.11,266.8 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1533.11,262 1547.11,257.2 1561.11,262 1547.11,266.8 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1312.65,135.82 1312.65,-20 1480,-20 1480,-380 1366.05,-380 1366.05,-440 "/>
+    <polygon style="fill: #ffffff" points="1312.65,160.992 1307.85,146.992 1312.65,132.992 1317.45,146.992 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1312.65,160.992 1307.85,146.992 1312.65,132.992 1317.45,146.992 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1213.96,262 120,262 120,30 96.0036,30 "/>
+    <polygon style="fill: #ffffff" points="1239.13,262 1225.13,266.8 1211.13,262 1225.13,257.2 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1239.13,262 1225.13,266.8 1211.13,262 1225.13,257.2 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1214.83,254 760,254 760,142 442.184,142 "/>
+    <polygon style="fill: #ffffff" points="1240,254 1226,258.8 1212,254 1226,249.2 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1240,254 1226,258.8 1212,254 1226,249.2 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1220" y="780" width="518.2" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1220" y="780" width="518.2" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1479.1" y="799">Evolutor</text>
+    <rect style="fill: #ffffff" x="1220" y="808" width="518.2" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1220" y="808" width="518.2" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1223" y="822">+static MaxProgramDepth: int = 30</text>
+    <rect style="fill: #ffffff" x="1220" y="828" width="518.2" height="308"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1220" y="828" width="518.2" height="308"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1223" y="842">+static getChance(val:float): bool</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1223" y="858">+generateLine(IndAbstract:pInd,ptype:ProgTypeAbstract): Line</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1223" y="874">+generateLine(pInd:IndAbstract,ptype:ProgTypeAbstract,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1223" y="890">              rtype:Type,depth:uint=0): Line</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1223" y="906">+getRandomElementStd(cont:Container): Argument</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1223" y="922">+replaceRandomElementStd(cont:Contianer,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1223" y="938">                         generator:Argument delegate(Type)): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1223" y="954">+getRandomLeafStd(cont:Container): Argument</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1223" y="970">+swapRandomElements(cont1:Container,cont2:Container,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1223" y="986">                    ptype:ProgTypeAbstract): bool</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1223" y="1002">+mutationStd(pInd:IndAbstract,ptype:ProgTypeAbstract): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1223" y="1018">+crossingoverStd(pIndA:IndAbstract,pIndB:IndAbstract,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1223" y="1034">                 ptype:ProgTypeAbstract): bool</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1223" y="1050">+&lt;&lt;PopType&gt;&gt; formNextPopulation(pop:PopType,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1223" y="1066">                                ptype:ProgTypeAbstract): PopType</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1223" y="1082">+performGenomeTruncation(pInd:IndAbstract,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1223" y="1098">                         ptype:ProgTypeAbstract): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1223" y="1114">+&lt;&lt;PopType&gt;&gt; performGenomeTruncation(pop:PopType,</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1223" y="1130">                                     ptype:ProgTypeAbstract): void</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1312.65,310.176 1312.65,740 1479.1,740 1479.1,778.999 "/>
+    <polygon style="fill: #ffffff" points="1312.65,285.004 1317.45,299.004 1312.65,313.004 1307.85,299.004 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1312.65,285.004 1317.45,299.004 1312.65,313.004 1307.85,299.004 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1960" y="-680" width="310.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1960" y="-680" width="310.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="2115.15" y="-661">IDirectedGraph</text>
+    <rect style="fill: #ffffff" x="1960" y="-652" width="310.3" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1960" y="-652" width="310.3" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1963" y="-638">+alias Node: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1963" y="-622">+alias Weight: string</text>
+    <rect style="fill: #ffffff" x="1960" y="-616" width="310.3" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1960" y="-616" width="310.3" height="100"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="1963" y="-602">+load(input:InputRange!Edge): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="1963" y="-586">+nodes(): InputRange!Node</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="1963" y="-570">+weights(): InputRange!Weight</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="1963" y="-554">+edges(): InputRange!Edge</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="1963" y="-538">+indexedEdges(): InputRange!IndexedEdge</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="1963" y="-522">+genDot(): string</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1720" y="-700" width="156.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1720" y="-700" width="156.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1798.15" y="-681">Edge</text>
+    <rect style="fill: #ffffff" x="1720" y="-672" width="156.3" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1720" y="-672" width="156.3" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1723" y="-658">+source: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1723" y="-642">+dist: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1723" y="-626">+weight: string</text>
+    <rect style="fill: #ffffff" x="1720" y="-620" width="156.3" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1720" y="-620" width="156.3" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1723" y="-606">+toString(): string</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1720" y="-580" width="156.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1720" y="-580" width="156.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1798.15" y="-561">IndexedEdge</text>
+    <rect style="fill: #ffffff" x="1720" y="-552" width="156.3" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1720" y="-552" width="156.3" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1723" y="-538">+source: size_t</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1723" y="-522">+dist: size_t</text>
+    <rect style="fill: #ffffff" x="1720" y="-516" width="156.3" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1720" y="-516" width="156.3" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1723" y="-502">+toString(): string</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1933.82,-598 1911.15,-598 1911.15,-538 1877.31,-538 "/>
+    <polygon style="fill: #ffffff" points="1958.99,-598 1944.99,-593.2 1930.99,-598 1944.99,-602.8 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1958.99,-598 1944.99,-593.2 1930.99,-598 1944.99,-602.8 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1934.83,-606 1911.65,-606 1911.65,-650 1877.31,-650 "/>
+    <polygon style="fill: #ffffff" points="1960,-606 1946,-601.2 1932,-606 1946,-610.8 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1960,-606 1946,-601.2 1932,-606 1946,-610.8 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1960" y="-460" width="310.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1960" y="-460" width="310.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="2115.15" y="-441">ConnListGraph</text>
+    <rect style="fill: #ffffff" x="1960" y="-432" width="310.3" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1960" y="-432" width="310.3" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1963" y="-418">-lists: Weight[Node][Node]</text>
+    <rect style="fill: #ffffff" x="1960" y="-412" width="310.3" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1960" y="-412" width="310.3" height="100"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="1963" y="-398">+load(input:InputRange!Edge): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="1963" y="-382">+nodes(): InputRange!string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="1963" y="-366">+weights(): InputRange!string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="1963" y="-350">+edges(): InputRange!Edge</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1963" y="-334">+indexedEdges(): InputRange!IndexedEdge</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="1963" y="-318">+genDot(): string</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="2115.15,-496.759 2115.15,-497.995 2115.15,-462.009 2115.15,-461.009 "/>
+    <polygon style="fill: #ffffff" points="2123.15,-496.759 2115.15,-512.759 2107.15,-496.759 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="2123.15,-496.759 2115.15,-512.759 2107.15,-496.759 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1678.25,-610 1700,-610 1700,-780 2115.15,-780 2115.15,-680 "/>
+    <polygon style="fill: #ffffff" points="1653.08,-610 1667.08,-614.8 1681.08,-610 1667.08,-605.2 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1653.08,-610 1667.08,-614.8 1681.08,-610 1667.08,-605.2 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="80" y="800" width="495.1" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="80" y="800" width="495.1" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="327.55" y="819">Operator</text>
+    <rect style="fill: #ffffff" x="80" y="828" width="495.1" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="80" y="828" width="495.1" height="84"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83" y="842">#args: ArgInfo[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83" y="858">#mStyle: ArgsStyle</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83" y="874">#sName: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83" y="890">#sDiscr: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83" y="906">#mRetType: Type</text>
+    <rect style="fill: #ffffff" x="80" y="912" width="495.1" height="260"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="80" y="912" width="495.1" height="260"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83" y="926">+this(name:string,discr:string,style:ArgsStyle)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83" y="942">+argsNumber(): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83" y="958">+style(): ArgsStyle</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83" y="974">+name(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83" y="990">+discr(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83" y="1006">+rtype(): Type</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83" y="1022">+opIndex(i:size_t): ArgInfo</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83" y="1038">+opSlice(s:size_t,b:size_t): ArgInfo[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83" y="1054">+opDollar(): size_t</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83" y="1070">+generateArg(i:size_t): Argument</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:700" x="83" y="1086">+apply(ind:IndAbstract,line:Line,world:WorldAbstract): Argument</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:italic;font-weight:normal" x="83" y="1102">+saveBinary(OutputStream:stream): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83" y="1118">+saveYaml(): Node</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83" y="1134">+static loadBinary(stream:InputStream): Operator</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83" y="1150">+static loadYaml(node:Node): Operator</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="83" y="1166">+genDot(nameIndex:ref size_t,out nodeName:string): string</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="571.3,254.236 571.3,340 680,340 680,720 327.55,720 327.55,798.993 "/>
+    <polygon style="fill: #ffffff" points="579.3,254.236 571.3,238.236 563.3,254.236 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="579.3,254.236 571.3,238.236 563.3,254.236 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="680" y="920" width="148.6" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="680" y="920" width="148.6" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="754.3" y="939">ArgInfo</text>
+    <rect style="fill: #ffffff" x="680" y="948" width="148.6" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="680" y="948" width="148.6" height="84"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="683" y="962">+type: Type</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="683" y="978">+exVals: string[]</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="683" y="994">+min: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="683" y="1010">+max: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="683" y="1026">+eval: bool = true</text>
+    <rect style="fill: #ffffff" x="680" y="1032" width="148.6" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="680" y="1032" width="148.6" height="8"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="601.279,986 634.549,986 634.549,980 678.991,980 "/>
+    <polygon style="fill: #ffffff" points="576.108,986 590.108,981.2 604.108,986 590.108,990.8 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="576.108,986 590.108,981.2 604.108,986 590.108,990.8 "/>
+  </g>
+</svg>
