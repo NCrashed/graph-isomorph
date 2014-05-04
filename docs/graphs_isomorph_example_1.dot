@@ -1,0 +1,16 @@
+digraph "" {
+
+a -> g;
+a -> h;
+a -> i;
+b -> g;
+b -> h;
+b -> j;
+c -> g;
+c -> i;
+c -> j;
+d -> h;
+d -> i;
+d -> j;
+
+}
