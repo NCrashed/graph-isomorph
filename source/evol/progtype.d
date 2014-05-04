@@ -407,7 +407,7 @@ class ProgramType : ProgTypeAbstract
     }
     body
     {
-        mGraphNodesCountMin = val;
+        mGraphLinksCountMin = val;
     }
     
     private size_t mGraphLinksCountMax = 6;
