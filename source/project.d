@@ -40,7 +40,7 @@ class Project
         name = defaultProjectPath.baseName;
     }
     
-    void open(Node root)
+    private void open(Node root)
     {
     	programType = new ProgramType();
     	
@@ -154,7 +154,7 @@ class Project
         }
     }
     
-    Node dump()
+    private Node dump()
     {
         Node[string] emap;
         
