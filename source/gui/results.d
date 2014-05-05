@@ -62,6 +62,8 @@ class ResultsWindow : GenericWindow
         showEvolutionWndItem.addOnActivate( (w) => evoluitionWindow.showAll() );
         
         initProjectSaveLoad("3");
+        initAboutDialog("3");
+        
         initPopulationView();
     }
     

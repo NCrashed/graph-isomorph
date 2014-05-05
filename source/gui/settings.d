@@ -68,6 +68,7 @@ class SettingsWindow : GenericWindow
         initProgtypeEntries();
         initOperatorsView();
         initProjectSaveLoad("1");
+        initAboutDialog("1");
     }
     
     override void updateContent()

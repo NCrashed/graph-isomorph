@@ -9,6 +9,7 @@ import gtk.Builder;
 import gtk.ApplicationWindow;
 import gtk.ImageMenuItem;
 import gtk.FileChooserDialog;
+import gtk.AboutDialog;
 import gtk.Main;
 import dlogg.log;
 
@@ -230,6 +231,22 @@ abstract class GenericWindow
                 logger.logError(e.toString);
             }
         });
+    }
+    
+    void initAboutDialog(string distinct)
+    {
+    	auto helpItem = cast(ImageMenuItem)builder.getObject("AboutMenuItem"~distinct);
+    	assert(helpItem);
+    	
+    	helpItem.addOnActivate((i)
+		{
+			auto dlg = new AboutDialog;
+			dlg.setProgramName("АИС поиска алгоритмов распознавания изоморфизма графов");
+			dlg.setAuthors(["Гуща Антон Валерьевич"]);
+			dlg.setLicenseType(GtkLicense.MIT_X11);
+			dlg.addOnResponse((r,d) => dlg.destroy);
+			dlg.showAll;
+		});
     }
     
     private
