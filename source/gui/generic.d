@@ -10,6 +10,7 @@ import gtk.ApplicationWindow;
 import gtk.ImageMenuItem;
 import gtk.FileChooserDialog;
 import gtk.AboutDialog;
+import gdk.Pixbuf;
 import gtk.Main;
 import dlogg.log;
 
@@ -31,6 +32,7 @@ abstract class GenericWindow
         mProject = project;
         mWindow = window;
         
+        window.setIconFromFile("icon_small.png");
         updateTittle();
     }
     
@@ -245,6 +247,8 @@ abstract class GenericWindow
 			dlg.setAuthors(["Гуща Антон Валерьевич"]);
 			dlg.setLicenseType(GtkLicense.MIT_X11);
 			dlg.addOnResponse((r,d) => dlg.destroy);
+			auto logo = new Pixbuf("icon.png");
+			dlg.setLogo(logo);
 			dlg.showAll;
 		});
     }
