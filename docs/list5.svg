@@ -77,7 +77,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.40403754"
      inkscape:cx="1240.074"
-     inkscape:cy="1117.859"
+     inkscape:cy="721.85619"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -115,7 +115,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -3320,5 +3320,17 @@
          id="tspan27488-5"
          x="2052.094"
          y="-810.6842">Формирование новой популяции</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="1545.7079"
+       y="1007.0259"
+       id="text4204"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4206"
+         x="1545.7079"
+         y="1007.0259"
+         style="font-size:36px">Выполнил: Гуща А.В. _________  Согласовано: Филиппович Ю.Н. __________</tspan></text>
   </g>
 </svg>

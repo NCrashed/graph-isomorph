@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2979.9211"
+   height="2104.7244"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="list4_2.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path16806"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path16809"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       markerWidth="311.5625"
+       markerHeight="272.40625"
+       orient="auto"
+       id="marker5422">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5420"
+         d="M -154.91245,135.44748 1.48885,-135.44749 154.91245,130.28999 z"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </marker>
+    <marker
+       markerWidth="25.21875"
+       markerHeight="33.96875"
+       orient="auto"
+       id="marker10150">
+      <rect
+         y="-14.875864"
+         x="-10.50061"
+         height="29.751728"
+         width="21.001221"
+         id="rect10148"
+         style="opacity:0.36947793;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:4.22599983;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.40403754"
+     inkscape:cx="1548.9231"
+     inkscape:cy="1021.7456"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="2560"
+     inkscape:window-height="1025"
+     inkscape:window-x="-3"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-grids="false"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-nodes="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-center="true"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,1052.3624)">
+    <text
+       xml:space="preserve"
+       style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="1507.594"
+       y="-905.16937"
+       id="text3004"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="1507.594"
+         y="-905.16937"
+         id="tspan3008">Основные алгоритмы АИС</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3010"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Carlito;font-style:normal;font-weight:normal;font-size:32px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Carlito;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion3012"><rect
+           id="rect3014"
+           width="1371.1597"
+           height="960.30682"
+           x="76.725548"
+           y="342.51187"
+           style="font-size:32px" /></flowRegion><flowPara
+         id="flowPara3016" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="66.825478"
+       y="340.03687"
+       id="text3018"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan3020"
+         x="66.825478"
+         y="340.03687" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:0;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="353.92752"
+       y="458.83768"
+       id="text3022"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan3024"
+         x="353.92752"
+         y="458.83768" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="158.40112"
+       y="359.83698"
+       id="text3026"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan3028"
+         x="158.40112"
+         y="359.83698" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="497.47852"
+       y="357.36197"
+       id="text3038"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan3040"
+         x="497.47852"
+         y="357.36197" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="1754.7874"
+       y="1025.6167"
+       id="text3074"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan3076"
+         x="1754.7874"
+         y="1025.6167" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="74.250526"
+       y="1401.8195"
+       id="text3110"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan3112"
+         x="74.250526"
+         y="1401.8195" /></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:none;marker-mid:none;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1513.838,559.38457 924.05373,157.50916"
+       id="path5425"
+       inkscape:connector-curvature="0"
+       transform="translate(0,-1052.3624)" />
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="1944.363"
+       y="540.13342"
+       id="text20981"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan20983"
+         x="1944.363"
+         y="540.13342" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="1903.2885"
+       y="849.89044"
+       id="text21570"
+       sodipodi:linespacing="125%"
+       transform="translate(0,-1052.3624)"><tspan
+         sodipodi:role="line"
+         id="tspan21572"
+         x="1903.2885"
+         y="849.89044" /></text>
+    <text
+       font-size="12.7998"
+       style="font-size:15.23232651px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+       x="401.64526"
+       y="-144.54242"
+       id="text24123">
+      <tspan
+         x="401.64526"
+         y="-144.54242"
+         id="tspan24125" />
+    </text>
+    <g
+       id="g25720"
+       transform="matrix(1.9063429,0,0,1.9063429,-604.54457,-1058.5328)">
+      <g
+         id="g25534">
+        <path
+           id="path25536"
+           d="m 1060,140 80,0 c 11.05,0 20,8.954 20,20 0,11.046 -8.95,20 -20,20 l -80,0 c -11.05,0 -20,-8.954 -20,-20 0,-11.046 8.95,-20 20,-20 z"
+           style="fill:#ffffff"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path25538"
+           d="m 1060,140 80,0 c 11.05,0 20,8.954 20,20 0,11.046 -8.95,20 -20,20 l -80,0 c -11.05,0 -20,-8.954 -20,-20 0,-11.046 8.95,-20 20,-20"
+           style="fill:none;stroke:#000000;stroke-width:2"
+           inkscape:connector-curvature="0" />
+        <text
+           id="text25540"
+           y="164"
+           x="1100"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25542"
+             y="164"
+             x="1100">Начало</tspan>
+        </text>
+      </g>
+      <g
+         id="g25544">
+        <polygon
+           id="polygon25546"
+           points="965.6,240 980.159,200 1236.78,200 1222.22,240 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon25548"
+           points="965.6,240 980.159,200 1236.78,200 1222.22,240 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25550"
+           y="223.89999"
+           x="1101.1899"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25552"
+             y="223.89999"
+             x="1101.1899">inda, indb = индивиды - родители</tspan>
+        </text>
+      </g>
+      <g
+         id="g25554">
+        <rect
+           id="rect25556"
+           height="38"
+           width="301.60001"
+           y="260"
+           x="949.20001"
+           style="fill:#ffffff" />
+        <rect
+           id="rect25558"
+           height="38"
+           width="301.60001"
+           y="260"
+           x="949.20001"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25560"
+           y="282.89999"
+           x="1100"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25562"
+             y="282.89999"
+             x="1100">length = max длина программ inda и indb</tspan>
+        </text>
+      </g>
+      <g
+         id="g25564">
+        <rect
+           id="rect25566"
+           height="38"
+           width="52.549999"
+           y="320"
+           x="1073.72"
+           style="fill:#ffffff" />
+        <rect
+           id="rect25568"
+           height="38"
+           width="52.549999"
+           y="320"
+           x="1073.72"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25570"
+           y="342.89999"
+           x="1100"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25572"
+             y="342.89999"
+             x="1100">i = 0</tspan>
+        </text>
+      </g>
+      <g
+         id="g25574">
+        <polygon
+           id="polygon25576"
+           points="1012.72,423.744 1100.21,380 1187.7,423.744 1100.21,467.488 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon25578"
+           points="1012.72,423.744 1100.21,380 1187.7,423.744 1100.21,467.488 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25580"
+           y="427.64401"
+           x="1100.21"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25582"
+             y="427.64401"
+             x="1100.21">i = length/2+1</tspan>
+        </text>
+      </g>
+      <text
+         id="text25584"
+         y="480"
+         x="1120"
+         style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+         font-size="12.7998">
+        <tspan
+           id="tspan25586"
+           y="480"
+           x="1120">нет</tspan>
+      </text>
+      <text
+         id="text25588"
+         y="400"
+         x="1200"
+         style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+         font-size="12.7998">
+        <tspan
+           id="tspan25590"
+           y="400"
+           x="1200">да</tspan>
+      </text>
+      <g
+         id="g25592">
+        <rect
+           id="rect25594"
+           height="38"
+           width="240"
+           y="500"
+           x="980"
+           style="fill:#ffffff" />
+        <rect
+           id="rect25596"
+           height="38"
+           width="240"
+           y="500"
+           x="980"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25598"
+           y="522.90002"
+           x="1100"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25600"
+             y="522.90002"
+             x="1100">linea = случайная линия inda</tspan>
+        </text>
+      </g>
+      <g
+         id="g25602">
+        <rect
+           id="rect25604"
+           height="38"
+           width="240"
+           y="560"
+           x="980"
+           style="fill:#ffffff" />
+        <rect
+           id="rect25606"
+           height="38"
+           width="240"
+           y="560"
+           x="980"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25608"
+           y="582.90002"
+           x="1100"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25610"
+             y="582.90002"
+             x="1100">lineb = случайная линия indb</tspan>
+        </text>
+      </g>
+      <g
+         id="g25612">
+        <rect
+           id="rect25614"
+           height="38"
+           width="301.20001"
+           y="620"
+           x="949.40002"
+           style="fill:#ffffff" />
+        <rect
+           id="rect25616"
+           height="38"
+           width="301.20001"
+           y="620"
+           x="949.40002"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25618"
+           y="642.90002"
+           x="1100"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25620"
+             y="642.90002"
+             x="1100">chance = 1/(linea.children + lineb.children)</tspan>
+        </text>
+      </g>
+      <g
+         id="g25622">
+        <polygon
+           id="polygon25624"
+           points="987.575,740.107 1100.21,683.787 1212.85,740.107 1100.21,796.426 "
+           style="fill:#ffffff" />
+        <polygon
+           id="polygon25626"
+           points="987.575,740.107 1100.21,683.787 1212.85,740.107 1100.21,796.426 "
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25628"
+           y="744.00702"
+           x="1100.21"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25630"
+             y="744.00702"
+             x="1100.21">uniform(0,1) &lt; chance</tspan>
+        </text>
+      </g>
+      <text
+         id="text25632"
+         y="720"
+         x="940"
+         style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+         font-size="12.7998">
+        <tspan
+           id="tspan25634"
+           y="720"
+           x="940">нет</tspan>
+      </text>
+      <text
+         id="text25636"
+         y="720"
+         x="1240"
+         style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+         font-size="12.7998">
+        <tspan
+           id="tspan25638"
+           y="720"
+           x="1240">да</tspan>
+      </text>
+      <g
+         id="g25640">
+        <rect
+           id="rect25642"
+           height="38"
+           width="240"
+           y="780"
+           x="1220"
+           style="fill:#ffffff" />
+        <rect
+           id="rect25644"
+           height="38"
+           width="240"
+           y="780"
+           x="1220"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25646"
+           y="802.90002"
+           x="1340"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25648"
+             y="802.90002"
+             x="1340">Поменять местами linea и lineb</tspan>
+        </text>
+      </g>
+      <g
+         id="g25650">
+        <rect
+           id="rect25652"
+           height="40"
+           width="320"
+           y="780"
+           x="700"
+           style="fill:#ffffff" />
+        <rect
+           id="rect25654"
+           height="40"
+           width="320"
+           y="780"
+           x="700"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <line
+           id="line25656"
+           y2="820"
+           x2="732"
+           y1="780"
+           x1="732"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <line
+           id="line25658"
+           y2="820"
+           x2="988"
+           y1="780"
+           x1="988"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25660"
+           y="796"
+           x="860"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25662"
+             y="796"
+             x="860">Поменять случайные поддеревья</tspan>
+          <tspan
+             id="tspan25664"
+             y="812"
+             x="860">linea и lineb</tspan>
+        </text>
+      </g>
+      <polyline
+         id="polyline25666"
+         points="987.575,740.107 987.575,759.738 860,759.738 860,780 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <polyline
+         id="polyline25668"
+         points="1212.85,740.107 1212.85,759.143 1340,759.143 1340,780 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <g
+         id="g25670">
+        <rect
+           id="rect25672"
+           height="38"
+           width="63.299999"
+           y="880"
+           x="1068.35"
+           style="fill:#ffffff" />
+        <rect
+           id="rect25674"
+           height="38"
+           width="63.299999"
+           y="880"
+           x="1068.35"
+           style="fill:none;stroke:#000000;stroke-width:2" />
+        <text
+           id="text25676"
+           y="902.90002"
+           x="1100"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25678"
+             y="902.90002"
+             x="1100">i += 1</tspan>
+        </text>
+      </g>
+      <polyline
+         id="polyline25680"
+         points="1340,818 1340,840 1100,840 1100,880 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <polyline
+         id="polyline25682"
+         points="860,820 860,840 1100,840 1100,880 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <polyline
+         id="polyline25684"
+         points="1100,658 1100,670.894 1100.21,670.894 1100.21,683.787 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line25686"
+         y2="620"
+         x2="1100"
+         y1="598"
+         x1="1100"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line25688"
+         y2="560"
+         x2="1100"
+         y1="538"
+         x1="1100"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line25690"
+         y2="500"
+         x2="1100"
+         y1="467.48801"
+         x1="1100.21"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line25692"
+         y2="199.02299"
+         x2="1100.5699"
+         y1="180"
+         x1="1100"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line25694"
+         y2="260"
+         x2="1100"
+         y1="240.97701"
+         x1="1100.5699"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line25696"
+         y2="320"
+         x2="1100"
+         y1="298"
+         x1="1100"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <line
+         id="line25698"
+         y2="380"
+         x2="1100.21"
+         y1="358"
+         x1="1100"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <polyline
+         id="polyline25700"
+         points="1100,918 1100,941 680,941 680,369 1100.11,369 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <g
+         id="g25702">
+        <path
+           id="path25704"
+           d="m 1060,1000 80,0 c 11.05,0 20,8.95 20,20 0,11.05 -8.95,20 -20,20 l -80,0 c -11.05,0 -20,-8.95 -20,-20 0,-11.05 8.95,-20 20,-20 z"
+           style="fill:#ffffff"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path25706"
+           d="m 1060,1000 80,0 c 11.05,0 20,8.95 20,20 0,11.05 -8.95,20 -20,20 l -80,0 c -11.05,0 -20,-8.95 -20,-20 0,-11.05 8.95,-20 20,-20"
+           style="fill:none;stroke:#000000;stroke-width:2"
+           inkscape:connector-curvature="0" />
+        <text
+           id="text25708"
+           y="1024"
+           x="1100"
+           style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+           font-size="12.7998">
+          <tspan
+             id="tspan25710"
+             y="1024"
+             x="1100">Выход</tspan>
+        </text>
+      </g>
+      <polyline
+         id="polyline25712"
+         points="1187.7,423.744 1187.7,420 1480,420 1480,980 1100,980 1100,1000 "
+         style="fill:none;stroke:#000000;stroke-width:2" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Carlito;-inkscape-font-specification:Carlito"
+       x="1354.3251"
+       y="-835.93579"
+       id="text22823-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan22825-2"
+         x="1354.3251"
+         y="-835.93579">Кроссинговер</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="1545.7079"
+       y="1011.9759"
+       id="text4204"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4206"
+         x="1545.7079"
+         y="1011.9759"
+         style="font-size:36px">Выполнил: Гуща А.В. _________  Согласовано: Филиппович Ю.Н. __________</tspan></text>
+  </g>
+</svg>

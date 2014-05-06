@@ -159,9 +159,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.1427907"
-     inkscape:cx="2625.8192"
-     inkscape:cy="815.90041"
+     inkscape:zoom="0.40403753"
+     inkscape:cx="2731.1063"
+     inkscape:cy="539.17681"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -255,7 +255,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -409,7 +409,7 @@
            height="220.51282"
            x="939.80463"
            y="244.36627" /></flowRegion><flowPara
-         id="flowPara30433"></flowPara></flowRoot>    <rect
+         id="flowPara30433" /></flowRoot>    <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.12856555;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect30425"
        width="669.24292"
@@ -471,7 +471,7 @@
            height="138.25803"
            x="1328.3271"
            y="391.37482" /></flowRegion><flowPara
-         id="flowPara30553"></flowPara></flowRoot>    <rect
+         id="flowPara30553" /></flowRoot>    <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.31336951;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect30425-6-3"
        width="698.01074"
@@ -1817,5 +1817,17 @@
        id="path40568"
        inkscape:connector-curvature="0"
        transform="translate(0,-1052.3624)" />
+    <text
+       xml:space="preserve"
+       style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="1530.8578"
+       y="1007.0258"
+       id="text4204"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4206"
+         x="1530.8578"
+         y="1007.0258"
+         style="font-size:36px">Выполнил: Гуща А.В. _________  Согласовано: Филиппович Ю.Н. __________</tspan></text>
   </g>
 </svg>
