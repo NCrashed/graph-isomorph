@@ -11,6 +11,8 @@ import devol.operatormng;
 
 import devol.std.typepod;
 import std.conv;
+import std.range;
+import std.math;
 
 import evol.operators.and;
 import evol.operators.not;
@@ -471,7 +473,13 @@ class ProgramType : ProgTypeAbstract
         assert(ind); 
         assert(world);
         
-        /// TODO: time check
-        return ind.answer == world.correctAnswer ? 1.0 : 0.0; 
+        size_t n = world.firstGraph.nodes.walkLength + world.secondGraph.nodes.walkLength;
+        enum tPerNode = 0.1;
+        double ft = cast(double)(1.0 / (1.0 + exp( 5.0 / (tPerNode*n) * time - 5.0)));
+        double fa = ind.answer == world.correctAnswer ? 1.0 : 0.0; 
+        
+        if(fa < 0.9) ft = 0.0;
+        
+        return (ft + fa) / 2;
     }
 }
