@@ -124,7 +124,7 @@ abstract class GenericWindow
         {
             try
             {
-                auto dlg = new FileChooserDialog("Выбирете файл проекта"
+                auto dlg = new FileChooserDialog("Выберите файл проекта"
                     , window
                     , FileChooserAction.OPEN
                     , ["OK", "Отмена"]
@@ -166,7 +166,7 @@ abstract class GenericWindow
         {
             try
             {
-                auto dlg = new FileChooserDialog("Выбирете файл проекта"
+                auto dlg = new FileChooserDialog("Выберите файл проекта"
                     , window
                     , FileChooserAction.SAVE
                     , ["OK", "Отмена"]
