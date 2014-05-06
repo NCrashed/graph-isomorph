@@ -371,6 +371,7 @@ class EvolutionWindow : GenericWindow
                                 case(EvolutionCommand.Stop):
                                 {
                                     exit = true;
+                                    paused = false;
                                     evolState = EvolutionState.Paused;
                                     break;
                                 }
@@ -406,6 +407,7 @@ class EvolutionWindow : GenericWindow
                     compiler.envolveGeneration(whenExitDelegate, "saves"
                         , updaterDelegate, pauserDelegate);
                 }
+                updater(0.0);
             } catch(OwnerTerminated e)
             {
                 
