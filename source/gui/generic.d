@@ -243,7 +243,7 @@ abstract class GenericWindow
     	helpItem.addOnActivate((i)
 		{
 			auto dlg = new AboutDialog;
-			dlg.setProgramName("АИС поиска алгоритмов распознавания изоморфизма графов");
+			dlg.setProgramName("АИС поиска алгоритмов распознавания изоморфизма графов\n" "Курсовое проектирование МГТУ им. Н.Э.Баумана\n" "Научный руководитель: Филиппович Юрий Николаевич");
 			dlg.setAuthors(["Гуща Антон Валерьевич"]);
 			dlg.setLicenseType(GtkLicense.MIT_X11);
 			dlg.addOnResponse((r,d) => dlg.destroy);
