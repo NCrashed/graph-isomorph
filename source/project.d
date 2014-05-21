@@ -150,7 +150,7 @@ class Project
             debug logger.logError(e.toString);
             
             population = null;
-            popLoaded = true;
+            popLoaded = false;
         }
     }
     
