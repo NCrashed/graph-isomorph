@@ -219,19 +219,27 @@ class EvolutionWindow : GenericWindow
             case(EvolutionState.Paused):
             {
                 evolutionTid.send(thisTid, EvolutionCommand.Resume);
+                if(project.popLoaded)
+                {
+                	core.thread.Thread.sleep(dur!"msecs"(500));
+                	startEvolution();
+                }
                 return;
             }
             case(EvolutionState.Stoped):
             {
                 compiler.clean();
-                if(project.popLoaded)
+                if(!project.popLoaded || project.population is null)
                 {
                     project.population = compiler.addPop(
                     	project.programType.populationSize);
+                    project.popLoaded = false;
                 } else
                 {
-                    project.popLoaded = false;
+                	compiler.addPop(project().population);
+                	project.popLoaded = false;
                 }
+                
                 evolutionTid = spawn(&evolutionThread, cast(shared)this);
                 evolutionTid.send(thisTid);
                 return;
@@ -392,7 +400,7 @@ class EvolutionWindow : GenericWindow
                 
                 bool whenExit()
                 {
-                    return exit;
+                    return exit || wnd.project().popLoaded;
                 }
                 auto whenExitDelegate = toDelegate(&whenExit);
                 
@@ -402,7 +410,7 @@ class EvolutionWindow : GenericWindow
                 }
                 auto pauserDelegate = toDelegate(&pauser);
                     
-                while(!exit)
+                while(!whenExit)
                 {
                     compiler.envolveGeneration(whenExitDelegate, "saves"
                         , updaterDelegate, pauserDelegate);
