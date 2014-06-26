@@ -77,7 +77,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.40403754"
      inkscape:cx="1548.9231"
-     inkscape:cy="922.74488"
+     inkscape:cy="1219.747"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -115,7 +115,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -149,7 +149,7 @@
          sodipodi:role="line"
          x="1507.594"
          y="-905.16937"
-         id="tspan3008">Основные алгоритмы АИС</tspan></text>
+         id="tspan3008">Основные алгоритмы АСОИ</tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot3010"
@@ -2795,5 +2795,17 @@
          x1="1060.77"
          style="fill:none;stroke:#000000;stroke-width:2" />
     </g>
+    <text
+       xml:space="preserve"
+       style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="1535.8079"
+       y="1011.9758"
+       id="text4204"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4206"
+         x="1535.8079"
+         y="1011.9758"
+         style="font-size:36px">Выполнил: Гуща А.В. _________  Согласовано: Филиппович Ю.Н. __________</tspan></text>
   </g>
 </svg>
